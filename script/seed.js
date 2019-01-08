@@ -1,7 +1,7 @@
 'use strict'
 
 const db = require('../server/db')
-const {User} = require('../server/db/models')
+const {User, Book} = require('../server/db/models')
 
 async function seed() {
   await db.sync({force: true})
@@ -11,8 +11,29 @@ async function seed() {
     User.create({email: 'cody@email.com', password: '123'}),
     User.create({email: 'murphy@email.com', password: '123'})
   ])
-
   console.log(`seeded ${users.length} users`)
+
+  const books = await Promise.all([
+    Book.create({
+      title: "Harry Potter and the Sorcerer's Stone",
+      author: 'JK Rowling',
+      price: 19.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: 'Harry Potter and the Chamber of Secrets',
+      author: 'JK Rowling',
+      price: 21.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
+      inventory: 5
+    })
+  ])
+
+  console.log(`seeded ${books.length} books`)
+
   console.log(`seeded successfully`)
 }
 
