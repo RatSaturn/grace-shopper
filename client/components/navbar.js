@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
-    <h1>Book</h1>
+    <h1>Book Stack</h1>
 
     <nav>
       {isLoggedIn ? (
