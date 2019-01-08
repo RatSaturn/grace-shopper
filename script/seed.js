@@ -29,6 +29,86 @@ async function seed() {
       imageUrl:
         'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
       inventory: 5
+    }),
+    Book.create({
+      title: "Harry Potter and the Sorcerer's Stone",
+      author: 'JK Rowling',
+      price: 19.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: 'Harry Potter and the Chamber of Secrets',
+      author: 'JK Rowling',
+      price: 21.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: "Harry Potter and the Sorcerer's Stone",
+      author: 'JK Rowling',
+      price: 19.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: 'Harry Potter and the Chamber of Secrets',
+      author: 'JK Rowling',
+      price: 21.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: "Harry Potter and the Sorcerer's Stone",
+      author: 'JK Rowling',
+      price: 19.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: 'Harry Potter and the Chamber of Secrets',
+      author: 'JK Rowling',
+      price: 21.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: "Harry Potter and the Sorcerer's Stone",
+      author: 'JK Rowling',
+      price: 19.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: 'Harry Potter and the Chamber of Secrets',
+      author: 'JK Rowling',
+      price: 21.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: "Harry Potter and the Sorcerer's Stone",
+      author: 'JK Rowling',
+      price: 19.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
+      inventory: 5
+    }),
+    Book.create({
+      title: 'Harry Potter and the Chamber of Secrets',
+      author: 'JK Rowling',
+      price: 21.95,
+      imageUrl:
+        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
+      inventory: 5
     })
   ])
 
