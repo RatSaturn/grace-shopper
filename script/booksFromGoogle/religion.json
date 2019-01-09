@@ -1,0 +1,951 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 495,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "PQQfAAAAQBAJ",
+      "etag": "gpyak/Ot3Do",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/PQQfAAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Courage to Lead",
+        "subtitle": "Leadership in the African American Urban Church",
+        "authors": ["James Henry Harris"],
+        "publisher": "Rowman & Littlefield Publishers",
+        "publishedDate": "2001-12-29",
+        "description":
+          "This book focuses on pastoral and lay leadership in the African American church. It deals with the internal and external issues such as the tendency toward a bifurcated mentality and practice such as the 'this is business' syndrome as well as the social issue of race and affirmative action. Ministers and laity in the black church must actively engage themselves in overcoming the inequities that are still endemic to life in urban America. Harris affirms that affirmative action policies are more important than ever in obtaining a degree of social justice.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780742575455"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0742575454"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 224,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.5.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=PQQfAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=PQQfAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=PQQfAAAAQBAJ&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=PQQfAAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-PQQfAAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 40.5,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 31.59,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=PQQfAAAAQBAJ&rdid=book-PQQfAAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 40500000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 31590000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_Courage_to_Lead-sample-epub.acsm?id=PQQfAAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_Courage_to_Lead-sample-pdf.acsm?id=PQQfAAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=PQQfAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FXPXDQAAQBAJ",
+      "etag": "fysKFc8g3dA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FXPXDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Bryson City Seasons",
+        "authors": ["Walt Larimore, MD"],
+        "publisher": "Zondervan",
+        "publishedDate": "2009-12-15",
+        "description":
+          "“Barb and I drove up into the hills just south of the main traffic light and into the parking lot of the Fryemont Inn. We strolled up the front driveway toward the main entrance—a large front porch with several occupied rockers—and stopped to gaze at the nearly endless view across town and up the Deep Creek Valley. The famous Smoky Mountain haze was setting in as the sun retreated behind the distant peaks.”Welcome to Bryson City, a small town tucked away in a fold of North Carolina’s Smoky Mountains. The scenery is breathtaking, the home cooking can’t be beat, the Maroon Devils football team is the pride of the town, and you won’t find better steelhead fishing anywhere. But the best part is the people you’re about to meet in the pages of Bryson City Seasons.In this joyous sequel to his bestselling Bryson City Tales, Dr. Walt Larimore whisks you along on a journey through the seasons of a Bryson City year. On the way, you’ll encounter crusty mountain men, warmhearted townspeople, peppery medical personalities, and the hallmarks of a simpler, more wholesome way of life. Culled from the author’s experiences as a young doctor settling into rural medical practice, these captivating stories paint a collage of small-town faces, events, customs, perspectives, and faith.Lit with love, humor, glowing faith, and the warmth of family and friendship, and tempered with the bright and dark realities of country medicine, Bryson City Seasons is a celebration of this richly textured miracle called life.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780310861225"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0310861225"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "averageRating": 4.5,
+        "ratingsCount": 12,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=FXPXDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=FXPXDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=FXPXDQAAQBAJ&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=FXPXDQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-FXPXDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 6.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 6.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=FXPXDQAAQBAJ&rdid=book-FXPXDQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 6990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 6990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Bryson_City_Seasons-sample-epub.acsm?id=FXPXDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=FXPXDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wVOsCgAAQBAJ",
+      "etag": "F8D+sOvrWD8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wVOsCgAAQBAJ",
+      "volumeInfo": {
+        "title": "Lives of the Saints",
+        "subtitle": "For Every Day in the Year",
+        "authors": ["Rev. Fr. Alban Butler"],
+        "publisher": "TAN Books",
+        "publishedDate": "1995-07",
+        "description":
+          "Butler's Lives of the Saints is the most revered Catholic book after the Bible, the Missal and The Imitation of Christ. A Saint or two for each day of the calendar. Great for a daily meditation; each life is followed by a \"lesson\" from the life to help us apply the virtues of the Saint to ourselves. Great for the entire family. Includes famous Saints since Fr. Butler's time; all recounted in the same beautiful, reverent spirit that was his. Impr.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781618903075"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1618903071"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 428,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=wVOsCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=wVOsCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=wVOsCgAAQBAJ&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=wVOsCgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-wVOsCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 8.98,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.54,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=wVOsCgAAQBAJ&rdid=book-wVOsCgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 8980000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7540000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Lives_of_the_Saints-sample-epub.acsm?id=wVOsCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Lives_of_the_Saints-sample-pdf.acsm?id=wVOsCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=wVOsCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cNnPDAAAQBAJ",
+      "etag": "EWtM/sN+Bzw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cNnPDAAAQBAJ",
+      "volumeInfo": {
+        "title": "Which \"Real\" Jesus?",
+        "subtitle":
+          "Jonathan Edwards, Benjamin Franklin, and the Early American Roots of the Current Debate",
+        "authors": ["Steve Bateman"],
+        "publisher": "Wipf and Stock Publishers",
+        "publishedDate": "2008-09-15",
+        "description":
+          "_ Are the gospels reliable accounts of Jesus? _ Did Jesus claim to be God? _ Was Jesus bodily raised from the dead? _ Is Jesus the only way to salvation? _ Are Christianity and Islam basically the same? _ Were the Founding Fathers orthodox Christians? Christians in America are routinely confronted with news of archaeological discoveries or new scholarship claiming to present the \"real\" Jesus. These challenges have a long tradition in America and can be traced to some of the best-known founders of our nation. In pre-Revolutionary America, the formidable Jonathan Edwards directly confronted the challenge, providing an enduring model for Christians today who desire to articulate and defend the historic, orthodox doctrine of Christ. While Edwards sought to prove the historic Jesus, Benjamin Franklin attempted to improve on the original, offering a Jesus of more practical use to his social and civic purposes. Franklin's approach, inspired by Deist thinkers and refined by Thomas Jefferson, has found new life in the advocates of the Jesus Seminar and of other alternative Christianities. Even the ambassadors of strident atheism-Richard Dawkins, Christopher Hitchens, and Sam Harris-are resurrecting Deist arguments in their best-selling books. These skeptics notably follow the Deist tactic of using the rise of Islam to undermine the uniqueness of Jesus. As a result, there is a widespread erosion of confidence among professing Christians in the supremacy of Jesus Christ. Which \"Real\" Jesus? reveals that these new views of the \"real Jesus\" are, in fact, old news.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781498275064"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1498275060"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 196,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=cNnPDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=cNnPDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=cNnPDAAAQBAJ&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=cNnPDAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-cNnPDAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 25,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 14.75,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=cNnPDAAAQBAJ&rdid=book-cNnPDAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 25000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14750000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Which_Real_Jesus-sample-epub.acsm?id=cNnPDAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Which_Real_Jesus-sample-pdf.acsm?id=cNnPDAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=cNnPDAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "E7UwDwAAQBAJ",
+      "etag": "KFvRojVVqBI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/E7UwDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Briefwechsel 1804-1806",
+        "subtitle": "(Briefe 1831-2172)",
+        "authors": ["Andreas Arndt", "Simon Gerber"],
+        "publisher": "Walter de Gruyter GmbH & Co KG",
+        "publishedDate": "2017-04-10",
+        "description":
+          "Der Band enth\ufffdlt den Briefwechsel Schleiermachers von seinem Amtsantritt als au\ufffderordentlicher Professor der Theologie und Philosophie an der Hallenser Universit\ufffdt im Oktober 1804 bis zum Ende des Wintersemesters 1805/06. In seinen Vorlesungen legte Schleiermacher in dieser Zeit den Grund seines theologischen Systems und seiner philosophischen Ethik. Die Entwicklung seiner wissenschaftlichen Auffassungen spiegelt sich in den Briefen des vorliegenden Bandes. Daneben sind die Briefwechsel mit den Altphilologen Heindorf und Spalding in Berlin zur Platon-\ufffdbersetzung und mit dem Verleger Georg Andreas Reimer von besonderem wissenschaftlichen Interesse. Weitere Themen sind die immer wieder verschobene Einrichtung des Universit\ufffdtsgottesdienstes und ein Ruf an Schleiermacher, Prediger an der Kirche Unserer lieben Frauen in Bremen zu werden, den Schleiermacher nutzte, um als Ordinarius Mitglied der Hallenser Fakult\ufffdt zu werden. Im privaten Briefwechsel ist das Verh\ufffdltnis zu Eleonore Grunow ein beherrschendes Thema; die Briefe dokumentieren Schleiermachers Hoffnungen und das endg\ufffdltige Scheitern dieser Beziehung. Einen breiten Raum nimmt die Korrespondenz mit den Freunden in Schwedisch-Vorpommern (Stralsund und R\ufffdgen) ein. Von den insgesamt 342 Briefen werden 109 hier in der Erstedition vorgelegt, 37 Briefe werden erstmalig vollst\ufffdndig ver\ufffdffentlicht.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783110977837"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3110977834"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 653,
+        "printType": "BOOK",
+        "categories": ["Philosophy"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=E7UwDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=E7UwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=E7UwDwAAQBAJ&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=E7UwDwAAQBAJ&dq=subject:%22religion%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Briefwechsel_1804_1806.html?hl=&id=E7UwDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=E7UwDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GcCkuF04-MMC",
+      "etag": "wYfCQ1iRJeU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GcCkuF04-MMC",
+      "volumeInfo": {
+        "title":
+          "Das Gleichnis vom barmherzigen Samariter im Schulunterricht. Verschiedene Modelle der Aufarbeitung",
+        "authors": ["Cornelius Keppeler"],
+        "publisher": "GRIN Verlag",
+        "publishedDate": "2003-02-27",
+        "description":
+          "Studienarbeit aus dem Jahr 1999 im Fachbereich Theologie - Didaktik, Religionspädagogik, Note: 1,3, Philosophisch-Theologische Hochschule Sankt Georgen in Frankfurt am Main (Praktische Theologie), Veranstaltung: Biblische Texte in Religionsunterricht und Erwachsenenbildung, Sprache: Deutsch, Abstract: Im Rahmen eines religionspädagogischen Seminars entstand die vorliegende Arbeit mit der Beispielgeschichte vom Barmherzigen Samariter (Lk 10,25-37). Zunächst wird in einem exegetischen Teil der Text einer Betrachtung und Analyse unterworfen. Nach der Darstellung von Aufbau und Hintergrund folgt eine genauere Auseinandersetzung mit den im Gleichnis dargestellten Personen Priester, Levit und Samariter. Vor allem deren Verhalten und dessen Begründung aufgrund ihrer Beziehung zu dem unter die Räuber Gefallenen stehen im Zentrum der Ausführungen. Danach wird auf die Frage des Verständnisses vom »Nächsten« ausführlich eingegangen. Auf der Grundlage dieser exegetischen Ergebnisse werden dann in einem religionspädagogischen Teil fünf Modelle vorgestellt, wie eine schulische Auseinandersetzung mit dieser Perikope aus dem Lukasevangelium und die Vermittlung ihrer zentralen Inhalte in verschiedenen Klassenstufen gestaltet werden kann. Bei aller Unterschiedenheit der Modelle ist es jedoch unerlässlich, darauf zu achten, dass genügend Korrelationspunkte gegeben sind, damit der Inhalt der thematisierten biblischen Geschichte in der heutigen Zeit, in einer verständlichen Sprache und in einer der Schülerinnen und Schülern gemäßen Art und Weise Ausdruck finden kann, um überhaupt begriffen werden zu können, damit ein wirklicher Umgang mit ihm möglich wird.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783638174145"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "363817414X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 17,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.14.9.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=GcCkuF04-MMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=GcCkuF04-MMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink":
+          "http://books.google.com/books?id=GcCkuF04-MMC&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=GcCkuF04-MMC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-GcCkuF04-MMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 15.05,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=GcCkuF04-MMC&rdid=book-GcCkuF04-MMC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 15050000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Das_Gleichnis_vom_barmherzigen_Samariter-sample-epub.acsm?id=GcCkuF04-MMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Das_Gleichnis_vom_barmherzigen_Samariter-sample-pdf.acsm?id=GcCkuF04-MMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=GcCkuF04-MMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QYR6-YUwSWgC",
+      "etag": "FAwLXDOsqyI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QYR6-YUwSWgC",
+      "volumeInfo": {
+        "title": "Mary and the Good News",
+        "authors": ["Leigh Parcel"],
+        "publisher": "Xulon Press",
+        "publishedDate": "2007-08-01",
+        "description":
+          "Mary of Nazareth stands unique. She was given a privilege and responsibility none could share. Parcel looks at what gave Mary strength to face life with courage and confidence.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781600348082"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1600348084"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 228,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.2",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=QYR6-YUwSWgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=QYR6-YUwSWgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=QYR6-YUwSWgC&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=QYR6-YUwSWgC&dq=subject:%22religion%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Mary_and_the_Good_News.html?hl=&id=QYR6-YUwSWgC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Mary_and_the_Good_News-sample-epub.acsm?id=QYR6-YUwSWgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=QYR6-YUwSWgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3pAlCgAAQBAJ",
+      "etag": "rCPjgexueDA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3pAlCgAAQBAJ",
+      "volumeInfo": {
+        "title": "The Six Enneads",
+        "subtitle": "",
+        "authors": ["Plotinus", "Aeterna Press"],
+        "publisher": "Aeterna Press",
+        "publishedDate": "1952",
+        "description":
+          "The Will of God is able to cope with the ceaseless flux and escape of body stuff by ceaselessly reintroducing the known forms in new substances, thus ensuring perpetuity not to the particular item but to the unity of idea: now, seeing that objects of this realm possess no more than duration of form, why should celestial objects, and the celestial system itself, be distinguished by duration of the particular entity?",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 360,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "averageRating": 4,
+        "ratingsCount": 5,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=3pAlCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=3pAlCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=3pAlCgAAQBAJ&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=3pAlCgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-3pAlCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 0.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 0.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=3pAlCgAAQBAJ&rdid=book-3pAlCgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=3pAlCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Le9MCgAAQBAJ",
+      "etag": "6yZJbEi0+go",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Le9MCgAAQBAJ",
+      "volumeInfo": {
+        "title": "101 Thoughts from the Word:",
+        "subtitle": "Volume Six Book of Series Three",
+        "authors": ["David T. Peckham"],
+        "publisher": "AuthorHouse",
+        "publishedDate": "2015-07-22",
+        "description":
+          "From Gods mouth to the hearts of his people - this is the function of the Bible and is the reason it is called the Word of God. The Bible applied to the heart by the Holy Spirit is the chief means by which men are built up and established in the faith, after their conversion. It is able to cleanse them, sanctify them, to instruct them in righteousness, and to furnish them thoroughly for all good works (2 Tim. 3:1617) (J. C. Ryle. After many years of anger against God, the author was wonderfully restored by the Lord to himself and laid the burden of this ministry on his heart. Every week for the past fourteen years, TFTWs (Thoughts from the Word) have been sent via the Internet to Gods people throughout the world. Many similar thoughts may be found at www.onhisshoulders.com. The thoughts contained in this volume are published with the sincere prayer that God will use them to refresh and encourage the souls of his people. To receive future weekly TFTWs, send your request to dave4thoughts@gmail.com",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781504923903"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1504923901"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 316,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Le9MCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Le9MCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Le9MCgAAQBAJ&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=Le9MCgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-Le9MCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 3.03,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=Le9MCgAAQBAJ&rdid=book-Le9MCgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 3030000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/101_Thoughts_from_the_Word-sample-epub.acsm?id=Le9MCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/101_Thoughts_from_the_Word-sample-pdf.acsm?id=Le9MCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Le9MCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Foo3DAAAQBAJ",
+      "etag": "dmElrexzvqo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Foo3DAAAQBAJ",
+      "volumeInfo": {
+        "title": "Christian Mysticism and Incarnational Theology",
+        "subtitle": "Between Transcendence and Immanence",
+        "authors": ["Louise Nelstrop", "Simon D. Podmore"],
+        "publisher": "Routledge",
+        "publishedDate": "2016-05-23",
+        "description":
+          "This book examines the relationship between transcendence and immanence within Christian mystical and apophatic writings. Original essays from a range of leading, established, and emerging scholars in the field focus on the roles of language, signs, and images, and consider how mystical theology might contribute to contemporary reflection on the Word incarnate. This collection of essays re-examines works from such canonical figures as Eckhart, Augustine, Plotinus, Pseudo-Dionysius, Nicolas of Cusa, Teresa of Avila, John of the Cross, Julian of Norwich, along with the philosophical thought of Iris Murdoch, Jacques Lacan, and Martin Heidegger, and the contemporary phenomena of the Emerging Church. Presenting new readings of key ideas in mystical theology, and renewed engagement with the visionary and the everyday, the therapeutic and the transformative, these essays question how we might think about what may lie between transcendence and immanence.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781317166665"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1317166663"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": ["Religion"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Foo3DAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Foo3DAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Foo3DAAAQBAJ&printsec=frontcover&dq=subject:%22religion%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=Foo3DAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-Foo3DAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 57.95,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 46.36,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=Foo3DAAAQBAJ&rdid=book-Foo3DAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 57950000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 46360000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Christian_Mysticism_and_Incarnational_Th-sample-pdf.acsm?id=Foo3DAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Foo3DAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,734 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 67,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "OWSPAtiaLZMC",
+      "etag": "DJlFpIU1ayE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OWSPAtiaLZMC",
+      "volumeInfo": {
+        "title": "Knock Three Times!",
+        "authors": ["M. St. John Webb"],
+        "publisher": "Wordsworth Editions",
+        "publishedDate": "1994",
+        "description":
+          "Molly is desperately disappointed when instead of the longed-for silver bangle, her aunt Phoebe sends her a small, pumpkin-shaped pincushion for her birthday. That night the pumpkin turns out to be a magical one. It leads Molly and her brother Jack into a strange land and an extraordinary quest.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1853261327"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781853261329"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 160,
+        "printType": "BOOK",
+        "categories": ["Fantasy fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=OWSPAtiaLZMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=OWSPAtiaLZMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=OWSPAtiaLZMC&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=OWSPAtiaLZMC&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Knock_Three_Times.html?hl=&id=OWSPAtiaLZMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=OWSPAtiaLZMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "11DmJQ-LV8sC",
+      "etag": "fLB70PFe0tY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/11DmJQ-LV8sC",
+      "volumeInfo": {
+        "title": "Short!",
+        "subtitle": "A Book of Very Short Stories",
+        "authors": ["Kevin Crossley-Holland"],
+        "publisher": "Oxford University Press, USA",
+        "publishedDate": "1998",
+        "description":
+          "In this collection of very short stories, none of the stories is more than two pages long, and some are much shorter. There are stories about ghosts, supermarkets, animals, adventures, and all kinds of things. Kevin Crossley-Holland is an established writer who has produced a number of books for OUP, and this is a short and sharp collection of funny, intriguing, and scary stories.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0192781480"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780192781482"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 96,
+        "printType": "BOOK",
+        "categories": ["Children's fiction"],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=11DmJQ-LV8sC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=11DmJQ-LV8sC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=11DmJQ-LV8sC&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=11DmJQ-LV8sC&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Short.html?hl=&id=11DmJQ-LV8sC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=11DmJQ-LV8sC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2jbYndurI7oC",
+      "etag": "QwDpPI/N2lI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2jbYndurI7oC",
+      "volumeInfo": {
+        "title": "Joy of Reading",
+        "subtitle": "One Family's Fun-filled Guide to Reading Success",
+        "authors": ["Debbie Duncan"],
+        "publisher": "Rayve Productions",
+        "publishedDate": "1997-08",
+        "description":
+          "Author shares her family's personal reading success stories and Identifies their favorite books for each age category. Extensive reading lists by titles and authors -- over 600 children's books referenced.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1877810452"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781877810459"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 202,
+        "printType": "BOOK",
+        "categories": ["Language Arts & Disciplines"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.8.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=2jbYndurI7oC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=2jbYndurI7oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=2jbYndurI7oC&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=2jbYndurI7oC&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Joy_of_Reading.html?hl=&id=2jbYndurI7oC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=2jbYndurI7oC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "c_IkDgAAQBAJ",
+      "etag": "St/+7Oj5t84",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/c_IkDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Princess Between Worlds",
+        "subtitle": "A Tale of the Wide-Awake Princess",
+        "authors": ["E.D. Baker"],
+        "publisher": "Bloomsbury Publishing USA",
+        "publishedDate": "2017-03-21",
+        "description":
+          "Now in paperback, the fifth book in the wildly popular Wide-Awake Princess series is brimming with E. D. Baker's signature fantasy, humor, and unique spin on fairy-tales.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781681192796"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1681192799"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=c_IkDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=c_IkDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=c_IkDgAAQBAJ&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=c_IkDgAAQBAJ&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Princess_Between_Worlds.html?hl=&id=c_IkDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=c_IkDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "98WBhxTtJvMC",
+      "etag": "7UTS/QJfedU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/98WBhxTtJvMC",
+      "volumeInfo": {
+        "title": "You Can't Catch Me!",
+        "authors": ["Brock Turner"],
+        "publisher": "Blake Education",
+        "publishedDate": "2000",
+        "description": "Bullying.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1865093637"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781865093635"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 43,
+        "printType": "BOOK",
+        "categories": ["Bullying"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=98WBhxTtJvMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=98WBhxTtJvMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=98WBhxTtJvMC&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=98WBhxTtJvMC&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/You_Can_t_Catch_Me.html?hl=&id=98WBhxTtJvMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=98WBhxTtJvMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4e_arl9aePMC",
+      "etag": "r8JV5JQB64Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4e_arl9aePMC",
+      "volumeInfo": {
+        "title": "Stop Taking My Things",
+        "authors": ["Jan Weeks"],
+        "publisher": "Blake Education",
+        "publishedDate": "2000",
+        "description": "Sharing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1865093653"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781865093659"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 46,
+        "printType": "BOOK",
+        "categories": ["Brothers and sisters"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=4e_arl9aePMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=4e_arl9aePMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=4e_arl9aePMC&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=4e_arl9aePMC&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Stop_Taking_My_Things.html?hl=&id=4e_arl9aePMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=4e_arl9aePMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cjcFR6GctusC",
+      "etag": "plfPcdH2Flc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cjcFR6GctusC",
+      "volumeInfo": {
+        "title": "Worm Surfing",
+        "authors": ["Matthew Dunstan"],
+        "publisher": "Blake Education",
+        "publishedDate": "2000",
+        "description":
+          "Worm surfing is the new craze. Dobie tries it one windy, wet night but he's no good. Can Miri help him to catch the wind?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1865093610"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781865093611"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 46,
+        "printType": "BOOK",
+        "categories": ["Children's fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=cjcFR6GctusC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=cjcFR6GctusC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=cjcFR6GctusC&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=cjcFR6GctusC&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Worm_Surfing.html?hl=&id=cjcFR6GctusC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=cjcFR6GctusC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "FEYCHKT7it8C",
+      "etag": "PJjiISAEwC8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/FEYCHKT7it8C",
+      "volumeInfo": {
+        "title": "Living Aunt Lizzie",
+        "authors": ["Elizabeth Best"],
+        "publisher": "Blake Education",
+        "publishedDate": "2000",
+        "description": "Word Play.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1865093602"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781865093604"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 46,
+        "printType": "BOOK",
+        "categories": ["Children's fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=FEYCHKT7it8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=FEYCHKT7it8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=FEYCHKT7it8C&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=FEYCHKT7it8C&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Living_Aunt_Lizzie.html?hl=&id=FEYCHKT7it8C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=FEYCHKT7it8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LnjAGGrLWIMC",
+      "etag": "VMsEss2GxfM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LnjAGGrLWIMC",
+      "volumeInfo": {
+        "title": "Funny Bone",
+        "authors": ["Christopher Stitt"],
+        "publisher": "Blake Education",
+        "publishedDate": "2000",
+        "description":
+          "Humorous fiction. Texts include mystery, fantasy and recount. Explore frienship and common childhood themes, such as bullying. Includes a multicultural cast of characters.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1865093599"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781865093598"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 46,
+        "printType": "BOOK",
+        "categories": ["Children's fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=LnjAGGrLWIMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=LnjAGGrLWIMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=LnjAGGrLWIMC&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=LnjAGGrLWIMC&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Funny_Bone.html?hl=&id=LnjAGGrLWIMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=LnjAGGrLWIMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "w6lrc-9EapgC",
+      "etag": "7B9eS/IEpYk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/w6lrc-9EapgC",
+      "volumeInfo": {
+        "title": "River Boy",
+        "authors": ["Tim Bowler"],
+        "publisher": "Oxford University Press, USA",
+        "publishedDate": "2001",
+        "description":
+          "A new mass-market edition of this Carnegie Medal-winner. One of the classic teenage novels of the nineties, \"River Boy\" is an emotional, moving book which has had a profound influence on its readers. Following the story of Jess's dying grandfather, and the marathon river swim Jess becomes caught up in, it uses poetic and surreal images of water andswimming to deal with the difficult subjects of death and loss in an accessible and affecting way. * Winner of the Carnegie Medal and the Angus Book Prize * A moving poetic exploration of grief and loss. * Internationally successful - foreign rights have so far been sold to America, Denmark, Sweden, Germany, Belgium, Italy, Poland and Portugal. A film option has been agreed. * New cover treatment to match Tim Bowler's wonderful new novel, \"Storm Catchers\". * Author was born and brought up in Leigh-on-Sea, Essex, and now lives in Totnes, Devon.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0192751581"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780192751584"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 135,
+        "printType": "BOOK",
+        "categories": ["Adventure"],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=w6lrc-9EapgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=w6lrc-9EapgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=w6lrc-9EapgC&printsec=frontcover&dq=subject:%22children%27s+fiction%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=w6lrc-9EapgC&dq=subject:%22children%27s+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/River_Boy.html?hl=&id=w6lrc-9EapgC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/River_Boy-sample-epub.acsm?id=w6lrc-9EapgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=w6lrc-9EapgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

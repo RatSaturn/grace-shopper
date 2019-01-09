@@ -1,0 +1,760 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 488,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "SaYOAAAAYAAJ",
+      "etag": "yXc/pFG5EI0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/SaYOAAAAYAAJ",
+      "volumeInfo": {
+        "title": "The prairie",
+        "subtitle": "a tale",
+        "authors": ["James Fenimore Cooper"],
+        "publisher": "[s.n.",
+        "publishedDate": "1859",
+        "description":
+          "The sequel to The Pioneers finds Natty going West and opposing the destruction of the land of the animals.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "HARVARD:HW2081"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 453,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3,
+        "ratingsCount": 7,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.full.1",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=SaYOAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=SaYOAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=SaYOAAAAYAAJ&pg=PP1&dq=subject:%22historical+fiction%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=SaYOAAAAYAAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-SaYOAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink":
+          "https://play.google.com/store/books/details?id=SaYOAAAAYAAJ&rdid=book-SaYOAAAAYAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink":
+            "http://books.google.com/books/download/The_prairie.epub?id=SaYOAAAAYAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink":
+            "http://books.google.com/books/download/The_prairie.pdf?id=SaYOAAAAYAAJ&hl=&output=pdf&sig=ACfU3U3uzm4NrWOlshhvBDX407GmxlTuLQ&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=SaYOAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "J62ZDgAAQBAJ",
+      "etag": "lQwSNKWJedc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/J62ZDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Music of the Ghosts",
+        "subtitle": "A Novel",
+        "authors": ["Vaddey Ratner"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2017-04-11",
+        "description":
+          "An astonishing and powerful new novel from PEN/Hemingway finalist Vaddey Ratner. Leaving the safety of America, Teera returns to Cambodia for the first time since her harrowing escape as a child refugee. She carries a letter from a man who mysteriously signs himself as \"the Old Musician\" and claims to have known her father in the Khmer Rouge prison where he disappeared twenty-five years ago. Arriving in Phnom Penh, Teera finds a society still in turmoil, where perpetrators and survivors of atrocity live side by side. Soon she meets a young doctor who carries his own memories of that time but also shows her a beautiful country on a fragile path of reconciliation. Meanwhile, the Old Musician anticipates the confession he must make. Together Teera and the Old Musician confront the truth of their intertwined past, weaving a melody that will leave both transformed, and freeing Teera to find a new home and a new love in the places she least expects.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781476795782"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1476795789"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 336,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 6,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=J62ZDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=J62ZDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=J62ZDgAAQBAJ&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=J62ZDgAAQBAJ&dq=subject:%22historical+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Music_of_the_Ghosts.html?hl=&id=J62ZDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=J62ZDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ne931AvKIuUC",
+      "etag": "l6Dftc4MuMM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ne931AvKIuUC",
+      "volumeInfo": {
+        "title": "The Year of the French",
+        "authors": ["Thomas Flanagan"],
+        "publisher": "New York Review of Books",
+        "publishedDate": "2004-01-15",
+        "description":
+          "Subtly conceived, masterfully paced, with a wide and memorable cast of characters, Flanagan brings to life the enormity and brutality of the failed 1798 attempt of Irish patriots and French troops to free Ireland from England.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "159017108X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781590171080"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 516,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=ne931AvKIuUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=ne931AvKIuUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=ne931AvKIuUC&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=ne931AvKIuUC&dq=subject:%22historical+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Year_of_the_French.html?hl=&id=ne931AvKIuUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=ne931AvKIuUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Ce6KDQAAQBAJ",
+      "etag": "OFqgiIIBM0c",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Ce6KDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Dream of Me/Believe in Me",
+        "authors": ["Josie Litton"],
+        "publisher": "Bantam",
+        "publishedDate": "2001",
+        "description":
+          "Two powerful warrior lords--one Viking, one Saxon--struggle to overcome the barriers of ancient rivalries and hatred by marriage to achieve a lasting peace between the Norse and Saxon kingdoms in two historical romance novels. Original.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780553584363"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0553584367"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 395,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Ce6KDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Ce6KDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Ce6KDQAAQBAJ&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=Ce6KDQAAQBAJ&dq=subject:%22historical+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Dream_of_Me_Believe_in_Me.html?hl=&id=Ce6KDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Ce6KDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "jZMpaRdaUzsC",
+      "etag": "ULZYR+8mZMA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jZMpaRdaUzsC",
+      "volumeInfo": {
+        "title": "Gone with the Wind",
+        "authors": ["Margaret Mitchell", "Pat Conroy"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2008-05-20",
+        "description":
+          "The turbulent romance of Scarlett O'Hara and Rhett Butler is shaped by the ravages of the Civil War and Reconstruction.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781416548942"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1416548947"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 1472,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4.5,
+        "ratingsCount": 3208,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=jZMpaRdaUzsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=jZMpaRdaUzsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=jZMpaRdaUzsC&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=jZMpaRdaUzsC&dq=subject:%22historical+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Gone_with_the_Wind.html?hl=&id=jZMpaRdaUzsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=jZMpaRdaUzsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "g8Kq3zMOWLIC",
+      "etag": "Ip1hk9+Z1aw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/g8Kq3zMOWLIC",
+      "volumeInfo": {
+        "title": "The Prince, the Cook, and the Cunning King",
+        "authors": ["Terry Deary", "Helen Flook"],
+        "publisher": "Capstone",
+        "publishedDate": "2005-08-30",
+        "description":
+          "The niece of King Henry VII of England infiltrates the servants' quarters to find out if one of the kitchen helpers is trying to become king.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1404812989"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781404812987"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 60,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=g8Kq3zMOWLIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=g8Kq3zMOWLIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=g8Kq3zMOWLIC&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=g8Kq3zMOWLIC&dq=subject:%22historical+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Prince_the_Cook_and_the_Cunning_King.html?hl=&id=g8Kq3zMOWLIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=g8Kq3zMOWLIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HDbKDQAAQBAJ",
+      "etag": "vt5s3BYM8dg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HDbKDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Stories of Life at Sydney Cove",
+        "authors": ["Susan E Boyer"],
+        "publisher": "Boyer Educational Resources",
+        "publishedDate": "2016-10-28",
+        "description":
+          "Following the success of 'Across Great Divides: True Stories of Life at Sydney Cove' this new edition, ‘Stories of Life at Sydney Cove’, is for readers aged 10+. When thirteen year old convicts, John Hudson and Elizabeth Hayward, are sent to a mysterious land at the end of the world, they have no idea what life holds for them. At Sydney Cove there are no roads, no fences, no buildings…just wilderness. Later when Indigenous children Nanberry and Boorong come to live with the white strangers, they see life through different eyes. The mystery of a new world had begun and the lives of all involved would never be the same again. 'Stories of life at Sydney Cove' is a gripping narrative that weaves together the everyday experiences of convicts, soldiers and Aboriginal people with the events of history. These true stories are told through the words of those who really lived at Sydney Cove in 1788, and are so intriguing they read like fiction.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781877074493"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1877074497"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 262,
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=HDbKDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=HDbKDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=HDbKDQAAQBAJ&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=HDbKDQAAQBAJ&dq=subject:%22historical+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Stories_of_Life_at_Sydney_Cove.html?hl=&id=HDbKDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=HDbKDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "T92sTt90fJ0C",
+      "etag": "o0g2k5Mcn6A",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/T92sTt90fJ0C",
+      "volumeInfo": {
+        "title":
+          "Los años dorados de la Hacienda Bucalemu en sus 400 años de historia",
+        "authors": ["María Elena"],
+        "publisher": "Bubok",
+        "publishedDate": "2012-08-31",
+        "description":
+          "Ver Videotrailer Este libro está basado en hechos reales e históricos y recuerdos vividos durante la época de mi niñez en la Hacienda de Bucalemu. En él se relata la historia de la Hacienda y sus diferentes etapas a través de cuatrocientos años, habiendo pasado por las manos de conquistadores, sacerdotes jesuitas, políticos, empresarios latifundistas como mi bisabuelo, don Claudio Vicuña Guerrero y sus descendientes, y por último, el Estado chileno con su Ejército, a cargo tan solo de La Casona y el parque.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788468612508"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8468612502"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 302,
+        "printType": "BOOK",
+        "categories": ["FICTION"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.898.153.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=T92sTt90fJ0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=T92sTt90fJ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink":
+          "http://books.google.com/books?id=T92sTt90fJ0C&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=T92sTt90fJ0C&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-T92sTt90fJ0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 11,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 8.8,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=T92sTt90fJ0C&rdid=book-T92sTt90fJ0C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 11000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8800000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=T92sTt90fJ0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DXXttxTGFEUC",
+      "etag": "XpIXVFIeu3g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DXXttxTGFEUC",
+      "volumeInfo": {
+        "title": "Fingersmith",
+        "authors": ["Sarah Waters"],
+        "publisher": "Penguin",
+        "publishedDate": "2002",
+        "description":
+          "Growing up as a foster child among a family of thieves, orphan Sue Trinder hopes to pay back that kindness by playing a key role in a swindle scheme devised by their leader, Gentleman, who is planning to con a fortune out of the naive Maud Lily, but Sue's growing pity for their helpless victim could destroy the plot. By the author of Tipping the Velvet. Reprint.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1573229725"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781573229722"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 582,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4.5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.0.0.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=DXXttxTGFEUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=DXXttxTGFEUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=DXXttxTGFEUC&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=DXXttxTGFEUC&dq=subject:%22historical+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Fingersmith.html?hl=&id=DXXttxTGFEUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=DXXttxTGFEUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0GQoDgAAQBAJ",
+      "etag": "OP9pbTKy1rM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0GQoDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Lucianna",
+        "subtitle": "The Silk Merchant's Daughters",
+        "authors": ["Bertrice Small"],
+        "publisher": "Penguin",
+        "publishedDate": "2013",
+        "description":
+          "Despairing of finding an ideal husband in light of her older sisters' scandalous lives, Lucianna Pietro d'Angelo reluctantly accepts the proposal of an aging bookseller and inherits his sizeable fortune after his death before being set up by her family to win the heart of a courtier of Henry VII. Simultaneous. 75,000 first printing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780451413741"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0451413741"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=0GQoDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=0GQoDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=0GQoDgAAQBAJ&printsec=frontcover&dq=subject:%22historical+fiction%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=0GQoDgAAQBAJ&dq=subject:%22historical+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Lucianna.html?hl=&id=0GQoDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=0GQoDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

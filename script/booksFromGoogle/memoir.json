@@ -1,0 +1,719 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 21,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "j1ONhHotBeAC",
+      "etag": "rac9lesvG0E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/j1ONhHotBeAC",
+      "volumeInfo": {
+        "title": "Memories Under the Linden Tree",
+        "authors": ["G. Marie Meier"],
+        "publisher": "Xulon Press",
+        "publishedDate": "2010-08",
+        "description":
+          "Verdant, heart shaped leaves fragrant with white flower blossoms were drooping heavily from the Linden tree. The fragrant aroma from it's flowers wafted lazily through the air; making it seem as though I was drinking in creation at it's fullest. The awesome Linden tree truly appeared vibrantly green brimming with life and activity, as I listened to the humming, whirring sounds of millions of buzzing bees. Thus, it revealed itself as truly being a tree of life!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781609576134"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1609576136"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 156,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.2",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=j1ONhHotBeAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=j1ONhHotBeAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=j1ONhHotBeAC&printsec=frontcover&dq=subject:%22memoir%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=j1ONhHotBeAC&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Memories_Under_the_Linden_Tree.html?hl=&id=j1ONhHotBeAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Memories_Under_the_Linden_Tree-sample-epub.acsm?id=j1ONhHotBeAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=j1ONhHotBeAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "jCIumAEACAAJ",
+      "etag": "abJYGsVyYMA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jCIumAEACAAJ",
+      "volumeInfo": {
+        "title": "The Man Who Flew the Memphis Belle",
+        "subtitle": "Memoir of a World War II Bomber Pilot",
+        "authors": ["Robert Morgan", "Ron Powers"],
+        "publisher": "N A L Trade",
+        "publishedDate": "2002",
+        "description":
+          "The riveting firsthand account of a pilot, his crew, and his legendary airplane-written with Ron Powers, co-writer of the #1 New York Times bestseller Flags of Our Fathers. A powerful chronicle of loyalty, love, and heroism under fire, this is the unforgettable memoir of a member of the Greatest Generation who fought in America's greatest battles-and of the war one man waged both in and out of the skies. High-spirited, young Robert Morgan was transformed from a fast-living, privileged playboy who grew up hobnobbing with the Vanderbilts into a steel-nerved pilot forged in the cauldron of World War II's most dangerous and desperate aerial encounters. This is the triumphant tale of that transformation-and of the plane and crew that never failed to bring him back home.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0451205944"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780451205940"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 388,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=jCIumAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=jCIumAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=jCIumAEACAAJ&dq=subject:%22memoir%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=jCIumAEACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Man_Who_Flew_the_Memphis_Belle.html?hl=&id=jCIumAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=jCIumAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "K1U8uwEACAAJ",
+      "etag": "GcjVumcwjVk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/K1U8uwEACAAJ",
+      "volumeInfo": {
+        "title": "Spiritual Atheist",
+        "subtitle":
+          "A Quest To Unite Science And Wisdom Into A Radical New Life Philosophy to Thrive In The Digital Age",
+        "authors": ["Nick Seneca Jankel"],
+        "publisher": "Switch on Worldwide Limited",
+        "publishedDate": "2018-09-20",
+        "description":
+          "For the millions who want to find peace, love, and purpose without religion, Cambridge-educated leadership guru and philosopher Nick Jankel sets out a radical new life philosophy that reunites cutting-edge science with timeless spiritual wisdom to help us make better life choices and transform our life, love, and leadership challenges so we thrive.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1999731522"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781999731526"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 290,
+        "printType": "BOOK",
+        "categories": ["Philosophy"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=K1U8uwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=K1U8uwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=K1U8uwEACAAJ&dq=subject:%22memoir%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=K1U8uwEACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Spiritual_Atheist.html?hl=&id=K1U8uwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=K1U8uwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "WDgZjgEACAAJ",
+      "etag": "8Wji1xdO31Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WDgZjgEACAAJ",
+      "volumeInfo": {
+        "title": "Live It",
+        "subtitle": "Riding the Highs and Lows of a Cross Country Dream",
+        "authors": ["Tracy Draper"],
+        "publishedDate": "2015-08-21",
+        "description":
+          "Rather than sign up for a cross-country bike tour, personal trainer Tracy Drape recruited a team to ride from the Pacific to the Atlantic in support of wounded veterans. Against an ever-changing backdrop of Americana, the story speaks of overcoming challenges beyond those encountered on the journey.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1943307008"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781943307005"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 226,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=WDgZjgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=WDgZjgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=WDgZjgEACAAJ&dq=subject:%22memoir%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=WDgZjgEACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Live_It.html?hl=&id=WDgZjgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=WDgZjgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "BRo8mQEACAAJ",
+      "etag": "onZKQuCJFfQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/BRo8mQEACAAJ",
+      "volumeInfo": {
+        "title": "The Love, the Life, and the Pain",
+        "authors": ["Ms. Monique"],
+        "publishedDate": "2008-02-28",
+        "description":
+          "We all face different issues in life as we travel our own personal journey. Although the road is a similar one, when we reach the place where we have to make a choice in direction, we each respond in a different way. Our outlook on life is the most important determining factor in whether we are successful in our choices, or whether we fail. Although the influence of others can be, in part, a welcome motivator, in the end we have to take each step on our own. Contained within these pages you will find a few portraits of family life, an account of some personal experiences, and some lessons learned along the way. You will be presented with some thought-provoking material and attached with it, an invitation to consider new choices. We all walk the same path, although every journey carries with it an individual tag: Our steps can be our own, but that also makes it easier for us to trip over our own feet. We can choose to live for ourselves, or live our lives with the intention of leaving a clearly defined path for those who will follow. We can beat the same path as those who have gone before us, or take a risk and mark a new trail.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1438904827"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781438904825"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 76,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=BRo8mQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=BRo8mQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=BRo8mQEACAAJ&dq=subject:%22memoir%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=BRo8mQEACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Love_the_Life_and_the_Pain.html?hl=&id=BRo8mQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=BRo8mQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "J9XOHAAACAAJ",
+      "etag": "pWaudCosjEI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/J9XOHAAACAAJ",
+      "volumeInfo": {
+        "title": "Annabel",
+        "subtitle":
+          "An Unconventional Life : the Memoirs of Lady Annabel Goldsmith",
+        "authors": ["Annabel Goldsmith"],
+        "publisher": "Weidenfeld & Nicolson Limited",
+        "publishedDate": "2004",
+        "description":
+          "Lady Annabel Goldsmith is a daughter of the 8th Marquess of Londonderry. The family fortunes were based on coal-mining. increasingly eccentric father, a Conservative MP with strong liberal leanings, and a mother who died young from cancer. But what makes these memoirs particularly interesting is her account of marrying Mark Birley at 20, the creation of Annabel's Club in Berkeley Square, and then her affair and later marriage to entrepreneur Sir James Goldsmith. On the club: this took the basement of a building that John Aspinall had acquired to launch his Clermont gaming club, when gambling was legalised in the early 1960s. It was a huge success from the beginning and remains so into its fourth decade. But the marriage to Mark Birley ended following his serial affairs. By then Annabel was into a relationship with James Goldsmith, who was creating the first of several fortunes in the food industry, and making political waves with his opposition to the EC. (married to Imran Khan, former Pakistan cricket captain] and Ben, who is marrying into the Rothschild family. But tragedy was never far away: Rupert, her eldest son, died in an accident and Goldsmith died from cancer after financing a campaign of candidates opposed to the John Major line on the EC at the 1997 general election. ANNABEL'S STORY is full of good stories. It will be published in the year of Annabel Goldsmith's 70th birthday.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0297829661"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780297829669"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 274,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=J9XOHAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=J9XOHAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=J9XOHAAACAAJ&dq=subject:%22memoir%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=J9XOHAAACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Annabel.html?hl=&id=J9XOHAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=J9XOHAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "a8HHtwEACAAJ",
+      "etag": "QXs8b0mKABA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/a8HHtwEACAAJ",
+      "volumeInfo": {
+        "title": "Inward Traveler",
+        "subtitle": "51 Ways to Explore the World Mindfully",
+        "authors": ["Francine Toder"],
+        "publisher": "Bookbaby",
+        "publishedDate": "2018-10-14",
+        "description":
+          "Inward Traveler: 51 Ways to Explore the World Mindfully offers a series of adventures big and small, near and far, designed to make every moment richer and more mindfully experienced. From the smells of the Istanbul spice market, to the stark and wind swept tip of southern Chile, and to the dead-silent mountaintops on the island of Kauai, each stand-alone mini-chapter takes the reader on a journey to explore inner thoughts, feelings and sensations while investigating the surrounding world. Photos of places discussed, and illustrations, accompany the text. Rather than a traditional travel book recommending places and providing advice about packing or where to eat, Inward Traveler provides cues to enrich any experience through the process of heightened attention and immersion in experiences. Through travel stories, anecdotes, and metaphors, readers will explore the process of living fully and in the moment, through journeys of any dimension.Making the most of travel is what this book is all about. It's a tech manual that teaches readers how to bathe in positive experiences encountered, as well as ways to deal with trials and tribulations faced along the way. By conscious reframingreaders will learn how to alleviate some of the problems and stresses in life, while substituting positive feelings.Whether the travels take the reader across an ocean or just across a street, Inward Traveler provides ways to sense the world deeply and in the present moment. Change may require a shift from the busy and somewhat distracted daily patternsthat characterize the 21st century life style. Prompts in each of the 51 chapters guide readers' explorations",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0988205947"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780988205949"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 222,
+        "printType": "BOOK",
+        "categories": ["Travel"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=a8HHtwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=a8HHtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=a8HHtwEACAAJ&dq=subject:%22memoir%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=a8HHtwEACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Inward_Traveler.html?hl=&id=a8HHtwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=a8HHtwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "EiZxswEACAAJ",
+      "etag": "C2z8VJHO8c0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EiZxswEACAAJ",
+      "volumeInfo": {
+        "title": "No Problem, Mr. Walt",
+        "subtitle":
+          "A Memoir of Loss, Building a Boat,Rebuilding a Life, and Discovering China",
+        "authors": ["Walt Hackman"],
+        "publishedDate": "2016-02-23",
+        "description":
+          "\"No Problem, Mr. Walt\" is a poignant travel memoir written by father, businessman and easy-going voyager, Walt Hackman, about his travels and experiences throughout China during his extraordinary quest to build an authentic wooden Chinese junk boat.When Walt's son was tragically murdered, his world collapsed around him. Seeking peace of mind and a new beginning, Walt sought to honor his son's memory by bringing to life a dream that had long been delayed. It is said, \"the journey of a thousand miles begins with a single step.\" \"No Problem, Mr. Walt\" is the story of how, despite his unimaginable heartbreak, Walt decided to take that first single step, and the next, and the next. The result is a fun and fascinating story about the people and experiences he encountered in China during the construction of the 'Mei Wen Ti,' an authentic handcrafted wooden Junk, and the journey he took in the process of rebuilding his life as he built this extraordinary boat. Walt's travel memoir is an account of personal tragedy and tenacious triumph. It's about the adventures and experiences of making unlikely friends despite significant cultural and language barriers, achieving and improbably dream against all odds, and the culmination of the \"first step of a thousand miles\" that changed his life forever.Filled with humor, drama, mystery, and suspense, this delightful memoir is interspersed with intriguing Chinese anecdotes, poetry, and recipes. Walt's extraordinary journey to build a wooden boat ultimately helped him honor the beloved son he lost and sail new seas.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0996475532"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780996475532"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 308,
+        "printType": "BOOK",
+        "categories": ["Travel"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=EiZxswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=EiZxswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=EiZxswEACAAJ&dq=subject:%22memoir%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=EiZxswEACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/No_Problem_Mr_Walt.html?hl=&id=EiZxswEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=EiZxswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "iLVdjwEACAAJ",
+      "etag": "QLUOUK88hwI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iLVdjwEACAAJ",
+      "volumeInfo": {
+        "title": "A Little White Girl in South Carolina",
+        "authors": ["Mary Humpal Bain"],
+        "publisher": "Createspace Independent Publishing Platform",
+        "publishedDate": "2015-11-13",
+        "description":
+          "This is the story of my childhood during the mid-1950's in South Carolina. It's the story of new friendships, new adventures, ordinary family life, and my introduction to racial prejudice. All of the people are real, and the stories are as true as I can recall. Since young children tend to exaggerate and embellish stories, to add details, and forget others, I cannot guarantee complete accuracy. Of course, I also had to fill in some of the blanks in my memory, because the events occurred about 60 years before this book was written, and memories fade with the passing of time. This book does, however, accurately depict conditions and attitudes in South Carolina during the 1950's, and all historical references are correct. Included are several photos from the National Archives. A glossary will help the reader with unfamiliar words. Most of the words in the glossary are translated into Spanish. All the definitions and explanations are in English.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1518674348"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781518674341"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 116,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=iLVdjwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=iLVdjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=iLVdjwEACAAJ&dq=subject:%22memoir%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=iLVdjwEACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/A_Little_White_Girl_in_South_Carolina.html?hl=&id=iLVdjwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=iLVdjwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4UwRnwEACAAJ",
+      "etag": "q2OHbN2l0Ys",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4UwRnwEACAAJ",
+      "volumeInfo": {
+        "title": "Reflections of an Irrepressible Songster",
+        "authors": ["Allan James"],
+        "publishedDate": "2013-07-26",
+        "description":
+          "This book is about a lifetime search for a unique style with various guitar accompaniments which to me was considered somewhat divine even in my childhood because of my mother's love of the country music. She heard it on the Midwestern Hayride television program which came to our community in Manitowoc, Wisconsin.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0741496585"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780741496584"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "categories": ["Music"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=4UwRnwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=4UwRnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=4UwRnwEACAAJ&dq=subject:%22memoir%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=4UwRnwEACAAJ&dq=subject:%22memoir%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Reflections_of_an_Irrepressible_Songster.html?hl=&id=4UwRnwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=4UwRnwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

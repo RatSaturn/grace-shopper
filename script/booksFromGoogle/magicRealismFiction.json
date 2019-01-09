@@ -1,0 +1,698 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 15,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "JBuQRtfmFxAC",
+      "etag": "mCTW77RkNr8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JBuQRtfmFxAC",
+      "volumeInfo": {
+        "title": "The Myth of the Non-Russian",
+        "subtitle": "Iskander and Aitmatov's Magical Universe",
+        "authors": ["Erika Haber"],
+        "publisher": "Lexington Books",
+        "publishedDate": "2003-01-01",
+        "description":
+          "The Myth of the Non-Russian explores the magical realist prose of two non-Slavic authors writing in Russian in the Soviet Union in the 1970s-1980s. Erika Haber argues that these authors juxtaposed their native myth with Soviet myth, thus undermining the Soviet prescription of national conformity in art by suggesting a plurality of worlds and truths.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0739105310"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780739105313"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 170,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=JBuQRtfmFxAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=JBuQRtfmFxAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=JBuQRtfmFxAC&printsec=frontcover&dq=subject:%22magic+realism%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=JBuQRtfmFxAC&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Myth_of_the_Non_Russian.html?hl=&id=JBuQRtfmFxAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_Myth_of_the_Non_Russian-sample-pdf.acsm?id=JBuQRtfmFxAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=JBuQRtfmFxAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "dv8-YL5SKEYC",
+      "etag": "EtzDSLHxnCk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dv8-YL5SKEYC",
+      "volumeInfo": {
+        "title": "Magic(al) Realism",
+        "authors": ["Maggie Ann Bowers"],
+        "publisher": "Psychology Press",
+        "publishedDate": "2004",
+        "description":
+          "This invaluable handbook, provides clear definitions and distinctions between the terms and helps to navigate the complexities of magic, magical and marvellous realism within art and literary criticism.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780415268547"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0415268540"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 150,
+        "printType": "BOOK",
+        "categories": ["Literary Collections"],
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.3.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=dv8-YL5SKEYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=dv8-YL5SKEYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=dv8-YL5SKEYC&printsec=frontcover&dq=subject:%22magic+realism%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=dv8-YL5SKEYC&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Magic_al_Realism.html?hl=&id=dv8-YL5SKEYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Magic_al_Realism-sample-epub.acsm?id=dv8-YL5SKEYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Magic_al_Realism-sample-pdf.acsm?id=dv8-YL5SKEYC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=dv8-YL5SKEYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2eAzvgAACAAJ",
+      "etag": "TZ0YRBwuqsE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2eAzvgAACAAJ",
+      "volumeInfo": {
+        "title": "Exit West",
+        "authors": ["Mohsin Hamid"],
+        "publisher": "Hamish Hamilton",
+        "publishedDate": "2017-02-27",
+        "description":
+          "Discover the unforgettable novel picked among 2017's most anticipated books by the Guardian, Daily Telegraph, Buzzfeed, New York Timesand many more...An extraordinary story of love and hope, travelling from the Middle East to London and beyond, from the bestselling, Man Booker-shortlisted author of The Reluctant FundamentalistNadia and Saeed are two ordinary young people, attempting to do an extraordinary thing - to fall in love - in a world turned upside down. Theirs will be a love story but also a story about how we live now and how we might live tomorrow, of a world in crisis and two human beings travelling through it. Civil war has come to the city which Nadia and Saeed call home. Before long they will need to leave their motherland behind - when the streets are no longer useable and the unknown is safer than the known. They will join the great outpouring of people fleeing a collapsing city, hoping against hope, looking for their place in the world . . .",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0241290082"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780241290088"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Choice (Psychology)"],
+        "averageRating": 3.5,
+        "ratingsCount": 49,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=2eAzvgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=2eAzvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=2eAzvgAACAAJ&dq=subject:%22magic+realism%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=2eAzvgAACAAJ&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Exit_West.html?hl=&id=2eAzvgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=2eAzvgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "wV9dAAAAMAAJ",
+      "etag": "tt1gRfixTYI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/wV9dAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Realismo mágico y primitivismo",
+        "subtitle":
+          "relecturas de Carpentier, Asturias, Rulfo y García Márquez",
+        "authors": ["Erik Camayd-Freixas"],
+        "publisher": "University Press of Amer",
+        "publishedDate": "1998-01-01",
+        "description":
+          "A fresh reading and close analysis of The Kingdom of This World, Men of Maize, and One Hundred Years of Solitude, Realismo magico y primitivismo brings anthropology, modern art, intellectual history, reception aesthetics and semiotics to bear on the texts in question. Camayd-Freixas develops a theory of magical realism along ethnological lines as a meaningful critical concept in Latin American literary history. The author documents the historical relationship between magical realism and primitivism in Europe and Latin America. He argues that magical realism is a unity of the primitive viewpoint, the transculturation of reality-norms, and the construction of historical allegory; and examines the problems and development of magical realism in the work of leading Latin American writers. (Text in Spanish).\"",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015045696740"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 349,
+        "printType": "BOOK",
+        "categories": ["Literary Criticism"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=wV9dAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=wV9dAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink":
+          "http://books.google.com/books?id=wV9dAAAAMAAJ&dq=subject:%22magic+realism%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=wV9dAAAAMAAJ&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Realismo_m%C3%A1gico_y_primitivismo.html?hl=&id=wV9dAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=wV9dAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "sQWrAAAAIAAJ",
+      "etag": "eIpKuWNXFFA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sQWrAAAAIAAJ",
+      "volumeInfo": {
+        "title": "Bayamus & Cardinal Pölätüo",
+        "authors": ["Stefan Themerson"],
+        "publishedDate": "1997-01-01",
+        "description":
+          "With an introduction by Keith Waldrop Two riotous novels by the Polish-Born British writer Stefan Thermson, who with his wife Francesca ran the Baberbocchus press in London, which also published Schwitters and Russell. Bayamus recounts the adventures of a self-proclaimed mutant with three legs and his efforts to propogate a new species. Cardinal Polatuo is the biography of Apollinaire's anonymous father, including an insight into his frankly obscene dreamlife.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCSC:32106015605220"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 242,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=sQWrAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=sQWrAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=sQWrAAAAIAAJ&dq=subject:%22magic+realism%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=sQWrAAAAIAAJ&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Bayamus_Cardinal_P%C3%B6l%C3%A4t%C3%BCo.html?hl=&id=sQWrAAAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=sQWrAAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ELBfQgAACAAJ",
+      "etag": "lT5/amTkoeE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ELBfQgAACAAJ",
+      "volumeInfo": {
+        "title": "Missing the Midnight",
+        "subtitle": "Hauntings and Grotesques",
+        "authors": ["Jane Gardam"],
+        "publishedDate": "1998",
+        "description":
+          "Jane Gardam reveals again her brilliant diversity and deep understanding of the human condition. In 'Light', an evocative, lyrical piece of magic realism, a beautiful Himalayan girl defies the destiny laid out for her by her mother, but in so doing destroys the village in which she was born. In 'Missing the Midnight', a young woman having failed her exams and lost the man she loves, journeys home to the family she despises, on Christmas Eve. In 'Grace', an apparently ordinary man lives his whole life with a diamond under his skin at the back of his neck, and dies when it is finally removed. Jane Gardam weaves strange and magical occurrences into the fabric of beautifully realised lives in this stunning collection.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0349110174"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780349110172"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 181,
+        "printType": "BOOK",
+        "categories": ["England"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=ELBfQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=ELBfQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=ELBfQgAACAAJ&dq=subject:%22magic+realism%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=ELBfQgAACAAJ&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Missing_the_Midnight.html?hl=&id=ELBfQgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=ELBfQgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "iVqCMAEACAAJ",
+      "etag": "NkjuEOTAcjw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iVqCMAEACAAJ",
+      "volumeInfo": {
+        "title": "Civilisation and Authenticity",
+        "subtitle":
+          "The Search for Cultural Uniqueness in the Narrative Fiction of Alejo Carpentier and Julio Cortázar",
+        "authors": ["Eugenia Demuro"],
+        "publisher": "Peter Lang Pub Incorporated",
+        "publishedDate": "2013",
+        "description":
+          "The question -What is Latin America?- has been at the heart of writing from and about Latin America from Columbus' conquest to present-day discussions and nationalising projects. What this belies is the inherent question -What is Latin America compared to Europe?- This book lays bare the underlying logic of a Latin Americanist discourse through some of the continent's most influential thinkers, including Domingo Faustino Sarmiento, Jose Marti, Jose Enrique Rodo, Jose Vasconcelos, Fernando Ortiz, Roberto Fernandez Retamar, Nestor Garcia Canclini, and Walter Mignolo. &ltBR> &ltI>Civilisation and Authenticity presents case studies of two of Latin America's most renowned and representative twentieth-century writers, the Cuban Alejo Carpentier and the Argentine Julio Cortazar and reveals how desire to define Latin America is entwined throughout their groundbreaking experimental novels, focusing on Carpentier's &ltI>Los pasos perdidos (1953) and Cortazar's &ltI>Rayuela (1963). New research into the poetics of these authors and jargon-free analyses of their fiction outline how the Latin Americanist discourse persists in both writers' representations of the Latin American landscape and people as either Europe's -authentic- and marvelous -Other-, or its -civilised- and modern counterpart. &ltBR> &ltI>Civilisation and Authenticity presents new research for experts on Carpentier and Cortazar and will be indispensable to students of Latin American literature. Its delineation of the Latin Americanist discourse makes it an ideal reference for anybody studying Latin American cultural studies.\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1433119722"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781433119729"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 195,
+        "printType": "BOOK",
+        "categories": ["Literary Criticism"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=iVqCMAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=iVqCMAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=iVqCMAEACAAJ&dq=subject:%22magic+realism%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=iVqCMAEACAAJ&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Civilisation_and_Authenticity.html?hl=&id=iVqCMAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=iVqCMAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7L8aMQAACAAJ",
+      "etag": "/GbsQE9uN+4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7L8aMQAACAAJ",
+      "volumeInfo": {
+        "title":
+          "Bontempelliano o plurimo? Il realismo magico negli anni di «900» e oltre Atti della Giornata internazionale di studi (Lubiana 14 maggio 2013)",
+        "authors": ["P. Farinelli"],
+        "publishedDate": "2016",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8860878284"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788860878281"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 226,
+        "printType": "BOOK",
+        "categories": ["Literary Criticism"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=7L8aMQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=7L8aMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "it",
+        "previewLink":
+          "http://books.google.com/books?id=7L8aMQAACAAJ&dq=subject:%22magic+realism%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=7L8aMQAACAAJ&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Bontempelliano_o_plurimo_Il_realismo_mag.html?hl=&id=7L8aMQAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=7L8aMQAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XP8ejwEACAAJ",
+      "etag": "kPGsTw35/aA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XP8ejwEACAAJ",
+      "volumeInfo": {
+        "title": "DEATHCAT SALLY",
+        "authors": ["P.S. BROOKS"],
+        "publishedDate": "2016-01-21",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1784650048"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781784650049"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 387,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=XP8ejwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=XP8ejwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=XP8ejwEACAAJ&dq=subject:%22magic+realism%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=XP8ejwEACAAJ&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/DEATHCAT_SALLY.html?hl=&id=XP8ejwEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=XP8ejwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZRHyOAAACAAJ",
+      "etag": "o8STUpmBMmo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZRHyOAAACAAJ",
+      "volumeInfo": {
+        "title":
+          "Schilders van een andere werkelijkheid in de collectie van het Scheringa Museum voor Realisme",
+        "authors": ["Matthijs Erdman", "Scheringa Museum voor Realisme"],
+        "publishedDate": "2006",
+        "description":
+          "Overzicht van belangrijke realistische schilders vanaf het interbellum tot heden uit de collectie van het Scheringa-museum.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "9040081840"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9789040081842"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": ["Art"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "nl",
+        "previewLink":
+          "http://books.google.com/books?id=ZRHyOAAACAAJ&dq=subject:%22magic+realism%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=ZRHyOAAACAAJ&dq=subject:%22magic+realism%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Schilders_van_een_andere_werkelijkheid_i.html?hl=&id=ZRHyOAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=ZRHyOAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

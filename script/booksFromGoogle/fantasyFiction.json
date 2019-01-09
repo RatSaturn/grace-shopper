@@ -1,0 +1,750 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 493,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "dCONTpmr_EYC",
+      "etag": "z6glS+CNSgk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dCONTpmr_EYC",
+      "volumeInfo": {
+        "title": "The Mummy Or Ramses the Damned",
+        "authors": ["Anne Rice"],
+        "publisher": "Random House LLC",
+        "publishedDate": "1991",
+        "description":
+          "Doomed forever to wander the earth, desperate to quell his insatiable hungers, Ramses the Damned turns up in Edwardian London as Dr. Ramsey and begins a romance with heiress Julie Stratford, but his cursed past again propels him toward disaster",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0345369947"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780345369949"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 398,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 6,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=dCONTpmr_EYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=dCONTpmr_EYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=dCONTpmr_EYC&dq=subject:%22fantasy+fiction%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=dCONTpmr_EYC&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Mummy_Or_Ramses_the_Damned.html?hl=&id=dCONTpmr_EYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=dCONTpmr_EYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3sfiKo7JPawC",
+      "etag": "QOqH+3Agdn0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3sfiKo7JPawC",
+      "volumeInfo": {
+        "title": "My Journey from Paris to Java",
+        "authors": ["Honoré de Balzac"],
+        "publisher": "Editions Didier Millet",
+        "publishedDate": "2010",
+        "description":
+          "Honor de Balzac, the renowned French novelist and playright, and one of the pioneers of literary realism, makes a short fantasy diversion to the mystical island of Java, where he, or rather the narrateur, encounters a deadly poison-breathing tree, civilised monkeys, love-sick sparrows and that epitome of Oriental desirability of his day ? the women of Java.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789814260145"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9814260142"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 64,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=3sfiKo7JPawC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=3sfiKo7JPawC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=3sfiKo7JPawC&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=3sfiKo7JPawC&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/My_Journey_from_Paris_to_Java.html?hl=&id=3sfiKo7JPawC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=3sfiKo7JPawC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "r9ex8LJWiFAC",
+      "etag": "qo5GYBdCf+E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/r9ex8LJWiFAC",
+      "volumeInfo": {
+        "title": "Witchlight",
+        "authors": ["Marion Zimmer Bradley"],
+        "publisher": "Macmillan",
+        "publishedDate": "2009-12-08",
+        "description":
+          "Seeking help in discovering the secrets of her past, Winter Musgrave turns to Truth Joudemayne and learns that she must reconstruct the magickal circle of friends she had in college to end the evil surrounding her and save her life.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780765323743"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0765323745"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 2.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=r9ex8LJWiFAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=r9ex8LJWiFAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=r9ex8LJWiFAC&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=r9ex8LJWiFAC&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Witchlight.html?hl=&id=r9ex8LJWiFAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=r9ex8LJWiFAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "327OAwAAQBAJ",
+      "etag": "SHvntoIwS4E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/327OAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Kalona's Fall",
+        "subtitle": "A House of Night Novella",
+        "authors": ["P. C. Cast", "Kristin Cast"],
+        "publisher": "Macmillan",
+        "publishedDate": "2014-07-29",
+        "description":
+          "A latest novella in the best-selling series shares the story of winged immortal Kalona, revealing the origins of his fall from being the Goddess' Warrior and Guardian to becoming her enemy. By the award-winning authors of Revealed.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781250046116"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1250046114"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 160,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=327OAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=327OAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=327OAwAAQBAJ&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=327OAwAAQBAJ&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Kalona_s_Fall.html?hl=&id=327OAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=327OAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Qrz5A0KlidcC",
+      "etag": "zRadYT/RbSo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Qrz5A0KlidcC",
+      "volumeInfo": {
+        "title": "Dirk Gently's Holistic Detective Agency",
+        "authors": ["Douglas Adams"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "1991-06-01",
+        "description":
+          "For Dirk Gently, private detective, a simple search for a missing cat uncovers a bewildered ghost, a secret time traveller, and a devastating secret that threatens the future of humanity.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0671746723"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780671746728"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 147,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Qrz5A0KlidcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Qrz5A0KlidcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Qrz5A0KlidcC&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=Qrz5A0KlidcC&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Dirk_Gently_s_Holistic_Detective_Agency.html?hl=&id=Qrz5A0KlidcC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Qrz5A0KlidcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "m7UiIU8WxCsC",
+      "etag": "CItqsnNb/+o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/m7UiIU8WxCsC",
+      "volumeInfo": {
+        "title": "Chimera",
+        "authors": ["John Barth"],
+        "publisher": "Houghton Mifflin Harcourt",
+        "publishedDate": "1972",
+        "description":
+          "In CHIMERAJohn Barth injects his signature wit into the tales of Scheherezade of the Thousand and One Nights, Perseus, the slayer of Medusa, and Bellerophon, who tamed the winged horse Pegasus. In a book that the Washington Post called \"stylishly maned, tragically songful, and serpentinely elegant,” Barth retells these tales from varying perspectives, examining the myths’ relationship to reality and their resonance with the contemporary world. A winner of the National Book Award, this feisty, witty, sometimes bawdy book provoked Playboy to comment, \"There’s every chance in the world that John Barth is a genius.”",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0618131701"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780618131709"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 308,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 2.5,
+        "ratingsCount": 6,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=m7UiIU8WxCsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=m7UiIU8WxCsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=m7UiIU8WxCsC&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=m7UiIU8WxCsC&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Chimera.html?hl=&id=m7UiIU8WxCsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=m7UiIU8WxCsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "RPrvLFYwm30C",
+      "etag": "4wNrZejlNV8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RPrvLFYwm30C",
+      "volumeInfo": {
+        "title": "The Supernatural Index",
+        "subtitle":
+          "A Listing of Fantasy, Supernatural, Occult, Weird, and Horror Anthologies",
+        "authors": ["Michael Ashley", "Mike Ashley", "William Contento"],
+        "publisher": "Greenwood Publishing Group",
+        "publishedDate": "1995",
+        "description":
+          "Indexes story collections by editor, book title, author, and story title",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0313240302"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780313240300"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 933,
+        "printType": "BOOK",
+        "categories": ["Literary Criticism"],
+        "averageRating": 3,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=RPrvLFYwm30C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=RPrvLFYwm30C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=RPrvLFYwm30C&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=RPrvLFYwm30C&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-RPrvLFYwm30C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 288.95,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 231.16,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=RPrvLFYwm30C&rdid=book-RPrvLFYwm30C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 288950000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 231160000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_Supernatural_Index-sample-pdf.acsm?id=RPrvLFYwm30C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=RPrvLFYwm30C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "bqjl1FEyOYwC",
+      "etag": "rgG/dxLR1EQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/bqjl1FEyOYwC",
+      "volumeInfo": {
+        "title": "Tom's Midnight Garden",
+        "authors": ["Philippa Pearce"],
+        "publishedDate": "1998",
+        "description":
+          "Tom is not prepared for what is about to happen when he hears the grandfather clock strike thirteen. Outside the back door is a garden, which everyone tells him does not exist.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0192717774"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780192717771"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 233,
+        "printType": "BOOK",
+        "categories": ["Children's stories"],
+        "averageRating": 4.5,
+        "ratingsCount": 32,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=bqjl1FEyOYwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=bqjl1FEyOYwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=bqjl1FEyOYwC&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=bqjl1FEyOYwC&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Tom_s_Midnight_Garden.html?hl=&id=bqjl1FEyOYwC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=bqjl1FEyOYwC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "sL06DwAAQBAJ",
+      "etag": "wciLPE8Hud8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sL06DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Glass Town",
+        "authors": ["Steven Savile"],
+        "publisher": "Thomas Dunne Books",
+        "publishedDate": "2017-12-05",
+        "description":
+          "Steven Savile is an international sensation, selling over half a million copies of his novels worldwide and writing for cult favorite television shows including Doctor Who, Torchwood, and Stargate. Now, he is finally making his US debut with Glass Town, a brilliantly composed novel revolving around the magic and mystery lurking in London. There's always been magic in our world We just needed to know where to look for it In 1924, two brothers both loved Eleanor Raines, a promising young actress from the East End of London. She disappeared during the filming of Alfred Hitchcock’s debut, Number 13, which itself is now lost. It was the crime of the age, capturing the imagination of the city: the beautiful actress never seen again, and the gangster who disappeared the same day. Generations have passed. Everyone involved is long dead. But even now their dark, twisted secret threatens to tear the city apart. Joshua Raines is about to enter a world of macabre beauty, of glittering celluloid and the silver screen, of illusion and deception, of impossibly old gangsters and the fiendish creatures they command, and most frighteningly of all, of genuine magic. He is about to enter Glass Town. The generations-old obsession with Eleanor Raines’s unsolved case is about to become his obsession, handed down father-to-son through his bloodline like some unwanted inheritance. But first he needs to bury his grandfather and absorb the implications of the confession in his hand, a letter from one of the brothers, Isaiah, claiming to have seen the missing actress. The woman in the red dress hadn’t aged a day, no matter that it was 1994 and she’d been gone seventy years. Long buried secrets cannot stay secrets forever. Hidden places cannot stay hidden forever. The magic that destroyed one of the most brutal families in London’s dark history is finally failing, and Joshua Raines is about to discover that everything he dared dream of, everything he has ever feared, is waiting for him in Glass Town.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781250077837"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1250077834"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=sL06DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=sL06DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=sL06DwAAQBAJ&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=sL06DwAAQBAJ&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Glass_Town.html?hl=&id=sL06DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=sL06DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7piT43PLgg4C",
+      "etag": "obitpqADtj0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7piT43PLgg4C",
+      "volumeInfo": {
+        "title": "Silver",
+        "authors": ["Rhiannon Held"],
+        "publisher": "Macmillan",
+        "publishedDate": "2012-06-05",
+        "description":
+          "Urban fantasy takes a walk on the wild side in Silver, the remarkable debut novel from Rhiannon Held. Andrew Dare is a werewolf. He's the enforcer for the Roanoke pack, and responsible for capturing or killing any Were intruders in Roanoke's territory. But the lone Were he's tracking doesn't smell or act like anyone he's ever encountered. And when he catches her, it doesn't get any better. She's beautiful, she's crazy, and someone has tortured her by injecting silver into her veins. She says her name is Silver, and that she's lost her wild self and can't shift any more. The packs in North America have a live-and-let-live attitude, and try not to overlap with each other. But Silver represents a terrible threat to every Were on the continent. Andrew and Silver will join forces to track down this menace while discovering their own power and their passion for each other.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780765330376"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0765330377"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 320,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 9,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=7piT43PLgg4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=7piT43PLgg4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=7piT43PLgg4C&printsec=frontcover&dq=subject:%22fantasy+fiction%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=7piT43PLgg4C&dq=subject:%22fantasy+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Silver.html?hl=&id=7piT43PLgg4C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=7piT43PLgg4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

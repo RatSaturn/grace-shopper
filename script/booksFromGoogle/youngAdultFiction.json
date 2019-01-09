@@ -1,0 +1,920 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 493,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "_VYqrlla29UC",
+      "etag": "FHtNCIeN3Ic",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_VYqrlla29UC",
+      "volumeInfo": {
+        "title": "A Taste for Rabbit",
+        "authors": ["Linda Zuckerman"],
+        "publisher": "Scholastic Inc.",
+        "publishedDate": "2007",
+        "description":
+          "Quentin, a rabbit who lives in a walled compound run by a militaristic government, must join forces with Harry, a fox, to stop the sinister disappearances of outspoken and rebellious rabbit citizens.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780439869775"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0439869773"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 310,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=_VYqrlla29UC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=_VYqrlla29UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=_VYqrlla29UC&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=_VYqrlla29UC&dq=subject:%22young+adult+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/A_Taste_for_Rabbit.html?hl=&id=_VYqrlla29UC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/A_Taste_for_Rabbit-sample-pdf.acsm?id=_VYqrlla29UC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=_VYqrlla29UC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "5yXVCwAAQBAJ",
+      "etag": "ft+1IrCTUjM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/5yXVCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Клеймо",
+        "subtitle": "",
+        "authors": ["Сесилия Ахерн"],
+        "publisher": "Азбука-Аттикус",
+        "publishedDate": "2016-03-28",
+        "description":
+          "Селестина Норт идеальна во всем: образцовая дочь и сестра, любимица учителей и одноклассников, девушка неотразимого Арта Кревана. Но однажды Селестина попадает в непредвиденную ситуацию и, следуя велению сердца, нарушает закон. Кара неотвратима: либо тюрьма, либо Клеймо. То есть — навеки отверженная. Блистательная Сесилия Ахерн нарисовала мир, в котором идеал ценится превыше всего и малейшие отступления от него наказуемы. Что произойдет, когда юная девушка рискнет всем, что ей дорого, и решится противостоять системе? Дебютный роман в жанре «young adult» от автора международных бестселлеров — удивительно достоверная и эмоциональная история, герои которой покорят сердца читателей любого возраста. Права на экранизацию книги приобретены компанией Warner Bros.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9785389114326"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "5389114329"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 448,
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=5yXVCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=5yXVCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "ru",
+        "previewLink":
+          "http://books.google.com/books?id=5yXVCwAAQBAJ&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=5yXVCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-5yXVCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 4.78,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 3.66,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=5yXVCwAAQBAJ&rdid=book-5yXVCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 4780000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 3660000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/%D0%9A%D0%BB%D0%B5%D0%B9%D0%BC%D0%BE-sample-epub.acsm?id=5yXVCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/%D0%9A%D0%BB%D0%B5%D0%B9%D0%BC%D0%BE-sample-pdf.acsm?id=5yXVCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=5yXVCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_DanCwAAQBAJ",
+      "etag": "HGopD2x8Cw4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_DanCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Of Fire and Stars",
+        "authors": ["Audrey Coulthurst"],
+        "publisher": "HarperCollins",
+        "publishedDate": "2016-11-22",
+        "description":
+          "An atmospheric and romantic debut fantasy perfect for fans of Ash and The Winner’s Curse. Betrothed since childhood to the prince of Mynaria, Princess Dennaleia has always known what her future holds. Her marriage will seal the alliance between Mynaria and her homeland, protecting her people from other hostile kingdoms. But Denna has a secret. She possesses an Affinity for fire—a dangerous gift for the future queen of a land where magic is forbidden. Now Denna has to learn the ways of her new kingdom while trying to hide her growing magic. To make matters worse, she must learn to ride Mynaria’s formidable warhorses before her coronation—and her teacher is the person who intimidates her most, the prickly and unconventional Princess Amaranthine, sister of her betrothed. When a shocking assassination leaves the kingdom reeling, Mare and Denna reluctantly join forces to search for the culprit. As the two work together, they discover there is more to one another than they thought—and soon their friendship is threatening to blossom into something more. But with dangerous conflict brewing that makes the alliance more important than ever, acting on their feelings could be deadly. Forced to choose between their duty and their hearts, Mare and Denna must find a way to save their kingdoms—and each other.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780062433275"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "006243327X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 400,
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 10,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.4.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=_DanCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=_DanCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=_DanCwAAQBAJ&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=_DanCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-_DanCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=_DanCwAAQBAJ&rdid=book-_DanCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Of_Fire_and_Stars-sample-epub.acsm?id=_DanCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=_DanCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qCDyT1q6OjIC",
+      "etag": "ikb8K0x88RE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qCDyT1q6OjIC",
+      "volumeInfo": {
+        "title": "I Am the Messenger",
+        "authors": ["Markus Zusak"],
+        "publisher": "Knopf Books for Young Readers",
+        "publishedDate": "2007-12-18",
+        "description":
+          "DON’T MISS BRIDGE OF CLAY, MARKUS ZUSAK’S FIRST NOVEL SINCE THE BOOK THIEF AND AN UNFORGETTABLE AND SWEEPING FAMILY SAGA. From the author of the extraordinary #1 New York Times bestseller The Book Thief, I Am the Messenger is an acclaimed novel filled with laughter, fists, and love. A MICHAEL L. PRINTZ HONOR BOOK FIVE STARRED REVIEWS Ed Kennedy is an underage cabdriver without much of a future. He's pathetic at playing cards, hopelessly in love with his best friend, Audrey, and utterly devoted to his coffee-drinking dog, the Doorman. His life is one of peaceful routine and incompetence until he inadvertently stops a bank robbery. That's when the first ace arrives in the mail. That's when Ed becomes the messenger. Chosen to care, he makes his way through town helping and hurting (when necessary) until only one question remains: Who's behind Ed's mission?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "030743348X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780307433480"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 368,
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 194,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.13.9.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=qCDyT1q6OjIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=qCDyT1q6OjIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=qCDyT1q6OjIC&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=qCDyT1q6OjIC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-qCDyT1q6OjIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 8.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 8.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=qCDyT1q6OjIC&rdid=book-qCDyT1q6OjIC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/I_Am_the_Messenger-sample-epub.acsm?id=qCDyT1q6OjIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/I_Am_the_Messenger-sample-pdf.acsm?id=qCDyT1q6OjIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=qCDyT1q6OjIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "69UjCQAAQBAJ",
+      "etag": "LtmhzptzBTg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/69UjCQAAQBAJ",
+      "volumeInfo": {
+        "title": "The Heart of Betrayal",
+        "authors": ["Mary E. Pearson"],
+        "publisher": "Macmillan",
+        "publishedDate": "2015-07-07",
+        "description":
+          "Held captive in the barbarian kingdom of Venda, Princess Lia and Rafe have little chance of escape--and even less of being together--as the foundations of Lia's deeply-held beliefs crumble beneath her while she wrestles with her upbringing, her gift, and her very sense of self to make powerful choices that affect her country, her people, and her own destiny.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780805099249"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0805099247"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 480,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 16,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=69UjCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=69UjCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=69UjCQAAQBAJ&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=69UjCQAAQBAJ&dq=subject:%22young+adult+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Heart_of_Betrayal.html?hl=&id=69UjCQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=69UjCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hOB6gV9e1FYC",
+      "etag": "S+/CzgC3C3k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hOB6gV9e1FYC",
+      "volumeInfo": {
+        "title": "Empty",
+        "authors": ["K. M. Walton"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2013-01-01",
+        "description":
+          "Deeply depressed after her father cheated on and divorced her mother, 17-year-old Adele has gained over 70 pounds and is being bullied and abused at school—to the point of being raped and accused of being the aggressor. From the author of Cracked.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781442453593"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1442453591"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 241,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "averageRating": 4.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=hOB6gV9e1FYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=hOB6gV9e1FYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=hOB6gV9e1FYC&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=hOB6gV9e1FYC&dq=subject:%22young+adult+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Empty.html?hl=&id=hOB6gV9e1FYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=hOB6gV9e1FYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fARaDwAAQBAJ",
+      "etag": "MRaKZwh7eb8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fARaDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Paper Princess",
+        "authors": ["Erin Watt"],
+        "publisher": "Time Out LLC",
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 379,
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=fARaDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=fARaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=fARaDwAAQBAJ&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=fARaDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-fARaDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 5.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 5.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=fARaDwAAQBAJ&rdid=book-fARaDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 5990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 5990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Paper_Princess-sample-epub.acsm?id=fARaDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Paper_Princess-sample-pdf.acsm?id=fARaDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=fARaDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "6MOTAwAAQBAJ",
+      "etag": "GRRo+I6xJWQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6MOTAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Ciudades de papel",
+        "authors": ["John Green"],
+        "publisher": "NUBE DE TINTA",
+        "publishedDate": "2014-06-12",
+        "description":
+          "Una joven desaparece dejando una serie de pistas que solo su mejor amigo de la infancia podrá descifrar... Una novela de John Green, el autor de Bajo la misma estrella. En su último año de instituto, Quentin no ha aprobado ni en popularidad ni en asuntos del corazón. Pero todo cambia cuando su vecina, la legendaria, inalcanzable y enigmática Margo Spiegelman, se presenta en mitad de la noche para proponerle que le acompañe en un plan de venganza inaudito. Después de una intensa noche que reaviva el vínculo de una infancia compartida y parece sellar un nuevo destino para ambos, Margo desaparece dejando tras de sí un extraño cerco de pistas que solamente Quentin posee la clave para descifrar. Con un estilo único que combina humor y sensibilidad, John Green, el autor de Bajo la misma estrella, teje una emotiva historia a la que da vida un inolvidable elenco de personajes. Ganadora del prestigioso premio Edgar, Ciudades de papel aborda los temas de la amistad, el amor y la identidad para plantearnos una pregunta: ¿vemos en los demás, y en nosotros mismos, solamente aquello que queremos ver? La crítica ha dicho... «Un escritor genial, con una voz que se adapta perfectamente con la historia que nos cuenta.» Booklist «Humor desternillante, y emoción sincera y sentida.» Kliatt",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9788415594406"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "8415594402"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 368,
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "averageRating": 4.5,
+        "ratingsCount": 12,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.22.21.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=6MOTAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=6MOTAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink":
+          "http://books.google.com/books?id=6MOTAwAAQBAJ&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=6MOTAwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-6MOTAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=6MOTAwAAQBAJ&rdid=book-6MOTAwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Ciudades_de_papel-sample-epub.acsm?id=6MOTAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Ciudades_de_papel-sample-pdf.acsm?id=6MOTAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=6MOTAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3mn6IF3d1G8C",
+      "etag": "Z+kUPBgnCDM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3mn6IF3d1G8C",
+      "volumeInfo": {
+        "title": "Now Is the Time for Running",
+        "authors": ["Michael Williams"],
+        "publisher": "Little, Brown Books for Young Readers",
+        "publishedDate": "2011-07-05",
+        "description":
+          "Just down the road from their families, Deo and his friends play soccer in the dusty fields of Zimbabwe, cheered on by Deo's older brother, Innocent. It is a day like any other... until the soldiers arrive and Deo and Innocent are forced to run for their lives, fleeing the wreckage of their village for the distant promise of safe haven in South Africa. Along the way, they face the prejudice and poverty that greet refugees everywhere, but eventually Deo finds hope, joining dozens of other homeless, displaced teens on the World Cup Street Soccer team--a possible ticket out of extreme hardship to a new life. Captivating and timely, Now Is the Time for Running is a staggering story of survival that follows Deo and his brother on a transformative journey that will stay with readers long after the last page.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0316134783"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780316134781"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=3mn6IF3d1G8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=3mn6IF3d1G8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=3mn6IF3d1G8C&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=3mn6IF3d1G8C&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-3mn6IF3d1G8C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 8.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 8.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=3mn6IF3d1G8C&rdid=book-3mn6IF3d1G8C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 8990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Now_Is_the_Time_for_Running-sample-epub.acsm?id=3mn6IF3d1G8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=3mn6IF3d1G8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "BewFAwAAQBAJ",
+      "etag": "DK9fEJ37zys",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/BewFAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Ashes to Ashes",
+        "authors": ["Jenny Han", "Siobhan Vivian"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2014-09-16",
+        "description":
+          "Think Mary, Kat, and Lillia have nothing left to lose? Think again. The fiery conclusion to the Burn for Burn trilogy from New York Times bestselling author Jenny Han and Siobhan Vivian. They only meant to right the wrongs. It was about getting even. Burn for burn. But the fire they lit kept raging…Reeve ended up hurt, then Rennie ended up dead. Everything will turn to ash if they don’t stop what they started. But now that Mary knows the truth about what happened to her, will she want to? Secrets drew Lillia, Kat, and Mary together. The truth might tear them apart.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781442440838"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "144244083X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 400,
+        "printType": "BOOK",
+        "categories": ["Juvenile Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=BewFAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=BewFAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=BewFAwAAQBAJ&printsec=frontcover&dq=subject:%22young+adult+fiction%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=BewFAwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-BewFAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=BewFAwAAQBAJ&rdid=book-BewFAwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Ashes_to_Ashes-sample-epub.acsm?id=BewFAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=BewFAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
