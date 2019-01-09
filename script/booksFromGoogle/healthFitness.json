@@ -1,0 +1,864 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 496,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "MePLXFlafDMC",
+      "etag": "3Yxd1hSMvHY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MePLXFlafDMC",
+      "volumeInfo": {
+        "title": "Lights! Camera! Action! the Power of PR",
+        "subtitle":
+          "The Plastic and Cosmetic Surgeon's Guide to Obtaining Priceless TV, Magazine, and Other Media Exposure",
+        "authors": ["Angela O'Mara"],
+        "publisher": "AuthorHouse",
+        "publishedDate": "2010-04",
+        "description":
+          "If you are a plastic or cosmetic surgeon and are tired of seeing doctors less qualified than you in the media, or are looking to expand your business, then this book is for you! It will guide you through the media maze and teach you how to position your practice and prepare yourself for media attention. Since the recent economic downfall, PR is the most sought after and cost effective way to promote a medical practice. This book will teach you how you can use this elusive and powerful marketing tool, giving you an added advantage over the competition. In this book Angela O'Mara shares her best advice from 22+ years of experience in the world of cosmetic surgery PR.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781452011554"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1452011559"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 120,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=MePLXFlafDMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=MePLXFlafDMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=MePLXFlafDMC&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=MePLXFlafDMC&dq=subject:%22health/fitness%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Lights_Camera_Action_the_Power_of_PR.html?hl=&id=MePLXFlafDMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=MePLXFlafDMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "5LzhDzJgLscC",
+      "etag": "GL2whOWTsSE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/5LzhDzJgLscC",
+      "volumeInfo": {
+        "title": "Reclaiming Your Life After Diagnosis",
+        "subtitle": "The Cancer Support Community Handbook",
+        "authors": ["Kim Thiboldeaux", "Mitch Golant"],
+        "publisher": "BenBella Books, Inc.",
+        "publishedDate": "2012-06-05",
+        "description":
+          "A Comprehensive and Compassionate Approach to Cancer Care Reclaiming Your Life After Diagnosis is packed with incredible information and resources to get you or someone you love through the challenging journey of a cancer diagnosis and treatment. This book accurately and compassionately addresses the physical, emotional, social and practical needs of cancer patients and their support systems. Find out how to: Put an effective support and resource team in place to buffer against the challenges of diagnosis and treatment Build a community to deal with the daunting decisions treatment requires Develop practical, more effective ways to manage side effects Deal with complex emotional issues ranging from the shock of initial diagnosis to creating a living legacy and a meaning-filled life Through powerful, first-person testimony, as well as a plethora of the best tips, evidence-based research, treatment and support information currently available, Reclaiming Your Life After Diagnosis will help cancer patients develop the strength and empowerment they need to stay focused on healing—and to develop the mindset of a survivor.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781936661879"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "193666187X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 306,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "3.8.7.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=5LzhDzJgLscC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=5LzhDzJgLscC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=5LzhDzJgLscC&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=5LzhDzJgLscC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-5LzhDzJgLscC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 16.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=5LzhDzJgLscC&rdid=book-5LzhDzJgLscC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 16990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Reclaiming_Your_Life_After_Diagnosis-sample-epub.acsm?id=5LzhDzJgLscC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=5LzhDzJgLscC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Rg7cudXUN1EC",
+      "etag": "i3MnJ/v9UAk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Rg7cudXUN1EC",
+      "volumeInfo": {
+        "title": "Couples of Mixed HIV Status",
+        "subtitle": "Clinical Issues and Interventions",
+        "authors": ["R Dennis Shelby", "Nancy L Beckerman"],
+        "publisher": "Routledge",
+        "publishedDate": "2012-12-06",
+        "description":
+          "Examine the unique emotional challenges and issues that face couples of mixed HIV status today! Previous books on this subject—mostly written in the days when HIV/AIDS was considered a fatal rather than a chronic disease—focused on end-of-life issues. However, Couples of Mixed HIV Status: Clinical Issues and Interventions addresses the unique emotional challenges facing today’s couples of mixed HIV status and provides a conceptual framework for assessment and intervention. The book offers examples of how to apply emotionally focused couple therapy to help them work through issues including disclosure, the fear of HIV transmission, shifts in emotional intimacy, family planning, betrayal, mistrust, and uncertainty. This unique work, its knowledge base, and the interventions you'll find inside, are applicable to any practitioner who provides couple and family therapy—as well as any practitioner who counsels around issues of chronic illness. Couples of Mixed HIV Status provides therapists with a range of theoretical approaches to help mixed HIV status couples deal with their issues and concerns. It includes applications of couple therapy approaches that have proved to be particularly effective as well as case studies that demonstrate how different relationship variables may affect therapy. The book presents the findings of a research study involving 44 mixed HIV status couples in the Northeast and is generously illustrated with tables that make complex research results easy to access and understand. Topics covered in Couples of Mixed HIV Status include: various approaches to couples therapy the historical context of HIV/AIDS HIV transmission family planning and HIV/AIDS emotionally focused couple therapy disclosure issues attachment theory and much more! Couples of Mixed HIV Status: Clinical Issues and Interventions is a valuable resource for therapists and other mental health counselors working with today’s couples of mixed HIV status as well as for students of counseling and health related services. Readers who may be in a mixed HIV status relationship or those who are friends and family members of couples living with HIV will also find this book helpful.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781136406799"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1136406794"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 196,
+        "printType": "BOOK",
+        "categories": ["Family & Relationships"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "4.7.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Rg7cudXUN1EC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Rg7cudXUN1EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Rg7cudXUN1EC&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=Rg7cudXUN1EC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-Rg7cudXUN1EC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 66.95,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 53.56,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=Rg7cudXUN1EC&rdid=book-Rg7cudXUN1EC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 66950000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 53560000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 33480000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 29460000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 180
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Couples_of_Mixed_HIV_Status-sample-epub.acsm?id=Rg7cudXUN1EC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Couples_of_Mixed_HIV_Status-sample-pdf.acsm?id=Rg7cudXUN1EC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Rg7cudXUN1EC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fd2MDQAAQBAJ",
+      "etag": "tLTFQlNeOJU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fd2MDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Gunsmoke Over the Atlantic",
+        "subtitle": "First Naval Actions of the Civil War",
+        "authors": ["Jack Coombe"],
+        "publisher": "Bantam",
+        "publishedDate": "2003-04",
+        "description":
+          "The acclaimed historian and author of Thunder Along the Mississippi furnishes a definitive account of the early naval history of the Civil War that chronicles the dramatic confrontations between the Union Navy and blockade runners aided by Confederate warships. Reprint.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780553380736"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0553380737"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=fd2MDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=fd2MDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=fd2MDQAAQBAJ&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=fd2MDQAAQBAJ&dq=subject:%22health/fitness%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Gunsmoke_Over_the_Atlantic.html?hl=&id=fd2MDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=fd2MDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gkWKAgAAQBAJ",
+      "etag": "ZE608YQ/XyA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gkWKAgAAQBAJ",
+      "volumeInfo": {
+        "title": "The South Beach Diet Good Fats, Good Carbs Guide",
+        "subtitle":
+          "The Complete and Easy Reference for All Your Favorite Foods",
+        "authors": ["Arthur Agatston"],
+        "publisher": "Rodale",
+        "publishedDate": "2005-04-19",
+        "description":
+          "A quick-reference guide to food selections for those following the South Beach diet plan, with tips on handling difficult eating situations.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781594861987"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1594861986"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 160,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "averageRating": 4.5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=gkWKAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=gkWKAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=gkWKAgAAQBAJ&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=gkWKAgAAQBAJ&dq=subject:%22health/fitness%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_South_Beach_Diet_Good_Fats_Good_Carb.html?hl=&id=gkWKAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=gkWKAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nk_R0n7gJF8C",
+      "etag": "tUJQTl2YBBE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nk_R0n7gJF8C",
+      "volumeInfo": {
+        "title": "The Instinct to Heal",
+        "subtitle":
+          "Curing Stress, Anxiety, and Depression Without Drugs and Without Talk Therapy",
+        "authors": ["David Servan-Schreiber"],
+        "publisher": "Rodale",
+        "publishedDate": "2004",
+        "description":
+          "Draws on recent brain studies to offer advice on how to heal oneself naturally from stress and depression, covering such topics as eye-movement desensitization, resetting a biological clock, and applying biochemical knowledge to heal emotional wounds. 50,000 first printing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1579549020"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781579549022"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 294,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=nk_R0n7gJF8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=nk_R0n7gJF8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=nk_R0n7gJF8C&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=nk_R0n7gJF8C&dq=subject:%22health/fitness%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Instinct_to_Heal.html?hl=&id=nk_R0n7gJF8C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_Instinct_to_Heal-sample-pdf.acsm?id=nk_R0n7gJF8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=nk_R0n7gJF8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LbcPwWawUWEC",
+      "etag": "sbkUa7Laaqw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LbcPwWawUWEC",
+      "volumeInfo": {
+        "title": "The Key Muscles of Yoga",
+        "authors": ["Ray Long", "Chris Macivor"],
+        "publisher": "Bandha Yoga Publications LLC",
+        "publishedDate": "2009-08-01",
+        "description":
+          "This book offers a scientific approach to understanding the practice of hatha yoga. Through four-colour, three-dimensional illustrations of major muscles, tendons, and ligaments, Ray Long describes the practice and benefits of hatha yoga. Specific anatomical and physiological descriptions highlight the agonist, antagonist, and synergist muscles that come into play with each pose. Volume I of the series describes the key muscles of hatha yoga and how they are utilised. From beginners to experts, this book will become a constant companion.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781607432388"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1607432382"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 239,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "averageRating": 2,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=LbcPwWawUWEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=LbcPwWawUWEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=LbcPwWawUWEC&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=LbcPwWawUWEC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-LbcPwWawUWEC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 22.72,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 21.88,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=LbcPwWawUWEC&rdid=book-LbcPwWawUWEC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 22720000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 21880000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_Key_Muscles_of_Yoga-sample-pdf.acsm?id=LbcPwWawUWEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=LbcPwWawUWEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KUTAu35zbi0C",
+      "etag": "m4cKGkKg9Wo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KUTAu35zbi0C",
+      "volumeInfo": {
+        "title": "Eat, Drink, and Be Healthy",
+        "subtitle": "The Harvard Medical School Guide to Healthy Eating",
+        "authors": ["Walter Willett"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2011-02-01",
+        "description":
+          "The bestselling guide to healthy eating, debunking dietary myths and proposing the radical benefits of low-carbohydrate diet, Eat, Drink, and Be Healthy is “filled with advice backed up by documented research” (Tara Parker-Pope, The Wall Street Journal). Dr. Walter Willett’s research is rooted in studies that tracked the health of dieters over twenty years, and in this groundbreaking book, he critiques the carbohydrate-laden diet proposed by the USDA. Exposing the problems of popular diets such as the Zone, South Beach, and Atkins, Dr. Willett offers eye-opening research on the optimum ratio of carbohydrates, fats, and proteins, and the relative importance of various food groups and supplements. Find out how to choose wisely between different types of fats, which fruits and vegetables provide the best health insurance, and the proportions of each to integrate into their daily diet.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781439134818"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1439134812"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.11.9.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=KUTAu35zbi0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=KUTAu35zbi0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=KUTAu35zbi0C&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=KUTAu35zbi0C&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-KUTAu35zbi0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 14.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=KUTAu35zbi0C&rdid=book-KUTAu35zbi0C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Eat_Drink_and_Be_Healthy-sample-epub.acsm?id=KUTAu35zbi0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=KUTAu35zbi0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KaUGHB9fxC0C",
+      "etag": "ojIh/AKZs7M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KaUGHB9fxC0C",
+      "volumeInfo": {
+        "title": "Improve Your Eyesight Naturally",
+        "subtitle": "Easy, Effective, See Results Quickly",
+        "authors": ["Leo Angart"],
+        "publisher": "Saffire Press",
+        "publishedDate": "2005",
+        "description":
+          "Leo's approach is very specific. You will find exercises that work for your degree of vision problem. He explains how you can tone your eye-muscles, release tension and build up energy to regain your natural eyesight with simple exercises. The book includes simple vision tests that you can use yourself to verify your level of vision and monitor your improvement.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "3937553088"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9783937553085"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 239,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=KaUGHB9fxC0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=KaUGHB9fxC0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=KaUGHB9fxC0C&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=KaUGHB9fxC0C&dq=subject:%22health/fitness%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Improve_Your_Eyesight_Naturally.html?hl=&id=KaUGHB9fxC0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=KaUGHB9fxC0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HLsEsfPPpGAC",
+      "etag": "QSbQkeCGhXM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HLsEsfPPpGAC",
+      "volumeInfo": {
+        "title": "La familia del toxicodependiente",
+        "authors": ["Stefano Cirillo", "Roberto Berrini", "Gianni Cambiaso"],
+        "publisher": "Grupo Planeta (GBS)",
+        "publishedDate": "1999",
+        "description":
+          "Este es el libro mas completo aparecido hasta el momento sobre el fenomeno de las toxicodependencias, un texto que integra diferentes hipotesis etiopatogenicas en un modelo clinico complejo. Los multiples aspectos del tema, individuales, sociales y relacionales, por un lado; psicodiagnosticos y terapeuticos, por otro, quedan unificados por la referencia constante a la familia, contemplada como el origen del sufrimiento y a la vez como el recurso mas importante para la cura. Y en esa aproximacion se mueven personajes de tres generaciones: el hijo toxicodependiente, sus padres, tambien en su rol de conyuges, y los padres de los padres. A traves del esfuerzo de rastrear las vicisitudes que han marcado la existencia infantil y adolescente de cada generacion, se derivan tres modelos de procesos evolutivos perfilados en el universo multiforme y huidizo de la droga y que parecen afectar tanto a los nucleos disgregados como a las familias normales. Tres recorridos que representan otras tantas modalidades segun las cuales, de una generacion a otra, se transmiten traumas y carencias escasamente reconocidos y elaborados. Stefano Cirillo, terapeuta familiar, es miembro del equipo del Nuevo Centro para el Estudio de la Familia, dirigido por Mara Selvini Palazzoli, y tambien autor de Ninos maltratados con P. Di Blasio y El cambio en los contextos no terapeuticos, ambos igualmente publicados por Paidos. Roberto Berrini y Gianni Cambiasso, psicoterapeutas de formacion psicodinamica y sistemica, han coescrito los libros Terapia della famiglia in crisi y Figli per sempre. Roberto Mazza es profesor de la Escuela Superior de Servicio Social de la Universidad de Pisa.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8449307619"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788449307614"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 264,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=HLsEsfPPpGAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=HLsEsfPPpGAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink":
+          "http://books.google.com/books?id=HLsEsfPPpGAC&printsec=frontcover&dq=subject:%22health/fitness%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=HLsEsfPPpGAC&dq=subject:%22health/fitness%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/La_familia_del_toxicodependiente.html?hl=&id=HLsEsfPPpGAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=HLsEsfPPpGAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

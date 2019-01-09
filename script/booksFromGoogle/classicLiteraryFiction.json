@@ -1,0 +1,703 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 20,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "mopvOLRtUZ0C",
+      "etag": "TvXyUpHo+iI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mopvOLRtUZ0C",
+      "volumeInfo": {
+        "title": "Little Dorrit",
+        "authors": ["Charles Dickens"],
+        "publisher": "Wordsworth Editions",
+        "publishedDate": "1996",
+        "description":
+          "With an Introduction and Notes by Peter Preston, University of Nottingham. With Illustrations by Hablot K. Browne (Phiz). Little Dorritis a classic tale of imprisonment, both literal and metaphorical, while Dickens' working title for the novel, Nobody's Fault, highlights its concern with personal responsibility in private and public life. Dickens' childhood experiences inform the vivid scenes in Marshalsea debtor's prison, while his adult perceptions of governmental failures shape his satirical picture of the Circumlocution Office. The novel's range of characters - the honest, the crooked, the selfish and the self-denying - offers a portrait of society about whose values Dickens had profound doubts. Little Dorritis indisputably one of Dickens' finest works, written at the height of his powers. George Bernard Shaw called it 'a masterpiece among masterpices', a vedict shared by the novel's many admirers.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1853261823"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781853261824"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 740,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=mopvOLRtUZ0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=mopvOLRtUZ0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=mopvOLRtUZ0C&printsec=frontcover&dq=subject:%22classic+fiction%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=mopvOLRtUZ0C&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Little_Dorrit.html?hl=&id=mopvOLRtUZ0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=mopvOLRtUZ0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "A2DG7mclawoC",
+      "etag": "i4rxIwYi3sk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/A2DG7mclawoC",
+      "volumeInfo": {
+        "title": "Martin Chuzzlewit",
+        "authors": ["Charles Dickens"],
+        "publisher": "Wordsworth Editions",
+        "publishedDate": "1994-01-01",
+        "description":
+          "Old Martin Chuzzlewit, tormented by the greed and selfishness of his family, effectively drives his grandson, young Martin, to undertake a voyage to America. It is a voyage which will have crucial consequences not only for young Martin, but also for his grandfather and his grandfather's servant, Mary Graham with whom young Martin is in love.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1853262056"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781853262050"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 762,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 1,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=A2DG7mclawoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=A2DG7mclawoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=A2DG7mclawoC&printsec=frontcover&dq=subject:%22classic+fiction%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=A2DG7mclawoC&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Martin_Chuzzlewit.html?hl=&id=A2DG7mclawoC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=A2DG7mclawoC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KMR7PwAACAAJ",
+      "etag": "JVccY60VLG8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KMR7PwAACAAJ",
+      "volumeInfo": {
+        "title": "Moby Dick, Or, The Whale",
+        "authors": ["Herman Melville"],
+        "publishedDate": "1998-01-01",
+        "description":
+          "A nineteenth-century tale of life aboard a New England whaling ship whose captain is obsessed with the pursuit of a large white whale.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0679602909"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780679602903"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 636,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 178,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=KMR7PwAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=KMR7PwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=KMR7PwAACAAJ&dq=subject:%22classic+fiction%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=KMR7PwAACAAJ&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Moby_Dick_Or_The_Whale.html?hl=&id=KMR7PwAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=KMR7PwAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "R2JXPwAACAAJ",
+      "etag": "NDSWqipafBE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/R2JXPwAACAAJ",
+      "volumeInfo": {
+        "title": "Gulliver's Travels Into Several Remote Nations of the World",
+        "authors": ["Jonathan Swift"],
+        "publisher": "LRS (Library Reproduction Service)",
+        "publishedDate": "1997",
+        "description":
+          "This narrative of four incredible journeys, rightfully regarded as a children's favorite, is also an excellent satire. Swift devastates the institutions of Politics, Royalty and the Law, while also skewering scientists, historians and all Yahoos in ways which still hold true today.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "158118025X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781581180251"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 450,
+        "printType": "BOOK",
+        "categories": ["Adventure stories"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=R2JXPwAACAAJ&dq=subject:%22classic+fiction%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=R2JXPwAACAAJ&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Gulliver_s_Travels_Into_Several_Remote_N.html?hl=&id=R2JXPwAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=R2JXPwAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "J5jRmQEACAAJ",
+      "etag": "GYzVMQleF98",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/J5jRmQEACAAJ",
+      "volumeInfo": {
+        "title": "The People in the Trees",
+        "authors": ["Hanya Yanagihara"],
+        "publishedDate": "2014-01-02",
+        "description":
+          "In 1950, a young doctor called Norton Perina signs on with the anthropologist Paul Tallent for an expedition to the remote Micronesian island of Ivu'ivu in search of a rumoured lost tribe. They succeeed, finding not only the tribe but also a group of forest dwellers they dub 'The Dreamers.' Who turn out to be fantastically long-lived but progressively more senile. Perina suspects the source of their longevity is a hard-to-find turtle; unable to resist the possibility of eternal life, he kills one and smuggles some meat back to the States. He scientifically proves his thesis, earning worldwide fame and the Nobel Prize, but he soon discovers that its miraculous property comes at a terrible price.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0857898957"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780857898951"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 384,
+        "printType": "BOOK",
+        "categories": ["Classic fiction"],
+        "averageRating": 4,
+        "ratingsCount": 26,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=J5jRmQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=J5jRmQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=J5jRmQEACAAJ&dq=subject:%22classic+fiction%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=J5jRmQEACAAJ&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_People_in_the_Trees.html?hl=&id=J5jRmQEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=J5jRmQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QH7EngEACAAJ",
+      "etag": "A1sbNPqYWro",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QH7EngEACAAJ",
+      "volumeInfo": {
+        "title": "Babette's Feast and Other Stories",
+        "authors": ["Isak Dinesen", "Karen Blixen"],
+        "publisher": "Penguin Classics",
+        "publishedDate": "2013",
+        "description":
+          "These five rich, witty and magical stories from the author of Out of Africa include one of her most well-known tales, 'Babette's Feast', which was made into the classic film. It tells the story of a French cook working in a puritanical Norwegian community, who treats her employers to the decadent feast of a lifetime. There is also a real-life Prospero and his Ariel in 'Tempests', a mysterious pearl-fisher in 'The Diver' and a brief, tragic encounter in 'The Ring'. All the stories have a mystic, fairy-tale quality, linked by themes of angels, the sea, dreams and fate. They were among the last to be written by Isak Dinesen, and show her as a master of short fiction. 'Immensely satisfying . . . splendid imaginative creations, the work of a writer of stature.' The Times Literary Supplement 'Acutely perceptive, often mysterious stories.' Sunday Telegraph",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0141393769"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780141393766"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 244,
+        "printType": "BOOK",
+        "categories": ["Classic fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=QH7EngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=QH7EngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=QH7EngEACAAJ&dq=subject:%22classic+fiction%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=QH7EngEACAAJ&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Babette_s_Feast_and_Other_Stories.html?hl=&id=QH7EngEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=QH7EngEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2nYprgEACAAJ",
+      "etag": "TC1xRD0g9tg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2nYprgEACAAJ",
+      "volumeInfo": {
+        "title": "Robinson Crusoe",
+        "subtitle": "The Best of the Classics",
+        "authors": ["Daniel Defoe"],
+        "publisher": "CreateSpace",
+        "publishedDate": "2015-01-05",
+        "description":
+          "The sole survivor of a shipwreck, Robinson Crusoe is stranded on an uninhabited island far away from any shipping routes. With patience and ingenuity, he transforms his island into a tropical paradise. For twenty-four years he has no human company, until one Friday, he rescues a prisoner from a boat of cannibals.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1505842425"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781505842425"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": ["Castaways"],
+        "averageRating": 3.5,
+        "ratingsCount": 114,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=2nYprgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=2nYprgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=2nYprgEACAAJ&dq=subject:%22classic+fiction%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=2nYprgEACAAJ&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Robinson_Crusoe.html?hl=&id=2nYprgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=2nYprgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "5TxePgAACAAJ",
+      "etag": "SZgT7bjsyfc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/5TxePgAACAAJ",
+      "volumeInfo": {
+        "title": "Aunts Aren't Gentlemen",
+        "authors": ["P. G. Wodehouse"],
+        "publisher": "Everyman Paperback Classics",
+        "publishedDate": "2008",
+        "description":
+          "On doctor's orders, Bertie Wooster retires to the village of Maiden Eggesford but his rest-cure is interrupted by Aunt Dahlia who wants him to nobble a racehorse, Vanessa Cook who wants him to act as go-between for her and Orlo Porter -and Orlo Porter himself who would tear Bertie limb from limb if he ever discovered that Bertie and Vanessa were once engaged. Throw in a dotty explorer, an unreliable poacher, an irascible father and the stable cat, and the stage is set for a sublime farce",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1841591580"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781841591582"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 192,
+        "printType": "BOOK",
+        "categories": ["Humorous stories"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=5TxePgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=5TxePgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=5TxePgAACAAJ&dq=subject:%22classic+fiction%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=5TxePgAACAAJ&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Aunts_Aren_t_Gentlemen.html?hl=&id=5TxePgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=5TxePgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2H6FQgAACAAJ",
+      "etag": "L8Ka6+Q8gpE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2H6FQgAACAAJ",
+      "volumeInfo": {
+        "title": "Claudine's House",
+        "authors": ["Colette"],
+        "publisher": "Hesperus Press",
+        "publishedDate": "2006",
+        "description":
+          "In an idyllic setting of countryside and woods, Colette spent her childhood surrounded by a warm and loving family. Years later, her memories and experiences inspired her to create a series of snapshots of the innocence of provincial life. At once poignant and vividly alive, her recollections portray a magical world, filled with the beauty and the warmth of human relationships--\"and, above all, the lasting impressions made by her wonderful mother. French novelist Colette (1873-\"1954) is most famous for her portraits of childhood in the.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1843914158"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781843914150"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 166,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=2H6FQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=2H6FQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=2H6FQgAACAAJ&dq=subject:%22classic+fiction%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=2H6FQgAACAAJ&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Claudine_s_House.html?hl=&id=2H6FQgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=2H6FQgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Uvqa-mIB2lAC",
+      "etag": "jYlAPHO+Erk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Uvqa-mIB2lAC",
+      "volumeInfo": {
+        "title": "White Fang",
+        "authors": ["Jack London"],
+        "publisher": "Playmore Publishers",
+        "publishedDate": "1994-06",
+        "description":
+          "For generations, readers have enjoyed classic literature. They have delighted in the romance of Jane Austen, thrilled at the adventures of Jules Verne, and pondered the lessons of Aesop. Introduce young readers to these familiar volumes with Great Illustrated Classics. In this series, literary masterworks have been adapted for young scholars. Large, easy-to-read type and charming pen-and-ink drawings enhance the text. Students are sure to enjoy becoming acquainted with traditional literature through these well-loved classics.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "086611985X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780866119856"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Alaska"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Uvqa-mIB2lAC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Uvqa-mIB2lAC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Uvqa-mIB2lAC&dq=subject:%22classic+fiction%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=Uvqa-mIB2lAC&dq=subject:%22classic+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/White_Fang.html?hl=&id=Uvqa-mIB2lAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Uvqa-mIB2lAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 493,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "npqzQVfEw6IC",
+      "etag": "KXzoO2CR++M",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/npqzQVfEw6IC",
+      "volumeInfo": {
+        "title": "Celebrating Your Journey, Lifeskills in Synergy",
+        "subtitle": "12 Dimensions of Practical Daily Living, Full Version",
+        "authors": ["Sharon L. Benedict, MS, ACC"],
+        "publisher": "AuthorHouse",
+        "publishedDate": "2011-11-04",
+        "description":
+          "Celebrating Your Journey brings together everyday responsibilities with your long-awaited dreams and goals. This valuable self-paced book takes you through twelve life skill dimensions we all face each day-your relationships & core values, how you use your time, choose your career & manage money, keep records, even housekeeping, your possessions or \"stuff\", your health and wellness, sharing mealtime, childcare, how you play/have fun, reflection, and celebrating each day.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781481709279"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1481709275"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 308,
+        "printType": "BOOK",
+        "categories": ["Self-Help"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=npqzQVfEw6IC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=npqzQVfEw6IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=npqzQVfEw6IC&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=npqzQVfEw6IC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-npqzQVfEw6IC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 3.03,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=npqzQVfEw6IC&rdid=book-npqzQVfEw6IC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 3030000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Celebrating_Your_Journey_Lifeskills_in_S-sample-epub.acsm?id=npqzQVfEw6IC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Celebrating_Your_Journey_Lifeskills_in_S-sample-pdf.acsm?id=npqzQVfEw6IC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=npqzQVfEw6IC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "xTk8DwAAQBAJ",
+      "etag": "zKEXaAVhFrI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/xTk8DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Tribe of Mentors",
+        "subtitle": "Short Life Advice from the Best in the World",
+        "authors": ["HOUGHTON MIFFLIN HARCOURT.", "Timothy Ferriss"],
+        "publisher": "Houghton Mifflin Harcourt",
+        "publishedDate": "2017",
+        "description":
+          "We All Need Mentors. Here Are More than 100 of the World's Best. When facing life's questions, who do you turn to for advice? We all need mentors, particularly when the odds seem stacked against us. To find his own, four-time #1 best-selling author Tim Ferriss tracked down more than 100 eclectic experts to help him, and you, navigate life. Through short, action-packed profiles, he shares their secrets for success, happiness, meaning, and more. No matter the challenge or opportunity, something in these pages can help. You will learn: * The three books legendary investor Ray Dalio recommends most often * Lessons and tips from elite athletes like Maria Sharapova, Kelly Slater, Dara Torres, Tony Hawk, Dan Gable, and more * How and why Facebook co-founder Dustin Moskovitz says no to most incoming requests * The mental models of poker phenoms Daniel Negreanu, Annie Duke, Fedor Holz, and Liv Boeree * The meditation and mindfulness practices of David Lynch, Jimmy Fallon, Sharon Salzberg, Rick Rubin, Richa Chadha, Sarah Elizabeth Lewis, and others * The high-school loss that motivated actor Terry Crews for life . . . and how you can use the lesson * Why TED curator Chris Anderson thinks \"pursue your passion\" is terrible advice * Why renowned designer Debbie Millman believes in therapy but not in work-life balance * How Yuval Noah Harari's Sapiens went from repeated rejections to global mega-bestseller * The new beliefs, behaviors, and habits that have most helped cryptocurrency icons (founders of Ethereum, Zcash, etc.) in the last five years * Why Arianna Huffington recommends that you regularly scramble apps on your phone * The \"bar complex\" exercise that keeps country star Tim McGraw young * Why bestselling author Steven Pressfield believes college students should drive trucks and become cowboys * Why comedian Patton Oswalt wishes at least one catastrophic failure on anyone in the arts * Astrophysicist Janna Levin's unique reframe that helps her see obstacles as opportunities * Why actor Ben Stiller likes to dunk his head in a bucket of ice in the morning * Why Dropbox co-founder Drew Houston's cheat sheet for his younger self would include a tennis ball, a circle, and the number 30,000. Other mentors include Neil Gaiman, Ashton Kutcher, Dita Von Teese, Marc Benioff, Evan Williams, Brandon Stanton, Esther Perel, Darren Aronofsky, Steve Aoki, Joseph Gordon-Levitt, Stephanie McMahon, Craig Newmark, Gretchen Rubin, Bear Grylls, Laura Walker, Mr. Money Mustache (Pete Adeney), Linda Rottenberg, Jesse Williams, and many more.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781328994967"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1328994961"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 624,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "averageRating": 4.5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=xTk8DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=xTk8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=xTk8DwAAQBAJ&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=xTk8DwAAQBAJ&dq=subject:%22self-help%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Tribe_of_Mentors.html?hl=&id=xTk8DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=xTk8DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mDxoSmO2nWsC",
+      "etag": "kGjBkrO6kCQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mDxoSmO2nWsC",
+      "volumeInfo": {
+        "title": "The Power of Full Engagement",
+        "subtitle":
+          "Managing Energy, Not Time, Is the Key to High Performance and Personal Renewal",
+        "authors": ["Jim Loehr", "Dr. James E. Loehr", "Tony Schwartz"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2005-01-03",
+        "description":
+          "A personal energy training program outlines strategies on how to prevent burnout and improve productivity, discussing such areas as how to work with four key sources of energy, balancing stress and recovery, expanding capacity, and implementing positive routines. Reprint. 60,000 first printing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0743226755"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780743226752"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "averageRating": 4,
+        "ratingsCount": 13,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=mDxoSmO2nWsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=mDxoSmO2nWsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=mDxoSmO2nWsC&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=mDxoSmO2nWsC&dq=subject:%22self-help%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Power_of_Full_Engagement.html?hl=&id=mDxoSmO2nWsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=mDxoSmO2nWsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "azvHexd1g1YC",
+      "etag": "3cELOJEt4AU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/azvHexd1g1YC",
+      "volumeInfo": {
+        "title": "Why Does He Do That?",
+        "subtitle": "Inside the Minds of Angry and Controlling Men",
+        "authors": ["Lundy Bancroft"],
+        "publisher": "Penguin",
+        "publishedDate": "2003-09-02",
+        "description":
+          "In this groundbreaking bestseller, Lundy Bancroft—a counselor who specializes in working with abusive men—uses his knowledge about how abusers think to help women recognize when they are being controlled or devalued in a relationship, and to find ways to get free of abuse. He says he loves you. So...why does he do that? You’ve asked yourself this question again and again. Now you have the chance to see inside the minds of angry and controlling men—and change your life. In Why Does He Do That? you will learn about: • The early warning signs of abuse • The nature of abusive thinking • Myths about abusers • Ten abusive personality types • The role of drugs and alcohol • What you can fix, and what you can’t • And how to get out of an abusive relationship safely “This is without a doubt the most informative and useful book yet written on the subject of abusive men. Women who are armed with the insights found in these pages will be on the road to recovering control of their lives.”—Jay G. Silverman, Ph.D., Director, Violence Prevention Programs, Harvard School of Public Health From the Trade Paperback edition.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1101220732"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781101220733"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 432,
+        "printType": "BOOK",
+        "categories": ["Family & Relationships"],
+        "averageRating": 4,
+        "ratingsCount": 27,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.5.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=azvHexd1g1YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=azvHexd1g1YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=azvHexd1g1YC&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=azvHexd1g1YC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-azvHexd1g1YC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=azvHexd1g1YC&rdid=book-azvHexd1g1YC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Why_Does_He_Do_That-sample-epub.acsm?id=azvHexd1g1YC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=azvHexd1g1YC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "w8nSQqJPG2QC",
+      "etag": "BphWX3A7A3U",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/w8nSQqJPG2QC",
+      "volumeInfo": {
+        "title": "Controle su ira antes de que ella le controle a usted",
+        "subtitle": "cómo dominar las emociones destructivas",
+        "authors": ["Albert Ellis"],
+        "publisher": "Grupo Planeta (GBS)",
+        "publishedDate": "2007-01",
+        "description":
+          "La ira es un fenómeno universal que, si no se controla, puede ocasionar graves daños: la ruptura de una relación, la pérdida de nuestro trabajo o incluso una enfermedad grave. Sin embargo, en nuestra época, cuando el estrés es cada vez mayor, ¿quién no se ha dejado llevar por ella en alguna ocasión? ¿Existe alguna manera eficaz de resolver nuestros problemas sin que la ira entre en escena? Los autores de este libro creen que podemos lograrlo si seguimos sus innovadores consejos. El psicólogo Albert Ellis y Raymond Chip Tafrate nos ofrecen un método para abordar eficazmente los problemas emocionales, mediante unas técnicas que nos enseñarán las raíces y la naturaleza de nuestra ira.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8449319730"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788449319730"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 225,
+        "printType": "BOOK",
+        "categories": ["Self-Help"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=w8nSQqJPG2QC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=w8nSQqJPG2QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "es",
+        "previewLink":
+          "http://books.google.com/books?id=w8nSQqJPG2QC&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=w8nSQqJPG2QC&dq=subject:%22self-help%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Controle_su_ira_antes_de_que_ella_le_con.html?hl=&id=w8nSQqJPG2QC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=w8nSQqJPG2QC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "dWAzDwAAQBAJ",
+      "etag": "os8cFNaIL4Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/dWAzDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Lost Connections",
+        "subtitle":
+          "Uncovering the Real Causes of Depression – and the Unexpected Solutions",
+        "authors": ["Johann Hari"],
+        "publisher": "Bloomsbury Publishing USA",
+        "publishedDate": "2018-01-23",
+        "description":
+          "The New York Times bestseller from the author of Chasing the Scream, offering a radical new way of thinking about depression and anxiety. What really causes depression and anxiety--and how can we really solve them? Award-winning journalist Johann Hari suffered from depression since he was a child and started taking antidepressants when he was a teenager. He was told that his problems were caused by a chemical imbalance in his brain. As an adult, trained in the social sciences, he began to investigate whether this was true--and he learned that almost everything we have been told about depression and anxiety is wrong. Across the world, Hari found social scientists who were uncovering evidence that depression and anxiety are not caused by a chemical imbalance in our brains. In fact, they are largely caused by key problems with the way we live today. Hari's journey took him from a mind-blowing series of experiments in Baltimore, to an Amish community in Indiana, to an uprising in Berlin. Once he had uncovered nine real causes of depression and anxiety, they led him to scientists who are discovering seven very different solutions--ones that work. It is an epic journey that will change how we think about one of the biggest crises in our culture today. His TED talk, “Everything You Think You Know About Addiction Is Wrong,” has been viewed more than eight million times and revolutionized the global debate. This book will do the same.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781632868329"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1632868326"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 336,
+        "printType": "BOOK",
+        "categories": ["Self-Help"],
+        "averageRating": 3.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.26.19.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=dWAzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=dWAzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=dWAzDwAAQBAJ&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=dWAzDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-dWAzDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 19.6,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.02,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=dWAzDwAAQBAJ&rdid=book-dWAzDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 19600000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9020000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Lost_Connections-sample-epub.acsm?id=dWAzDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Lost_Connections-sample-pdf.acsm?id=dWAzDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=dWAzDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Fl3jI5P2BKsC",
+      "etag": "hKdKdpo80Oo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Fl3jI5P2BKsC",
+      "volumeInfo": {
+        "title": "Get Out of Your Own Way",
+        "subtitle": "Overcoming Self-Defeating Behavior",
+        "authors": ["Mark Goulston", "Philip Goldberg"],
+        "publisher": "Penguin",
+        "publishedDate": "1996-01-01",
+        "description":
+          "An authoritative guide shares practical advice designed to help readers overcome self-defeating behaviors--including procrastination, obsession, self-pity, rebellion, and guilt--to effectively cope with the challenges and difficulties of life. Reissue.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0399519904"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780399519901"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 177,
+        "printType": "BOOK",
+        "categories": ["Psychology"],
+        "averageRating": 3.5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Fl3jI5P2BKsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Fl3jI5P2BKsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Fl3jI5P2BKsC&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=Fl3jI5P2BKsC&dq=subject:%22self-help%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Get_Out_of_Your_Own_Way.html?hl=&id=Fl3jI5P2BKsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Fl3jI5P2BKsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Gk5rBgAAQBAJ",
+      "etag": "AGDfo9aOJos",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Gk5rBgAAQBAJ",
+      "volumeInfo": {
+        "title": "The Mathematics of Love",
+        "subtitle":
+          "Patterns, Proofs, and the Search for the Ultimate Equation",
+        "authors": ["Hannah Fry"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2015-02-03",
+        "description":
+          "Uses math as a tool for explaining the complicated patterns of love, tackling such common questions as the chance of finding love that will last, how online dating works, and when to compromise.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781476784885"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1476784884"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 128,
+        "printType": "BOOK",
+        "categories": ["Family & Relationships"],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.0.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Gk5rBgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Gk5rBgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Gk5rBgAAQBAJ&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=Gk5rBgAAQBAJ&dq=subject:%22self-help%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Mathematics_of_Love.html?hl=&id=Gk5rBgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Gk5rBgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "LXlfDQAAQBAJ",
+      "etag": "9OU1fOrbqr8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/LXlfDQAAQBAJ",
+      "volumeInfo": {
+        "title": "The Better Man Project",
+        "authors": ["Evan Sanders"],
+        "publisher": "BookBaby",
+        "publishedDate": "2013-04-30",
+        "description":
+          "The Better Man Project is a look at my daily journey towards becoming a better man, as well as a glimpse into the valuable lessons I learn along the way. Socrates once said, \"True knowledge exists in knowing that you know nothing.\" I, in fact, know nothing. But because I know nothing, I have given myself the best opportunity to learn from everything. That is why I am here in front of you today, and that is how The Better Man Project was born. Several years ago, I sat on the bed in my small dorm room and realized that whatever path I was on was destined for disaster. My life lacked love, passion, and goals that could inspire me to achieve my true potential. I was desperately trying to contain an emotional tornado inside of me, and realized that the damage was reaching a point of irreversibility. The forces of change were knocking on my door, and if that call was left unanswered, my worst nightmare was waiting for me right around the corner. I decided to try something new. The Better Man Project was originally intended to be a 30-day challenge to develop myself into a better man. Well, the project passed 30 days, 60 days, 90 days...and now I stand in front of you - the product of almost 1,000 days of personal cave diving into the depths of my heart - lantern in hand, searching for even more answers. I am not here to give you a formula. I am not here to tell you that I have some secret for how to be happy. Instead, I am here to tell you why you should embark on a journey that will be marked by times of darkness, but that will in the end, result in one thing: light. Each and every one of you will have a different path. No two will be the same, but they will all have something in common: the fact that you will be going against the grain and living a life that you are proud of. You will face your fears by moving against a culture that is designed to groom you to be just like everyone else. But it won’t be easy because you will have to overcome significant obstacles in order to achieve true happiness and realize your dreams. However, when you finally remove can’t from your vocabulary, you will develop into someone who finds motivation and inspiration within in order to create a vibrant future. I can tell you that my journey will never end. My life has permanently changed course because of this project and I have truly learned how to be a man. And to all the women out there, my project isn’t just about men’s issues. I am confident that if you join me and open this book, you might just find out how to be a better person as well. I promise you that this is going to be one awesome, wild ride. Love. Passion. Never Quit. \"Sanders unlocks the door of each aspect of a man's world as he breaks through the boundaries of life's disappointments, anguish, pain, and hostility. He uncovers the mysteries of love, honesty, integrity and respect. His acute sense of understanding the world around him and his ability to relate to all people enables him to share his philosophies and he gifts his inspiration to us in this book. It is not his full story. It is not the answer. It is the beginning and the now of a great man and his unique insights to how we can all become better every day.\" - Melissa Reyes \"This book is a groundbreaking work that will inspire men and women alike.\" - endsolitary \"I recommend this book highly for anyone that has a dream that they themselves are holding in a mental prison.\" - teddy3indc \"This book is filled with real life events, both good and bad, that have a way of speaking to any audience. It has not only helped me jumpstart a new, more positive way of thinking, but has also allowed me to reflect on certain aspects of my own life that I would not have before reading this.\" - jg3485",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781626757004"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1626757003"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Self-Help"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=LXlfDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=LXlfDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=LXlfDQAAQBAJ&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=LXlfDQAAQBAJ&dq=subject:%22self-help%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Better_Man_Project.html?hl=&id=LXlfDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_Better_Man_Project-sample-epub.acsm?id=LXlfDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_Better_Man_Project-sample-pdf.acsm?id=LXlfDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=LXlfDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "EjzlYBcDJzMC",
+      "etag": "l02tvpX74Ik",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/EjzlYBcDJzMC",
+      "volumeInfo": {
+        "title": "The Emotionally Abused Woman",
+        "subtitle": "Overcoming Destructive Patterns and Reclaiming Yourself",
+        "authors": ["Beverly Engel"],
+        "publisher": "Ballantine Books",
+        "publishedDate": "1992",
+        "description":
+          "Explains how to identify abusive people and situations, what factors can lead to emotional abuse in adulthood, and what attracts women to abusive people",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780449906446"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0449906442"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 244,
+        "printType": "BOOK",
+        "categories": ["Self-Help"],
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=EjzlYBcDJzMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=EjzlYBcDJzMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=EjzlYBcDJzMC&printsec=frontcover&dq=subject:%22self-help%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=EjzlYBcDJzMC&dq=subject:%22self-help%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Emotionally_Abused_Woman.html?hl=&id=EjzlYBcDJzMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=EjzlYBcDJzMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
