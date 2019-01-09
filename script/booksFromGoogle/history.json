@@ -1,0 +1,959 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 493,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "DwJbnKSOhNsC",
+      "etag": "73Sf9Ti00p0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DwJbnKSOhNsC",
+      "volumeInfo": {
+        "title": "Testament",
+        "subtitle": "A Soldier's Story of the Civil War",
+        "authors": ["Benson Bobrick"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2004-08-02",
+        "description":
+          "A chronicle of the Civil War, based on a series of letters by a young Union Army soldier, follows his firsthand experiences in battle, during which he struggled to survive despite harsh weather and difficult food rationing, became wounded, and buried his brother. Reprint. 35,000 first printing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780743251136"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "074325113X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.0.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=DwJbnKSOhNsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=DwJbnKSOhNsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=DwJbnKSOhNsC&printsec=frontcover&dq=subject:%22history%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=DwJbnKSOhNsC&dq=subject:%22history%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Testament.html?hl=&id=DwJbnKSOhNsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=DwJbnKSOhNsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3roTDQAAQBAJ",
+      "etag": "S+DN3+9OwWg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3roTDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Byways, Boots & Blisters",
+        "subtitle": "A History of Walkers and Walking",
+        "authors": ["Bill Laws"],
+        "publisher": "The History Press",
+        "publishedDate": "2011-11-08",
+        "description":
+          "\"The great affair is to move: to come down off this feather-bed of civilisation, and find the globe granite underfoot,\" wrote Robert Louis Stevenson. This book celebrates the history of walking for leisure and pleasure. There’s no shortage of the famous, and the not so famous, exponents of a good, long walk: Dr. Johnson and his faithful Boswell on their Hebridean jaunt; John Taylor, whose Penniless Pilgrimage, a record of his 1618 journey from London to Edinburgh, provided the first account of a walking tour; and Samuel Coleridge who conceived his epic tale of the Ancient Mariner on a ramble through Devon. The author also includes the stories of key inventions: the cagoule, the Thermos flask, the rucksack, Gore-Tex, and the walking pole. Fully illustrated throughout, this is an engaging history of one of man’s favorite pastimes.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780752475523"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0752475525"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 240,
+        "printType": "BOOK",
+        "categories": ["Sports & Recreation"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=3roTDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=3roTDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=3roTDQAAQBAJ&printsec=frontcover&dq=subject:%22history%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=3roTDQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-3roTDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 11.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.59,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=3roTDQAAQBAJ&rdid=book-3roTDQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 11990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9590000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Byways_Boots_Blisters-sample-epub.acsm?id=3roTDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Byways_Boots_Blisters-sample-pdf.acsm?id=3roTDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=3roTDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "d8p-AgAAQBAJ",
+      "etag": "4gLe3XVmSSg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/d8p-AgAAQBAJ",
+      "volumeInfo": {
+        "title": "Churchill and Finland",
+        "subtitle": "A Study in Anticommunism and Geopolitics",
+        "authors": ["Markku Ruotsila"],
+        "publisher": "Routledge",
+        "publishedDate": "2004-10-28",
+        "description":
+          "This book examines the intertwined dynamics of Churchill's anticommunist and geopolitical thought. It looks at the ways in which he attempted to use Finland as both tool and ally in the anticommunist projects of the twentieth century. Finland appeared a staunch ally in Churchill's recurring efforts to destroy or negate international communism, but the broader concerns of geopolitics and Great Power diplomacy complicated what might have been a simple task of teaming up with like-minded Finns. The resulting tensions are explored and explained in this study of comparative anticommunism based on Churchill's private papers and on additional British, Finnish and American documents.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781134271641"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1134271646"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 192,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=d8p-AgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=d8p-AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=d8p-AgAAQBAJ&printsec=frontcover&dq=subject:%22history%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=d8p-AgAAQBAJ&dq=subject:%22history%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Churchill_and_Finland.html?hl=&id=d8p-AgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=d8p-AgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "WP9sVkYjVboC",
+      "etag": "M7wcgDg2kOw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WP9sVkYjVboC",
+      "volumeInfo": {
+        "title": "姊姊妹妹遊台灣",
+        "authors": ["妍音"],
+        "publisher": "秀威出版",
+        "publishedDate": "2007-06-01",
+        "description":
+          "尋常家庭裡的兄弟姊妹各自成家後，也許就各在天涯一角，這角即使只是台灣島內，也未必能時時互相邀約見面敘舊，更別談郊遊踏青旅遊一事了。作者自身經歷卻相反，姊妹各自結婚後，反而每年有數次不等的旅遊聚會，一一遊遍台灣各地，如九份、陽明山、古坑、中橫、北埔……，一面遊山玩水，一面談心聊事，熱絡姊妹之情。 作者自云：「我當然不若洪都百鍊生之俠義情懷，以哭泣之感序其《老殘遊記》，我倒是只願浸淫在手足之情、社會之情、家國之情、宗教之情中，也因這些情感之堅、之純、之美，而有《姊姊妹妹遊台灣》之作。」 喜菡文學網站站長對此作了懇切的評價：「文很細碎，一些女人家才會注意的小枝節，一一在書中浮現。但也因為這些小枝節，更添書的可看性。因為枝節裡有一般遊客感知不到的歷史掌故、感知不到的現實情境，而妍音卻運用她的細膩筆觸，一字字帶領讀者進入姐妹們的悠閒世界……。」 ----------------- 目錄 第一回 名流湯村裸湯樂 竹子湖邊野菜香 第二回 富田花園賞花趣 大溪湖畔雙峰山 第三回 寶山水庫滌塵囂 北埔擂茶現古味 第四回 綠野仙蹤新世界 大隘山莊思幽情 第五回 內灣風情瞬間過 六號花園暫停留 第六回 綠葉方舟緣山邊 姐妹情深添幸福 第七回 集集車站小見證 古坑台灣咖啡香 第八回 後山美景理想地 橫貫公路奪天工 第九回 九份發思古幽情 金瓜石雨中美景 第十回 霧裡訪草山行館 一回眸竟成絕響【秀威資訊科技股份有限公司製作】",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789866909856"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9866909859"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 124,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=WP9sVkYjVboC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=WP9sVkYjVboC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "zh-TW",
+        "previewLink":
+          "http://books.google.com/books?id=WP9sVkYjVboC&printsec=frontcover&dq=subject:%22history%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=WP9sVkYjVboC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-WP9sVkYjVboC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2.48,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 2.08,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=WP9sVkYjVboC&rdid=book-WP9sVkYjVboC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2480000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 2080000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/%E5%A7%8A%E5%A7%8A%E5%A6%B9%E5%A6%B9%E9%81%8A%E5%8F%B0%E7%81%A3-sample-pdf.acsm?id=WP9sVkYjVboC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=WP9sVkYjVboC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "kXS2btld8WMC",
+      "etag": "o/1A6FCtlAs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/kXS2btld8WMC",
+      "volumeInfo": {
+        "title": "That Man",
+        "subtitle": "An Insider's Portrait of Franklin D. Roosevelt",
+        "authors": ["the late Robert H. Jackson"],
+        "publisher": "Oxford University Press",
+        "publishedDate": "2003-09-04",
+        "description":
+          "Robert H. Jackson was one of the giants of the Roosevelt era: an Attorney General, a still revered Supreme Court Justice and, not least important, one of Franklin Delano Roosevelt's close friends and advisers. His intimate memoir of FDR, written in the early 1950s before Jackson's untimely death, has remained unpublished for fifty years. Here is that newly discovered memoir. Written with skill and grace, this is truly a unique account of the personality, conduct, greatness of character, and common humanity of \"that man in the White House,\" as outraged conservatives called FDR. Jackson simply but eloquently provides an insider's view of Roosevelt's presidency, including such crucial events as FDR's Court-packing plan, his battles with corporate America, his decision to seek a third term, and his bold move to aid Britain in 1940 with American destroyers. He also offers an intimate personal portrait of Roosevelt--on fishing trips, in late-night poker games, or approving legislation while eating breakfast in bed, where he routinely began his workday. We meet a president who is far-sighted but nimble in attacking the problems at hand; principled but flexible; charismatic and popular but unafraid to pick fights, take stands, and when necessary, make enemies. That Man is not simply a valuable historical document, but an engaging and insightful look at one of the most remarkable men in American history. In reading this memoir, we gain not only a new appreciation for Roosevelt, but also admiration for Jackson, who emerges as both a public servant of great integrity and skill and a wry, shrewd, and fair-minded observer of politics at the highest level.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0198037597"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780198037590"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 336,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.7.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=kXS2btld8WMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=kXS2btld8WMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=kXS2btld8WMC&printsec=frontcover&dq=subject:%22history%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=kXS2btld8WMC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-kXS2btld8WMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 13.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=kXS2btld8WMC&rdid=book-kXS2btld8WMC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 13990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/That_Man-sample-epub.acsm?id=kXS2btld8WMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/That_Man-sample-pdf.acsm?id=kXS2btld8WMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=kXS2btld8WMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HbwEAAAAQBAJ",
+      "etag": "ZD6F+IwIoAc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HbwEAAAAQBAJ",
+      "volumeInfo": {
+        "title":
+          "The Enduring Vision: A History of the American People, Concise",
+        "authors": [
+          "Paul S. Boyer",
+          "Clifford E. Clark",
+          "Sandra Hawley",
+          "Joseph F. Kett",
+          "Andrew Rieser"
+        ],
+        "publisher": "Cengage Learning",
+        "publishedDate": "2008-12-31",
+        "description":
+          "Like its corresponding full-size version, THE ENDURING VISION, CONCISE, is an engaging, elegantly written narrative that emphasizes political, social, and cultural history within a chronological framework. THE ENDURING VISION is known for sustained attention to cultural history, and for innovative coverage of the environment, and the West. The Sixth Edition of THE ENDURING VISION, CONCISE, features a new co-author, Andrew Rieser, new pedagogy, and a beautiful new design. Available in the following split options: THE ENDURING VISION, CONCISE Sixth Edition Complete (Chapters 1-32), ISBN: 0547222807; Volume A: To 1877 (Chapters 1-16), ISBN: 0547222815; Volume B: Since 1865 (Chapters 16-32), ISBN: 0547222785. Important Notice: Media content referenced within the product description or the product text may not be available in the ebook version.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781111785529"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "111178552X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 872,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=HbwEAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=HbwEAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=HbwEAAAAQBAJ&printsec=frontcover&dq=subject:%22history%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=HbwEAAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-HbwEAAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 103.49,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 103.49,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=HbwEAAAAQBAJ&rdid=book-HbwEAAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 103490000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 103490000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 41490000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 41490000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 180
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=HbwEAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fQOAAAAAQBAJ",
+      "etag": "1LB6zcbAnrc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fQOAAAAAQBAJ",
+      "volumeInfo": {
+        "title": "Aspects of European History 1494-1789",
+        "authors": ["Stephen J. Lee"],
+        "publisher": "Routledge",
+        "publishedDate": "2005-06-20",
+        "description":
+          "First published in 1984. Routledge is an imprint of Taylor & Francis, an informa company.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781134972265"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1134972261"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=fQOAAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=fQOAAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=fQOAAAAAQBAJ&printsec=frontcover&dq=subject:%22history%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=fQOAAAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-fQOAAAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 45.95,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 36.76,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=fQOAAAAAQBAJ&rdid=book-fQOAAAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 45950000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 36760000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 22980000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 20220000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 180
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Aspects_of_European_History_1494_1789-sample-epub.acsm?id=fQOAAAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Aspects_of_European_History_1494_1789-sample-pdf.acsm?id=fQOAAAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=fQOAAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yKrf_wiVaoUC",
+      "etag": "fPCCOErrXLA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yKrf_wiVaoUC",
+      "volumeInfo": {
+        "title": "Benjamin Franklin's Humor",
+        "authors": ["Paul M. Zall"],
+        "publisher": "University Press of Kentucky",
+        "publishedDate": "2006-08-02",
+        "description":
+          "Although he called himself merely a \"printer\" in his will, Benjamin Franklin could have also called himself a diplomat, a doctor, an electrician, a frontier general, an inventor, a journalist, a legislator, a librarian, a magistrate, a postmaster, a promoter, a publisher -- and a humorist. John Adams wrote of Franklin, \"He had wit at will. He had humor that when he pleased was pleasant and delightful... [and] talents for irony, allegory, and fable, that he could adapt with great skill, to the promotion of moral and political truth.\" In Benjamin Franklin's Humor, author Paul M. Zall shows how one of America's founding fathers used humor to further both personal and national interests. Early in his career, Franklin impersonated the feisty widow Silence Dogood in a series of comically moralistic essays that helped his brother James outpace competitors in Boston's incipient newspaper market. In the mid-eighteenth century, he displayed his talent for comic impersonation in numerous editions of Poor Richard's Almanac, a series of pocket-sized tomes filled with proverbs and witticisms that were later compiled in Franklin's The Way to Wealth (1758), one of America's all-time bestselling books. Benjamin Franklin was sure to be remembered for his early work as an author, printer, and inventor, but his accomplishments as a statesman later in life firmly secured his lofty stature in American history. Zall shows how Franklin employed humor to achieve desired ends during even the most difficult diplomatic situations: while helping draft the Declaration of Independence, while securing France's support for the American Revolution, while brokering the treaty with England to end the War for Independence, and while mediating disputes at the Constitutional Convention. He supervised and facilitated the birth of a nation with customary wit and aplomb. Zall traces the development of an acute sense of humor throughout the life of a great American. Franklin valued humor not as an end in itself but as a means to gain a competitive edge, disseminate information, or promote a program. Early in life, he wrote about timely topics in an effort to reach a mass reading class, leaving an amusing record of early American culture. Later, Franklin directed his talents toward serving his country. Regardless of its origin, the best of Benjamin Franklin's humor transcends its initial purpose and continues to evoke undying laughter at shared human experiences.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780813138176"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0813138175"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 200,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=yKrf_wiVaoUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=yKrf_wiVaoUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=yKrf_wiVaoUC&printsec=frontcover&dq=subject:%22history%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=yKrf_wiVaoUC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-yKrf_wiVaoUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 60,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 48,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=yKrf_wiVaoUC&rdid=book-yKrf_wiVaoUC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 60000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 48000000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=yKrf_wiVaoUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fVGnSMTrj-wC",
+      "etag": "kh7vsyWpZL8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fVGnSMTrj-wC",
+      "volumeInfo": {
+        "title": "Fairy Tale Capitalism",
+        "subtitle": "Fact and Fiction Behind Too Big To Fail",
+        "authors": ["Emily Eisenlohr"],
+        "publisher": "AuthorHouse",
+        "publishedDate": "2010-09-09",
+        "description":
+          "“If something goes wrong, it’s going to be a big mess!” That 2004 warning came during the SEC’s approval of a new regulation intended to help investment banks avoid regulation. Confusing? In 1998 the large hedge fund Long-Term Capital Management was close to collapse. The Federal Reserve deemed it sufficiently large to present systemic risk and organized a “rescue” by a group of its largest banks. No taxpayer money was involved, but the event caught the eye of Congress. Congressmen and government officials vowed that something needed to be done about financial risk and regulation. Then Congress ignored LTCM’s lessons. Congress removed the barriers between investment and commercial banking in 1999. The following year Congress passed legislation that ensured that over-the-counter derivatives would not be regulated. Something else was going on. The real history of the systemic bubble began at least ten years ago. The implosion of this bubble is far larger than LTCM with even more complex risks and financial instruments. This meltdown involved huge taxpayer-funded bailouts. The public is paying attention this time, but is Congress really dealing with systemic risk? Many fictions surround the financial meltdown. Which political party is most responsible? Can regulators prevent another crisis? How do credit ratings play a hidden role? Can Congress tame systemic risk without shrinking big banks? In simple terms Emily Eisenlohr guides Main Street down Wall Street, where finance meets politics. She provides both simple explanations for the less financially savvy and simple illustrations to show even the experts how systemic risk remains, making future bailouts a given. She believes you don’t need to trade derivatives or have a Ph.D. in economics to understand this little history.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781452034058"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1452034052"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 272,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=fVGnSMTrj-wC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=fVGnSMTrj-wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=fVGnSMTrj-wC&printsec=frontcover&dq=subject:%22history%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=fVGnSMTrj-wC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-fVGnSMTrj-wC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=fVGnSMTrj-wC&rdid=book-fVGnSMTrj-wC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Fairy_Tale_Capitalism-sample-epub.acsm?id=fVGnSMTrj-wC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Fairy_Tale_Capitalism-sample-pdf.acsm?id=fVGnSMTrj-wC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=fVGnSMTrj-wC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "fd2MDQAAQBAJ",
+      "etag": "wq7PJoIT4fk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/fd2MDQAAQBAJ",
+      "volumeInfo": {
+        "title": "Gunsmoke Over the Atlantic",
+        "subtitle": "First Naval Actions of the Civil War",
+        "authors": ["Jack Coombe"],
+        "publisher": "Bantam",
+        "publishedDate": "2003-04",
+        "description":
+          "The acclaimed historian and author of Thunder Along the Mississippi furnishes a definitive account of the early naval history of the Civil War that chronicles the dramatic confrontations between the Union Navy and blockade runners aided by Confederate warships. Reprint.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780553380736"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0553380737"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Health & Fitness"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=fd2MDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=fd2MDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=fd2MDQAAQBAJ&printsec=frontcover&dq=subject:%22history%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=fd2MDQAAQBAJ&dq=subject:%22history%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Gunsmoke_Over_the_Atlantic.html?hl=&id=fd2MDQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=fd2MDQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

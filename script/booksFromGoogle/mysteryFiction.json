@@ -1,0 +1,769 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 480,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "WikP56zjEdEC",
+      "etag": "N9ay0LsHKac",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WikP56zjEdEC",
+      "volumeInfo": {
+        "title": "Northwest Angle",
+        "subtitle": "A Novel",
+        "authors": ["William Kent Krueger"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2012-04-10",
+        "description":
+          "Discovering a murdered teen while stranded by a gale on the remote Lake of the Woods, detective Cork O'Connor and his daughter, Jenny, also discover a mysterious baby boy whose life is threatened by powerful adversaries.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781439153963"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1439153965"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 368,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 15,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=WikP56zjEdEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=WikP56zjEdEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=WikP56zjEdEC&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=WikP56zjEdEC&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Northwest_Angle.html?hl=&id=WikP56zjEdEC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=WikP56zjEdEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "CHp_AwAAQBAJ",
+      "etag": "FtHtem5kHy8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CHp_AwAAQBAJ",
+      "volumeInfo": {
+        "title": "That Night",
+        "subtitle": "A Novel",
+        "authors": ["Chevy Stevens"],
+        "publisher": "Macmillan",
+        "publishedDate": "2014-06-17",
+        "description":
+          "Returning home after serving time for the wrongful conviction of her sister's murder, Toni struggles to reacclimate and avoid parole violations while her boyfriend, who was also wrongly convicted, resolves to clear their names. By the best-selling author of Still Missing. 150,000 first printing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781250034601"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1250034604"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 384,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 43,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=CHp_AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=CHp_AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=CHp_AwAAQBAJ&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=CHp_AwAAQBAJ&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/That_Night.html?hl=&id=CHp_AwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=CHp_AwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "u7RvDwAAQBAJ",
+      "etag": "TU9zy21gkm0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/u7RvDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Hammett Unwritten",
+        "subtitle": "A Novel",
+        "authors": ["Owen Fitzstephen", "Gordon McAlpine"],
+        "publishedDate": "2013",
+        "description":
+          "Follows Dashiell Hammett from 1930s San Francisco through 1940s Hollywood through a series of dangerous events that culminate in a fateful meeting with a woman from his past.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781616147143"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1616147148"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 176,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=u7RvDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=u7RvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=u7RvDwAAQBAJ&pg=PP1&dq=subject:%22mystery+fiction%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=u7RvDwAAQBAJ&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Hammett_Unwritten.html?hl=&id=u7RvDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=u7RvDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2ElnBAAAQBAJ",
+      "etag": "+8AMfoVttAU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2ElnBAAAQBAJ",
+      "volumeInfo": {
+        "title": "About That Night",
+        "authors": ["Norah McClintock"],
+        "publisher": "Orca Book Publishers",
+        "publishedDate": "2014-09-01",
+        "description":
+          "When her boyfriend Derek disappears, Jordie looks like a suspect. What does she know about that night?",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781459805958"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "145980595X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 248,
+        "printType": "BOOK",
+        "categories": ["Young Adult Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=2ElnBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=2ElnBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=2ElnBAAAQBAJ&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=2ElnBAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-2ElnBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 7.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=2ElnBAAAQBAJ&rdid=book-2ElnBAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 7990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/About_That_Night-sample-pdf.acsm?id=2ElnBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=2ElnBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "4ak4j9NPvysC",
+      "etag": "JGGLki4WG58",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/4ak4j9NPvysC",
+      "volumeInfo": {
+        "title": "Black House",
+        "authors": ["Stephen King", "Peter Straub"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2012-11-27",
+        "description":
+          "A retired Los Angeles homicide detective living in a rural Wisconsin town, Jack Sawyer is called in to assist the local police chief in solving a gruesome series of murders that causes Jack to experience inexplicable waking nightmares.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781451697735"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1451697732"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 831,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 41,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=4ak4j9NPvysC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=4ak4j9NPvysC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=4ak4j9NPvysC&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=4ak4j9NPvysC&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Black_House.html?hl=&id=4ak4j9NPvysC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=4ak4j9NPvysC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TwavAwAAQBAJ",
+      "etag": "1gDeyBelu90",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TwavAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Sight Unseen",
+        "authors": ["Iris Johansen", "Roy Johansen"],
+        "publisher": "Macmillan",
+        "publishedDate": "2014-07-15",
+        "description":
+          "A latest collaboration by the mother-son duo of Close Your Eyes follows a deadly accident on San Diego's historic Cabrillo bridge that intelligence sniper Kendra Michaels realizes is tied to a dangerous plot that threatens everyone she loves. 250,000 first printing.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781250020529"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1250020522"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=TwavAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=TwavAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=TwavAwAAQBAJ&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=TwavAwAAQBAJ&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Sight_Unseen.html?hl=&id=TwavAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=TwavAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "sLxO5QSGoHcC",
+      "etag": "1YgJQazpmFs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/sLxO5QSGoHcC",
+      "volumeInfo": {
+        "title":
+          "A History of Greek Philosophy: Volume 4, Plato: The Man and His Dialogues: Earlier Period",
+        "authors": ["W. K. C. Guthrie", "William Keith Chambers Guthrie"],
+        "publisher": "Cambridge University Press",
+        "publishedDate": "1986-04-24",
+        "description":
+          "The fourth volume of Professor Guthrie's great history of Greek thought deals exclusively with Plato. Plato, however, so prolific a writer, so profoundly original in his thought, and so colossal an influence on the later history of philosophy, that it has not been possible to confine him to one volume. Volume IV therefore offers a general introduction to his life and writings, and covers the so-called 'early' and 'middle' periods of his philosophical development (up to and including the Republic).",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0521311012"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780521311014"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 624,
+        "printType": "BOOK",
+        "categories": ["Philosophy"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=sLxO5QSGoHcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=sLxO5QSGoHcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=sLxO5QSGoHcC&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=sLxO5QSGoHcC&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/A_History_of_Greek_Philosophy_Volume_4_P.html?hl=&id=sLxO5QSGoHcC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=sLxO5QSGoHcC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Jgm9S9MkxwMC",
+      "etag": "t9QZPMcDNis",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Jgm9S9MkxwMC",
+      "volumeInfo": {
+        "title": "Alone",
+        "authors": ["Lisa Gardner"],
+        "publisher": "Bantam",
+        "publishedDate": "2005",
+        "description":
+          "When Bobby Dodge, a sniper with the Massachusetts State Police SWAT team, saves a woman and her young son from her armed husband, he finds himself investigating the shooting of a man who had accused his wife of poisoning their son.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780553584530"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0553584537"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 451,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 50,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.5.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Jgm9S9MkxwMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Jgm9S9MkxwMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Jgm9S9MkxwMC&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=Jgm9S9MkxwMC&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Alone.html?hl=&id=Jgm9S9MkxwMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Jgm9S9MkxwMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "BbVvDwAAQBAJ",
+      "etag": "Kwop7Xts3yI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/BbVvDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Styx & Stone",
+        "subtitle": "An Ellie Stone Mystery",
+        "authors": ["James W. Ziskin"],
+        "publisher": "Seventh Street Books",
+        "publishedDate": "2013",
+        "description":
+          "When Ellie Stone returns to New York after receiving news of a brutal assault on her estranged father, a renowned Dante scholar, she begins to suspect that it is more than a robbery when another professor turns up dead.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781616148195"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1616148195"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 267,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=BbVvDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=BbVvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=BbVvDwAAQBAJ&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=BbVvDwAAQBAJ&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Styx_Stone.html?hl=&id=BbVvDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=BbVvDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "MPYaz3nVxOgC",
+      "etag": "q5fR4JrWFOc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/MPYaz3nVxOgC",
+      "volumeInfo": {
+        "title": "Charley's Web",
+        "subtitle": "A Novel",
+        "authors": ["Joy Fielding"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2008",
+        "description":
+          "The story of an ambitious journalist whose foray into the mind of a killer puts her own family in jeopardy.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780743296014"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "074329601X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 437,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 13,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.2",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=MPYaz3nVxOgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=MPYaz3nVxOgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=MPYaz3nVxOgC&printsec=frontcover&dq=subject:%22mystery+fiction%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=MPYaz3nVxOgC&dq=subject:%22mystery+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Charley_s_Web.html?hl=&id=MPYaz3nVxOgC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Charley_s_Web-sample-epub.acsm?id=MPYaz3nVxOgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=MPYaz3nVxOgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

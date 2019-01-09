@@ -1,0 +1,934 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 496,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "VGqvDgAAQBAJ",
+      "etag": "IeM+8ft9rAQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VGqvDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Doctor In The House",
+        "authors": ["Richard Gordon"],
+        "publisher": "House of Stratus",
+        "publishedDate": "2014-07-01",
+        "description":
+          "Richard Gordon's acceptance into St Swithan's came as no surprise. However, it was a shock to discover that, once there, he would have to work. Fortunately, life proved not to be all work and no play. This hilarious hospital comedy is for anyone who wonders what medical students get up to. Just don't read it on the way to the doctor's!",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780755146949"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0755146948"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 152,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=VGqvDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=VGqvDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=VGqvDgAAQBAJ&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=VGqvDgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-VGqvDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 6.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 5.38,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=VGqvDgAAQBAJ&rdid=book-VGqvDgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 6990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 5380000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Doctor_In_The_House-sample-pdf.acsm?id=VGqvDgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=VGqvDgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yKrf_wiVaoUC",
+      "etag": "KFinEoIRwaw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yKrf_wiVaoUC",
+      "volumeInfo": {
+        "title": "Benjamin Franklin's Humor",
+        "authors": ["Paul M. Zall"],
+        "publisher": "University Press of Kentucky",
+        "publishedDate": "2006-08-02",
+        "description":
+          "Although he called himself merely a \"printer\" in his will, Benjamin Franklin could have also called himself a diplomat, a doctor, an electrician, a frontier general, an inventor, a journalist, a legislator, a librarian, a magistrate, a postmaster, a promoter, a publisher -- and a humorist. John Adams wrote of Franklin, \"He had wit at will. He had humor that when he pleased was pleasant and delightful... [and] talents for irony, allegory, and fable, that he could adapt with great skill, to the promotion of moral and political truth.\" In Benjamin Franklin's Humor, author Paul M. Zall shows how one of America's founding fathers used humor to further both personal and national interests. Early in his career, Franklin impersonated the feisty widow Silence Dogood in a series of comically moralistic essays that helped his brother James outpace competitors in Boston's incipient newspaper market. In the mid-eighteenth century, he displayed his talent for comic impersonation in numerous editions of Poor Richard's Almanac, a series of pocket-sized tomes filled with proverbs and witticisms that were later compiled in Franklin's The Way to Wealth (1758), one of America's all-time bestselling books. Benjamin Franklin was sure to be remembered for his early work as an author, printer, and inventor, but his accomplishments as a statesman later in life firmly secured his lofty stature in American history. Zall shows how Franklin employed humor to achieve desired ends during even the most difficult diplomatic situations: while helping draft the Declaration of Independence, while securing France's support for the American Revolution, while brokering the treaty with England to end the War for Independence, and while mediating disputes at the Constitutional Convention. He supervised and facilitated the birth of a nation with customary wit and aplomb. Zall traces the development of an acute sense of humor throughout the life of a great American. Franklin valued humor not as an end in itself but as a means to gain a competitive edge, disseminate information, or promote a program. Early in life, he wrote about timely topics in an effort to reach a mass reading class, leaving an amusing record of early American culture. Later, Franklin directed his talents toward serving his country. Regardless of its origin, the best of Benjamin Franklin's humor transcends its initial purpose and continues to evoke undying laughter at shared human experiences.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780813138176"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0813138175"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 200,
+        "printType": "BOOK",
+        "categories": ["History"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=yKrf_wiVaoUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=yKrf_wiVaoUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=yKrf_wiVaoUC&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=yKrf_wiVaoUC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-yKrf_wiVaoUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 60,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 48,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=yKrf_wiVaoUC&rdid=book-yKrf_wiVaoUC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 60000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 48000000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=yKrf_wiVaoUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KP2pda4XBdMC",
+      "etag": "TGaGMuHvuG8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KP2pda4XBdMC",
+      "volumeInfo": {
+        "title": "A Long Way Down",
+        "authors": ["Nick Hornby"],
+        "publisher": "Penguin UK",
+        "publishedDate": "2005-05-05",
+        "description":
+          "Narrated in turns by a dowdy, middle-aged woman, a half-crazed adolescent, a disgraced breakfast TV presenter and an American rock star cum pizza delivery boy, A Long Way Down is the story of the Toppers House Four, aka Maureen, Jess, Martin and JJ. A low-rent crowd with absolutely nothing in common - save where they end up that New Year's Eve night. And what they do next, of course. Funny, sad, and wonderfully humane, Nick Hornby's new novel asks some of the big questions: about life and death, strangers and friendship, love and pain, and whether a slice of pizza can really see you through a long, dark night of the soul.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780141905778"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0141905778"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 272,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 3.5,
+        "ratingsCount": 94,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.17.13.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=KP2pda4XBdMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=KP2pda4XBdMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=KP2pda4XBdMC&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=KP2pda4XBdMC&dq=subject:%22humor%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/A_Long_Way_Down.html?hl=&id=KP2pda4XBdMC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/A_Long_Way_Down-sample-epub.acsm?id=KP2pda4XBdMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=KP2pda4XBdMC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_9VlIUVMAZAC",
+      "etag": "pbApEldSrIg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_9VlIUVMAZAC",
+      "volumeInfo": {
+        "title": "Man and Superman",
+        "subtitle": "A Comedy and a Philosophy",
+        "authors": ["George Bernard Shaw"],
+        "publisher": "The Floating Press",
+        "publishedDate": "2012-06-01",
+        "description":
+          "Fans of thought-provoking drama will relish George Bernard Shaw's classic take on gender roles and relations, Man and Superman. Packed with plenty of big ideas, this engaging work helped rank Bernard Shaw among the most significant and influential dramatists of his era.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781775459903"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "177545990X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 259,
+        "printType": "BOOK",
+        "categories": ["Drama"],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=_9VlIUVMAZAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=_9VlIUVMAZAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=_9VlIUVMAZAC&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=_9VlIUVMAZAC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-_9VlIUVMAZAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 3.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 3.03,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=_9VlIUVMAZAC&rdid=book-_9VlIUVMAZAC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 3990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 3030000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Man_and_Superman-sample-epub.acsm?id=_9VlIUVMAZAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=_9VlIUVMAZAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "deaRm0KqhhsC",
+      "etag": "BTQQ1B3+llM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/deaRm0KqhhsC",
+      "volumeInfo": {
+        "title": "Assholes Finish First",
+        "authors": ["Tucker Max"],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "2010-09-28",
+        "description":
+          "The best gift for the dudes and bros in your life: the fratire New York Times bestseller Assholes Finish First, featuring twenty-five new and exclusive stories by Tucker Max. What do you do after you write a #1 bestselling book about your drunken, sexual misadventures that makes you rich and famous? Celebrate by getting more drunk and having insane amounts of sex, obviously. And pretty soon you’ve got another bestselling book on your hands. Stuffed full of ridiculous stories of bad decisions, debauchery, and sexual recklessness, Assholes Finish First starts where I Hope They Serve Beer In Hell left off, then proceeds to “some next-level shit.” You already know how women react to confidence, game, and vodka, but what happens when you add money and fame to the mix? You get answers to the hard questions you've never thought of asking: • What’s it like to have sex with a midget? What about two midgets? • What does it do to a man to watch a nineteen-year-old do wind sprints to sober up, so that she can have sex with you before her twin sister does? • At what number of virgins does deflowering them stop being fun and start feeling like a job? • When a girl you met three hours ago decides to tattoo your name on her body, what is the appropriate reaction? The answers are inside, they are absurd and hilarious, and they are the product of one man's experiences: His name is Tucker Max, and he is still an asshole.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1416951148"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781416951148"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": ["Humor"],
+        "averageRating": 4,
+        "ratingsCount": 168,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.7.5.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=deaRm0KqhhsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=deaRm0KqhhsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=deaRm0KqhhsC&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=deaRm0KqhhsC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-deaRm0KqhhsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=deaRm0KqhhsC&rdid=book-deaRm0KqhhsC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Assholes_Finish_First-sample-epub.acsm?id=deaRm0KqhhsC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=deaRm0KqhhsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Geo6DwAAQBAJ",
+      "etag": "t6lrEFUdXEU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Geo6DwAAQBAJ",
+      "volumeInfo": {
+        "title": "There Are No Grown-ups",
+        "subtitle": "A Midlife Coming-of-Age Story",
+        "authors": ["Pamela Druckerman"],
+        "publisher": "Penguin",
+        "publishedDate": "2018-05-29",
+        "description":
+          "The best-selling author of BRINGING UP BÉBÉ investigates life in her forties, and wonders whether her mind will ever catch up with her face. When Pamela Druckerman turns 40, waiters start calling her \"Madame,\" and she detects a new message in mens' gazes: I would sleep with her, but only if doing so required no effort whatsoever. Yet forty isn't even technically middle-aged anymore. And there are upsides: After a lifetime of being clueless, Druckerman can finally grasp the subtext of conversations, maintain (somewhat) healthy relationships and spot narcissists before they ruin her life. What are the modern forties? What do we know once we reach them? What makes someone a \"grown-up\" anyway? And why didn't anyone warn us that we'd get cellulite on our arms? Part frank memoir, part hilarious investigation of daily life, There Are No Grown-Ups diagnoses the in-between decade when... • Everyone you meet looks a little bit familiar. • You're matter-of-fact about chin hair. • You can no longer wear anything ironically. • There's at least one sport your doctor forbids you to play. • You become impatient while scrolling down to your year of birth. • Your parents have stopped trying to change you. • You don't want to be with the cool people anymore; you want to be with your people. • You realize that everyone is winging it, some just do it more confidently. • You know that it's ok if you don't like jazz. Internationally best-selling author and New York Times contributor Pamela Druckerman leads us on a quest for wisdom, self-knowledge and the right pair of pants. A witty dispatch from the front lines of the forties, THERE ARE NO GROWN-UPS is a (midlife) coming-of-age story--and a book for anyone trying to find their place in the world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780698186811"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0698186818"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.5.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Geo6DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Geo6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Geo6DwAAQBAJ&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=Geo6DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-Geo6DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=Geo6DwAAQBAJ&rdid=book-Geo6DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/There_Are_No_Grown_ups-sample-epub.acsm?id=Geo6DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Geo6DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yT07SFerMvkC",
+      "etag": "pOra1D1iSC8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yT07SFerMvkC",
+      "volumeInfo": {
+        "title": "The Bible According to Mark Twain",
+        "authors": [
+          "Mark Twain",
+          "Howard G. Baetzhold",
+          "Joseph B. Mccullough"
+        ],
+        "publisher": "Simon and Schuster",
+        "publishedDate": "1996-12-06",
+        "description":
+          "Compiles letters, essays, diaries, and excerpts about heaven, hell, sinners, and saints",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780684824390"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0684824396"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 416,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "averageRating": 4,
+        "ratingsCount": 6,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.0.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=yT07SFerMvkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=yT07SFerMvkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=yT07SFerMvkC&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=yT07SFerMvkC&dq=subject:%22humor%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Bible_According_to_Mark_Twain.html?hl=&id=yT07SFerMvkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=yT07SFerMvkC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "b3I4DwAAQBAJ",
+      "etag": "+OqVC0Rmpdg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/b3I4DwAAQBAJ",
+      "volumeInfo": {
+        "title": "I'm Fine... and Other Lies",
+        "authors": ["Whitney Cummings"],
+        "publisher": "Penguin",
+        "publishedDate": "2017",
+        "description":
+          "After getting her start as a stand-up comic and then breaking out with her wildly successful CBS sitcom 2 Broke Girls (she's the creator, writer, and executive producer), Whitney Cummings has seen a few things and is turning to the written word to tell us all the stuff she doesn t say on stage. That time a dermatologist shamed a too-young Whitney into getting Botox and then she looked like a cross between that lady who made her face look like a cat and an actual cat? It was fine! She learned how to be more direct and not rely on facial expressions anymore. She's totally fine. When Whitney learned the hard way that when you think a guy is your soulmate, he is probably just gay, she was completely, totally fine. So what if Whitney had to undergo equine therapy to overcome an eating disorder? Really, it s fine! Horses helped give her the permission she needed to be so hungry that she could eat, well, a horse. See how totally fine she is? Full of intellect, anxiety, chutzpah, and profundi",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780735212602"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0735212600"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Biography & Autobiography"],
+        "averageRating": 2,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=b3I4DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=b3I4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=b3I4DwAAQBAJ&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=b3I4DwAAQBAJ&dq=subject:%22humor%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/I_m_Fine_and_Other_Lies.html?hl=&id=b3I4DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=b3I4DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nclADQAAQBAJ",
+      "etag": "QD2fz80MTuo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nclADQAAQBAJ",
+      "volumeInfo": {
+        "title": "The GCHQ Puzzle Book",
+        "authors": ["GCHQ"],
+        "publisher": "Penguin UK",
+        "publishedDate": "2016-10-20",
+        "description":
+          "GCHQ is a top-secret intelligence and security agency which recruits some of the very brightest minds. Over the years, their codebreakers have helped keep our country safe, from the Bletchley Park breakthroughs of WWII to the modern-day threat of cyberattack. So it comes as no surprise that, even in their time off, the staff at GCHQ love a good puzzle. Whether they're recruiting new staff or challenging each other to the toughest Christmas quizzes and treasure hunts imaginable, puzzles are at the heart of what GCHQ does. Now they're opening up their archives of decades' worth of codes, puzzles and challenges for everyone to try.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780718185558"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0718185552"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 368,
+        "printType": "BOOK",
+        "categories": ["Games & Activities"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.10.9.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=nclADQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=nclADQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=nclADQAAQBAJ&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=nclADQAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-nclADQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 18.32,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=nclADQAAQBAJ&rdid=book-nclADQAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 18320000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/The_GCHQ_Puzzle_Book-sample-epub.acsm?id=nclADQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=nclADQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HhvhSzCxOe0C",
+      "etag": "qf6ybhXCT5A",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HhvhSzCxOe0C",
+      "volumeInfo": {
+        "title": "I Know You Got Soul",
+        "authors": ["Jeremy Clarkson"],
+        "publisher": "Penguin UK",
+        "publishedDate": "2006-05-25",
+        "description":
+          "In I Know You Got Soul, Jeremy Clarkson writes about the machines that he believes have 'soul'. It will come as no surprise to anyone that Jeremy Clarkson loves machines. But it's not just any old bucket of blots, cogs and bearings that rings his bell. In fact, he's scoured the length and breadth of the land, plunged into the oceans and taken to the skies in search of machines with that elusive certain something. And along the way he's discovered: • The safest place to be in the event of nuclear war • Who would win if Superman, James Bond and The Terminator had a fight • The stupidest person he's ever met • What an old Cornish institution called Arthur has to do with 0898 chat lines • And how jean-Claude Van Damme might get eaten by a lion In I Know You Got Soul: Machines with a Certain Something, Jeremy Clarkson tells stories of the geniuses, innovators and crackpots who put the ghost in the machine. From Brunel's SS Great Britain to the awesome Blackbird spy-plane and from the woeful - but inspiring - Graf Zeppelin to Han Solo's Millennium Falcon, they can't help but love them in return. Praise for Jeremy Clarkson: 'Brilliant . . . laugh-out-loud' Daily Telegraph 'Outrageously funny . . . will have you in stitches' Time Out Number-one bestseller Jeremy Clarkson writes on cars, current affairs and anything else that annoys him in his sharp and funny collections. Born To Be Riled, Clarkson On Cars, Don't Stop Me Now, Driven To Distraction, Round the Bend and Motorworld are also available as Penguin paperbacks; the Penguin AppiClarkson: The Book of Cars can be downloaded on the App Store. Jeremy Clarkson because his writing career on the Rotherham Advertiser. Since then he has written for the Sun and the Sunday Times. Today he is the tallest person working in British television, and is the presenter of the hugely popular Top Gear.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780141901374"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0141901373"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 288,
+        "printType": "BOOK",
+        "categories": ["Transportation"],
+        "averageRating": 3.5,
+        "ratingsCount": 6,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.5.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=HhvhSzCxOe0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=HhvhSzCxOe0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=HhvhSzCxOe0C&printsec=frontcover&dq=subject:%22humor%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=HhvhSzCxOe0C&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-HhvhSzCxOe0C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 11.27,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.02,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=HhvhSzCxOe0C&rdid=book-HhvhSzCxOe0C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 11270000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9020000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/I_Know_You_Got_Soul-sample-epub.acsm?id=HhvhSzCxOe0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=HhvhSzCxOe0C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

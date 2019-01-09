@@ -1,0 +1,351 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 5,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "J4ZH330KEg4C",
+      "etag": "KLM8Q9Bl1FY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/J4ZH330KEg4C",
+      "volumeInfo": {
+        "title": "Rain Queen",
+        "authors": ["Katherine Scholes"],
+        "publisher": "Penguin Group Australia",
+        "publishedDate": "2010-01-04",
+        "description":
+          "Two women, bound by a shocking event, drawn to a vast and beautiful country they cannot forget. Kate Carrington has cut all ties with Africa, the land of her birth. Her past is buried alongside her missionary parents, the last reminders locked safely away in the attic. But when a mysterious woman moves in next door, Kate's carefully constructed world is torn apart. Annah Mason has led an extraordinary life – one that has taken her from a hospital in Langali to the company of rainmakers deep in the Tanzanian bush. Her connection with the Waganga people has brought her the great love of her life, and freedom beyond her dreams. Yet she carries with her a painful secret. Now, the time has come for her to tell her story – to finally set Kate free. The international bestseller that has captured hearts the world over. 'This most moving book, whose every breath is a love-song for Africa and her people, is a faultlessly woven cloth.' LE MONDE (FRANCE) 'One to keep you reading late into the night.' WEST AUSTRALIAN 'Beautifully written, lively and sympathetic... an adventurous and highly entertaining read.' BOOKSHOW (GERMANY)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780143202790"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0143202790"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 600,
+        "printType": "BOOK",
+        "categories": ["Fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.6.2.0.preview.2",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=J4ZH330KEg4C&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=J4ZH330KEg4C&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=J4ZH330KEg4C&dq=subject:%22modern+fiction%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=J4ZH330KEg4C&dq=subject:%22modern+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Rain_Queen.html?hl=&id=J4ZH330KEg4C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=J4ZH330KEg4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Pd5UngEACAAJ",
+      "etag": "An5CkeuF7oE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Pd5UngEACAAJ",
+      "volumeInfo": {
+        "title": "The Book of Numbers",
+        "authors": ["Joshua Cohen"],
+        "publisher": "Harvill Secker",
+        "publishedDate": "2015-06-04",
+        "description":
+          "When the enigmatic billionare founder and CEO of Tetration, the world's most powerful tech company, is diagnosed with terminal pancreatic cancer, he hires a failed novelist, Josh Cohen, to ghostwrite his memoirs. This tech mogul, known only as 'Principal', takes Josh deep into his own mind, and outlines the history of Tetration, which started by revolutionising the search engine and later ventured into smartphones, computer manufacturing and the surveillance of American citizens. Accompanying Josh on a mind-bending world tour of local Tetration offices, from Palo Alto to Dubai, Principal soon initiates Josh into the secret pretext of the autobiography project, and the life-or-death stakes that surround its publication.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1846558654"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781846558658"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 592,
+        "printType": "BOOK",
+        "categories": ["Biographers"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=Pd5UngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=Pd5UngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=Pd5UngEACAAJ&dq=subject:%22modern+fiction%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=Pd5UngEACAAJ&dq=subject:%22modern+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Book_of_Numbers.html?hl=&id=Pd5UngEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=Pd5UngEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "NLaFngEACAAJ",
+      "etag": "dTEPfZbZWBk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NLaFngEACAAJ",
+      "volumeInfo": {
+        "title": "The Notebook",
+        "authors": ["Agota Kristof", "Alan Sheridan"],
+        "publishedDate": "2014-01-14",
+        "description":
+          "Sent to a remote village for the duration of the war, two children devise physical and mental exercises to render themselves invulnerable to pain and sentiment. They steal, kill, blackmail and survive; others - the cobbler, the harelipped girl who craves love, the children's parents - are sucked into war's brutal maelstrom.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0957326696"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780957326699"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 167,
+        "printType": "BOOK",
+        "categories": ["Modern fiction"],
+        "averageRating": 4.5,
+        "ratingsCount": 8,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=NLaFngEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=NLaFngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=NLaFngEACAAJ&dq=subject:%22modern+fiction%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=NLaFngEACAAJ&dq=subject:%22modern+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/The_Notebook.html?hl=&id=NLaFngEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=NLaFngEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "5CArAQAAIAAJ",
+      "etag": "tpjiz1YDAEg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/5CArAQAAIAAJ",
+      "volumeInfo": {
+        "title": "Holiday in a Coma",
+        "subtitle": "And, Love Lasts Three Years : Two Novels",
+        "authors": ["Fr'd'ric Beigbeder"],
+        "publisher": "HarperCollins UK",
+        "publishedDate": "2007",
+        "description":
+          "One night in a Parisian nightclub and the aftermath of a marriage provide the stories for these two novels by Frederic Beigbeder, award-winning author of 'Windows on the World'.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "STANFORD:36105131755485"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 300,
+        "printType": "BOOK",
+        "categories": ["Advertising executives"],
+        "maturityRating": "MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=5CArAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=5CArAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=5CArAQAAIAAJ&dq=subject:%22modern+fiction%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=5CArAQAAIAAJ&dq=subject:%22modern+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Holiday_in_a_Coma.html?hl=&id=5CArAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=5CArAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JigH-eXXd0YC",
+      "etag": "Cay0NNe2c9Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JigH-eXXd0YC",
+      "volumeInfo": {
+        "title": "Tales of the City",
+        "authors": ["Armistead Maupin"],
+        "publisher": "Random House",
+        "publishedDate": "2000",
+        "description":
+          "This internationally beloved modern classic, first published in 1978, will be reissued with a tie-in cover to coincide with the groundbreaking three-part PBS miniseries scheduled to air January 10, 11, and 12, 1994--a joint presentation of the prestigious American Playhouse and KQED San Francisco.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780552998765"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0552998761"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 268,
+        "printType": "BOOK",
+        "categories": ["City and town life"],
+        "averageRating": 3.5,
+        "ratingsCount": 39,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.13.0.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=JigH-eXXd0YC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=JigH-eXXd0YC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=JigH-eXXd0YC&dq=subject:%22modern+fiction%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=JigH-eXXd0YC&dq=subject:%22modern+fiction%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Tales_of_the_City.html?hl=&id=JigH-eXXd0YC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=JigH-eXXd0YC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
