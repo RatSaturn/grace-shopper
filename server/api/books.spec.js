@@ -12,10 +12,11 @@ describe('Book routes', () => {
   describe('/api/books', () => {
     const fakeBook = {
       title: 'Harry Potter',
-      author: 'JK Rowling',
+      authors: ['JK Rowling'],
       imageUrl:
         'https://prodimage.images-bn.com/pimages/9780545791328_p0_v3_s550x406.jpg',
-      price: 18.95,
+      price: 1895,
+      genre: 'Fantacy Fiction',
       inventory: 2
     }
     beforeEach(() => {
