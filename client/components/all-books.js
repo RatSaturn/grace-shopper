@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import BookComponent from './BookComponent'
+import BookComponent from './book-component'
 import {connect} from 'react-redux'
 import {getBooksFromApi} from '../store'
 

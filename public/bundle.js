@@ -118,10 +118,10 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ "./client/components/AllBooks.js":
-/*!***************************************!*\
-  !*** ./client/components/AllBooks.js ***!
-  \***************************************/
+/***/ "./client/components/all-books.js":
+/*!****************************************!*\
+  !*** ./client/components/all-books.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -135,7 +135,7 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
-var _BookComponent = _interopRequireDefault(__webpack_require__(/*! ./BookComponent */ "./client/components/BookComponent.js"));
+var _bookComponent = _interopRequireDefault(__webpack_require__(/*! ./book-component */ "./client/components/book-component.js"));
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
@@ -220,7 +220,7 @@ function (_Component) {
       return _react.default.createElement("div", null, _react.default.createElement("center", null, _react.default.createElement("h1", null, "All Books")), _react.default.createElement("div", {
         className: "allbookscontainer"
       }, this.props.books.map(function (book) {
-        return _react.default.createElement(_BookComponent.default, {
+        return _react.default.createElement(_bookComponent.default, {
           className: "singleBookContainer",
           key: book.id,
           book: book
@@ -252,48 +252,6 @@ var mapDispatch = function mapDispatch(dispatch) {
 
 var _default = (0, _reactRedux.connect)(mapState, mapDispatch)(AllBooks);
 
-exports.default = _default;
-
-/***/ }),
-
-/***/ "./client/components/BookComponent.js":
-/*!********************************************!*\
-  !*** ./client/components/BookComponent.js ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var BookComponent = function BookComponent(props) {
-  var _props$book = props.book,
-      id = _props$book.id,
-      imageUrl = _props$book.imageUrl,
-      title = _props$book.title,
-      author = _props$book.author,
-      price = _props$book.price,
-      format = _props$book.format;
-  return _react.default.createElement("div", null, _react.default.createElement("img", {
-    src: imageUrl
-  }), _react.default.createElement("p", null, _react.default.createElement(_reactRouterDom.Link, {
-    exact: true,
-    to: "/allbooks/".concat(id)
-  }, title)), _react.default.createElement("p", null, author), _react.default.createElement("p", null, price), _react.default.createElement("p", null, format));
-};
-
-var _default = BookComponent;
 exports.default = _default;
 
 /***/ }),
@@ -404,6 +362,48 @@ AuthForm.propTypes = {
 
 /***/ }),
 
+/***/ "./client/components/book-component.js":
+/*!*********************************************!*\
+  !*** ./client/components/book-component.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var BookComponent = function BookComponent(props) {
+  var _props$book = props.book,
+      id = _props$book.id,
+      imageUrl = _props$book.imageUrl,
+      title = _props$book.title,
+      author = _props$book.author,
+      price = _props$book.price,
+      format = _props$book.format;
+  return _react.default.createElement("div", null, _react.default.createElement("img", {
+    src: imageUrl
+  }), _react.default.createElement("p", null, _react.default.createElement(_reactRouterDom.Link, {
+    exact: true,
+    to: "/allbooks/".concat(id)
+  }, title)), _react.default.createElement("p", null, author), _react.default.createElement("p", null, price), _react.default.createElement("p", null, format));
+};
+
+var _default = BookComponent;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./client/components/index.js":
 /*!************************************!*\
   !*** ./client/components/index.js ***!
@@ -432,7 +432,7 @@ Object.defineProperty(exports, "UserHome", {
 Object.defineProperty(exports, "AllBooks", {
   enumerable: true,
   get: function get() {
-    return _AllBooks.default;
+    return _allBooks.default;
   }
 });
 Object.defineProperty(exports, "Login", {
@@ -452,7 +452,7 @@ var _navbar = _interopRequireDefault(__webpack_require__(/*! ./navbar */ "./clie
 
 var _userHome = _interopRequireDefault(__webpack_require__(/*! ./user-home */ "./client/components/user-home.js"));
 
-var _AllBooks = _interopRequireDefault(__webpack_require__(/*! ./AllBooks */ "./client/components/AllBooks.js"));
+var _allBooks = _interopRequireDefault(__webpack_require__(/*! ./all-books */ "./client/components/all-books.js"));
 
 var _authForm = __webpack_require__(/*! ./auth-form */ "./client/components/auth-form.js");
 
@@ -492,38 +492,83 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Navbar = function Navbar(_ref) {
   var handleClick = _ref.handleClick,
       isLoggedIn = _ref.isLoggedIn;
-  return _react.default.createElement("div", null, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/"
-  }, _react.default.createElement("h1", null, "Book Stack")), _react.default.createElement("nav", null, isLoggedIn ? _react.default.createElement("div", null, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/home"
-  }, "Home"), _react.default.createElement("a", {
+  return _react.default.createElement("div", null, _react.default.createElement("nav", {
+    className: "navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+  }, _react.default.createElement("div", {
+    className: "container"
+  }, _react.default.createElement("a", {
+    className: "navbar-brand",
+    href: "#"
+  }, "BookStack"), _react.default.createElement("div", null, _react.default.createElement("a", {
+    className: "navbar-brand",
+    href: "#"
+  }, "Login"), _react.default.createElement("a", {
+    className: "navbar-brand",
+    href: "#"
+  }, "Sign Up"), _react.default.createElement("a", {
+    className: "navbar-brand",
+    href: "#"
+  }, "Cart")))), _react.default.createElement("header", {
+    className: "jumbotron my-4"
+  }, _react.default.createElement("h1", {
+    className: "display-3"
+  }, "Welcome to BookStack!"), _react.default.createElement("p", {
+    className: "lead"
+  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat."), _react.default.createElement("a", {
     href: "#",
-    onClick: handleClick
-  }, "Logout"), _react.default.createElement(_reactRouterDom.Link, {
-    to: "/signup"
-  }, "Cart")) : _react.default.createElement("div", null, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/login"
-  }, "Login"), _react.default.createElement(_reactRouterDom.Link, {
-    to: "/signup"
-  }, "Sign Up"), _react.default.createElement(_reactRouterDom.Link, {
-    to: "/signup"
-  }, "Cart"))), _react.default.createElement(_reactBootstrap.DropdownButton, {
-    title: "Books",
-    id: "dropdown-basic"
-  }, _react.default.createElement(_reactBootstrap.MenuItem, {
-    eventKey: "1"
-  }, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/allbooks"
-  }, "All Books")), _react.default.createElement(_reactBootstrap.MenuItem, {
-    divider: true
-  }), _react.default.createElement(_reactBootstrap.MenuItem, {
-    eventKey: "2"
-  }, "Fantasy")), _react.default.createElement("hr", null));
+    className: "btn btn-primary btn-lg"
+  }, "Browse Our Catagories")), _react.default.createElement("div", {
+    className: "jumbotron my-3"
+  }), _react.default.createElement("div", {
+    className: "jumbotron my-3"
+  }), _react.default.createElement("footer", {
+    className: "py-5 bg-dark"
+  }, _react.default.createElement("div", {
+    className: "container"
+  }, _react.default.createElement("p", {
+    className: "m-0 text-center text-white"
+  }, "Copyright \xA9 Your Website 2018"))));
 };
+
+{}
+/* // const Navbar = ({handleClick, isLoggedIn}) => (
+//   <div>
+//     <Link to="/">
+//       <h1>Book Stack</h1>
+//     </Link>
+//     <nav> */
+//       {isLoggedIn ? (
+//         <div>
+//           {/* The navbar will show these links after you log in */}
+//           <Link to="/home">Home</Link>
+//           <a href="#" onClick={handleClick}>
+//             Logout
+//           </a>
+//           <Link to="/signup">Cart</Link>
+//         </div>
+//       ) : (
+//         <div>
+//           {/* The navbar will show these links before you log in */}
+//           <Link to="/login">Login</Link>
+//           <Link to="/signup">Sign Up</Link>
+//           <Link to="/signup">Cart</Link>
+//         </div>
+//       )}
+//     </nav>
+//     <DropdownButton title="Books" id="dropdown-basic">
+//       <MenuItem eventKey="1">
+//         <Link to="/allbooks">All Books</Link>
+//       </MenuItem>
+//       <MenuItem divider />
+//       <MenuItem eventKey="2">Fantasy</MenuItem>
+//     </DropdownButton>
+//     <hr />
+//   </div>
+// )
+
 /**
  * CONTAINER
  */
-
 
 var mapState = function mapState(state) {
   return {
