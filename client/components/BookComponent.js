@@ -12,8 +12,9 @@ const BookComponent = props => {
           {title}
         </Link>
       </p>
+
       <p>{author}</p>
-      <p>{price}</p>
+      <p>${price}</p>
       <p>{format}</p>
     </div>
   )
