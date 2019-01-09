@@ -7,7 +7,9 @@ import {Link} from 'react-router-dom'
 
 const Navbar = ({handleClick, isLoggedIn}) => (
   <div>
-    <h1>Book Stack</h1>
+    <Link to="/">
+      <h1>Book Stack</h1>
+    </Link>
 
     <nav>
       {isLoggedIn ? (
@@ -17,12 +19,14 @@ const Navbar = ({handleClick, isLoggedIn}) => (
           <a href="#" onClick={handleClick}>
             Logout
           </a>
+          <Link to="/signup">Cart</Link>
         </div>
       ) : (
         <div>
           {/* The navbar will show these links before you log in */}
           <Link to="/login">Login</Link>
           <Link to="/signup">Sign Up</Link>
+          <Link to="/signup">Cart</Link>
         </div>
       )}
     </nav>
