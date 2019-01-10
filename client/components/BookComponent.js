@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const BookComponent = props => {
-  const {id, imageUrl, title, author, price, format} = props.book
+  const {id, imageUrl, title, authors, price} = props.book
 
   return (
     <div>
@@ -13,9 +13,8 @@ const BookComponent = props => {
         </Link>
       </p>
 
-      <p>{author}</p>
+      <p>{authors.map(author => <div key={author}>{author}</div>)}</p>
       <p>${price}</p>
-      <p>{format}</p>
     </div>
   )
 }

@@ -19,7 +19,11 @@ export class SingleBook extends Component {
           <div className="col">Book Image</div>
           <div className="col">
             <div>{singleBook.title}</div>
-            <div>{singleBook.author}</div>
+            <div>
+              {singleBook.authors.map(author => (
+                <div key={author}>{author}</div>
+              ))}
+            </div>
             <div className="row">
               <div className="col">Price</div>
               <div className="col">Genre</div>
@@ -46,8 +50,8 @@ const mapState = state => {
 }
 const mapDispatch = dispatch => {
   return {
-    getSingleBookFromApi() {
-      dispatch(getSingleBookFromApi())
+    getSingleBookFromApi(id) {
+      dispatch(getSingleBookFromApi(id))
     }
   }
 }
