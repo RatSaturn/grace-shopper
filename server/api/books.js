@@ -10,3 +10,21 @@ router.get('/', async (req, res, next) => {
     next(err)
   }
 })
+
+router.get('/:id', async (req, res, next) => {
+  try {
+    const singleBook = await Book.findById(req.params.id)
+    res.json(singleBook)
+  } catch (err) {
+    next(err)
+  }
+})
+
+router.get('/:id', async (req, res, next) => {
+  try {
+    const singleBook = await Book.findById(req.params.id)
+    res.json(singleBook)
+  } catch (err) {
+    next(err)
+  }
+})
