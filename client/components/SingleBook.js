@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {getSingleBookFromApi} from '../store'
-class SingleBook extends Component {
+
+export class SingleBook extends Component {
   async componentDidMount() {
     const id = this.props.match.params.bookId
     console.log(id)
