@@ -5,7 +5,6 @@ import {getSingleBookFromApi} from '../store'
 export class SingleBook extends Component {
   async componentDidMount() {
     const id = this.props.match.params.bookId
-    console.log(id)
     try {
       await this.props.getSingleBookFromApi(id)
     } catch (err) {
