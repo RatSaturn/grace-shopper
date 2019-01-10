@@ -1,7 +1,7 @@
 'use strict'
 
 const db = require('../server/db')
-const {User, Book} = require('../server/db/models')
+const {User, Book, Genre} = require('../server/db/models')
 const jsonFiles = [
   require('../script/booksFromGoogle/business.json'),
   require('../script/booksFromGoogle/childrenFiction.json'),
@@ -82,6 +82,12 @@ async function seed() {
   const books = await Promise.all(allBooks.map(book => Book.create(book)))
 
   console.log(`seeded ${books.length} books`)
+
+  const genres = await Promise.all(
+    genresList.map(genre => Genre.create({type: genre}))
+  )
+
+  console.log(`seeded ${genres.length} genres`)
 
   console.log(`seeded successfully`)
 }
