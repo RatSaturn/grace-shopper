@@ -54,13 +54,13 @@ const allBooks = jsonFiles
       pageCount: book.volumeInfo.pageCount,
       price: book.saleInfo.listPrice
         ? Math.ceil(book.saleInfo.listPrice.amount * 100)
-        : 0,
+        : Math.ceil(Math.random() * 10000),
       currencyCode: book.saleInfo.listPrice
         ? book.saleInfo.listPrice.currencyCode
         : 'USD',
       imageUrl: book.volumeInfo.imageLinks
         ? book.volumeInfo.imageLinks.thumbnail
-        : null,
+        : 'http://www.surprisingdiscoveries.com/uploads/3/2/2/1/32211241/4591772_orig.jpg',
       inventory: Math.ceil(Math.random() * 10)
     }))
   )
