@@ -10,17 +10,6 @@ import {SingleBook} from './SingleBook'
 const adapter = new Adapter()
 enzyme.configure({adapter})
 
-// const mockStore = configureMockStore()
-// const store = mockStore({
-//   id: 1,
-//   title: 'Harry Potter and the Goblet of Fire',
-//   author: 'J.K. Rowling',
-//   imageUrl:
-//     'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwifwd64z-HfAhUvWN8KHUJaB20QjRx6BAgBEAU&url=https%3A%2F%2Fwww.akc.org%2Fexpert-advice%2Fhealth%2Fpuppies-how-much-exercise%2F&psig=AOvVaw0KQnWmZUhYE6Xe7O-A2Si4&ust=1547154943916326',
-//   price: 19.95,
-//   format: 'Hardcover'
-// })
-
 describe('SingleBook', () => {
   let singleBook
   const defaultBook = {
@@ -33,6 +22,7 @@ describe('SingleBook', () => {
     format: 'Hardcover'
   }
   beforeEach(() => {
+    this.props.match.params.bookId = 'test'
     singleBook = shallow(<SingleBook singleBook={defaultBook} />)
   })
 
