@@ -3,7 +3,7 @@ import BookComponent from './BookComponent'
 import {connect} from 'react-redux'
 import {getBooksFromApi} from '../store'
 
-class AllBooks extends Component {
+export class AllBooks extends Component {
   async componentDidMount() {
     try {
       await this.props.getBooksFromApi()
