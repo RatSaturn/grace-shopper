@@ -23,14 +23,14 @@ const getSingleBook = singleBook => ({type: GET_SINGLE_BOOK, singleBook})
 /**
  * THUNK CREATORS
  */
-// export const getSingleBookFromApi = id => async dispatch => {
-//   try {
-//     // const res = await axios.get(`/api/books/${id}`)
-//     dispatch(getSingleBook(/*res.data || */ defaultBook))
-//   } catch (err) {
-//     console.error(err)
-//   }
-// }
+export const getSingleBookFromApi = id => async dispatch => {
+  try {
+    const res = await axios.get(`/api/books/${id}`)
+    dispatch(getSingleBook(res.data || defaultBook))
+  } catch (err) {
+    console.error(err)
+  }
+}
 /**
  * REDUCER
  */

@@ -1,19 +1,18 @@
 import React, {Component} from 'react'
-import BookComponent from './BookComponent'
-// import {connect} from 'react-redux'
-// import {getBooksFromApi} from '../store'
+import {connect} from 'react-redux'
+import {getCartFromServer} from '../store'
 
 export class Cart extends Component {
-  // async componentDidMount() {
-  //   try {
-  //     await this.props.getBooksFromApi()
-  //   } catch (err) {
-  //     console.error(err)
-  //   }
-  // }
+  async componentDidMount() {
+    try {
+      await this.props.getCartFromServer()
+    } catch (err) {
+      console.error(err)
+    }
+  }
 
   render() {
-    // console.log(this.props.books)
+    console.log(this.props.books)
     return (
       <div>
         <center>
@@ -33,22 +32,21 @@ export class Cart extends Component {
   }
 }
 
-export default Cart
 /**
  * CONTAINER
  */
-// const mapState = state => {
-//   return {
-//     books: state.books
-//   }
-// }
+const mapState = state => {
+  return {
+    cart: state.cart
+  }
+}
 
-// const mapDispatch = dispatch => {
-//   return {
-//     getBooksFromApi() {
-//       dispatch(getBooksFromApi())
-//     }
-//   }
-// }
+const mapDispatch = dispatch => {
+  return {
+    getCartFromServer() {
+      dispatch(getCartFromServer())
+    }
+  }
+}
 
-// export default connect(mapState, mapDispatch)(AllBooks)
+export default connect(mapState, mapDispatch)(Cart)
