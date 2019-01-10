@@ -4,6 +4,7 @@ import {getSingleBookFromApi} from '../store'
 class SingleBook extends Component {
   async componentDidMount() {
     const id = this.props.match.params.bookId
+    console.log(id)
     try {
       await this.props.getSingleBookFromApi(id)
     } catch (err) {
@@ -13,25 +14,18 @@ class SingleBook extends Component {
   render() {
     const singleBook = this.props.singleBook
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col">Book Image</div>
-          <div className="col">
-            <div>{singleBook.title}</div>
-            <div>{singleBook.author}</div>
-            <div className="row">
-              <div className="col">Price</div>
-              <div className="col">Genre</div>
-            </div>
-            <div>Description</div>
-            <div className="row">
-              <div className="col">Amount</div>
-              <div className="col">Add to Cart</div>
-              <div className="col">Wish List</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ul>
+        <li>{singleBook.title}</li>
+        <li>
+          <ul>
+            {singleBook.authors
+              ? singleBook.authors.map(author => <li key={author}>{author}</li>)
+              : undefined}
+          </ul>
+        </li>
+        <li>{singleBook.genre}</li>
+        <li>{singleBook.description}</li>
+      </ul>
     )
   }
 }
@@ -45,8 +39,8 @@ const mapState = state => {
 }
 const mapDispatch = dispatch => {
   return {
-    getSingleBookFromApi() {
-      dispatch(getSingleBookFromApi())
+    getSingleBookFromApi(id) {
+      dispatch(getSingleBookFromApi(id))
     }
   }
 }
