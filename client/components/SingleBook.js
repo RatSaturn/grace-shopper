@@ -15,6 +15,7 @@ class SingleBook extends Component {
     const singleBook = this.props.singleBook
     return (
       <ul>
+        <img src={singleBook.imageUrl} />
         <li>{singleBook.title}</li>
         <li>
           <ul>
@@ -23,8 +24,10 @@ class SingleBook extends Component {
               : undefined}
           </ul>
         </li>
-        <li>{singleBook.genre}</li>
-        <li>{singleBook.description}</li>
+        <li>{singleBook.genre ? singleBook.genre : 'No genre'}</li>
+        <li>
+          {singleBook.description ? singleBook.description : 'No description'}
+        </li>
       </ul>
     )
   }
