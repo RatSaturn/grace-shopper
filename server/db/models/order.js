@@ -2,7 +2,8 @@ const Sequelize = require('sequelize')
 const db = require('../db')
 
 const Order = db.define('order', {
-  status: Sequelize.STRING
+  pending: Sequelize.STRING,
+  cookie: Sequelize.STRING
 })
 
 module.exports = Order
