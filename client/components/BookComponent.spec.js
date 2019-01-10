@@ -39,7 +39,7 @@ describe('BookComponent', () => {
     expect(
       bookComponent.contains(
         <Link exact to="/allbooks/1">
-          Harry Potter and the Goblet of Fire'
+          Harry Potter and the Goblet of Fire
         </Link>
       )
     )
