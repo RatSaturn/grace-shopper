@@ -1,0 +1,703 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 41,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "NSfLEZoImVsC",
+      "etag": "NLrYTSGaiXs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NSfLEZoImVsC",
+      "volumeInfo": {
+        "title": "Homeless story",
+        "authors": ["FP Mény"],
+        "publisher": "Editions Sulliver",
+        "publishedDate": "2009",
+        "description":
+          "Dans une langue inventive et haletante, où se mêlent constamment rébellion et autodérision, Homeless Story raconte l'errance et la galère, la marginalité et l'exclusion. Rencontres éphémères, amitiés boiteuses dessinent un portrait acide de notre société de l'indifférence. Et les retours sur l'enfance et l'adolescence du narrateur révèlent les premières blessures, ces cicatrices intimes dont on ne guérit pas. Il s'agit d'un livre posthume : FP Mény a été retrouvé mort à 43 ans, en 2008, dans une grange où il s'était réfugié pour se protéger du mauvais temps, au bord de cette \"route\" avec laquelle il entretenait un rapport tellement passionnel, la maudissant pour le statut de déclassé où elle le cantonnait, la chérissant pour la liberté dont elle imprégnait son écriture. FP Mény a publié en 2005 White Trash Napoléon aux éditions du Quartanier et, en 2008, Conquête du désastre aux éditions Sulliver.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9782351220498"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "2351220498"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 158,
+        "printType": "BOOK",
+        "categories": ["Homeless persons"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.0.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=NSfLEZoImVsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=NSfLEZoImVsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink":
+          "http://books.google.com/books?id=NSfLEZoImVsC&printsec=frontcover&dq=subject:%22narrative%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=NSfLEZoImVsC&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Homeless_story.html?hl=&id=NSfLEZoImVsC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=NSfLEZoImVsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "IRgSuAcczM4C",
+      "etag": "nJx0AzWnUSc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/IRgSuAcczM4C",
+      "volumeInfo": {
+        "title": "Narrative Analysis",
+        "authors": ["Martin Cortazzi"],
+        "publisher": "Psychology Press",
+        "publishedDate": "1993",
+        "description":
+          "Critically examines current approaches to the study of teachers' narratives and argues that, for narrative research to be effective, we need to see narrative in a multi-disciplinary perspective.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1850009635"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781850009634"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 162,
+        "printType": "BOOK",
+        "categories": ["Education"],
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=IRgSuAcczM4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=IRgSuAcczM4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=IRgSuAcczM4C&printsec=frontcover&dq=subject:%22narrative%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=IRgSuAcczM4C&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Narrative_Analysis.html?hl=&id=IRgSuAcczM4C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Narrative_Analysis-sample-epub.acsm?id=IRgSuAcczM4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=IRgSuAcczM4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "oa2mspjgJHgC",
+      "etag": "s47nNPtWyrE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/oa2mspjgJHgC",
+      "volumeInfo": {
+        "title": "La béance",
+        "authors": ["Sandrine Fabbri"],
+        "publisher": "Editions d'en bas",
+        "publishedDate": "2009",
+        "description":
+          "\" Depuis le matin, je t'ai suivie à la trace, une peur instinctive accrochée au ventre, je t'ai observée, surveillée. Fruit de tes entrailles, les miennes me tenaillaient. Nous n'avons rien fait d'autre. Que voir des gens. Nous n'avons pas bouclé les valises. Tu as appelé quelqu'un. Par téléphone. J'étais à côté de toi. Prends soin de ma fille. S'il m'arrive quelque chose. Tu as dit ça. Tranquillement. En me regardant. Tu ne m'avais rien demandé. Je ne t'avais rien demandé. De semblable. Tu me regardais. Sans me voir. Tu m'ignorais. Tu étais où, loin de moi, ça, c'est sûr, mais où. Je ne veux pas que l'on prenne soin de moi.\" Ce récit se déroule tendu comme un fil qui peut se rompre à chaque instant. Il évoque une tragédie familiale qui est aussi celle d'un choc entre cultures et celle d'un lieu, une cité satellite dans les années 60 et 70. Comment vivre avec le vide de l'absence? Comment survivre au silence ou aux mensonges qui entourent l'absente? Une petite fille subit la violence de la disparition brutale, inconcevable. Devenue adulte, elle tente de retrouver cette femme écartelée entre deux hommes, entre Yougoslavie et Suisse, entre raison et folie, qui a eu été sa mère. Et de combler la béance par les mots.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2829003780"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782829003783"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 150,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=oa2mspjgJHgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=oa2mspjgJHgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink":
+          "http://books.google.com/books?id=oa2mspjgJHgC&printsec=frontcover&dq=subject:%22narrative%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=oa2mspjgJHgC&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/La_b%C3%A9ance.html?hl=&id=oa2mspjgJHgC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=oa2mspjgJHgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "E60bAQAAIAAJ",
+      "etag": "q1S3m4YfMGM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/E60bAQAAIAAJ",
+      "volumeInfo": {
+        "title": "Venant",
+        "authors": ["Christian Hubin"],
+        "publisher": "José Corti Editions",
+        "publishedDate": "2002",
+        "description":
+          "Un couple errant dans les neiges de l'hiver guette quelque chose. Quoi ? Quand fondent en un lent dégel les illusions de l'image et les leurres de la fiction, l'attente se révèle sans fin. Cette unique incursion de Christian Hubin dans la prose narrative le situe, par exemple, aux côtés d'un Claude Simon. Passé et futur s'y confondent, strates géologiques soudain dynamitées. Reste, lancinante, incarnée par des hommes-grenouilles sur une barge descendant le fleuve, la présence, proche-lointaine, de ce qui va venir... \" Il n'y a rien à voir là-dedans \", disait Rimbault, et dans le récit de Christian Hubin, \" c'est loin et on n'entend pas \". Ni voir ni entendre, mais demeurer ouvert, telle est l'injonction de l'écriture dans un monde de bruit et de fureur. Pierre Romnée",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2714307884"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782714307880"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 74,
+        "printType": "BOOK",
+        "categories": ["Narrative"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=E60bAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=E60bAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink":
+          "http://books.google.com/books?id=E60bAQAAIAAJ&dq=subject:%22narrative%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=E60bAQAAIAAJ&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Venant.html?hl=&id=E60bAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=E60bAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "CS_Rljcr5nYC",
+      "etag": "dCIFEXEQqVE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CS_Rljcr5nYC",
+      "volumeInfo": {
+        "title": "Comme un charme",
+        "subtitle": "récit",
+        "authors": ["Stéphane Crémer"],
+        "publisher": "Editions Denoël",
+        "publishedDate": "2006",
+        "description":
+          "La première fois que je suis allé à Venise je n'étais pas encore né. Papa et Maman font partie de ces jeunes gens de bonne souche qu'on envoyait là-bas pour faire la noce après les cérémonies d'usage. Quoique je n'étais pas né j'étais j'avoue déjà conçu et bien accroché dans le ventre de Maman tout secoué de hoquets et de soubresauts, dégoûtée qu'elle était vomissante entre les gondoles : une première famille de Papa était en construction à son corps défendant et sur des bases heureusement pour lui aussi fragiles que les fondations vénitiennes laminées sous l'érosion de l'acqua alta. J'étais conçu mais pas désiré j'avoue : finalement je m'y suis pris tout seul pour le désir aussi et j'ai envie de parler à propos de ma venue au monde, une fois les eaux perdues, une fois l'aqua alta retirée, d'immaculée conception : pas moins. En intention en tout cas -c'est-à-dire abstraction faite de la vie dissolue de Maman -or c'est l'intention qui compte. D'une voix discrète où l'humour pointe toujours, tour à tour tendre ou cruelle et jouant sur les cordes de la mémoire, Comme un charme est la chronique des émotions d'une enfance solitaire. Entre douleur, émerveillement ou sentiment d'abandon, une singulière musique qui parcourt le temps.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCBK:C093084409"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 102,
+        "printType": "BOOK",
+        "categories": ["Children's stories"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=CS_Rljcr5nYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=CS_Rljcr5nYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink":
+          "http://books.google.com/books?id=CS_Rljcr5nYC&dq=subject:%22narrative%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=CS_Rljcr5nYC&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Comme_un_charme.html?hl=&id=CS_Rljcr5nYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=CS_Rljcr5nYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "h0bzAAAAMAAJ",
+      "etag": "GTbOC5RlkMo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/h0bzAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Le flamant noir",
+        "authors": ["Berthrand Nguyen Matoko"],
+        "publisher": "Editions L'Harmattan",
+        "publishedDate": "2004",
+        "description":
+          "A deux heures dix, passées de minuit, des sanglots suffoqués évoquaient les instants fatidiques de ma vie. Dans une chambre à la lumière tamisée, où s'entassaient des nouveaux- nés dans des berceaux semblables les uns aux autres, j'étais comme une chose qui s'éveille et combat sa propre existence. Ma mère qui m'avait étreint dans ses bras dès mes premiers cris, n'avait pas trouvé mieux que de verser une larme en susurrant \" Mon petit flamant rose \", ignorant réellement tout de cette appellation et de l'impact que cela aurait dans ma vie.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2747559815"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782747559812"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 186,
+        "printType": "BOOK",
+        "categories": ["African fiction (French)"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=h0bzAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=h0bzAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink":
+          "http://books.google.com/books?id=h0bzAAAAMAAJ&dq=subject:%22narrative%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=h0bzAAAAMAAJ&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Le_flamant_noir.html?hl=&id=h0bzAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=h0bzAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "IzaSAAAAIAAJ",
+      "etag": "AsmNuKhELV8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/IzaSAAAAIAAJ",
+      "volumeInfo": {
+        "title": "Le vingtième me fatigue",
+        "subtitle":
+          "suivi de Supplément à un inventaire lacunaire des rues du XXè arrondissement de Paris",
+        "authors": ["Jacques Réda"],
+        "publishedDate": "2004",
+        "description":
+          "J. Réda aime déambuler dans les rues de la capitale, qui est pour lui une source inépuisable d'inspiration. Il se livre ici à un inventaire des bâtisses, façades, cours et trottoirs du vingtième arrondissement de Paris.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2940055459"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782940055456"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 96,
+        "printType": "BOOK",
+        "categories": ["Streets"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=IzaSAAAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=IzaSAAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink":
+          "http://books.google.com/books?id=IzaSAAAAIAAJ&dq=subject:%22narrative%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=IzaSAAAAIAAJ&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Le_vingti%C3%A8me_me_fatigue.html?hl=&id=IzaSAAAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=IzaSAAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9vJcoAEACAAJ",
+      "etag": "Zzl+Iu7oeTA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9vJcoAEACAAJ",
+      "volumeInfo": {
+        "title": "Working with Stories in Your Community Or Organization",
+        "subtitle": "Participatory Narrative Inquiry",
+        "authors": ["Cynthia F Kurtz"],
+        "publisher": "Kurtz-Fernhout Publishing",
+        "publishedDate": "2014-05-28",
+        "description":
+          "\"Working with Stories\" is a textbook for people who want to use participatory narrative inquiry (PNI) in their communities and organizations. PNI methods help people discover insights, catch emerging trends, make decisions, generate ideas, resolve conflicts, and connect people. Participatory narrative inquiry draws on theory and practice in narrative inquiry, participatory action research, oral history, mixed-methods research, participatory theatre, narrative therapy, sensemaking, complexity theory, and decision support. Its focus is on the exploration of values, beliefs, feelings, and perspectives through collaborative sensemaking with stories of lived experience. Contents Introduction Fundamentals of Story Work What Is a Story? What Are Stories For? How Do Stories Work? Stories in Communities and Organizations A Guide to Participatory Narrative Inquiry Introducing Participatory Narrative Inquiry Project Planning Story Collection Group Exercises for Story Collection Narrative Catalysis Narrative Sensemaking Group Exercises for Narrative Sensemaking Narrative Intervention Narrative Return Appendices Example Models and Templates for Group Exercises Further Reading: Your PNI Bookshelf Bibliography Acknowledgements and Biography Glossary Index Reader praise \"I wanted to say thanks for making Working with Stories available. It's an amazing piece of work, so simple (not the ideas, but the presentation) and unintimidating.\" \"[\"Working With Stories\"] is very thorough and helpful to me in exploring ways that I might capture the narrative of a project I am involved in.\" \"Your detailed description of [the sensemaking] process is so useful and helpful. It makes seasoned facilitators like me yearn to try out the ideas.\" \"Over the past few months I have been reading, reflecting, and feasting on your experiences working with stories. I am really excited to have found \"Working With Stories\" because it seems like a rich set of options for our needs.\" \"Your terminology and explanation of participatory narrative inquiry have helped me greatly in understanding what I want from my practice and what I might be capable of achieving in social change.\" \"I have been returning to Working With Stories time and again over the past six months to help support a community project, and my printed copy is underlined, noted and dog-eared.\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0991369408"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780991369409"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 684,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=9vJcoAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=9vJcoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=9vJcoAEACAAJ&dq=subject:%22narrative%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=9vJcoAEACAAJ&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Working_with_Stories_in_Your_Community_O.html?hl=&id=9vJcoAEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=9vJcoAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XMsrAQAAIAAJ",
+      "etag": "rk8Pn9IXCLc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XMsrAQAAIAAJ",
+      "volumeInfo": {
+        "title": "L'attachement",
+        "subtitle": "récit",
+        "authors": ["Jean-Paul Iommi-Amunatégui"],
+        "publisher": "Editions Denoël",
+        "publishedDate": "2007",
+        "description":
+          "C'est l'histoire d'un homme qui déménage. Une courte distance sépare le nouveau domicile de l'ancien, mais la traversée dure près de trois ans. Il en tient le journal, installé parmi les cartons de livres qu'il n'a pas ouverts et les meubles qu'il n'a plus. On y croise les conquistadors du Chili, les dieux grecs et les empereurs romains, Cesare Pavese et Paul Celan, le Cratyle et Maurice Pialat, le football et les Sumériens, le voyage en Italie et l'été dans le Luberon, et surtout l'auteur. Car L'Attachement est aussi le work in progress d'un homme qui entretient le fol espoir que ses mots lui vaudront l'amour d'une femme, une femme déjà perdue, déjà éloignée.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "STANFORD:36105132377750"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 501,
+        "printType": "BOOK",
+        "categories": ["Narrative"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=XMsrAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=XMsrAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink":
+          "http://books.google.com/books?id=XMsrAQAAIAAJ&dq=subject:%22narrative%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=XMsrAQAAIAAJ&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/L_attachement.html?hl=&id=XMsrAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=XMsrAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "qP0rAQAAIAAJ",
+      "etag": "AUi9Jj/5XPg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/qP0rAQAAIAAJ",
+      "volumeInfo": {
+        "title": "Des nouvelles de Kora",
+        "subtitle": "récit",
+        "authors": ["Tassadit Imache"],
+        "publisher": "Actes Sud",
+        "publishedDate": "2009",
+        "description":
+          "Parce qu'elle cherche à faire dire à sa mère un secret que celle-ci lui aurait toujours dissimulé, Michelle, à quarante ans, entreprend d'exhumer \"toute l'histoire\". Pour l'écrire, déclare-t-elle. Héritière de trop de silences, Michelle - fille de pauvres, fille d'immigré - s'efforce en vain de répartir et nommer les ombres pour faire pièce, enfin, aux images confuses et inquiétantes qui la hantent, dont le ressassement finit par rendre intraduisible l'histoire vécue ou suspect tout récit qui voudrait en rendre compte... Mais, douloureuse, compulsive, la quête des traces, brouillées, de l'histoire personnelle dans les temps difficiles de la guerre d'Algérie et des premiers HLM de banlieue entraîne Michelle sur un chemin où sa raison bascule... De quelle histoire sommes-nous tentés de demander, à ceux qui nous ont engendrés, un récit \"définitif', et à quel moment convient-il de renoncer à l'illusion de la transparence entre les êtres ? Loin d'un rêve d'immaculée généalogie, Tassadit Imache répond à ces interrogations au fil d'une méditation singulière qui substitue au mythe d'une vérité univoque l'avènement d'une identité en permanent devenir.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2742782591"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782742782598"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 131,
+        "printType": "BOOK",
+        "categories": ["French fiction"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=qP0rAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=qP0rAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink":
+          "http://books.google.com/books?id=qP0rAQAAIAAJ&dq=subject:%22narrative%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=qP0rAQAAIAAJ&dq=subject:%22narrative%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Des_nouvelles_de_Kora.html?hl=&id=qP0rAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=qP0rAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}

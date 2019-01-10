@@ -1,0 +1,1046 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 492,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "WsFigUeZO1YC",
+      "etag": "OVYn6F20+UU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WsFigUeZO1YC",
+      "volumeInfo": {
+        "title": "Customer Satisfaction Evaluation",
+        "subtitle": "Methods for Measuring and Implementing Service Quality",
+        "authors": ["Evangelos Grigoroudis", "Yannis Siskos"],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2009-11-07",
+        "description":
+          "This important new work provides a comprehensive discussion of the customer satisfaction evaluation problem. It presents an overview of the existing methodologies as well as the development and implementation of an original multicriteria method dubbed MUSA.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781441916402"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1441916407"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 308,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=WsFigUeZO1YC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=WsFigUeZO1YC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=WsFigUeZO1YC&printsec=frontcover&dq=subject:%22business%22&hl=&cd=1&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=WsFigUeZO1YC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-WsFigUeZO1YC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 209,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 167.2,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=WsFigUeZO1YC&rdid=book-WsFigUeZO1YC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 209000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 167200000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 73150000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 63640000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Customer_Satisfaction_Evaluation-sample-pdf.acsm?id=WsFigUeZO1YC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=WsFigUeZO1YC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "GdvHCgAAQBAJ",
+      "etag": "gwNahdir3+8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/GdvHCgAAQBAJ",
+      "volumeInfo": {
+        "title": "Portfoliomanagement",
+        "subtitle": "Theorie und Anwendungsbeispiele",
+        "authors": ["Enzo Mondello"],
+        "publisher": "Springer-Verlag",
+        "publishedDate": "2015-10-19",
+        "description":
+          "Das Lehrbuch deckt sowohl die Kapitalmarktmodelle als auch deren Anwendungen im Portfoliomanagement ab. Es zeigt u.a. die Berechnung der Rendite und des Risikos von einzelnen Anlagen und Portfolios, die Konstruktion der Effizienzkurve anhand des Markowitz-Modells und des Marktmodells, die Bestimmung des optimalen Portfolios mit der Effizienzkurve und den investorenspezifischen Indifferenzkurven sowie die Performancemessung von Portfolios. Das Buch beinhaltet zahlreiche Aufgaben (im Text sowie auch am Ende der jeweiligen Kapitel). Besonders von Interesse ist es somit für Dozierende und Studierende der Wirtschaftswissenschaften mit dem Schwerpunkt Finanzwissenschaften, aber auch für Fach- und Führungskräfte, die für ihren Aufgabenbereich grundlegende Kenntnisse für ein erfolgreiches Portfoliomanagement benötigen oder eine Weiterbildung wie beispielsweise zum CFA® und CIIA® anstreben.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783658058173"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "365805817X"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 384,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=GdvHCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=GdvHCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink":
+          "http://books.google.com/books?id=GdvHCgAAQBAJ&printsec=frontcover&dq=subject:%22business%22&hl=&cd=2&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=GdvHCgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-GdvHCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 39.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 31.19,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=GdvHCgAAQBAJ&rdid=book-GdvHCgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 39990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 31190000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Portfoliomanagement-sample-pdf.acsm?id=GdvHCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=GdvHCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yLRTDwAAQBAJ",
+      "etag": "iD/T1NQRR/0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yLRTDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Influencer Marketing",
+        "subtitle":
+          "Für Unternehmen und Influencer: Strategien, Plattformen, Instrumente, rechtlicher Rahmen. Mit vielen Beispielen",
+        "authors": ["Marlis Jahnke"],
+        "publisher": "Springer-Verlag",
+        "publishedDate": "2018-05-13",
+        "description":
+          "Dieses Buch erläutert fundiert und pragmatisch alle entscheidenden Erfolgsfaktoren des Influencer Marketings – sowohl für Unternehmen als auch für Influencer.Marketingprofis erfahren, wie sie Influencer Marketing bestmöglich in ihre Kommunikationsstrategie integrieren, wie sie die passenden Influencer finden und nach welchen konkreten Regeln die Zusammenarbeit optimal funktioniert: von der Vertragsgestaltung über das Briefing bis hin zum Monitoring. Zudem werden viele nützliche Plattformen, Netzwerke und Instrumente vorgestellt.Influencer erhalten wertvolle Anregungen, wie sie ihre Karriere weiter professionalisieren können und lernen aus Erfahrungsberichten und Empfehlungen von erfolgreichen Akteuren im Markt.Als wichtiges und erfolgskritisches Thema werden auch die wettbewerbsrechtlichen Grundlagen des Influencer Marketing verständlich und handlungsorientiert dargestellt. Ein unverzichtbares Grundlagenwerk, das zeigt, wie sich das mitunter fragile Zusammenspiel beider Seiten effizient, langfristig und vor allem für alle Seiten gewinnbringend gestalten lässt. Auszug aus dem Inhalt Wie sieht das Marketing im Influencer-Zeitalter aus? Markenstrategischer Fit im Influencer Marketing Wettbewerbsrechtliche Grundlagen von Influencer Marketing Plattformen, Instrumente und Netzwerke im Influencer Marketing Professionalisierung für Influencer über Netzwerke Erfahrungsberichte von Influencern 14 strukturiert aufgearbeitete Fallbeispiele, u.a. aus den Branchen Drogerie, Food, Technik und Medien Die Herausgeberin Marlis Jahnke begleitet die Szene seit vielen Jahren und hat mit HashtagLove eine der ersten und erfolgreichsten Influencer-Marketing-Plattformen in Deutschland gelauncht. Beitragsautoren im Werk sind Professor Regina Brix, Dr. Annette Bruce, Thomas Fuchs, Dr. Caroline Hahn, Fabian Held, Hendrik Martens, Moritz Meyer, André Krüger, Melanie Lammers, Franziska von Lewinski, Monika Sekara und Simon Unge.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783658208547"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3658208546"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 276,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.3.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=yLRTDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=yLRTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink":
+          "http://books.google.com/books?id=yLRTDwAAQBAJ&printsec=frontcover&dq=subject:%22business%22&hl=&cd=3&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=yLRTDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-yLRTDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 39.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 31.19,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=yLRTDwAAQBAJ&rdid=book-yLRTDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 39990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 31190000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Influencer_Marketing-sample-epub.acsm?id=yLRTDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Influencer_Marketing-sample-pdf.acsm?id=yLRTDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=yLRTDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "TUCB9orB7zUC",
+      "etag": "WKKCOHxGS4g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TUCB9orB7zUC",
+      "volumeInfo": {
+        "title": "Advanced Social Media Marketing",
+        "subtitle":
+          "How to Lead, Launch, and Manage a Successful Social Media Program",
+        "authors": ["Tom Funk"],
+        "publisher": "Apress",
+        "publishedDate": "2014-03-01",
+        "description":
+          "Hundreds of millions of Americans are using social media (SM), and already some 70% of businesses have joined them there, using Facebook and other SM platforms to connect with their customers, and attract new ones. So the real question isn’t whether to take your business onto social media platforms—but how to do it quickly, effectively, on a budget, with smart goals, and a road map for success. Advanced Social Media Marketing: How to Lead, Launch, and Manage a Successful Social Media Program cuts through the hype and fluff about how social media is changing the world, and it gets down to what really matters: How you as a manager can best use SM to benefit your business. Written by a veteran online marketer and ecommerce professional, the book shares practical strategies and tactics to let you launch and scale a successful corporate social media program. Advanced Social Media Marketing: How to Lead, Launch, and Manage a Successful Social Media Program is for the manager who already knows something about social media and wants to roll up his or her sleeves and get down to business. In it, we simplify tasks that might otherwise be complicated—like adopting and tracking key performance metrics, developing online ad campaigns, or creating Facebook apps like games, giveaways and sweepstakes with the capacity to go viral. Businesses can harness the unique advantages of this new medium, but they need a practical, no-nonsense guide like this one. Otherwise they risk being ignored, wasting time and money or, even worse, damaging their own brand and seeing a well-intentioned online program blow up. The book is heavy on the how-to, case studies, campaign results and other statistics, and interviews with ecommerce managers at businesses large and small. It also includes the author’s own experiences at Green Mountain Coffee Roasters, Wine of the Month Club, and others. While this book will be accessible enough for someone implementing a social media program for the first time, it’s ambitious enough to benefit experienced SM hands who are looking for good ideas and techniques to push their online community to the next level of size, interactivity, and buzz.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781430244080"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1430244089"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 256,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.7.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=TUCB9orB7zUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=TUCB9orB7zUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=TUCB9orB7zUC&printsec=frontcover&dq=subject:%22business%22&hl=&cd=4&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=TUCB9orB7zUC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-TUCB9orB7zUC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 34.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 19.24,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=TUCB9orB7zUC&rdid=book-TUCB9orB7zUC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 34990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 19240000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Advanced_Social_Media_Marketing-sample-epub.acsm?id=TUCB9orB7zUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Advanced_Social_Media_Marketing-sample-pdf.acsm?id=TUCB9orB7zUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=TUCB9orB7zUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HYAByKlCeYgC",
+      "etag": "icqA2fgYwYs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HYAByKlCeYgC",
+      "volumeInfo": {
+        "title": "Enterprise Architecture at Work",
+        "subtitle": "Modelling, Communication and Analysis",
+        "authors": ["Marc Lankhorst"],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2009-07-15",
+        "description":
+          "An enterprise architecture tries to describe and control an organisation’s structure, processes, applications, systems and techniques in an integrated way. The unambiguous specification and description of components and their relationships in such an architecture requires a coherent architecture modelling language. Lankhorst and his co-authors present such an enterprise modelling language that captures the complexity of architectural domains and their relations and allows the construction of integrated enterprise architecture models. They provide architects with concrete instruments that improve their architectural practice. As this is not enough, they additionally present techniques and heuristics for communicating with all relevant stakeholders about these architectures. Since an architecture model is useful not only for providing insight into the current or future situation but can also be used to evaluate the transition from ‘as-is’ to ‘to-be’, the authors also describe analysis methods for assessing both the qualitative impact of changes to an architecture and the quantitative aspects of architectures, such as performance and cost issues. The modelling language presented has been proven in practice in many real-life case studies and has been adopted by The Open Group as an international standard. So this book is an ideal companion for enterprise IT or business architects in industry as well as for computer or management science students studying the field of enterprise architecture.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783642013102"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3642013104"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 352,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.0.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=HYAByKlCeYgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=HYAByKlCeYgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=HYAByKlCeYgC&printsec=frontcover&dq=subject:%22business%22&hl=&cd=5&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=HYAByKlCeYgC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-HYAByKlCeYgC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 64.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 51.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=HYAByKlCeYgC&rdid=book-HYAByKlCeYgC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 64990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 51990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 22750000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 19790000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Enterprise_Architecture_at_Work-sample-epub.acsm?id=HYAByKlCeYgC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Enterprise_Architecture_at_Work-sample-pdf.acsm?id=HYAByKlCeYgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=HYAByKlCeYgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "JnFp4L76QT4C",
+      "etag": "MliRXllbBZQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/JnFp4L76QT4C",
+      "volumeInfo": {
+        "title": "Microsoft Office Excel 2007 for Project Managers",
+        "authors": ["Kim Heldman", "William Heldman"],
+        "publisher": "John Wiley & Sons",
+        "publishedDate": "2007-01-23",
+        "description":
+          "Provides step-by-step instructions on using Microsoft Excel to schedule jobs, create budgets, manage processes, and share project information.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780470047170"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0470047178"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 344,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.0.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=JnFp4L76QT4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=JnFp4L76QT4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=JnFp4L76QT4C&printsec=frontcover&dq=subject:%22business%22&hl=&cd=6&source=gbs_api",
+        "infoLink":
+          "http://books.google.com/books?id=JnFp4L76QT4C&dq=subject:%22business%22&hl=&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://books.google.com/books/about/Microsoft_Office_Excel_2007_for_Project.html?hl=&id=JnFp4L76QT4C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Microsoft_Office_Excel_2007_for_Project-sample-pdf.acsm?id=JnFp4L76QT4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=JnFp4L76QT4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gSXhAAAAQBAJ",
+      "etag": "RsiNejkIpTI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gSXhAAAAQBAJ",
+      "volumeInfo": {
+        "title": "Verhandeln in Einkauf und Vertrieb",
+        "subtitle": "Mit System zu besseren Konditionen und mehr Profit",
+        "authors": ["Gerold Braun"],
+        "publisher": "Springer-Verlag",
+        "publishedDate": "2013-09-17",
+        "description":
+          "Wer in Einkauf und Vertrieb punkten will, muss in Verhandlungen das Beste für das eigene Unternehmen herausholen. Doch viele kennen keine Methodik, die ihnen zuverlässig zum Erfolg verhilft. Dieses Buch stellt ein leicht erlernbares und schnell umsetzbares Verhandlungssystem vor, mit dem es gelingt, Verhandlungspartner geschickt zu beeinflussen und auch schwierige Fälle zu meistern. Mitarbeiter in Einkauf und Vertrieb erfahren, wie sie souverän in die erste Runde starten, die Führung übernehmen, gekonnt den Verhandlungsrahmen bestimmen und ihre Angebote attraktiv gestalten. Ein kompakter Kurs mit konkreten Handlungsanweisungen für alle, die in ihren Verhandlungen bessere Konditionen und mehr Profit erzielen wollen Außerdem: Die 7 goldenen Regeln als Sofort-Programm. Neu in der 2. Auflage: Erfolgreich verhandeln in Gruppen – wie man die Rolle des Leaders übernimmt. „Das Buch lässt keine Fragen offen, welche Schritte eine Verhandlung durchläuft und wie man sich hier richtig verhält. [...] Lesenswert!“ www.pressearbeit.de",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783834946188"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3834946184"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 150,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=gSXhAAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=gSXhAAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink":
+          "http://books.google.com/books?id=gSXhAAAAQBAJ&printsec=frontcover&dq=subject:%22business%22&hl=&cd=7&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=gSXhAAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-gSXhAAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 39.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 31.19,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=gSXhAAAAQBAJ&rdid=book-gSXhAAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 39990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 31190000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Verhandeln_in_Einkauf_und_Vertrieb-sample-pdf.acsm?id=gSXhAAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=gSXhAAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "chlzo9MbEuIC",
+      "etag": "B3bIx/pCSGE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/chlzo9MbEuIC",
+      "volumeInfo": {
+        "title": "Forex for Beginners",
+        "subtitle":
+          "A Comprehensive Guide to Profiting from the Global Currency Markets",
+        "authors": ["Adam Kritzer"],
+        "publisher": "Apress",
+        "publishedDate": "2013-02-03",
+        "description":
+          "\"Backed by a comprehensive list of studies, this book is a brilliant contribution on the connections between exchange rates and economics.\"—Francesc Riverola, CEO and Founder of FXstreet.com \"Adam Kritzer has been covering the forex market for years as a prominent but accessible industry expert. In a market sector full of pitfalls for the novice, this book will help many new traders avoid costly mistakes and get started on the path to success.\"—Andy Hagans, Co-founder of ETF Database \"Adam Kritzer is not only one of my favorite forex writers but also one of the best ... This book will likely become required reading for those getting into the forex market.\"—Zachary Storella, Founder of CountingPips.com Forex for Beginners: A Comprehensive Guide to Profiting from the Global Currency Markets is a guide for those who want to earn extra income trading currencies without committing large amounts of time or money. This book will introduce global investors to the basics of forex (foreign exchange) trading and provide them with a solid framework for analyzing currencies and profiting from their fluctuations. Topics covered include the forces that cause exchange rates to fluctuate, an overview of the mechanics of trading, analytical and forecasting tools, how to profit from pricing trends, and common pitfalls that often ensnare traders. While most books make grandiose promises of instant success and large profits, Forex for Beginners represents an alternative approach to investing in forex. The forex market is dominated by institutional capital and algorithmic trading, making it unrealistic to think that day traders can beat the market by relying on charts and technical indicators alone. Thus, the emphasis here is on fundamental analysis—using economic concepts to spot currency misalignments—and staking out positions to profit from them over a period of weeks and months. If you’re eager to tap into the world’s largest financial market on a part-time basis, this is the book for you. You will gain an understanding of how currency markets work and use this knowledge to generate income.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781430240518"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1430240512"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 296,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.3.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=chlzo9MbEuIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=chlzo9MbEuIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=chlzo9MbEuIC&printsec=frontcover&dq=subject:%22business%22&hl=&cd=8&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=chlzo9MbEuIC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-chlzo9MbEuIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 34.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 19.24,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=chlzo9MbEuIC&rdid=book-chlzo9MbEuIC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 34990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 19240000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Forex_for_Beginners-sample-epub.acsm?id=chlzo9MbEuIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Forex_for_Beginners-sample-pdf.acsm?id=chlzo9MbEuIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=chlzo9MbEuIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "H1EOUNjm6xkC",
+      "etag": "1CXFP0PaWtM",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/H1EOUNjm6xkC",
+      "volumeInfo": {
+        "title": "Social Innovation",
+        "subtitle": "Blurring Boundaries to Reconfigure Markets",
+        "authors": ["A. Nicholls", "A. Murdock"],
+        "publisher": "Springer",
+        "publishedDate": "2011-12-16",
+        "description":
+          "Focusing on social innovation broadly conceived in the context of social entrepreneurship and social enterprise in their global context this book is organised to address three of the most important themes in social innovation: strategies and logics, performance measurement and governance, and finally, sustainability and the environment.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780230367098"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0230367097"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 302,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.6.8.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=H1EOUNjm6xkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=H1EOUNjm6xkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink":
+          "http://books.google.com/books?id=H1EOUNjm6xkC&printsec=frontcover&dq=subject:%22business%22&hl=&cd=9&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=H1EOUNjm6xkC&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-H1EOUNjm6xkC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 109,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 87.2,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=H1EOUNjm6xkC&rdid=book-H1EOUNjm6xkC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 109000000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 87200000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 38150000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 33190000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Social_Innovation-sample-epub.acsm?id=H1EOUNjm6xkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Social_Innovation-sample-pdf.acsm?id=H1EOUNjm6xkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=H1EOUNjm6xkC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "L49sBAAAQBAJ",
+      "etag": "25f+V0IO0ZA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/L49sBAAAQBAJ",
+      "volumeInfo": {
+        "title": "Onboarding",
+        "subtitle":
+          "Als Führungskraft neue Mitarbeiter erfolgreich einarbeiten und integrieren",
+        "authors": ["Doris Brenner"],
+        "publisher": "Springer-Verlag",
+        "publishedDate": "2014-09-03",
+        "description":
+          "Die zügige und ganzheitliche Einarbeitung und Integration eines neuen Mitarbeiters (Onboarding) ist ein zentraler Prozess, um die Leistungsfähigkeit einer Organisation dauerhaft sicherstellen zu können. Diese Investitionsleistung zahlt sich mehrfach aus, denn nur auf dieser Grundlage wird der neue Mitarbeiter seine volle Leistungsfähigkeit und Leistungsbereitschaft zum Nutzen der Organisation entwickeln. Dieses Essential bietet konkrete Hilfestellungen, um den Onboarding-Prozess für alle Beteiligten – den neuen Mitarbeiter, die Führungskraft und den HR Bereich – erfolgreich gestalten zu können.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783658065287"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3658065281"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 33,
+        "printType": "BOOK",
+        "categories": ["Business & Economics"],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.5.6.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail":
+            "http://books.google.com/books/content?id=L49sBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail":
+            "http://books.google.com/books/content?id=L49sBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink":
+          "http://books.google.com/books?id=L49sBAAAQBAJ&printsec=frontcover&dq=subject:%22business%22&hl=&cd=10&source=gbs_api",
+        "infoLink":
+          "https://play.google.com/store/books/details?id=L49sBAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink":
+          "https://market.android.com/details?id=book-L49sBAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 17.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "USD"
+        },
+        "buyLink":
+          "https://play.google.com/store/books/details?id=L49sBAAAQBAJ&rdid=book-L49sBAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 17990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Onboarding-sample-epub.acsm?id=L49sBAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink":
+            "http://books.google.com/books/download/Onboarding-sample-pdf.acsm?id=L49sBAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink":
+          "http://play.google.com/books/reader?id=L49sBAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    }
+  ]
+}
