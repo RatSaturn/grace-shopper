@@ -9,25 +9,60 @@ const Book = db.define('book', {
       notEmpty: true
     }
   },
-  author: {
+  subtitle: {
+    type: Sequelize.STRING
+  },
+  authors: {
+    type: Sequelize.ARRAY(Sequelize.STRING),
+    allowNull: false
+  },
+  genre: {
     type: Sequelize.STRING,
     allowNull: false,
     validate: {
       notEmpty: true
     }
   },
+  languange: {
+    type: Sequelize.STRING,
+    defaultValue: 'en'
+  },
+  publisher: {
+    type: Sequelize.STRING
+  },
+  publishedDate: {
+    type: Sequelize.STRING
+  },
+  description: {
+    type: Sequelize.TEXT
+  },
+  pageCount: {
+    type: Sequelize.INTEGER,
+    defaultValue: 0
+  },
   price: {
-    type: Sequelize.DECIMAL(10, 2),
-    allowNull: false
+    type: Sequelize.INTEGER,
+    allowNull: false,
+    validate: {
+      min: 0
+    }
+  },
+  currencyCode: {
+    type: Sequelize.STRING,
+    defaultValue: 'USD'
   },
   imageUrl: {
     type: Sequelize.STRING,
     defaultValue:
-      'http://www.surprisingdiscoveries.com/uploads/3/2/2/1/32211241/4591772_orig.jp'
+      'http://www.surprisingdiscoveries.com/uploads/3/2/2/1/32211241/4591772_orig.jpg'
   },
   inventory: {
     type: Sequelize.INTEGER,
-    allowNull: false
+    allowNull: false,
+    defaultValue: 10,
+    validate: {
+      min: 0
+    }
   }
 })
 

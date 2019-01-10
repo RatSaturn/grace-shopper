@@ -1,7 +1,72 @@
 'use strict'
 
 const db = require('../server/db')
-const {User, Book} = require('../server/db/models')
+const {User, Book, Genre} = require('../server/db/models')
+const jsonFiles = [
+  require('../script/booksFromGoogle/business.json'),
+  require('../script/booksFromGoogle/childrenFiction.json'),
+  require('../script/booksFromGoogle/classicLiteraryFiction.json'),
+  require('../script/booksFromGoogle/fantasyFiction.json'),
+  require('../script/booksFromGoogle/healthFitness.json'),
+  require('../script/booksFromGoogle/historicalFiction.json'),
+  require('../script/booksFromGoogle/history.json'),
+  require('../script/booksFromGoogle/humor.json'),
+  require('../script/booksFromGoogle/magicRealismFiction.json'),
+  require('../script/booksFromGoogle/memoir.json'),
+  require('../script/booksFromGoogle/modernFiction.json'),
+  require('../script/booksFromGoogle/mysteryFiction.json'),
+  require('../script/booksFromGoogle/narrative.json'),
+  require('../script/booksFromGoogle/religion.json'),
+  require('../script/booksFromGoogle/selfHelp.json'),
+  require('../script/booksFromGoogle/youngAdultFiction.json')
+]
+
+const genresList = [
+  'Business',
+  `Children's Fiction`,
+  'Classic Literary Fiction',
+  'Fantasy Fiction',
+  'Health/Fitness',
+  'Historical Fiction',
+  'History',
+  'Humor',
+  'Magic Realism',
+  'Memoir',
+  'Modern Fiction',
+  'Mystery Fiction',
+  'Narrative',
+  'Religion',
+  'Self Help',
+  'Young Adult Fiction'
+]
+
+const allBooks = jsonFiles
+  .map((categoryBook, index) =>
+    categoryBook.items.map(book => ({
+      title: book.volumeInfo.title,
+      subtitle: book.volumeInfo.subtitle,
+      authors: book.volumeInfo.authors,
+      genre: genresList[index],
+      languange: book.volumeInfo.language,
+      publisher: book.volumeInfo.publisher,
+      publishedDate: book.volumeInfo.publishedDate,
+      description: book.volumeInfo.description,
+      pageCount: book.volumeInfo.pageCount,
+      price: book.saleInfo.listPrice
+        ? Math.ceil(book.saleInfo.listPrice.amount * 100)
+        : 0,
+      currencyCode: book.saleInfo.listPrice
+        ? book.saleInfo.listPrice.currencyCode
+        : 'USD',
+      imageUrl: book.volumeInfo.imageLinks
+        ? book.volumeInfo.imageLinks.thumbnail
+        : null,
+      inventory: Math.ceil(Math.random() * 10)
+    }))
+  )
+  .reduce((allBooks, categoryBooks) => allBooks.concat(categoryBooks), [])
+
+console.log(allBooks.length)
 
 async function seed() {
   await db.sync({force: true})
@@ -11,108 +76,18 @@ async function seed() {
     User.create({email: 'cody@email.com', password: '123'}),
     User.create({email: 'murphy@email.com', password: '123'})
   ])
+
   console.log(`seeded ${users.length} users`)
 
-  const books = await Promise.all([
-    Book.create({
-      title: "Harry Potter and the Sorcerer's Stone",
-      author: 'JK Rowling',
-      price: 19.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: 'Harry Potter and the Chamber of Secrets',
-      author: 'JK Rowling',
-      price: 21.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: "Harry Potter and the Sorcerer's Stone",
-      author: 'JK Rowling',
-      price: 19.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: 'Harry Potter and the Chamber of Secrets',
-      author: 'JK Rowling',
-      price: 21.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: "Harry Potter and the Sorcerer's Stone",
-      author: 'JK Rowling',
-      price: 19.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: 'Harry Potter and the Chamber of Secrets',
-      author: 'JK Rowling',
-      price: 21.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: "Harry Potter and the Sorcerer's Stone",
-      author: 'JK Rowling',
-      price: 19.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: 'Harry Potter and the Chamber of Secrets',
-      author: 'JK Rowling',
-      price: 21.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: "Harry Potter and the Sorcerer's Stone",
-      author: 'JK Rowling',
-      price: 19.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: 'Harry Potter and the Chamber of Secrets',
-      author: 'JK Rowling',
-      price: 21.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: "Harry Potter and the Sorcerer's Stone",
-      author: 'JK Rowling',
-      price: 19.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg',
-      inventory: 5
-    }),
-    Book.create({
-      title: 'Harry Potter and the Chamber of Secrets',
-      author: 'JK Rowling',
-      price: 21.95,
-      imageUrl:
-        'https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg',
-      inventory: 5
-    })
-  ])
+  const books = await Promise.all(allBooks.map(book => Book.create(book)))
 
   console.log(`seeded ${books.length} books`)
+
+  const genres = await Promise.all(
+    genresList.map(genre => Genre.create({type: genre}))
+  )
+
+  console.log(`seeded ${genres.length} genres`)
 
   console.log(`seeded successfully`)
 }
