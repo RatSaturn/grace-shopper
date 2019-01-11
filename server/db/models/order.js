@@ -24,26 +24,27 @@ Order.findAllOrders = async function() {
   return allOrders
 }
 
-// Order.update
-/*
-  Order.update(id, {order update object}) 
-    update object will have bookId and quantity
-    if quantity is 0, remove book from order
-    otherwise, update quantity with quantity from object
-    return updated order
-*/
+Order.updateOrderQuantity = async function(id, object) {
+  const orderInstance = await Order.findById(id)
+  const singleBook = await orderInstance.getBooks({where: {id: object.bookId}})
 
-/*
-Order.findOrder(id)
-  take order id (which is unique instance of somebody creating a cart), look in BooksForOrder, return array of objects with all books associated with order ID
-
-
-Order.getAll()
-  load all orders in Order table, with associated books eager-loaded
-
-*/
-
-// Instance Method
-// order.update(bookId, quantity)
-// 	add to BooksForOrder (insert, delete, update entries)
-// 	if quantity is 0, delete
+  if (singleBook.length === 0) {
+    const newBook = await Book.findById(object.bookId)
+    const newAssociation = await BooksForOrders.create({
+      orderId: id,
+      bookId: object.bookId,
+      quantity: 1,
+      price: newBook.price
+    })
+    return newAssociation
+  }
+  if (object.quantity === 0) {
+    const book = await BooksForOrders.findOne({where: {bookId: object.bookId}})
+    const removed = await orderInstance.removeBook(book)
+    return removed
+  } else {
+    const book = await BooksForOrders.findOne({where: {bookId: object.bookId}})
+    const newBook = await book.update({quantity: object.quantity})
+    return newBook
+  }
+}
