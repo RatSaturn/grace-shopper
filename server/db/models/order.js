@@ -1,6 +1,7 @@
 const Sequelize = require('sequelize')
 const db = require('../db')
 const BooksForOrders = require('./booksForOrders')
+const Book = require('./book')
 
 const Order = db.define('order', {
   pending: Sequelize.BOOLEAN
@@ -8,22 +9,17 @@ const Order = db.define('order', {
 
 module.exports = Order
 
-Order.findOrders = async function(id) {
-  const orders = await BooksForOrders.findAll({
-    where: {orderId: id}
-  })
+Order.findSingleOrder = async function(id) {
   const orderInstance = await Order.findById(id)
-  const books = await orderInstance.getBooks()
-
-  return [orders, books]
+  const bookInformation = await orderInstance.getBooks()
+  return bookInformation
 }
 
-/*
-Order.findOrder(id)
-  take order id (which is unique instance of somebody creating a cart), look in BooksForOrder, return array of objects with all books associated with order ID
+Order.findAllOrders = async function() {
+  const orderIds = await Order.findAll({attributes: ['id']})
 
-
-Order.getAll()
-  load all orders in Order table, with associated books eager-loaded
-
-*/
+  const allOrders = await Promise.all(
+    orderIds.map(orderId => Order.findSingleOrder(orderId.id))
+  )
+  return allOrders
+}
