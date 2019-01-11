@@ -13,7 +13,6 @@ export class AllBooks extends Component {
   }
 
   render() {
-    console.log(this.props.books)
     return (
       <div>
         <center>

@@ -23,7 +23,7 @@ describe('Book routes', () => {
       return Book.create(fakeBook)
     })
 
-    it('GET /api/books', async () => {
+    it('finds all books using GET /api/books', async () => {
       const res = await request(app)
         .get('/api/books')
         .expect(200)

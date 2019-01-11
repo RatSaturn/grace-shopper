@@ -48,7 +48,9 @@ describe('AllBooks', () => {
     }
   ]
   beforeEach(() => {
-    allBooks = shallow(<AllBooks books={bookArray} />)
+    allBooks = shallow(
+      <AllBooks books={bookArray} getBooksFromApi={() => ''} />
+    )
   })
 
   it('renders a Book Component for every book on props', () => {
