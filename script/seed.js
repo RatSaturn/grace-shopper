@@ -1,7 +1,13 @@
 'use strict'
 
 const db = require('../server/db')
-const {User, Book, Genre} = require('../server/db/models')
+const {
+  User,
+  Book,
+  Genre,
+  Order,
+  BooksForOrders
+} = require('../server/db/models')
 const jsonFiles = [
   require('../script/booksFromGoogle/business.json'),
   require('../script/booksFromGoogle/childrenFiction.json'),
@@ -88,6 +94,80 @@ async function seed() {
   )
 
   console.log(`seeded ${genres.length} genres`)
+
+  let [order, book1, book2, book3] = await Promise.all([
+    Order.create({pending: true}),
+    Book.findById(1),
+    Book.findById(2),
+    Book.findById(3)
+  ])
+
+  await Promise.all([
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book1.id,
+      quantity: 1,
+      price: book1.price
+    }),
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book2.id,
+      quantity: 1,
+      price: book2.price
+    }),
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book3.id,
+      quantity: 1,
+      price: book3.price
+    })
+  ])
+  order = await Order.create({pending: true})
+
+  await Promise.all([
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book1.id,
+      quantity: 2,
+      price: book1.price
+    }),
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book2.id,
+      quantity: 2,
+      price: book2.price
+    }),
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book3.id,
+      quantity: 2,
+      price: book3.price
+    })
+  ])
+  order = await Order.create({pending: true})
+
+  await Promise.all([
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book1.id,
+      quantity: 3,
+      price: book1.price
+    }),
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book2.id,
+      quantity: 3,
+      price: book2.price
+    }),
+    BooksForOrders.create({
+      orderId: order.id,
+      bookId: book3.id,
+      quantity: 3,
+      price: book3.price
+    })
+  ])
+
+  console.log('seeded 3 pending orders')
 
   console.log(`seeded successfully`)
 }
