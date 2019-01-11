@@ -1,66 +1,80 @@
-// /*thumbnail       title             price           quantity
-//                   author
-// */
+/*thumbnail       title             price           quantity
+                  author
+*/
 
-// import React from 'react'
-// import {Link} from 'react-router-dom'
-// import {getUpdatedCartFromServer} from '../store'
+import React from 'react'
+import {updateCartOnServer} from '../store'
+import {connect} from 'react-redux'
 
-// class CartItem extends React.Component {
-//   constructor() {
-//     super()
-//     this.state = {}
-//     this.quantityMax = this.quantityMax.bind()
-//   }
+class CartItem extends React.Component {
+  constructor(props) {
+    super(props)
+    this.handleChange = this.handleChange.bind()
+  }
 
-//   async componentDidMount() {}
+  async handleChange(event) {
+    console.log(event)
+    if (event.target.value) {
+      await this.props.updateCartOnServer({
+        bookId: this.props.book.id,
+        quantity: event.target.value
+      })
+    } else {
+      updateCartOnServer({
+        bookId: this.props.book.id,
+        quantity: 0
+      })
+    }
+  }
 
-//   quantityMax() {
-//     const maxArray = []
-//     for (let i = 1; i <= this.props.books.inventory; i++) {
-//       maxArray.push(i)
-//     }
-//     return maxArray
-//   }
+  render() {
+    const {imageUrl, title, author, price} = this.props.book
 
-//   handleUpdate() {}
+    const loop = [1, 2, 3, 4, 5, 6]
+    const displayPrice = price.toString().split('')
+    displayPrice.splice(displayPrice.length - 2, 0, '.')
 
-//   render() {
-//     const {id, imageUrl, title, author, price, format} = props.book
-//     return (
-//       <tr>
-//         <td>
-//           <img src={imageUrl} />
-//         </td>
-//         <td>
-//           <div className="title-author-cart-item">
-//             {title}
-//             {author}
-//           </div>
-//         </td>
-//         <td>${price}</td>
-//         <td>
-//           <label htmlFor="quantity-limit">Quantity:</label>
-//           <select id="quantity dropdown">
-//             {this.quantityMax().map(num => (
-//               <option key={num} value={num.toString()}>
-//                 num
-//               </option>
-//             ))}
-//           </select>
-//         </td>
-//         <td>
-//           Remove Button<button
-//             type="button"
-//             onClick={() => this.getUpdatedCartFromServer()}
-//           >
-//             Remove Item
-//           </button>
-//         </td>
-//       </tr>
-//     )
-//   }
-// }
+    return (
+      <tr>
+        <td>
+          <img src={imageUrl} alt={title} className="thumbnail" />
+        </td>
+        <td>
+          <div className="title-author-cart-item">
+            {title}
+            {author}
+          </div>
+        </td>
+        <td>${displayPrice}</td>
+        <td>
+          <div className="quantity-and-remove">
+            <label htmlFor="quantity-limit">Quantity:</label>
+            <select id="quantity-dropdown" onChange={this.handleChange}>
+              {loop.map(num => (
+                <option key={num} value={num}>
+                  {num}
+                </option>
+              ))}
+            </select>
+            <button type="button" onClick={() => this.handleChange()}>
+              Remove Item
+            </button>
+          </div>
+        </td>
+      </tr>
+    )
+  }
+}
+
+const mapDispatch = dispatch => {
+  return {
+    updateCartOnServer(bookInfo) {
+      dispatch(updateCartOnServer(bookInfo))
+    }
+  }
+}
+
+export default connect(null, mapDispatch)(CartItem)
 
 // return (
 //   <div>
@@ -76,5 +90,3 @@
 //     <p>{format}</p>
 //   </div>
 // )
-
-// export default CartItem

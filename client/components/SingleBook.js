@@ -1,8 +1,12 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getSingleBookFromApi} from '../store'
+import {getSingleBookFromApi, updateCartOnServer} from '../store'
 
 export class SingleBook extends Component {
+  constructor() {
+    super()
+    this.handleClick = this.handleClick.bind()
+  }
   async componentDidMount() {
     const id = this.props.match.params.bookId
     try {
@@ -10,6 +14,13 @@ export class SingleBook extends Component {
     } catch (err) {
       console.error(err)
     }
+  }
+
+  async handleClick() {
+    await this.props.updateCartOnServer({
+      bookId: this.props.singleBook.id,
+      quantity: 1
+    })
   }
   render() {
     const singleBook = this.props.singleBook
@@ -28,6 +39,11 @@ export class SingleBook extends Component {
         <li>
           {singleBook.description ? singleBook.description : 'No description'}
         </li>
+        <li>
+          <button type="button" onClick={this.handleClick()}>
+            Add To Cart
+          </button>
+        </li>
       </ul>
     )
   }
@@ -44,6 +60,9 @@ const mapDispatch = dispatch => {
   return {
     getSingleBookFromApi(id) {
       dispatch(getSingleBookFromApi(id))
+    },
+    updateCartOnServer(bookInfo) {
+      dispatch(updateCartOnServer(bookInfo))
     }
   }
 }

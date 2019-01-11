@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom'
 
 const BookComponent = props => {
   const {id, imageUrl, title, author, price, format} = props.book
-
+  const displayPrice = price.toString().split('')
+  displayPrice.splice(displayPrice.length - 2, 0, '.')
   return (
     <div>
       <img src={imageUrl} />
@@ -14,7 +15,7 @@ const BookComponent = props => {
       </p>
 
       <p>{author}</p>
-      <p>${price}</p>
+      <p>${displayPrice}</p>
       <p>{format}</p>
     </div>
   )
