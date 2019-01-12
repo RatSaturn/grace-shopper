@@ -4,7 +4,7 @@ module.exports = router
 
 router.get('/', async (req, res, next) => {
   try {
-    const orders = await Order.getAllOrders()
+    const orders = await Order.findAllOrders()
     res.json(orders)
   } catch (err) {
     next(err)
@@ -12,12 +12,13 @@ router.get('/', async (req, res, next) => {
 })
 
 router.get('/cart', async (req, res, next) => {
+  //testing only
+  req.session.cartId = 1
   try {
     // if cart doesn't exist, create one
     // if user is logged in, add userId to order
     // Todo: when user first logged in:
-    // 1. add userId to pending order
-    // 2. add pending orderId to session if no cart is created yet
+    // add pending orderId (created from previous login) to session assuming no cart is created yet
     if (!req.session.cartId) {
       const cart = await Order.create()
       req.session.cartId = cart.id
@@ -27,7 +28,7 @@ router.get('/cart', async (req, res, next) => {
       }
       res.status(200).json([])
     } else {
-      const cart = await Order.findOrder(req.session.cartId)
+      const cart = await Order.findSingleOrder(req.session.cartId)
       console.log(cart)
       res.status(200).json(cart)
     }
@@ -48,7 +49,8 @@ router.post('/cart/update', async (req, res, next) => {
         await cart.setUser(user)
       }
     }
-    const cart = await Order.Update(req.session.cartId, req.body)
+    console.log(req.session.cartId, req.body)
+    const cart = await Order.updateOrderQuantity(req.session.cartId, req.body)
     console.log(cart)
     res.status(200).json(cart)
   } catch (err) {
