@@ -29,7 +29,6 @@ router.get('/cart', async (req, res, next) => {
       res.status(200).json([])
     } else {
       const cart = await Order.findSingleOrder(req.session.cartId)
-      console.log(cart)
       res.status(200).json(cart)
     }
   } catch (err) {
