@@ -8,9 +8,8 @@ import Typography from '@material-ui/core/Typography'
 import IconButton from '@material-ui/core/IconButton'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import Collapse from '@material-ui/core/Collapse'
-
-//this will eventually need to be mapped to a new arrivals data structure. Tbd.
-//this page can be turned into a general template for rendering out a display of books
+import {connect} from 'react-redux'
+import {getBooksFromApi} from '/Users/sy/Documents/grace-shopper/client/store'
 
 const styles = theme => ({
   expand: {
@@ -32,6 +31,13 @@ class NewArrivals extends Component {
     this.setState(state => ({expanded: !state.expanded}))
   }
 
+  async componentDidMount() {
+    try {
+      await this.props.getBooksFromApi()
+    } catch (err) {
+      console.error(err)
+    }
+  }
   render() {
     const {classes} = this.props
     return (
@@ -60,12 +66,13 @@ class NewArrivals extends Component {
 
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <Grid container justify="center" alignItems="center">
+            {this.props.books.map(book => <Card key={book.id} book={book} />)}
+            {/*      
             <Card />
             <Card />
             <Card />
             <Card />
-            <Card />
-            <Card />
+            <Card /> */}
           </Grid>
         </Collapse>
       </div>
@@ -76,27 +83,22 @@ class NewArrivals extends Component {
 NewArrivals.propTypes = {
   classes: PropTypes.object.isRequired
 }
-// const NewArrivals = () => {
-// 	return (
-// 		<div>
-// 			<Typography
-// 				variant="h6"
-// 				align="center"
-// 				color="textSecondary"
-// 				gutterBottom
-// 			>
-// 				Browse our new arrivals!
-// 			</Typography>
-// 			<Grid container justify="center" alignItems="center">
-// 				<Card />
-// 				<Card />
-// 				<Card />
-// 				<Card />
-// 				<Card />
-// 				<Card />
-// 			</Grid>
-// 		</div>
-// 	);
-// };
 
-export default withStyles(styles)(NewArrivals)
+/**
+ * CONTAINER
+ */
+const mapState = state => {
+  return {
+    books: state.books
+  }
+}
+
+const mapDispatch = dispatch => {
+  return {
+    getBooksFromApi() {
+      dispatch(getBooksFromApi())
+    }
+  }
+}
+
+export default connect(mapState, mapDispatch)(withStyles(styles)(NewArrivals))

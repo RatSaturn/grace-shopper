@@ -26,13 +26,10 @@ const styles = () => ({
 
 const bookCard = props => {
   const {classes} = props
+  const {book} = props
   return (
     <Card className={classes.card}>
-      <CardMedia
-        className={classes.media}
-        image="http://books.google.com/books/content?id=0GQoDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        title="Paella dish"
-      />
+      <CardMedia className={classes.media} image={book.imageUrl} title="book" />
       <CardContent>
         <Typography component="p">Book Information Here</Typography>
       </CardContent>
@@ -45,3 +42,27 @@ bookCard.propTypes = {
 }
 
 export default withStyles(styles)(bookCard)
+
+// import React from 'react'
+// import {Link} from 'react-router-dom'
+
+// const BookComponent = props => {
+//   const {id, imageUrl, title, authors, price} = props.book
+//   const displayPrice = price.toString().split('')
+//   displayPrice.splice(displayPrice.length - 2, 0, '.')
+//   return (
+//     <div>
+//       <img src={imageUrl} />
+//       <p>
+//         <Link exact to={`/allbooks/${id}`}>
+//           {title}
+//         </Link>
+//       </p>
+
+//       {authors.map(author => <p key={author}>{author}</p>)}
+//       <p>${displayPrice}</p>
+//     </div>
+//   )
+// }
+
+// export default BookComponent

@@ -712,12 +712,13 @@ var styles = function styles() {
 
 var bookCard = function bookCard(props) {
   var classes = props.classes;
+  var book = props.book;
   return _react.default.createElement(_Card.default, {
     className: classes.card
   }, _react.default.createElement(_CardMedia.default, {
     className: classes.media,
-    image: "http://books.google.com/books/content?id=0GQoDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-    title: "Paella dish"
+    image: book.imageUrl,
+    title: "book"
   }), _react.default.createElement(_CardContent.default, null, _react.default.createElement(_Typography.default, {
     component: "p"
   }, "Book Information Here")));
@@ -727,7 +728,27 @@ bookCard.propTypes = {
   classes: _propTypes.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(styles)(bookCard);
+var _default = (0, _styles.withStyles)(styles)(bookCard); // import React from 'react'
+// import {Link} from 'react-router-dom'
+// const BookComponent = props => {
+//   const {id, imageUrl, title, authors, price} = props.book
+//   const displayPrice = price.toString().split('')
+//   displayPrice.splice(displayPrice.length - 2, 0, '.')
+//   return (
+//     <div>
+//       <img src={imageUrl} />
+//       <p>
+//         <Link exact to={`/allbooks/${id}`}>
+//           {title}
+//         </Link>
+//       </p>
+//       {authors.map(author => <p key={author}>{author}</p>)}
+//       <p>${displayPrice}</p>
+//     </div>
+//   )
+// }
+// export default BookComponent
+
 
 exports.default = _default;
 
@@ -871,11 +892,19 @@ var _ExpandMore = _interopRequireDefault(__webpack_require__(/*! @material-ui/ic
 
 var _Collapse = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Collapse */ "./node_modules/@material-ui/core/Collapse/index.js"));
 
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _store = __webpack_require__(/*! ./client/store */ "./client/store/index.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -895,8 +924,6 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-//this will eventually need to be mapped to a new arrivals data structure. Tbd.
-//this page can be turned into a general template for rendering out a display of books
 var styles = function styles(theme) {
   return {
     expand: {
@@ -946,6 +973,41 @@ function (_Component) {
   }
 
   _createClass(NewArrivals, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee() {
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return this.props.getBooksFromApi();
+
+              case 3:
+                _context.next = 8;
+                break;
+
+              case 5:
+                _context.prev = 5;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 5]]);
+      }));
+
+      return function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      };
+    }()
+  }, {
     key: "render",
     value: function render() {
       var classes = this.props.classes;
@@ -972,7 +1034,12 @@ function (_Component) {
         container: true,
         justify: "center",
         alignItems: "center"
-      }, _react.default.createElement(_card.default, null), _react.default.createElement(_card.default, null), _react.default.createElement(_card.default, null), _react.default.createElement(_card.default, null), _react.default.createElement(_card.default, null), _react.default.createElement(_card.default, null))));
+      }, this.props.books.map(function (book) {
+        return _react.default.createElement(_card.default, {
+          key: book.id,
+          book: book
+        });
+      }))));
     }
   }]);
 
@@ -980,32 +1047,28 @@ function (_Component) {
 }(_react.Component);
 
 NewArrivals.propTypes = {
-  classes: _propTypes.default.object.isRequired // const NewArrivals = () => {
-  // 	return (
-  // 		<div>
-  // 			<Typography
-  // 				variant="h6"
-  // 				align="center"
-  // 				color="textSecondary"
-  // 				gutterBottom
-  // 			>
-  // 				Browse our new arrivals!
-  // 			</Typography>
-  // 			<Grid container justify="center" alignItems="center">
-  // 				<Card />
-  // 				<Card />
-  // 				<Card />
-  // 				<Card />
-  // 				<Card />
-  // 				<Card />
-  // 			</Grid>
-  // 		</div>
-  // 	);
-  // };
+  classes: _propTypes.default.object.isRequired
+  /**
+   * CONTAINER
+   */
 
 };
 
-var _default = (0, _styles.withStyles)(styles)(NewArrivals);
+var mapState = function mapState(state) {
+  return {
+    books: state.books
+  };
+};
+
+var mapDispatch = function mapDispatch(dispatch) {
+  return {
+    getBooksFromApi: function getBooksFromApi() {
+      dispatch((0, _store.getBooksFromApi)());
+    }
+  };
+};
+
+var _default = (0, _reactRedux.connect)(mapState, mapDispatch)((0, _styles.withStyles)(styles)(NewArrivals));
 
 exports.default = _default;
 
