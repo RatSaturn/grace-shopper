@@ -13,7 +13,7 @@ router.get('/', async (req, res, next) => {
 
 router.get('/cart', async (req, res, next) => {
   //testing only
-  req.session.cartId = 1
+  //req.session.cartId = 2
   try {
     // if cart doesn't exist, create one
     // if user is logged in, add userId to order
@@ -38,6 +38,8 @@ router.get('/cart', async (req, res, next) => {
 })
 
 router.post('/cart/update', async (req, res, next) => {
+  //testing only
+  //req.session.cartId = 2
   try {
     // if cart doesn't exist, create one
     // if user is logged in, add userId to order
@@ -51,7 +53,6 @@ router.post('/cart/update', async (req, res, next) => {
     }
     console.log(req.session.cartId, req.body)
     const cart = await Order.updateOrderQuantity(req.session.cartId, req.body)
-    console.log(cart)
     res.status(200).json(cart)
   } catch (err) {
     next(err)
