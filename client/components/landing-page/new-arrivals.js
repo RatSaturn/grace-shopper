@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import {withStyles} from '@material-ui/core/styles'
 import classnames from 'classnames'
-import Card from './card'
+import Card from './book-card'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import IconButton from '@material-ui/core/IconButton'
@@ -43,14 +43,14 @@ class NewArrivals extends Component {
     return (
       <div align="center">
         <div>
-          {/* <Typography
+          <Typography
             variant="h6"
             align="center"
             color="textSecondary"
             gutterBottom
           >
-            Browse our new arrivals!
-          </Typography> */}
+            Browse Our Selection
+          </Typography>
           <IconButton
             className={classnames(classes.expand, {
               [classes.expandOpen]: this.state.expanded

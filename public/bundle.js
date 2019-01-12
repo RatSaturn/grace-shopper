@@ -122,145 +122,6 @@ exports.default = _default;
 
 /***/ }),
 
-/***/ "./client/components/all-books.js":
-/*!****************************************!*\
-  !*** ./client/components/all-books.js ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = exports.AllBooks = void 0;
-
-var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _bookComponent = _interopRequireDefault(__webpack_require__(/*! ./book-component */ "./client/components/book-component.js"));
-
-var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-
-var _store = __webpack_require__(/*! ../store */ "./client/store/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-var AllBooks =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(AllBooks, _Component);
-
-  function AllBooks() {
-    _classCallCheck(this, AllBooks);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(AllBooks).apply(this, arguments));
-  }
-
-  _createClass(AllBooks, [{
-    key: "componentDidMount",
-    value: function () {
-      var _componentDidMount = _asyncToGenerator(
-      /*#__PURE__*/
-      regeneratorRuntime.mark(function _callee() {
-        return regeneratorRuntime.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                _context.prev = 0;
-                _context.next = 3;
-                return this.props.getBooksFromApi();
-
-              case 3:
-                _context.next = 8;
-                break;
-
-              case 5:
-                _context.prev = 5;
-                _context.t0 = _context["catch"](0);
-                console.error(_context.t0);
-
-              case 8:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this, [[0, 5]]);
-      }));
-
-      return function componentDidMount() {
-        return _componentDidMount.apply(this, arguments);
-      };
-    }()
-  }, {
-    key: "render",
-    value: function render() {
-      return _react.default.createElement("div", null, _react.default.createElement("center", null, _react.default.createElement("h1", null, "All Books")), _react.default.createElement("div", {
-        className: "allbookscontainer"
-      }, this.props.books.map(function (book) {
-        return _react.default.createElement(_bookComponent.default, {
-          className: "singleBookContainer",
-          key: book.id,
-          book: book
-        });
-      })));
-    }
-  }]);
-
-  return AllBooks;
-}(_react.Component);
-/**
- * CONTAINER
- */
-
-
-exports.AllBooks = AllBooks;
-
-var mapState = function mapState(state) {
-  return {
-    books: state.books
-  };
-};
-
-var mapDispatch = function mapDispatch(dispatch) {
-  return {
-    getBooksFromApi: function getBooksFromApi() {
-      dispatch((0, _store.getBooksFromApi)());
-    }
-  };
-};
-
-var _default = (0, _reactRedux.connect)(mapState, mapDispatch)(AllBooks);
-
-exports.default = _default;
-
-/***/ }),
-
 /***/ "./client/components/auth-form.js":
 /*!****************************************!*\
   !*** ./client/components/auth-form.js ***!
@@ -364,57 +225,6 @@ AuthForm.propTypes = {
   handleSubmit: _propTypes.default.func.isRequired,
   error: _propTypes.default.object
 };
-
-/***/ }),
-
-/***/ "./client/components/book-component.js":
-/*!*********************************************!*\
-  !*** ./client/components/book-component.js ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var BookComponent = function BookComponent(props) {
-  var _props$book = props.book,
-      id = _props$book.id,
-      imageUrl = _props$book.imageUrl,
-      title = _props$book.title,
-      authors = _props$book.authors,
-      price = _props$book.price;
-  var displayPrice = price.toString().split('');
-  displayPrice.splice(displayPrice.length - 2, 0, '.');
-  return _react.default.createElement("div", null, _react.default.createElement("img", {
-    src: imageUrl
-  }), _react.default.createElement("p", null, _react.default.createElement(_reactRouterDom.Link, {
-    exact: true,
-    to: "/allbooks/".concat(id),
-    style: {
-      textDecoration: 'none',
-      color: '#FFF'
-    }
-  }, title)), authors.map(function (author) {
-    return _react.default.createElement("p", {
-      key: author
-    }, author);
-  }), _react.default.createElement("p", null, "$", displayPrice));
-};
-
-var _default = BookComponent;
-exports.default = _default;
 
 /***/ }),
 
@@ -631,12 +441,6 @@ Object.defineProperty(exports, "UserHome", {
     return _userHome.default;
   }
 });
-Object.defineProperty(exports, "AllBooks", {
-  enumerable: true,
-  get: function get() {
-    return _allBooks.default;
-  }
-});
 Object.defineProperty(exports, "Login", {
   enumerable: true,
   get: function get() {
@@ -654,18 +458,16 @@ var _navbar = _interopRequireDefault(__webpack_require__(/*! ./navbar */ "./clie
 
 var _userHome = _interopRequireDefault(__webpack_require__(/*! ./user-home */ "./client/components/user-home.js"));
 
-var _allBooks = _interopRequireDefault(__webpack_require__(/*! ./all-books */ "./client/components/all-books.js"));
-
 var _authForm = __webpack_require__(/*! ./auth-form */ "./client/components/auth-form.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
 
-/***/ "./client/components/landing-page/card.js":
-/*!************************************************!*\
-  !*** ./client/components/landing-page/card.js ***!
-  \************************************************/
+/***/ "./client/components/landing-page/book-card.js":
+/*!*****************************************************!*\
+  !*** ./client/components/landing-page/book-card.js ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -877,7 +679,7 @@ var _styles = __webpack_require__(/*! @material-ui/core/styles */ "./node_module
 
 var _classnames2 = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
 
-var _card = _interopRequireDefault(__webpack_require__(/*! ./card */ "./client/components/landing-page/card.js"));
+var _bookCard = _interopRequireDefault(__webpack_require__(/*! ./book-card */ "./client/components/landing-page/book-card.js"));
 
 var _Grid = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/Grid/index.js"));
 
@@ -1010,7 +812,12 @@ function (_Component) {
       var classes = this.props.classes;
       return _react.default.createElement("div", {
         align: "center"
-      }, _react.default.createElement("div", null, _react.default.createElement(_IconButton.default, {
+      }, _react.default.createElement("div", null, _react.default.createElement(_Typography.default, {
+        variant: "h6",
+        align: "center",
+        color: "textSecondary",
+        gutterBottom: true
+      }, "Browse Our Selection"), _react.default.createElement(_IconButton.default, {
         className: (0, _classnames2.default)(classes.expand, _defineProperty({}, classes.expandOpen, this.state.expanded)),
         align: "center",
         onClick: this.handleExpandClick,
@@ -1027,7 +834,7 @@ function (_Component) {
         justify: "center",
         alignItems: "center"
       }, this.props.books.map(function (book) {
-        return _react.default.createElement(_card.default, {
+        return _react.default.createElement(_bookCard.default, {
           key: book.id,
           book: book
         });
