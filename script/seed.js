@@ -6,7 +6,9 @@ const {
   Book,
   Genre,
   Order,
-  BooksForOrders
+  BooksForOrders,
+  Staff,
+  StaffBooks
 } = require('../server/db/models')
 const jsonFiles = [
   require('../script/booksFromGoogle/business.json'),
@@ -74,6 +76,14 @@ const allBooks = jsonFiles
 
 console.log(allBooks.length)
 
+const staffMembers = [
+  {
+    name: 'Michelle Ureña',
+    imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDNRVP8F3-97e2dc5ec3e2-512',
+    contactUrl: 'https://www.linkedin.com/in/michelle-urena'
+  }
+]
+
 async function seed() {
   await db.sync({force: true})
   console.log('db synced!')
@@ -94,6 +104,29 @@ async function seed() {
   )
 
   console.log(`seeded ${genres.length} genres`)
+
+  const staff = await Promise.all(
+    staffMembers.map(member => Staff.create(member))
+  )
+
+  console.log(`seeded ${staff.length} staff members`)
+
+  const [michelle, mBook1] = await Promise.all([
+    Staff.findById(1),
+    Book.findOne({
+      where: {
+        title: 'American Like Me'
+      }
+    })
+  ])
+  console.log(`seeded Michelle's picks`)
+
+  await Promise.all([
+    StaffBooks.create({
+      staffId: michelle.id,
+      bookId: mBook1.id
+    })
+  ])
 
   let [order, book1, book2, book3] = await Promise.all([
     Order.create({pending: true}),

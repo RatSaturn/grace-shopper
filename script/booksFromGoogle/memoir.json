@@ -1,6 +1,6 @@
 {
   "kind": "books#volumes",
-  "totalItems": 21,
+  "totalItems": 22,
   "items": [
     {
       "kind": "books#volume",
@@ -713,6 +713,29 @@
           "http://play.google.com/books/reader?id=4UwRnwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
         "accessViewStatus": "NONE",
         "quoteSharingAllowed": false
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "American Like Me",
+        "subtitle": "Reflections on Life Between Cultures",
+        "authors": ["America Ferrera"],
+        "publishedDate": "2018-09-25",
+        "publisher": "Gallery Books",
+        "language": "en",
+        "description":
+          "From award-winning actress and political activist America Ferrera comes a vibrant and varied collection of first-person accounts from prominent figures about the experience of growing up between cultures.",
+        "pageCount": 337,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/51VJb7uP64L._SX260_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 29.99,
+          "currencyCode": "USD"
+        }
       }
     }
   ]
