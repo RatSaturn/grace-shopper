@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getSingleBookFromApi} from '../store'
-class SingleBook extends Component {
+import {getSingleBookFromApi, updateCartOnServer} from '../store'
+
+export class SingleBook extends Component {
   async componentDidMount() {
     const id = this.props.match.params.bookId
     try {
@@ -10,28 +11,44 @@ class SingleBook extends Component {
       console.error(err)
     }
   }
+
+  // async handleClick() {
+  //   await this.props.updateCartOnServer({
+  //     bookId: this.props.singleBook.id,
+  //     quantity: 1
+  //   })
+  // }
   render() {
     const singleBook = this.props.singleBook
     return (
-      <div className="container">
-        <div className="row">
-          <div className="col">Book Image</div>
-          <div className="col">
-            <div>{singleBook.title}</div>
-            <div>{singleBook.author}</div>
-            <div className="row">
-              <div className="col">Price</div>
-              <div className="col">Genre</div>
-            </div>
-            <div>Description</div>
-            <div className="row">
-              <div className="col">Amount</div>
-              <div className="col">Add to Cart</div>
-              <div className="col">Wish List</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <ul>
+        <img src={singleBook.imageUrl} />
+        <li>{singleBook.title}</li>
+        <li>
+          <ul>
+            {singleBook.authors
+              ? singleBook.authors.map(author => <li key={author}>{author}</li>)
+              : undefined}
+          </ul>
+        </li>
+        <li>{singleBook.genre ? singleBook.genre : 'No genre'}</li>
+        <li>
+          {singleBook.description ? singleBook.description : 'No description'}
+        </li>
+        <li>
+          <button
+            type="button"
+            onClick={() =>
+              this.props.updateCartOnServer({
+                bookId: this.props.singleBook.id,
+                quantity: 1
+              })
+            }
+          >
+            Add To Cart
+          </button>
+        </li>
+      </ul>
     )
   }
 }
@@ -43,11 +60,8 @@ const mapState = state => {
     singleBook: state.singleBook
   }
 }
-const mapDispatch = dispatch => {
-  return {
-    getSingleBookFromApi() {
-      dispatch(getSingleBookFromApi())
-    }
-  }
-}
+const mapDispatch = dispatch => ({
+  getSingleBookFromApi: id => dispatch(getSingleBookFromApi(id)),
+  updateCartOnServer: bookInfo => dispatch(updateCartOnServer(bookInfo))
+})
 export default connect(mapState, mapDispatch)(SingleBook)

@@ -135,7 +135,7 @@ exports.default = _default;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
+exports.default = exports.AllBooks = void 0;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
@@ -220,7 +220,6 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      console.log(this.props.books);
       return _react.default.createElement("div", null, _react.default.createElement("center", null, _react.default.createElement("h1", null, "All Books")), _react.default.createElement("div", {
         className: "allbookscontainer"
       }, this.props.books.map(function (book) {
@@ -239,6 +238,8 @@ function (_Component) {
  * CONTAINER
  */
 
+
+exports.AllBooks = AllBooks;
 
 var mapState = function mapState(state) {
   return {
@@ -392,15 +393,20 @@ var BookComponent = function BookComponent(props) {
       id = _props$book.id,
       imageUrl = _props$book.imageUrl,
       title = _props$book.title,
-      author = _props$book.author,
-      price = _props$book.price,
-      format = _props$book.format;
+      authors = _props$book.authors,
+      price = _props$book.price;
+  var displayPrice = price.toString().split('');
+  displayPrice.splice(displayPrice.length - 2, 0, '.');
   return _react.default.createElement("div", null, _react.default.createElement("img", {
     src: imageUrl
   }), _react.default.createElement("p", null, _react.default.createElement(_reactRouterDom.Link, {
     exact: true,
     to: "/allbooks/".concat(id)
-  }, title)), _react.default.createElement("p", null, author), _react.default.createElement("p", null, "$", price), _react.default.createElement("p", null, format));
+  }, title)), authors.map(function (author) {
+    return _react.default.createElement("p", {
+      key: author
+    }, author);
+  }), _react.default.createElement("p", null, "$", displayPrice));
 };
 
 var _default = BookComponent;
@@ -974,29 +980,30 @@ function (_Component) {
 }(_react.Component);
 
 NewArrivals.propTypes = {
-  classes: _propTypes.default.object.isRequired
-}; // const NewArrivals = () => {
-// 	return (
-// 		<div>
-// 			<Typography
-// 				variant="h6"
-// 				align="center"
-// 				color="textSecondary"
-// 				gutterBottom
-// 			>
-// 				Browse our new arrivals!
-// 			</Typography>
-// 			<Grid container justify="center" alignItems="center">
-// 				<Card />
-// 				<Card />
-// 				<Card />
-// 				<Card />
-// 				<Card />
-// 				<Card />
-// 			</Grid>
-// 		</div>
-// 	);
-// };
+  classes: _propTypes.default.object.isRequired // const NewArrivals = () => {
+  // 	return (
+  // 		<div>
+  // 			<Typography
+  // 				variant="h6"
+  // 				align="center"
+  // 				color="textSecondary"
+  // 				gutterBottom
+  // 			>
+  // 				Browse our new arrivals!
+  // 			</Typography>
+  // 			<Grid container justify="center" alignItems="center">
+  // 				<Card />
+  // 				<Card />
+  // 				<Card />
+  // 				<Card />
+  // 				<Card />
+  // 				<Card />
+  // 			</Grid>
+  // 		</div>
+  // 	);
+  // };
+
+};
 
 var _default = (0, _styles.withStyles)(styles)(NewArrivals);
 
@@ -1437,6 +1444,10 @@ function (_Component) {
         component: _components.AllBooks
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
+        path: "/cart",
+        component: _components.Cart
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
         path: "/allbooks/:bookId",
         component: _components.SingleBook
       }));
@@ -1527,8 +1538,6 @@ exports.default = _default;
 exports.getBooksFromApi = void 0;
 
 var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
-
-var _history = _interopRequireDefault(__webpack_require__(/*! ../history */ "./client/history.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1623,6 +1632,171 @@ function _default() {
 
 /***/ }),
 
+/***/ "./client/store/cart.js":
+/*!******************************!*\
+  !*** ./client/store/cart.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = _default;
+exports.updateCartOnServer = exports.getCartFromServer = void 0;
+
+var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+/**
+ * ACTION TYPES
+ */
+var GET_CART = 'GET_CART';
+var UPDATE_CART = 'UPDATE_CART';
+/**
+ * INITIAL STATE
+ */
+
+var defaultCart = [];
+/**
+ * ACTION CREATORS
+ */
+
+var getCart = function getCart(cart) {
+  return {
+    type: GET_CART,
+    cart: cart
+  };
+};
+
+var updateCart = function updateCart(cart) {
+  return {
+    type: UPDATE_CART,
+    cart: cart
+  };
+};
+/**
+ * THUNK CREATORS
+ */
+
+
+var getCartFromServer = function getCartFromServer() {
+  return (
+    /*#__PURE__*/
+    function () {
+      var _ref = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee(dispatch) {
+        var res;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return _axios.default.get('/api/orders/cart');
+
+              case 3:
+                res = _context.sent;
+                dispatch(getCart(res.data || defaultCart));
+                _context.next = 10;
+                break;
+
+              case 7:
+                _context.prev = 7;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 10:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 7]]);
+      }));
+
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }()
+  );
+};
+
+exports.getCartFromServer = getCartFromServer;
+
+var updateCartOnServer = function updateCartOnServer(bookUpdate) {
+  return (
+    /*#__PURE__*/
+    function () {
+      var _ref2 = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee2(dispatch) {
+        var res;
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.prev = 0;
+                _context2.next = 3;
+                return _axios.default.post('/api/orders/cart/update', bookUpdate);
+
+              case 3:
+                res = _context2.sent;
+                dispatch(updateCart(res.data));
+                return _context2.abrupt("return", 'done');
+
+              case 8:
+                _context2.prev = 8;
+                _context2.t0 = _context2["catch"](0);
+                console.error(_context2.t0);
+
+              case 11:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this, [[0, 8]]);
+      }));
+
+      return function (_x2) {
+        return _ref2.apply(this, arguments);
+      };
+    }()
+  );
+};
+/**
+ * REDUCER
+ */
+
+
+exports.updateCartOnServer = updateCartOnServer;
+
+function _default() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : defaultCart;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case GET_CART:
+      return action.cart;
+
+    case UPDATE_CART:
+      return action.cart;
+
+    default:
+      return state;
+  }
+}
+
+/***/ }),
+
 /***/ "./client/store/index.js":
 /*!*******************************!*\
   !*** ./client/store/index.js ***!
@@ -1686,6 +1860,19 @@ Object.keys(_singleBook).forEach(function (key) {
   });
 });
 
+var _cart = _interopRequireWildcard(__webpack_require__(/*! ./cart */ "./client/store/cart.js"));
+
+Object.keys(_cart).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _cart[key];
+    }
+  });
+});
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -1693,7 +1880,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var reducer = (0, _redux.combineReducers)({
   user: _user.default,
   books: _books.default,
-  singleBook: _singleBook.default
+  singleBook: _singleBook.default,
+  cart: _cart.default
 });
 var middleware = (0, _reduxDevtoolsExtension.composeWithDevTools)((0, _redux.applyMiddleware)(_reduxThunk.default, (0, _reduxLogger.default)({
   collapsed: true
@@ -1718,12 +1906,17 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = _default;
+exports.getSingleBookFromApi = void 0;
 
 var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
 
 var _history = _interopRequireDefault(__webpack_require__(/*! ../history */ "./client/history.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 /**
  * ACTION TYPES
@@ -1733,18 +1926,10 @@ var GET_SINGLE_BOOK = 'GET_SINGLE_BOOK';
  * INITIAL STATE
  */
 
-var defaultBook = {
-  id: 1,
-  title: 'Harry Potter and the Goblet of Fire',
-  author: 'J.K. Rowling',
-  imageUrl: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwifwd64z-HfAhUvWN8KHUJaB20QjRx6BAgBEAU&url=https%3A%2F%2Fwww.akc.org%2Fexpert-advice%2Fhealth%2Fpuppies-how-much-exercise%2F&psig=AOvVaw0KQnWmZUhYE6Xe7O-A2Si4&ust=1547154943916326',
-  price: 19.95,
-  format: 'Hardcover'
-  /**
-   * ACTION CREATORS
-   */
-
-};
+var singleBook = {};
+/**
+ * ACTION CREATORS
+ */
 
 var getSingleBook = function getSingleBook(singleBook) {
   return {
@@ -1755,22 +1940,59 @@ var getSingleBook = function getSingleBook(singleBook) {
 /**
  * THUNK CREATORS
  */
-// export const getSingleBookFromApi = id => async dispatch => {
-//   try {
-//     // const res = await axios.get(`/api/books/${id}`)
-//     dispatch(getSingleBook(/*res.data || */ defaultBook))
-//   } catch (err) {
-//     console.error(err)
-//   }
-// }
 
+
+var getSingleBookFromApi = function getSingleBookFromApi(id) {
+  return (
+    /*#__PURE__*/
+    function () {
+      var _ref = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee(dispatch) {
+        var res;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                console.log(id);
+                _context.next = 4;
+                return _axios.default.get("/api/books/".concat(id));
+
+              case 4:
+                res = _context.sent;
+                dispatch(getSingleBook(res.data || singleBook));
+                _context.next = 11;
+                break;
+
+              case 8:
+                _context.prev = 8;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 11:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 8]]);
+      }));
+
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }()
+  );
+};
 /**
  * REDUCER
  */
 
 
+exports.getSingleBookFromApi = getSingleBookFromApi;
+
 function _default() {
-  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : defaultBook;
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : singleBook;
   var action = arguments.length > 1 ? arguments[1] : undefined;
 
   switch (action.type) {

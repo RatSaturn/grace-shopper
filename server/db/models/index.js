@@ -1,21 +1,22 @@
 const User = require('./user')
 const Book = require('./book')
 const Order = require('./order')
+const BooksForOrders = require('./booksForOrders')
 
 User.hasMany(Order)
 Order.belongsTo(User)
-Order.hasMany(Book)
-Book.belongsToMany(Order, {through: 'BooksForOrders'})
+Order.belongsToMany(Book, {through: BooksForOrders})
+Book.belongsToMany(Order, {through: BooksForOrders})
 
 const Staff = require('./staff')
 const Author = require('./author')
 const Genre = require('./genre')
 
-Staff.hasMany(Book)
-Book.belongsTo(Staff)
+Staff.belongsToMany(Book, {through: 'StaffBooks'})
+Book.belongsToMany(Staff, {through: 'StaffBooks'})
 
-Genre.hasMany(Book)
-Book.belongsTo(Genre)
+//Genre.hasMany(Book)
+//Book.belongsTo(Genre)
 /**
  * If we had any associations to make, this would be a great place to put them!
  * ex. if we had another model called BlogPost, we might say:
@@ -35,5 +36,6 @@ module.exports = {
   Order,
   Staff,
   Genre,
-  Author
+  Author,
+  BooksForOrders
 }

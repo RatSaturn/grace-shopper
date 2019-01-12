@@ -3,7 +3,7 @@ import BookComponent from './book-component'
 import {connect} from 'react-redux'
 import {getBooksFromApi} from '../store'
 
-class AllBooks extends Component {
+export class AllBooks extends Component {
   async componentDidMount() {
     try {
       await this.props.getBooksFromApi()
@@ -13,7 +13,6 @@ class AllBooks extends Component {
   }
 
   render() {
-    console.log(this.props.books)
     return (
       <div>
         <center>
