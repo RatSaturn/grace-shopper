@@ -23,11 +23,14 @@ router.get('/:id', async (req, res, next) => {
 })
 
 //test route, remove when done!!!
-router.get('/getBooks/:id', async (req, res, next) => {
+
+router.get('/updateOrders/1', async (req, res, next) => {
   try {
-    console.log(req.params.id)
-    const allBooks = await Order.findOrders(req.params.id)
-    res.json(allBooks)
+    const allOrders = await Order.updateOrderQuantity(1, {
+      quantity: 0,
+      bookId: 1
+    })
+    res.json(allOrders)
   } catch (err) {
     next(err)
   }
