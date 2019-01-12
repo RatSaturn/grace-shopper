@@ -3,16 +3,14 @@ import {connect} from 'react-redux'
 import {getCartFromServer} from '../store'
 import CartItem from './CartItem'
 
-///we need to subscribe to changes
-
 export class Cart extends Component {
-  // async componentDidMount() {
-  //   try {
-  //     await this.props.getCartFromServer()
-  //   } catch (err) {
-  //     console.error(err)
-  //   }
-  // }
+  async componentDidMount() {
+    try {
+      await this.props.getCartFromServer()
+    } catch (err) {
+      console.error(err)
+    }
+  }
 
   render() {
     const displayTotal = this.props.cart
@@ -36,9 +34,11 @@ export class Cart extends Component {
                 <th>{}</th>
                 <th>Price</th>
                 <th>Quantity</th>
-                {this.props.cart.map(book => (
-                  <CartItem book={book} key={book.title} />
-                ))}
+                {this.props.cart.map(book => {
+                  if (book.booksForOrder.quantity) {
+                    return <CartItem book={book} key={book.title} />
+                  }
+                })}
               </table>
             </div>
             <div className="cart-total">
@@ -74,9 +74,6 @@ const mapDispatch = dispatch => {
   return {
     getCartFromServer() {
       dispatch(getCartFromServer())
-    },
-    checkout() {
-      dispatch(checkout())
     }
   }
 }

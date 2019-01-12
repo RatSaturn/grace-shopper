@@ -3,10 +3,6 @@ import {connect} from 'react-redux'
 import {getSingleBookFromApi, updateCartOnServer} from '../store'
 
 export class SingleBook extends Component {
-  constructor() {
-    super()
-    this.handleClick = this.handleClick.bind()
-  }
   async componentDidMount() {
     const id = this.props.match.params.bookId
     try {
@@ -16,12 +12,12 @@ export class SingleBook extends Component {
     }
   }
 
-  async handleClick() {
-    await this.props.updateCartOnServer({
-      bookId: this.props.singleBook.id,
-      quantity: 1
-    })
-  }
+  // async handleClick() {
+  //   await this.props.updateCartOnServer({
+  //     bookId: this.props.singleBook.id,
+  //     quantity: 1
+  //   })
+  // }
   render() {
     const singleBook = this.props.singleBook
     return (
@@ -40,7 +36,15 @@ export class SingleBook extends Component {
           {singleBook.description ? singleBook.description : 'No description'}
         </li>
         <li>
-          <button type="button" onClick={this.handleClick()}>
+          <button
+            type="button"
+            onClick={() =>
+              this.props.updateCartOnServer({
+                bookId: this.props.singleBook.id,
+                quantity: 1
+              })
+            }
+          >
             Add To Cart
           </button>
         </li>
@@ -56,14 +60,8 @@ const mapState = state => {
     singleBook: state.singleBook
   }
 }
-const mapDispatch = dispatch => {
-  return {
-    getSingleBookFromApi(id) {
-      dispatch(getSingleBookFromApi(id))
-    },
-    updateCartOnServer(bookInfo) {
-      dispatch(updateCartOnServer(bookInfo))
-    }
-  }
-}
+const mapDispatch = dispatch => ({
+  getSingleBookFromApi: id => dispatch(getSingleBookFromApi(id)),
+  updateCartOnServer: bookInfo => dispatch(updateCartOnServer(bookInfo))
+})
 export default connect(mapState, mapDispatch)(SingleBook)
