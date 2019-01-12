@@ -1,91 +1,93 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
-import {logout} from '../store'
-import {DropdownButton, MenuItem} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
+import {logout} from '../store'
+import {withStyles} from '@material-ui/core/styles'
+import AppBar from '@material-ui/core/AppBar'
+import Toolbar from '@material-ui/core/Toolbar'
+import Typography from '@material-ui/core/Typography'
+import Button from '@material-ui/core/Button'
+import SimpleMenu from './drop-down-menu'
 
-const Navbar = ({handleClick, isLoggedIn}) => (
-  <div>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div className="container">
-        <a className="navbar-brand" href="#">
-          BookStack
-        </a>
-        <div>
-          <a className="navbar-brand" href="#">
-            Login
-          </a>
-          <a className="navbar-brand" href="#">
-            Sign Up
-          </a>
-          <a className="navbar-brand" href="#">
-            Cart
-          </a>
-        </div>
-      </div>
-    </nav>
-    <header className="jumbotron my-4">
-      <h1 className="display-3">Welcome to BookStack!</h1>
-      <p className="lead">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam,
-        eligendi, in quo sunt possimus non incidunt odit vero aliquid similique
-        quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.
-      </p>
-      <a href="#" className="btn btn-primary btn-lg">
-        Browse Our Catagories
-      </a>
-    </header>
-    <div className="jumbotron my-3" />
-    <div className="jumbotron my-3" />
-    <footer className="py-5 bg-dark">
-      <div className="container">
-        <p className="m-0 text-center text-white">
-          Copyright © Your Website 2018
-        </p>
-      </div>
-    </footer>
-  </div>
-)
-
-{
-  /* // const Navbar = ({handleClick, isLoggedIn}) => (
-//   <div>
-//     <Link to="/">
-//       <h1>Book Stack</h1>
-//     </Link>
-
-//     <nav> */
+const styles = {
+  root: {
+    flexGrow: 1
+  },
+  grow: {
+    flexGrow: 1
+  }
 }
-//       {isLoggedIn ? (
-//         <div>
-//           {/* The navbar will show these links after you log in */}
-//           <Link to="/home">Home</Link>
-//           <a href="#" onClick={handleClick}>
-//             Logout
-//           </a>
-//           <Link to="/signup">Cart</Link>
-//         </div>
-//       ) : (
-//         <div>
-//           {/* The navbar will show these links before you log in */}
-//           <Link to="/login">Login</Link>
-//           <Link to="/signup">Sign Up</Link>
-//           <Link to="/signup">Cart</Link>
-//         </div>
-//       )}
-//     </nav>
-//     <DropdownButton title="Books" id="dropdown-basic">
-//       <MenuItem eventKey="1">
-//         <Link to="/allbooks">All Books</Link>
-//       </MenuItem>
-//       <MenuItem divider />
-//       <MenuItem eventKey="2">Fantasy</MenuItem>
-//     </DropdownButton>
 
-//     <hr />
-//   </div>
-// )
+const Navbar = props => {
+  const {handleClick, isLoggedIn, classes} = props
+  return (
+    <div className={classes.root}>
+      <AppBar position="static">
+        <Toolbar>
+          <SimpleMenu />
+          <Typography variant="h6" color="inherit" className={classes.grow}>
+            BookStack
+          </Typography>
+          {isLoggedIn ? (
+            <div>
+              {/* The navbar will show these links after you log in */}
+              <Button color="inherit">
+                <Link
+                  to="/home"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  Home
+                </Link>
+              </Button>
+              <Button color="inherit">
+                <Link
+                  to="/cart"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  Cart
+                </Link>
+              </Button>
+              <Button color="inherit">
+                <a href="#" onClick={handleClick}>
+                  Logout
+                </a>
+              </Button>
+            </div>
+          ) : (
+            <div>
+              {/* The navbar will show these links before you log in */}
+              <Button color="inherit">
+                <Link
+                  to="/home"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  Home
+                </Link>
+              </Button>
+              <Button color="inherit">
+                <Link
+                  to="/signup"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  Sign Up
+                </Link>
+              </Button>
+              <Button color="inherit">
+                <Link
+                  to="/cart"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  Cart
+                </Link>
+              </Button>
+            </div>
+          )}
+        </Toolbar>
+      </AppBar>
+    </div>
+  )
+}
 
 /**
  * CONTAINER
@@ -104,12 +106,13 @@ const mapDispatch = dispatch => {
   }
 }
 
-export default connect(mapState, mapDispatch)(Navbar)
+export default connect(mapState, mapDispatch)(withStyles(styles)(Navbar))
 
 /**
  * PROP TYPES
  */
 Navbar.propTypes = {
   handleClick: PropTypes.func.isRequired,
-  isLoggedIn: PropTypes.bool.isRequired
+  isLoggedIn: PropTypes.bool.isRequired,
+  classes: PropTypes.object.isRequired
 }
