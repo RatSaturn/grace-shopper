@@ -30,21 +30,19 @@ Order.updateOrderQuantity = async function(id, object) {
 
   if (singleBook.length === 0) {
     const newBook = await Book.findById(object.bookId)
-    const newAssociation = await BooksForOrders.create({
+    await BooksForOrders.create({
       orderId: id,
       bookId: object.bookId,
-      quantity: 1,
+      quantity: object.quantity,
       price: newBook.price
     })
-    return newAssociation
-  }
-  if (object.quantity === 0) {
-    const book = await BooksForOrders.findOne({where: {bookId: object.bookId}})
-    const removed = await orderInstance.removeBook(book)
-    return removed
+  } else if (object.quantity === '0') {
+    const book = await Book.findById(object.bookId)
+    await orderInstance.removeBook(book)
   } else {
     const book = await BooksForOrders.findOne({where: {bookId: object.bookId}})
-    const newBook = await book.update({quantity: object.quantity})
-    return newBook
+    await book.update({quantity: object.quantity})
   }
+
+  return Order.findSingleOrder(id)
 }
