@@ -9,7 +9,11 @@ const BookComponent = props => {
     <div>
       <img src={imageUrl} />
       <p>
-        <Link exact to={`/allbooks/${id}`}>
+        <Link
+          exact
+          to={`/allbooks/${id}`}
+          style={{textDecoration: 'none', color: '#FFF'}}
+        >
           {title}
         </Link>
       </p>

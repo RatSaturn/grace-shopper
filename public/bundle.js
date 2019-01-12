@@ -401,7 +401,11 @@ var BookComponent = function BookComponent(props) {
     src: imageUrl
   }), _react.default.createElement("p", null, _react.default.createElement(_reactRouterDom.Link, {
     exact: true,
-    to: "/allbooks/".concat(id)
+    to: "/allbooks/".concat(id),
+    style: {
+      textDecoration: 'none',
+      color: '#FFF'
+    }
   }, title)), authors.map(function (author) {
     return _react.default.createElement("p", {
       key: author
@@ -689,6 +693,8 @@ var _CardMedia = _interopRequireDefault(__webpack_require__(/*! @material-ui/cor
 
 var _CardContent = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/CardContent */ "./node_modules/@material-ui/core/CardContent/index.js"));
 
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
 var _Typography = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/Typography/index.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -696,7 +702,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var styles = function styles() {
   return {
     card: {
-      maxWidth: 300,
+      width: 200,
+      height: 300,
       margin: 40
     },
     media: {
@@ -721,34 +728,24 @@ var bookCard = function bookCard(props) {
     title: "book"
   }), _react.default.createElement(_CardContent.default, null, _react.default.createElement(_Typography.default, {
     component: "p"
-  }, "Book Information Here")));
+  }, _react.default.createElement(_reactRouterDom.Link, {
+    exact: true,
+    to: "/allbooks/".concat(book.id)
+  }, _react.default.createElement("b", null, book.title))), book.authors.map(function (author) {
+    return _react.default.createElement(_Typography.default, {
+      component: "p",
+      key: author
+    }, author);
+  }), _react.default.createElement(_Typography.default, {
+    component: "p"
+  }, book.price)));
 };
 
 bookCard.propTypes = {
   classes: _propTypes.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(styles)(bookCard); // import React from 'react'
-// import {Link} from 'react-router-dom'
-// const BookComponent = props => {
-//   const {id, imageUrl, title, authors, price} = props.book
-//   const displayPrice = price.toString().split('')
-//   displayPrice.splice(displayPrice.length - 2, 0, '.')
-//   return (
-//     <div>
-//       <img src={imageUrl} />
-//       <p>
-//         <Link exact to={`/allbooks/${id}`}>
-//           {title}
-//         </Link>
-//       </p>
-//       {authors.map(author => <p key={author}>{author}</p>)}
-//       <p>${displayPrice}</p>
-//     </div>
-//   )
-// }
-// export default BookComponent
-
+var _default = (0, _styles.withStyles)(styles)(bookCard);
 
 exports.default = _default;
 
@@ -1013,12 +1010,7 @@ function (_Component) {
       var classes = this.props.classes;
       return _react.default.createElement("div", {
         align: "center"
-      }, _react.default.createElement("div", null, _react.default.createElement(_Typography.default, {
-        variant: "h6",
-        align: "center",
-        color: "textSecondary",
-        gutterBottom: true
-      }, "Browse our new arrivals!"), _react.default.createElement(_IconButton.default, {
+      }, _react.default.createElement("div", null, _react.default.createElement(_IconButton.default, {
         className: (0, _classnames2.default)(classes.expand, _defineProperty({}, classes.expandOpen, this.state.expanded)),
         align: "center",
         onClick: this.handleExpandClick,

@@ -43,14 +43,14 @@ class NewArrivals extends Component {
     return (
       <div align="center">
         <div>
-          <Typography
+          {/* <Typography
             variant="h6"
             align="center"
             color="textSecondary"
             gutterBottom
           >
             Browse our new arrivals!
-          </Typography>
+          </Typography> */}
           <IconButton
             className={classnames(classes.expand, {
               [classes.expandOpen]: this.state.expanded
@@ -67,12 +67,6 @@ class NewArrivals extends Component {
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <Grid container justify="center" alignItems="center">
             {this.props.books.map(book => <Card key={book.id} book={book} />)}
-            {/*      
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card /> */}
           </Grid>
         </Collapse>
       </div>

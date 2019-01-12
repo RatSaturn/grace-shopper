@@ -6,12 +6,14 @@ import Card from '@material-ui/core/Card'
 import CardHeader from '@material-ui/core/CardHeader'
 import CardMedia from '@material-ui/core/CardMedia'
 import CardContent from '@material-ui/core/CardContent'
+import {Link} from 'react-router-dom'
 
 import Typography from '@material-ui/core/Typography'
 
 const styles = () => ({
   card: {
-    maxWidth: 300,
+    width: 200,
+    height: 300,
     margin: 40
   },
 
@@ -31,7 +33,18 @@ const bookCard = props => {
     <Card className={classes.card}>
       <CardMedia className={classes.media} image={book.imageUrl} title="book" />
       <CardContent>
-        <Typography component="p">Book Information Here</Typography>
+        <Typography component="p">
+          <Link exact to={`/allbooks/${book.id}`}>
+            <b>{book.title}</b>
+          </Link>
+        </Typography>
+
+        {book.authors.map(author => (
+          <Typography component="p" key={author}>
+            {author}
+          </Typography>
+        ))}
+        <Typography component="p">{book.price}</Typography>
       </CardContent>
     </Card>
   )
@@ -42,27 +55,3 @@ bookCard.propTypes = {
 }
 
 export default withStyles(styles)(bookCard)
-
-// import React from 'react'
-// import {Link} from 'react-router-dom'
-
-// const BookComponent = props => {
-//   const {id, imageUrl, title, authors, price} = props.book
-//   const displayPrice = price.toString().split('')
-//   displayPrice.splice(displayPrice.length - 2, 0, '.')
-//   return (
-//     <div>
-//       <img src={imageUrl} />
-//       <p>
-//         <Link exact to={`/allbooks/${id}`}>
-//           {title}
-//         </Link>
-//       </p>
-
-//       {authors.map(author => <p key={author}>{author}</p>)}
-//       <p>${displayPrice}</p>
-//     </div>
-//   )
-// }
-
-// export default BookComponent
