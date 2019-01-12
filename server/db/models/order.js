@@ -4,10 +4,17 @@ const BooksForOrders = require('./booksForOrders')
 const Book = require('./book')
 
 const Order = db.define('order', {
-  pending: Sequelize.BOOLEAN
+  pending: Sequelize.BOOLEAN,
+  numberOfItems: Sequelize.INTEGER
 })
 
 module.exports = Order
+
+Order.prototype.updateNumberOfItems = async function() {
+  const booksOnOrder = await this.getBooks()
+  await this.update({numberOfItems: booksOnOrder.length})
+  console.log(this)
+}
 
 Order.findSingleOrder = async function(id) {
   const orderInstance = await Order.findById(id)
@@ -43,6 +50,6 @@ Order.updateOrderQuantity = async function(id, object) {
     const book = await BooksForOrders.findOne({where: {bookId: object.bookId}})
     await book.update({quantity: object.quantity})
   }
-
+  orderInstance.updateNumberOfItems()
   return Order.findSingleOrder(id)
 }
