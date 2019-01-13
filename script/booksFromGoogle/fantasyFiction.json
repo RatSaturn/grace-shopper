@@ -768,6 +768,52 @@
           "currencyCode": "USD"
         }
       }
+    },
+    {
+      "volumeInfo": {
+        "title": "Lilith's Brood",
+        "subtitle": "",
+        "authors": ["Octavia E. Butler"],
+        "publishedDate": "2000-06-01",
+        "publisher": "Grand Central Publishing",
+        "language": "en",
+        "description":
+          "Lilith Iyapo is in the Andes, mourning the death of her family, when war destroys Earth. Centuries later, she is resurrected -- by miraculously powerful unearthly beings, the Oankali. Driven by an irresistible need to heal others, the Oankali are rescuing our dying planet by merging genetically with mankind. But Lilith and all humanity must now share the world with uncanny, unimaginably alien creatures: their own children. This is their story...",
+        "pageCount": 752,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/41Dmx7y41SL._SX322_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 1495,
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Fledgling",
+        "subtitle": "",
+        "authors": ["Octavia E. Butler"],
+        "publishedDate": "2007-01-02",
+        "publisher": "Grand Central Publishing",
+        "language": "en",
+        "description":
+          "This is the story of an apparently young, amnesiac girl whose alarmingly unhuman needs and abilities lead her to a startling conclusion: She is in fact a genetically modified, 53-year-old vampire. Forced to discover what she can about her stolen former life, she must at the same time learn who wanted-and still wants-to destroy her and those she cares for and how she can save herself.",
+        "pageCount": 320,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/513KM8gc4JL._SX327_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 1195,
+          "currencyCode": "USD"
+        }
+      }
     }
   ]
 }

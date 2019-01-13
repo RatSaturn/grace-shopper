@@ -806,6 +806,30 @@
           "currencyCode": "USD"
         }
       }
+    },
+    {
+      "volumeInfo": {
+        "title": "Of Water and the Spirit",
+        "subtitle":
+          "Ritual, Magic and Initiation in the Life of an African Shaman",
+        "authors": ["Malidoma Patrice Some"],
+        "publishedDate": "1995-05-01",
+        "publisher": "Penguin Books",
+        "language": "en",
+        "description":
+          "Maliodoma Patrice Some was born in a Dagara Village, however he was soon to be abducted to a Jesuit school, where he remained for the next fifteen years, being harshly indoctrinated into european ways of thought and worship. The story tells of his return to his people, his hard initiation back into those people, which lead to his desire to convey their knowledge to the world. Of Water and the Spirit is the result of that desire; it is a sharing of living African traditions, offered in compassion for those struggling with our contemporary crisis of the spirit.",
+        "pageCount": 320,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/51YiuN%2BQ-KL._SX322_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 1695,
+          "currencyCode": "USD"
+        }
+      }
     }
   ]
 }

@@ -126,7 +126,15 @@ async function seed() {
 
   console.log(`seeded ${staff.length} staff members`)
 
-  const [michelle, mBook1, mBook2, mBook3, mBook4, mBook5] = await Promise.all([
+  const [
+    michelle,
+    mBook1,
+    mBook2,
+    mBook3,
+    mBook4,
+    mBook5,
+    mBook6
+  ] = await Promise.all([
     Staff.findById(1),
     Book.findOne({
       where: {
@@ -152,6 +160,11 @@ async function seed() {
       where: {
         title: 'Born A Crime'
       }
+    }),
+    Book.findOne({
+      where: {
+        title: "A People's History of the United States"
+      }
     })
   ])
 
@@ -175,6 +188,10 @@ async function seed() {
     StaffBooks.create({
       staffId: michelle.id,
       bookId: mBook5.id
+    }),
+    StaffBooks.create({
+      staffId: michelle.id,
+      bookId: mBook6.id
     })
   ])
 
@@ -237,6 +254,77 @@ async function seed() {
   ])
 
   console.log(`seeded Jing's picks`)
+
+  const [
+    tatiana,
+    tBook1,
+    tBook2,
+    tBook3,
+    tBook4,
+    tBook5,
+    tBook6
+  ] = await Promise.all([
+    Staff.findById(3),
+    Book.findOne({
+      where: {
+        title: "Lilith's Brood"
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Quiet'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Of Water and the Spirit'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Kindred'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Fledgling'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Earth Mother Astrology'
+      }
+    })
+  ])
+
+  await Promise.all([
+    StaffBooks.create({
+      staffId: tatiana.id,
+      bookId: tBook1.id
+    }),
+    StaffBooks.create({
+      staffId: tatiana.id,
+      bookId: tBook2.id
+    }),
+    StaffBooks.create({
+      staffId: tatiana.id,
+      bookId: tBook3.id
+    }),
+    StaffBooks.create({
+      staffId: tatiana.id,
+      bookId: tBook4.id
+    }),
+    StaffBooks.create({
+      staffId: tatiana.id,
+      bookId: tBook5.id
+    }),
+    StaffBooks.create({
+      staffId: tatiana.id,
+      bookId: tBook6.id
+    })
+  ])
+
+  console.log(`seeded Tatiana's picks`)
 
   let [order, book1, book2, book3] = await Promise.all([
     Order.create({pending: true}),
