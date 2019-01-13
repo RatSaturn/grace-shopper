@@ -113,10 +113,629 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // import LandingPage from './components/landing-page/landing-page'
 var App = function App() {
-  return _react.default.createElement("div", null, _react.default.createElement(_components.Navbar, null), _react.default.createElement(_routes.default, null), _react.default.createElement(_footer.default, null));
+  return _react.default.createElement("div", null, _react.default.createElement(_components.Navbar, null), _react.default.createElement(_routes.default, null));
 };
 
 var _default = App;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./client/components/AcceptPayment.js":
+/*!********************************************!*\
+  !*** ./client/components/AcceptPayment.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactStripeElements = __webpack_require__(/*! react-stripe-elements */ "./node_modules/react-stripe-elements/es/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+var AcceptPayment =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(AcceptPayment, _React$Component);
+
+  function AcceptPayment(props) {
+    var _this;
+
+    _classCallCheck(this, AcceptPayment);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(AcceptPayment).call(this, props));
+    _this.state = {
+      complete: false
+    };
+    _this.submit = _this.submit.bind(_assertThisInitialized(_assertThisInitialized(_this)));
+    return _this;
+  }
+
+  _createClass(AcceptPayment, [{
+    key: "submit",
+    value: function () {
+      var _submit = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee() {
+        var _ref, token, response;
+
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return this.props.stripe.createToken({
+                  name: 'Name'
+                });
+
+              case 2:
+                _ref = _context.sent;
+                token = _ref.token;
+                _context.next = 6;
+                return fetch('/charge', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'text/plain'
+                  },
+                  body: token.id
+                });
+
+              case 6:
+                response = _context.sent;
+                if (response.ok) this.setState({
+                  complete: true
+                });
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      return function submit() {
+        return _submit.apply(this, arguments);
+      };
+    }()
+  }, {
+    key: "render",
+    value: function render() {
+      if (this.state.complete) return _react.default.createElement("h1", null, "Your Purchase is Complete!");
+      return _react.default.createElement("div", {
+        className: "checkout"
+      }, _react.default.createElement("p", null, "To Complete Your Purchase in the amount of $25.00, please enter your payment information below:"), _react.default.createElement(_reactStripeElements.CardElement, null), _react.default.createElement("button", {
+        onClick: this.submit,
+        type: "button"
+      }, "Submit"));
+    }
+  }]);
+
+  return AcceptPayment;
+}(_react.default.Component);
+
+var _default = (0, _reactStripeElements.injectStripe)(AcceptPayment);
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./client/components/Cart.js":
+/*!***********************************!*\
+  !*** ./client/components/Cart.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.Cart = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _store = __webpack_require__(/*! ../store */ "./client/store/index.js");
+
+var _CartItem = _interopRequireDefault(__webpack_require__(/*! ./CartItem */ "./client/components/CartItem.js"));
+
+var _history = _interopRequireDefault(__webpack_require__(/*! ../history */ "./client/history.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Cart =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Cart, _Component);
+
+  function Cart() {
+    _classCallCheck(this, Cart);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Cart).apply(this, arguments));
+  }
+
+  _createClass(Cart, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee() {
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return this.props.getCartFromServer();
+
+              case 3:
+                _context.next = 8;
+                break;
+
+              case 5:
+                _context.prev = 5;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 5]]);
+      }));
+
+      return function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      };
+    }()
+  }, {
+    key: "render",
+    value: function render() {
+      var displayTotal = this.props.cart.reduce(function (accum, book) {
+        return accum + book.price * book.booksForOrder.quantity;
+      }, 0).toString().split('');
+      displayTotal.splice(displayTotal.length - 2, 0, '.');
+      return _react.default.createElement("div", null, _react.default.createElement("center", null, _react.default.createElement("h1", null, "Books In Your Cart")), this.props.cart.length ? _react.default.createElement("div", {
+        id: "cart-not-empty"
+      }, _react.default.createElement("div", {
+        className: "items-in-cart"
+      }, _react.default.createElement("table", null, _react.default.createElement("th", null), _react.default.createElement("th", null), _react.default.createElement("th", null, "Price"), _react.default.createElement("th", null, "Quantity"), this.props.cart.map(function (book) {
+        if (book.booksForOrder.quantity) {
+          return _react.default.createElement(_CartItem.default, {
+            book: book,
+            key: book.title
+          });
+        }
+      }))), _react.default.createElement("div", {
+        className: "cart-total"
+      }, _react.default.createElement("div", null, _react.default.createElement("h4", null, "Total: $", displayTotal), ' ', _react.default.createElement("button", {
+        type: "button",
+        onClick: function onClick() {
+          return _history.default.push('/checkout');
+        }
+      }, "Checkout")))) : _react.default.createElement("div", {
+        id: "empty-cart"
+      }, _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("center", null, _react.default.createElement("h3", null, "Your cart is empty."))));
+    }
+  }]);
+
+  return Cart;
+}(_react.Component);
+/**
+ * CONTAINER
+ */
+
+
+exports.Cart = Cart;
+
+var mapState = function mapState(state) {
+  return {
+    cart: state.cart
+  };
+};
+
+var mapDispatch = function mapDispatch(dispatch) {
+  return {
+    getCartFromServer: function getCartFromServer() {
+      dispatch((0, _store.getCartFromServer)());
+    }
+  };
+};
+
+var _default = (0, _reactRedux.connect)(mapState, mapDispatch)(Cart);
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./client/components/CartItem.js":
+/*!***************************************!*\
+  !*** ./client/components/CartItem.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _store = __webpack_require__(/*! ../store */ "./client/store/index.js");
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/*thumbnail       title             price           quantity
+                  author
+*/
+var CartItem = function CartItem(props) {
+  var _props$book = props.book,
+      imageUrl = _props$book.imageUrl,
+      title = _props$book.title,
+      author = _props$book.author,
+      price = _props$book.price,
+      id = _props$book.id;
+  var loop = [1, 2, 3, 4, 5, 6];
+  var displayPrice = price.toString().split('');
+  displayPrice.splice(displayPrice.length - 2, 0, '.');
+  return _react.default.createElement("tr", null, _react.default.createElement("td", null, _react.default.createElement("img", {
+    src: imageUrl,
+    alt: title,
+    className: "thumbnail"
+  })), _react.default.createElement("td", null, _react.default.createElement("div", {
+    className: "title-author-cart-item"
+  }, title, author)), _react.default.createElement("td", null, "$", displayPrice), _react.default.createElement("td", null, _react.default.createElement("div", {
+    className: "quantity-and-remove"
+  }, _react.default.createElement("label", {
+    htmlFor: "quantity-limit"
+  }, "Quantity:"), _react.default.createElement("select", {
+    id: "quantity-dropdown",
+    onChange: function onChange(event) {
+      return props.updateCartOnServer({
+        bookId: id,
+        quantity: event.target.value
+      });
+    }
+  }, loop.map(function (num) {
+    return _react.default.createElement("option", {
+      key: num,
+      value: num
+    }, num);
+  })), _react.default.createElement("button", {
+    type: "button",
+    onClick: function onClick() {
+      return props.updateCartOnServer({
+        bookId: id,
+        quantity: 0
+      });
+    }
+  }, "Remove Item"))));
+};
+
+var mapDispatch = function mapDispatch(dispatch) {
+  return {
+    updateCartOnServer: function updateCartOnServer(bookUpdate) {
+      dispatch((0, _store.updateCartOnServer)(bookUpdate));
+    }
+  };
+};
+
+var _default = (0, _reactRedux.connect)(null, mapDispatch)(CartItem); // return (
+//   <div>
+//     <img src={imageUrl} />
+//     <p>
+//       <Link exact to={`/allbooks/${id}`}>
+//         {title}
+//       </Link>
+//     </p>
+//     <p>{author}</p>
+//     <p>${price}</p>
+//     <p>{format}</p>
+//   </div>
+// )
+
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./client/components/Checkout.js":
+/*!***************************************!*\
+  !*** ./client/components/Checkout.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.Checkout = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Checkout =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Checkout, _Component);
+
+  function Checkout(props) {
+    var _this;
+
+    _classCallCheck(this, Checkout);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Checkout).call(this, props));
+    _this.displayPrice = _this.displayPrice.bind();
+    _this.calculateTotal = _this.calculateTotal.bind();
+    _this.handleSubmit = _this.handleSubmit.bind();
+    return _this;
+  }
+
+  _createClass(Checkout, [{
+    key: "displayPrice",
+    value: function displayPrice(price) {
+      var result = price.toString().split('');
+      result.splice(result.length - 2, 0, '.');
+      return result;
+    }
+  }, {
+    key: "calculateTotal",
+    value: function calculateTotal(cart) {
+      var displayTotal = cart.reduce(function (accum, book) {
+        return accum + book.price * book.booksForOrder.quantity;
+      }, 0).toString().split('');
+      displayTotal.splice(displayTotal.length - 2, 0, '.');
+      return displayTotal;
+    }
+  }, {
+    key: "handleSubmit",
+    value: function handleSubmit(event) {
+      event.preventDefault();
+      var shippingData = {
+        street: event.target.street.value,
+        city: event.target.city.value,
+        state: event.target.state.value,
+        zipcode: event.target.zipcode.value
+      };
+      console.log(shippingData);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var states = ['AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY'];
+      return _react.default.createElement("div", {
+        id: "checkout-page"
+      }, _react.default.createElement("div", {
+        id: "order-review"
+      }, _react.default.createElement("h3", null, "Review Your Order"), _react.default.createElement("div", {
+        id: "order-review-list"
+      }, this.props.cart.map(function (book) {
+        return _react.default.createElement("div", {
+          className: "order-review-item",
+          key: book.id
+        }, _react.default.createElement("div", {
+          className: "order-review-item-img"
+        }, _react.default.createElement("img", {
+          src: book.imageUrl
+        })), _react.default.createElement("div", {
+          className: "order-review-item-info"
+        }, _react.default.createElement("p", null, book.title), _react.default.createElement("p", null, book.authors[0])), _react.default.createElement("div", {
+          className: "order-review-item-price"
+        }, _react.default.createElement("p", null, book.booksForOrder.quantity), _react.default.createElement("p", null, _this2.displayPrice(book.price))));
+      }), _react.default.createElement("h4", null, "Total: ", this.calculateTotal(this.props.cart)))), _react.default.createElement("div", {
+        id: "shipping-form"
+      }, _react.default.createElement("h3", null, "Shipping Information"), _react.default.createElement("form", {
+        onSubmit: this.handleSubmit
+      }, _react.default.createElement("div", null, _react.default.createElement("label", {
+        htmlFor: "street"
+      }, _react.default.createElement("small", null, "Street: ")), _react.default.createElement("input", {
+        name: "street",
+        type: "text"
+      })), _react.default.createElement("div", null, _react.default.createElement("div", null, _react.default.createElement("label", {
+        htmlFor: "city"
+      }, _react.default.createElement("small", null, "City: ")), _react.default.createElement("input", {
+        name: "city",
+        type: "text"
+      })), _react.default.createElement("div", null, _react.default.createElement("label", {
+        htmlFor: "state"
+      }, "State:"), ' ', _react.default.createElement("select", {
+        id: "state-dropdown",
+        name: "state"
+      }, states.map(function (state) {
+        return _react.default.createElement("option", {
+          key: state,
+          value: state
+        }, state);
+      }))), _react.default.createElement("div", null, _react.default.createElement("label", {
+        htmlFor: "zipcode"
+      }, _react.default.createElement("small", null, "Zipcode: ")), _react.default.createElement("input", {
+        name: "zipcode",
+        type: "text"
+      }))), _react.default.createElement("button", {
+        type: "submit"
+      }, "Submit"))));
+    }
+  }]);
+
+  return Checkout;
+}(_react.Component);
+
+exports.Checkout = Checkout;
+
+var mapState = function mapState(state) {
+  return {
+    cart: state.cart,
+    user: state.user
+  };
+};
+
+var _default = (0, _reactRedux.connect)(mapState)(Checkout);
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./client/components/StripeCheckout.js":
+/*!*********************************************!*\
+  !*** ./client/components/StripeCheckout.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _AcceptPayment = _interopRequireDefault(__webpack_require__(/*! ./AcceptPayment */ "./client/components/AcceptPayment.js"));
+
+var _reactStripeElements = __webpack_require__(/*! react-stripe-elements */ "./node_modules/react-stripe-elements/es/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var StripeCheckout =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(StripeCheckout, _Component);
+
+  function StripeCheckout() {
+    _classCallCheck(this, StripeCheckout);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(StripeCheckout).apply(this, arguments));
+  }
+
+  _createClass(StripeCheckout, [{
+    key: "render",
+    value: function render() {
+      return _react.default.createElement(_reactStripeElements.StripeProvider, {
+        apiKey: "pk_test_PqdBTVeeLsNk0o9T45hOEe65"
+      }, _react.default.createElement("div", {
+        className: "example"
+      }, _react.default.createElement("h1", null, "Checkout"), _react.default.createElement(_reactStripeElements.Elements, null, _react.default.createElement(_AcceptPayment.default, null))));
+    }
+  }]);
+
+  return StripeCheckout;
+}(_react.Component);
+
+var _default = StripeCheckout;
 exports.default = _default;
 
 /***/ }),
@@ -254,11 +873,17 @@ var _MenuItem = _interopRequireDefault(__webpack_require__(/*! @material-ui/core
 
 var _Menu2 = _interopRequireDefault(__webpack_require__(/*! @material-ui/icons/Menu */ "./node_modules/@material-ui/icons/Menu.js"));
 
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
 var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -297,8 +922,8 @@ function (_React$Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(SimpleMenu)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
-      anchorEl: null //axios request for genres
-
+      anchorEl: null,
+      genres: []
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleClick", function (event) {
@@ -317,15 +942,58 @@ function (_React$Component) {
   }
 
   _createClass(SimpleMenu, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee() {
+        var _ref, data;
+
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return _axios.default.get('/api/genres');
+
+              case 3:
+                _ref = _context.sent;
+                data = _ref.data;
+                this.setState({
+                  genres: data
+                });
+                _context.next = 11;
+                break;
+
+              case 8:
+                _context.prev = 8;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 11:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 8]]);
+      }));
+
+      return function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      };
+    }()
+  }, {
     key: "render",
     value: function render() {
+      var _this2 = this;
+
       var anchorEl = this.state.anchorEl;
       return _react.default.createElement("div", null, _react.default.createElement(_Button.default, {
         "aria-owns": anchorEl ? 'simple-menu' : undefined,
         "aria-haspopup": "true",
         onClick: this.handleClick
-      }, _react.default.createElement(_IconButton.default // className={classes.menuButton}
-      , {
+      }, _react.default.createElement(_IconButton.default, {
         color: "inherit",
         "aria-label": "Menu"
       }, _react.default.createElement(_Menu2.default, null))), _react.default.createElement(_Menu.default, {
@@ -335,11 +1003,18 @@ function (_React$Component) {
         onClose: this.handleClose
       }, _react.default.createElement(_MenuItem.default, {
         onClick: this.handleClose
-      }, "Browse All Books"), _react.default.createElement(_MenuItem.default, {
-        onClick: this.handleClose
-      }, "Fantasy"), _react.default.createElement(_MenuItem.default, {
-        onClick: this.handleClose
-      }, "Non-Fiction")));
+      }, _react.default.createElement(_reactRouterDom.Link, {
+        to: "/",
+        style: {
+          textDecoration: 'none',
+          color: 'black'
+        }
+      }, "Browse All Books")), this.state.genres.map(function (genre) {
+        return _react.default.createElement(_MenuItem.default, {
+          key: genre.id,
+          onClick: _this2.handleClose
+        }, genre.type);
+      })));
     }
   }]);
 
@@ -461,6 +1136,18 @@ Object.defineProperty(exports, "LandingPage", {
     return _landingPage.LandingPage;
   }
 });
+Object.defineProperty(exports, "Checkout", {
+  enumerable: true,
+  get: function get() {
+    return _Checkout.default;
+  }
+});
+Object.defineProperty(exports, "StripeCheckout", {
+  enumerable: true,
+  get: function get() {
+    return _StripeCheckout.default;
+  }
+});
 
 var _navbar = _interopRequireDefault(__webpack_require__(/*! ./navbar */ "./client/components/navbar.js"));
 
@@ -469,6 +1156,10 @@ var _userHome = _interopRequireDefault(__webpack_require__(/*! ./user-home */ ".
 var _authForm = __webpack_require__(/*! ./auth-form */ "./client/components/auth-form.js");
 
 var _landingPage = __webpack_require__(/*! ./landing-page/landing-page */ "./client/components/landing-page/landing-page.js");
+
+var _Checkout = _interopRequireDefault(__webpack_require__(/*! ./Checkout */ "./client/components/Checkout.js"));
+
+var _StripeCheckout = _interopRequireDefault(__webpack_require__(/*! ./StripeCheckout */ "./client/components/StripeCheckout.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1338,6 +2029,8 @@ var _store = __webpack_require__(/*! ./store */ "./client/store/index.js");
 
 var _landingPage = _interopRequireDefault(__webpack_require__(/*! ./client/components/landing-page/landing-page.js */ "./client/components/landing-page/landing-page.js"));
 
+var _Cart = _interopRequireDefault(__webpack_require__(/*! ./client/components/Cart.js */ "./client/components/Cart.js"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
@@ -1406,7 +2099,7 @@ function (_Component) {
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/cart",
-        component: _components.Cart
+        component: _Cart.default
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/allbooks/:bookId",
@@ -64461,6 +65154,979 @@ if (__DEV__) {
 
 module.exports = warning;
 
+
+/***/ }),
+
+/***/ "./node_modules/react-stripe-elements/es/components/Element.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-stripe-elements/es/components/Element.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _shallowEqual = __webpack_require__(/*! ../utils/shallowEqual */ "./node_modules/react-stripe-elements/es/utils/shallowEqual.js");
+
+var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
+
+var _Elements = __webpack_require__(/*! ./Elements */ "./node_modules/react-stripe-elements/es/components/Elements.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+var noop = function noop() {};
+
+var _extractOptions = function _extractOptions(props) {
+  var id = props.id,
+      className = props.className,
+      onChange = props.onChange,
+      onFocus = props.onFocus,
+      onBlur = props.onBlur,
+      onReady = props.onReady,
+      options = _objectWithoutProperties(props, ['id', 'className', 'onChange', 'onFocus', 'onBlur', 'onReady']);
+
+  return options;
+};
+
+var capitalized = function capitalized(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+var Element = function Element(type) {
+  var _class, _temp;
+
+  var hocOptions = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  return _temp = _class = function (_React$Component) {
+    _inherits(_class, _React$Component);
+
+    function _class(props, context) {
+      _classCallCheck(this, _class);
+
+      var _this = _possibleConstructorReturn(this, _React$Component.call(this, props, context));
+
+      _this.handleRef = function (ref) {
+        _this._ref = ref;
+      };
+
+      _this._element = null;
+
+      var options = _extractOptions(_this.props);
+      // We keep track of the extracted options on this._options to avoid re-rendering.
+      // (We would unnecessarily re-render if we were tracking them with state.)
+      _this._options = options;
+      return _this;
+    }
+
+    _class.prototype.componentDidMount = function componentDidMount() {
+      var _this2 = this;
+
+      this.context.addElementsLoadListener(function (elements) {
+        var element = elements.create(type, _this2._options);
+        _this2._element = element;
+
+        _this2._setupEventListeners(element);
+
+        element.mount(_this2._ref);
+
+        // Register Element for automatic token / source creation
+        if (hocOptions.impliedTokenType || hocOptions.impliedSourceType) {
+          _this2.context.registerElement(element, hocOptions.impliedTokenType, hocOptions.impliedSourceType);
+        }
+      });
+    };
+
+    _class.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+      var options = _extractOptions(nextProps);
+      if (Object.keys(options).length !== 0 && !(0, _shallowEqual2.default)(options, this._options)) {
+        this._options = options;
+        if (this._element) {
+          this._element.update(options);
+        }
+      }
+    };
+
+    _class.prototype.componentWillUnmount = function componentWillUnmount() {
+      if (this._element) {
+        var element = this._element;
+        element.destroy();
+        this.context.unregisterElement(element);
+      }
+    };
+
+    _class.prototype._setupEventListeners = function _setupEventListeners(element) {
+      var _this3 = this;
+
+      element.on('ready', function () {
+        _this3.props.onReady(_this3._element);
+      });
+
+      element.on('change', function (change) {
+        _this3.props.onChange(change);
+      });
+
+      element.on('blur', function () {
+        var _props;
+
+        return (_props = _this3.props).onBlur.apply(_props, arguments);
+      });
+      element.on('focus', function () {
+        var _props2;
+
+        return (_props2 = _this3.props).onFocus.apply(_props2, arguments);
+      });
+    };
+
+    _class.prototype.render = function render() {
+      return _react2.default.createElement('div', {
+        id: this.props.id,
+        className: this.props.className,
+        ref: this.handleRef
+      });
+    };
+
+    return _class;
+  }(_react2.default.Component), _class.propTypes = {
+    id: _propTypes2.default.string,
+    className: _propTypes2.default.string,
+    onChange: _propTypes2.default.func,
+    onBlur: _propTypes2.default.func,
+    onFocus: _propTypes2.default.func,
+    onReady: _propTypes2.default.func
+  }, _class.defaultProps = {
+    id: undefined,
+    className: undefined,
+    onChange: noop,
+    onBlur: noop,
+    onFocus: noop,
+    onReady: noop
+  }, _class.contextTypes = _Elements.elementContextTypes, _class.displayName = capitalized(type) + 'Element', _temp;
+};
+
+exports.default = Element;
+
+/***/ }),
+
+/***/ "./node_modules/react-stripe-elements/es/components/Elements.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-stripe-elements/es/components/Elements.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.elementContextTypes = exports.injectContextTypes = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _Provider = __webpack_require__(/*! ./Provider */ "./node_modules/react-stripe-elements/es/components/Provider.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var injectContextTypes = exports.injectContextTypes = {
+  getRegisteredElements: _propTypes2.default.func.isRequired
+};
+
+var elementContextTypes = exports.elementContextTypes = {
+  addElementsLoadListener: _propTypes2.default.func.isRequired,
+  registerElement: _propTypes2.default.func.isRequired,
+  unregisterElement: _propTypes2.default.func.isRequired
+};
+
+var Elements = function (_React$Component) {
+  _inherits(Elements, _React$Component);
+
+  function Elements(props, context) {
+    _classCallCheck(this, Elements);
+
+    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props, context));
+
+    _this.handleRegisterElement = function (element, impliedTokenType, impliedSourceType) {
+      _this.setState(function (prevState) {
+        return {
+          registeredElements: [].concat(_toConsumableArray(prevState.registeredElements), [_extends({
+            element: element
+          }, impliedTokenType ? { impliedTokenType: impliedTokenType } : {}, impliedSourceType ? { impliedSourceType: impliedSourceType } : {})])
+        };
+      });
+    };
+
+    _this.handleUnregisterElement = function (el) {
+      _this.setState(function (prevState) {
+        return {
+          registeredElements: prevState.registeredElements.filter(function (_ref) {
+            var element = _ref.element;
+            return element !== el;
+          })
+        };
+      });
+    };
+
+    _this.state = {
+      registeredElements: []
+    };
+    return _this;
+  }
+
+  Elements.prototype.getChildContext = function getChildContext() {
+    var _this2 = this;
+
+    return {
+      addElementsLoadListener: function addElementsLoadListener(fn) {
+        // Return the existing elements instance if we already have one.
+        if (_this2._elements) {
+          fn(_this2._elements);
+          return;
+        }
+
+        var _props = _this2.props,
+            children = _props.children,
+            options = _objectWithoutProperties(_props, ['children']);
+
+        if (_this2.context.tag === 'sync') {
+          _this2._elements = _this2.context.stripe.elements(options);
+          fn(_this2._elements);
+        } else {
+          _this2.context.addStripeLoadListener(function (stripe) {
+            if (_this2._elements) {
+              fn(_this2._elements);
+            } else {
+              _this2._elements = stripe.elements(options);
+              fn(_this2._elements);
+            }
+          });
+        }
+      },
+      registerElement: this.handleRegisterElement,
+      unregisterElement: this.handleUnregisterElement,
+      getRegisteredElements: function getRegisteredElements() {
+        return _this2.state.registeredElements;
+      }
+    };
+  };
+
+  Elements.prototype.render = function render() {
+    return _react2.default.Children.only(this.props.children);
+  };
+
+  return Elements;
+}(_react2.default.Component);
+
+Elements.childContextTypes = _extends({}, injectContextTypes, elementContextTypes);
+Elements.contextTypes = _Provider.providerContextTypes;
+Elements.defaultProps = {
+  children: null
+};
+exports.default = Elements;
+
+/***/ }),
+
+/***/ "./node_modules/react-stripe-elements/es/components/PaymentRequestButtonElement.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/react-stripe-elements/es/components/PaymentRequestButtonElement.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _shallowEqual = __webpack_require__(/*! ../utils/shallowEqual */ "./node_modules/react-stripe-elements/es/utils/shallowEqual.js");
+
+var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
+
+var _Elements = __webpack_require__(/*! ./Elements */ "./node_modules/react-stripe-elements/es/components/Elements.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+var noop = function noop() {};
+
+var _extractOptions = function _extractOptions(props) {
+  var id = props.id,
+      className = props.className,
+      onBlur = props.onBlur,
+      onClick = props.onClick,
+      onFocus = props.onFocus,
+      onReady = props.onReady,
+      paymentRequest = props.paymentRequest,
+      options = _objectWithoutProperties(props, ['id', 'className', 'onBlur', 'onClick', 'onFocus', 'onReady', 'paymentRequest']);
+
+  return options;
+};
+
+var PaymentRequestButtonElement = function (_React$Component) {
+  _inherits(PaymentRequestButtonElement, _React$Component);
+
+  function PaymentRequestButtonElement(props, context) {
+    _classCallCheck(this, PaymentRequestButtonElement);
+
+    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props, context));
+
+    _this.handleRef = function (ref) {
+      _this._ref = ref;
+    };
+
+    var options = _extractOptions(props);
+    // We keep track of the extracted options on this._options to avoid re-rendering.
+    // (We would unnecessarily re-render if we were tracking them with state.)
+    _this._options = options;
+    return _this;
+  }
+
+  PaymentRequestButtonElement.prototype.componentDidMount = function componentDidMount() {
+    var _this2 = this;
+
+    this.context.addElementsLoadListener(function (elements) {
+      _this2._element = elements.create('paymentRequestButton', _extends({
+        paymentRequest: _this2.props.paymentRequest
+      }, _this2._options));
+      _this2._element.on('ready', function () {
+        _this2.props.onReady(_this2._element);
+      });
+      _this2._element.on('focus', function () {
+        var _props;
+
+        return (_props = _this2.props).onFocus.apply(_props, arguments);
+      });
+      _this2._element.on('click', function () {
+        var _props2;
+
+        return (_props2 = _this2.props).onClick.apply(_props2, arguments);
+      });
+      _this2._element.on('blur', function () {
+        var _props3;
+
+        return (_props3 = _this2.props).onBlur.apply(_props3, arguments);
+      });
+      _this2._element.mount(_this2._ref);
+    });
+  };
+
+  PaymentRequestButtonElement.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    if (this.props.paymentRequest !== nextProps.paymentRequest) {
+      console.warn('Unsupported prop change: paymentRequest is not a customizable property.');
+    }
+    var options = _extractOptions(nextProps);
+    if (Object.keys(options).length !== 0 && !(0, _shallowEqual2.default)(options, this._options)) {
+      this._options = options;
+      this._element.update(options);
+    }
+  };
+
+  PaymentRequestButtonElement.prototype.componentWillUnmount = function componentWillUnmount() {
+    this._element.destroy();
+  };
+
+  PaymentRequestButtonElement.prototype.render = function render() {
+    return _react2.default.createElement('div', {
+      id: this.props.id,
+      className: this.props.className,
+      ref: this.handleRef
+    });
+  };
+
+  return PaymentRequestButtonElement;
+}(_react2.default.Component);
+
+PaymentRequestButtonElement.propTypes = {
+  id: _propTypes2.default.string,
+  className: _propTypes2.default.string,
+  onBlur: _propTypes2.default.func,
+  onClick: _propTypes2.default.func,
+  onFocus: _propTypes2.default.func,
+  onReady: _propTypes2.default.func,
+  paymentRequest: _propTypes2.default.shape({
+    canMakePayment: _propTypes2.default.func.isRequired,
+    on: _propTypes2.default.func.isRequired,
+    show: _propTypes2.default.func.isRequired
+  }).isRequired
+};
+PaymentRequestButtonElement.defaultProps = {
+  id: undefined,
+  className: undefined,
+  onBlur: noop,
+  onClick: noop,
+  onFocus: noop,
+  onReady: noop
+};
+PaymentRequestButtonElement.contextTypes = _Elements.elementContextTypes;
+exports.default = PaymentRequestButtonElement;
+
+/***/ }),
+
+/***/ "./node_modules/react-stripe-elements/es/components/Provider.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-stripe-elements/es/components/Provider.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.providerContextTypes = undefined;
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+// TODO(jez) 'sync' and 'async' are bad tag names.
+// TODO(jez) What if redux also uses this.context.tag?
+var providerContextTypes = exports.providerContextTypes = {
+  tag: _propTypes2.default.string.isRequired,
+  stripe: _propTypes2.default.object,
+  addStripeLoadListener: _propTypes2.default.func
+};
+
+var getOrCreateStripe = function getOrCreateStripe(apiKey, options) {
+  /**
+   * Note that this is not meant to be a generic memoization solution.
+   * This is specifically a solution for `StripeProvider`s being initialized
+   * and destroyed regularly (with the same set of props) when users only
+   * use `StripeProvider` for the subtree that contains their checkout form.
+   */
+  window.Stripe.__cachedInstances = window.Stripe.__cachedInstances || {};
+  var cacheKey = 'key=' + apiKey + ' options=' + JSON.stringify(options);
+
+  var stripe = window.Stripe.__cachedInstances[cacheKey] || window.Stripe(apiKey, options);
+  window.Stripe.__cachedInstances[cacheKey] = stripe;
+
+  return stripe;
+};
+
+var ensureStripeShape = function ensureStripeShape(stripe) {
+  if (stripe && stripe.elements && stripe.createSource && stripe.createToken) {
+    return stripe;
+  } else {
+    throw new Error("Please pass a valid Stripe object to StripeProvider. You can obtain a Stripe object by calling 'Stripe(...)' with your publishable key.");
+  }
+};
+
+var Provider = function (_React$Component) {
+  _inherits(Provider, _React$Component);
+
+  // on the other hand: childContextTypes is *required* to use context.
+  function Provider(props) {
+    _classCallCheck(this, Provider);
+
+    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props));
+
+    if (_this.props.apiKey && _this.props.stripe) {
+      throw new Error("Please pass either 'apiKey' or 'stripe' to StripeProvider, not both.");
+    } else if (_this.props.apiKey) {
+      if (!window.Stripe) {
+        throw new Error("Please load Stripe.js (https://js.stripe.com/v3/) on this page to use react-stripe-elements. If Stripe.js isn't available yet (it's loading asynchronously, or you're using server-side rendering), see https://github.com/stripe/react-stripe-elements#advanced-integrations");
+      } else {
+        var _this$props = _this.props,
+            _apiKey = _this$props.apiKey,
+            _children = _this$props.children,
+            _stripe = _this$props.stripe,
+            options = _objectWithoutProperties(_this$props, ['apiKey', 'children', 'stripe']);
+
+        _this._meta = {
+          tag: 'sync',
+          stripe: getOrCreateStripe(_apiKey, options)
+        };
+      }
+    } else if (_this.props.stripe) {
+      // If we already have a stripe instance (in the constructor), we can behave synchronously.
+      _this._meta = {
+        tag: 'sync',
+        stripe: ensureStripeShape(_this.props.stripe)
+      };
+    } else if (_this.props.stripe === null) {
+      _this._meta = {
+        tag: 'async',
+        stripe: null
+      };
+    } else {
+      throw new Error("Please pass either 'apiKey' or 'stripe' to StripeProvider. If you're using 'stripe' but don't have a Stripe instance yet, pass 'null' explicitly.");
+    }
+
+    _this._didWarn = false;
+    _this._didWakeUpListeners = false;
+    _this._listeners = [];
+    return _this;
+  }
+  // Even though we're using flow, also use PropTypes so we can take advantage of developer warnings.
+
+
+  Provider.prototype.getChildContext = function getChildContext() {
+    var _this2 = this;
+
+    // getChildContext is run after the constructor, so we WILL have access to
+    // the initial state.
+    //
+    // However, context doesn't update in respnse to state changes like you
+    // might expect: context is pulled by the child, not pushed by the parent.
+    if (this._meta.tag === 'sync') {
+      return {
+        tag: 'sync',
+        stripe: this._meta.stripe
+      };
+    } else {
+      return {
+        tag: 'async',
+        addStripeLoadListener: function addStripeLoadListener(fn) {
+          if (_this2._meta.stripe) {
+            fn(_this2._meta.stripe);
+          } else {
+            _this2._listeners.push(fn);
+          }
+        }
+      };
+    }
+  };
+
+  Provider.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+    var apiKeyChanged = this.props.apiKey && nextProps.apiKey && this.props.apiKey !== nextProps.apiKey;
+
+    var stripeInstanceChanged = this.props.stripe && nextProps.stripe && this.props.stripe !== nextProps.stripe;
+    if (!this._didWarn && (apiKeyChanged || stripeInstanceChanged) && window.console && window.console.error) {
+      this._didWarn = true;
+      // eslint-disable-next-line no-console
+      console.error('StripeProvider does not support changing the apiKey parameter.');
+      return;
+    }
+
+    if (!this._didWakeUpListeners && nextProps.stripe) {
+      // Wake up the listeners if we've finally been given a StripeShape
+      this._didWakeUpListeners = true;
+      var _stripe2 = ensureStripeShape(nextProps.stripe);
+      this._meta.stripe = _stripe2;
+      this._listeners.forEach(function (fn) {
+        fn(_stripe2);
+      });
+    }
+  };
+
+  Provider.prototype.render = function render() {
+    return _react2.default.Children.only(this.props.children);
+  };
+
+  return Provider;
+}(_react2.default.Component);
+
+Provider.propTypes = {
+  apiKey: _propTypes2.default.string,
+  // PropTypes.object is the only way we can accept a Stripe instance
+  // eslint-disable-next-line react/forbid-prop-types
+  stripe: _propTypes2.default.object,
+  children: _propTypes2.default.node
+};
+Provider.childContextTypes = providerContextTypes;
+Provider.defaultProps = {
+  apiKey: undefined,
+  stripe: undefined,
+  children: null
+};
+exports.default = Provider;
+
+/***/ }),
+
+/***/ "./node_modules/react-stripe-elements/es/components/inject.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/react-stripe-elements/es/components/inject.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Elements = __webpack_require__(/*! ./Elements */ "./node_modules/react-stripe-elements/es/components/Elements.js");
+
+var _Provider = __webpack_require__(/*! ./Provider */ "./node_modules/react-stripe-elements/es/components/Provider.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+// react-redux does a bunch of stuff with pure components / checking if it needs to re-render.
+// not sure if we need to do the same.
+var inject = function inject(WrappedComponent) {
+  var _class, _temp;
+
+  var componentOptions = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+  var _componentOptions$wit = componentOptions.withRef,
+      withRef = _componentOptions$wit === undefined ? false : _componentOptions$wit;
+
+
+  return _temp = _class = function (_React$Component) {
+    _inherits(_class, _React$Component);
+
+    function _class(props, context) {
+      _classCallCheck(this, _class);
+
+      if (!context || !context.getRegisteredElements) {
+        throw new Error('It looks like you are trying to inject Stripe context outside of an Elements context.\nPlease be sure the component that calls createSource or createToken is within an <Elements> component.');
+      }
+
+      var _this = _possibleConstructorReturn(this, _React$Component.call(this, props, context));
+
+      _this.findElement = function (filterBy, specifiedType) {
+        var allElements = _this.context.getRegisteredElements();
+        var filteredElements = allElements.filter(function (e) {
+          return e[filterBy];
+        });
+        var matchingElements = specifiedType === 'auto' ? filteredElements : filteredElements.filter(function (e) {
+          return e[filterBy] === specifiedType;
+        });
+
+        if (matchingElements.length === 1) {
+          return matchingElements[0].element;
+        } else if (matchingElements.length > 1) {
+          throw new Error('You did not specify the type of Source or Token to create.\n        We could not infer which Element you want to use for this operation.');
+        } else {
+          return null;
+        }
+      };
+
+      _this.requireElement = function (filterBy, specifiedType) {
+        var element = _this.findElement(filterBy, specifiedType);
+        if (element) {
+          return element;
+        } else {
+          throw new Error('You did not specify the type of Source or Token to create.\n        We could not infer which Element you want to use for this operation.');
+        }
+      };
+
+      _this.wrappedCreateToken = function (stripe) {
+        return function () {
+          var tokenTypeOrOptions = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+          var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
+          if (tokenTypeOrOptions && (typeof tokenTypeOrOptions === 'undefined' ? 'undefined' : _typeof(tokenTypeOrOptions)) === 'object') {
+            // First argument is options; infer the Element and tokenize
+            var opts = tokenTypeOrOptions;
+
+            var tokenType = opts.type,
+                rest = _objectWithoutProperties(opts, ['type']);
+
+            var specifiedType = typeof tokenType === 'string' ? tokenType : 'auto';
+            // Since only options were passed in, a corresponding Element must exist
+            // for the tokenization to succeed -- thus we call requireElement.
+            var element = _this.requireElement('impliedTokenType', specifiedType);
+            return stripe.createToken(element, rest);
+          } else if (typeof tokenTypeOrOptions === 'string') {
+            // First argument is token type; tokenize with token type and options
+            var _tokenType = tokenTypeOrOptions;
+            return stripe.createToken(_tokenType, options);
+          } else {
+            // If a bad value was passed in for options, throw an error.
+            throw new Error('Invalid options passed to createToken. Expected an object, got ' + (typeof tokenTypeOrOptions === 'undefined' ? 'undefined' : _typeof(tokenTypeOrOptions)) + '.');
+          }
+        };
+      };
+
+      _this.wrappedCreateSource = function (stripe) {
+        return function () {
+          var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+
+          if (options && (typeof options === 'undefined' ? 'undefined' : _typeof(options)) === 'object') {
+            if (typeof options.type !== 'string') {
+              throw new Error('Invalid Source type passed to createSource. Expected string, got ' + _typeof(options.type) + '.');
+            }
+
+            var element = _this.findElement('impliedSourceType', options.type);
+            if (element) {
+              // If an Element exists for the source type, use that to create the
+              // corresponding source.
+              //
+              // NOTE: this prevents users from independently creating sources of
+              // type `foo` if an Element that can create `foo` sources exists in
+              // the current <Elements /> context.
+              return stripe.createSource(element, options);
+            } else {
+              // If no Element exists for the source type, directly create a source.
+              return stripe.createSource(options);
+            }
+          } else {
+            // If a bad value was passed in for options, throw an error.
+            throw new Error('Invalid options passed to createSource. Expected an object, got ' + (typeof options === 'undefined' ? 'undefined' : _typeof(options)) + '.');
+          }
+        };
+      };
+
+      if (_this.context.tag === 'sync') {
+        _this.state = {
+          stripe: _this.stripeProps(_this.context.stripe)
+        };
+      } else {
+        _this.state = {
+          stripe: null
+        };
+      }
+      return _this;
+    }
+
+    _class.prototype.componentDidMount = function componentDidMount() {
+      var _this2 = this;
+
+      if (this.context.tag === 'async') {
+        this.context.addStripeLoadListener(function (stripe) {
+          _this2.setState({
+            stripe: _this2.stripeProps(stripe)
+          });
+        });
+      } else {
+        // when 'sync', it's already set in the constructor.
+      }
+    };
+
+    _class.prototype.getWrappedInstance = function getWrappedInstance() {
+      if (!withRef) {
+        throw new Error('To access the wrapped instance, the `{withRef: true}` option must be set when calling `injectStripe()`');
+      }
+      return this.wrappedInstance;
+    };
+
+    _class.prototype.stripeProps = function stripeProps(stripe) {
+      return _extends({}, stripe, {
+        // These are the only functions that take elements.
+        createToken: this.wrappedCreateToken(stripe),
+        createSource: this.wrappedCreateSource(stripe)
+      });
+    };
+
+    // Finds an Element by the specified type, if one exists.
+    // Throws if multiple Elements match.
+
+
+    // Require that exactly one Element is found for the specified type.
+    // Throws if no Element is found.
+
+
+    // Wraps createToken in order to infer the Element that is being tokenized.
+
+
+    // Wraps createSource in order to infer the Element that is being used for
+    // source creation.
+
+
+    _class.prototype.render = function render() {
+      var _this3 = this;
+
+      return _react2.default.createElement(WrappedComponent, _extends({}, this.props, {
+        stripe: this.state.stripe,
+        ref: withRef ? function (c) {
+          _this3.wrappedInstance = c;
+        } : null
+      }));
+    };
+
+    return _class;
+  }(_react2.default.Component), _class.contextTypes = _extends({}, _Provider.providerContextTypes, _Elements.injectContextTypes), _class.displayName = 'InjectStripe(' + (WrappedComponent.displayName || WrappedComponent.name || 'Component') + ')', _temp;
+};
+
+exports.default = inject;
+
+/***/ }),
+
+/***/ "./node_modules/react-stripe-elements/es/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-stripe-elements/es/index.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.IdealBankElement = exports.IbanElement = exports.PaymentRequestButtonElement = exports.PostalCodeElement = exports.CardCVCElement = exports.CardExpiryElement = exports.CardNumberElement = exports.CardElement = exports.Elements = exports.injectStripe = exports.StripeProvider = undefined;
+
+var _Provider = __webpack_require__(/*! ./components/Provider */ "./node_modules/react-stripe-elements/es/components/Provider.js");
+
+var _Provider2 = _interopRequireDefault(_Provider);
+
+var _inject = __webpack_require__(/*! ./components/inject */ "./node_modules/react-stripe-elements/es/components/inject.js");
+
+var _inject2 = _interopRequireDefault(_inject);
+
+var _Elements = __webpack_require__(/*! ./components/Elements */ "./node_modules/react-stripe-elements/es/components/Elements.js");
+
+var _Elements2 = _interopRequireDefault(_Elements);
+
+var _Element = __webpack_require__(/*! ./components/Element */ "./node_modules/react-stripe-elements/es/components/Element.js");
+
+var _Element2 = _interopRequireDefault(_Element);
+
+var _PaymentRequestButtonElement = __webpack_require__(/*! ./components/PaymentRequestButtonElement */ "./node_modules/react-stripe-elements/es/components/PaymentRequestButtonElement.js");
+
+var _PaymentRequestButtonElement2 = _interopRequireDefault(_PaymentRequestButtonElement);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// Define Elements, and register their implied token / source types for
+// automatic token / source creation.
+
+// Card
+var CardElement = (0, _Element2.default)('card', {
+  impliedTokenType: 'card',
+  impliedSourceType: 'card'
+});
+
+// Split Fields
+// Note: we only register the CardNumberElement for split fields so that we have
+// a unique Element to infer when calling `wrappedCreateToken` or `wrappedCreateSource`.
+
+var CardNumberElement = (0, _Element2.default)('cardNumber', {
+  impliedTokenType: 'card',
+  impliedSourceType: 'card'
+});
+var CardExpiryElement = (0, _Element2.default)('cardExpiry');
+var CardCVCElement = (0, _Element2.default)('cardCvc');
+var PostalCodeElement = (0, _Element2.default)('postalCode');
+
+// IBAN
+var IbanElement = (0, _Element2.default)('iban', {
+  impliedTokenType: 'bank_account',
+  impliedSourceType: 'sepa_debit'
+});
+
+// iDEAL Bank
+var IdealBankElement = (0, _Element2.default)('idealBank', { impliedSourceType: 'ideal' });
+
+exports.StripeProvider = _Provider2.default;
+exports.injectStripe = _inject2.default;
+exports.Elements = _Elements2.default;
+exports.CardElement = CardElement;
+exports.CardNumberElement = CardNumberElement;
+exports.CardExpiryElement = CardExpiryElement;
+exports.CardCVCElement = CardCVCElement;
+exports.PostalCodeElement = PostalCodeElement;
+exports.PaymentRequestButtonElement = _PaymentRequestButtonElement2.default;
+exports.IbanElement = IbanElement;
+exports.IdealBankElement = IdealBankElement;
+
+/***/ }),
+
+/***/ "./node_modules/react-stripe-elements/es/utils/shallowEqual.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-stripe-elements/es/utils/shallowEqual.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var shallowEqual = function shallowEqual(a, b) {
+  var keysA = Object.keys(a);
+  var keysB = Object.keys(b);
+
+  return keysA.length === keysB.length && keysA.every(function (key) {
+    return b.hasOwnProperty(key) && b[key] === a[key];
+  });
+};
+
+exports.default = shallowEqual;
 
 /***/ }),
 

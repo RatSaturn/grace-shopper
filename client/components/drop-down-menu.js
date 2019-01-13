@@ -4,14 +4,23 @@ import Menu from '@material-ui/core/Menu'
 import IconButton from '@material-ui/core/IconButton'
 import MenuItem from '@material-ui/core/MenuItem'
 import MenuIcon from '@material-ui/icons/Menu'
+import {Link} from 'react-router-dom'
 import Axios from 'axios'
 
 class SimpleMenu extends React.Component {
   state = {
-    anchorEl: null
+    anchorEl: null,
+    genres: []
   }
 
-  //axios request for genres
+  async componentDidMount() {
+    try {
+      const {data} = await Axios.get('/api/genres')
+      this.setState({genres: data})
+    } catch (err) {
+      console.error(err)
+    }
+  }
 
   handleClick = event => {
     this.setState({anchorEl: event.currentTarget})
@@ -23,7 +32,6 @@ class SimpleMenu extends React.Component {
 
   render() {
     const {anchorEl} = this.state
-
     return (
       <div>
         <Button
@@ -31,11 +39,7 @@ class SimpleMenu extends React.Component {
           aria-haspopup="true"
           onClick={this.handleClick}
         >
-          <IconButton
-            // className={classes.menuButton}
-            color="inherit"
-            aria-label="Menu"
-          >
+          <IconButton color="inherit" aria-label="Menu">
             <MenuIcon />
           </IconButton>
         </Button>
@@ -45,9 +49,17 @@ class SimpleMenu extends React.Component {
           open={Boolean(anchorEl)}
           onClose={this.handleClose}
         >
-          <MenuItem onClick={this.handleClose}>Browse All Books</MenuItem>
-          <MenuItem onClick={this.handleClose}>Fantasy</MenuItem>
-          <MenuItem onClick={this.handleClose}>Non-Fiction</MenuItem>
+          <MenuItem onClick={this.handleClose}>
+            <Link to="/" style={{textDecoration: 'none', color: 'black'}}>
+              Browse All Books
+            </Link>
+          </MenuItem>
+
+          {this.state.genres.map(genre => (
+            <MenuItem key={genre.id} onClick={this.handleClose}>
+              {genre.type}
+            </MenuItem>
+          ))}
         </Menu>
       </div>
     )
