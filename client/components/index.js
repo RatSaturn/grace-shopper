@@ -5,7 +5,7 @@
  */
 export {default as Navbar} from './navbar'
 export {default as UserHome} from './user-home'
-// export {default as AllBooks} from './all-books'
+export {default as SingleBook} from './SingleBook'
 export {Login, Signup} from './auth-form'
 export {LandingPage} from './landing-page/landing-page'
 export {default as Checkout} from './Checkout'
