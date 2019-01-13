@@ -81,6 +81,21 @@ const staffMembers = [
     name: 'Michelle Ureña',
     imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDNRVP8F3-97e2dc5ec3e2-512',
     contactUrl: 'https://www.linkedin.com/in/michelle-urena'
+  },
+  {
+    name: 'Jing Lu',
+    imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDQ5FHHBJ-0a445d2f78c4-512',
+    contactUrl: 'https://www.linkedin.com'
+  },
+  {
+    name: 'Tatiana Scott',
+    imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDPBG8UM9-c9111106f20c-512',
+    contactUrl: 'https://www.linkedin.com/in/tatianascott/'
+  },
+  {
+    name: 'Sher-Min Yang',
+    imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDQR9CRPU-37c4b1ab83a4-512',
+    contactUrl: 'https://www.linkedin.com/'
   }
 ]
 
@@ -111,22 +126,117 @@ async function seed() {
 
   console.log(`seeded ${staff.length} staff members`)
 
-  const [michelle, mBook1] = await Promise.all([
+  const [michelle, mBook1, mBook2, mBook3, mBook4, mBook5] = await Promise.all([
     Staff.findById(1),
     Book.findOne({
       where: {
         title: 'American Like Me'
       }
+    }),
+    Book.findOne({
+      where: {
+        title: 'The Brief Wondrous Life of Oscar Wao'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Harry Potter Series Box Set (Books 1-7)'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Speak'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Born A Crime'
+      }
     })
   ])
-  console.log(`seeded Michelle's picks`)
 
   await Promise.all([
     StaffBooks.create({
       staffId: michelle.id,
       bookId: mBook1.id
+    }),
+    StaffBooks.create({
+      staffId: michelle.id,
+      bookId: mBook2.id
+    }),
+    StaffBooks.create({
+      staffId: michelle.id,
+      bookId: mBook3.id
+    }),
+    StaffBooks.create({
+      staffId: michelle.id,
+      bookId: mBook4.id
+    }),
+    StaffBooks.create({
+      staffId: michelle.id,
+      bookId: mBook5.id
     })
   ])
+
+  console.log(`seeded Michelle's picks`)
+
+  const [jing, jBook1, jBook2, jBook3, jBook4, jBook5] = await Promise.all([
+    Staff.findById(2),
+    Book.findOne({
+      where: {
+        title: 'The 7 Habits of Highly Effective People'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'The Road Less Traveled'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'A Simple Act of Gratitude'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Gifted Hands'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'The Last Lecture'
+      }
+    })
+  ])
+
+  await Promise.all([
+    StaffBooks.create({
+      staffId: jing.id,
+      bookId: jBook1.id
+    }),
+    StaffBooks.create({
+      staffId: jing.id,
+      bookId: jBook2.id
+    }),
+    StaffBooks.create({
+      staffId: jing.id,
+      bookId: jBook3.id
+    }),
+    StaffBooks.create({
+      staffId: jing.id,
+      bookId: jBook4.id
+    }),
+    StaffBooks.create({
+      staffId: jing.id,
+      bookId: jBook5.id
+    }),
+    StaffBooks.create({
+      staffId: jing.id,
+      bookId: mBook3.id
+    })
+  ])
+
+  console.log(`seeded Jing's picks`)
 
   let [order, book1, book2, book3] = await Promise.all([
     Order.create({pending: true}),
