@@ -43,7 +43,7 @@ Order.updateOrderQuantity = async function(id, object) {
       quantity: object.quantity,
       price: newBook.price
     })
-  } else if (object.quantity === '0') {
+  } else if (object.quantity == 0) {
     const book = await Book.findById(object.bookId)
     await orderInstance.removeBook(book)
   } else {
