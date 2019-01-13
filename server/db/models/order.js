@@ -5,6 +5,7 @@ const Book = require('./book')
 
 const Order = db.define('order', {
   pending: Sequelize.BOOLEAN,
+  defaultValue: true,
   numberOfItems: Sequelize.INTEGER
 })
 
@@ -43,7 +44,7 @@ Order.updateOrderQuantity = async function(id, object) {
       quantity: object.quantity,
       price: newBook.price
     })
-  } else if (object.quantity == 0) {
+  } else if (!object.quantity) {
     const book = await Book.findById(object.bookId)
     await orderInstance.removeBook(book)
   } else {
