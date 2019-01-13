@@ -107,14 +107,13 @@ var _components = __webpack_require__(/*! ./components */ "./client/components/i
 
 var _routes = _interopRequireDefault(__webpack_require__(/*! ./routes */ "./client/routes.js"));
 
-var _landingPage = _interopRequireDefault(__webpack_require__(/*! ./components/landing-page/landing-page */ "./client/components/landing-page/landing-page.js"));
-
 var _footer = _interopRequireDefault(__webpack_require__(/*! ./components/footer */ "./client/components/footer.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import LandingPage from './components/landing-page/landing-page'
 var App = function App() {
-  return _react.default.createElement("div", null, _react.default.createElement(_components.Navbar, null), _react.default.createElement(_routes.default, null), _react.default.createElement(_landingPage.default, null), _react.default.createElement(_footer.default, null));
+  return _react.default.createElement("div", null, _react.default.createElement(_components.Navbar, null), _react.default.createElement(_routes.default, null), _react.default.createElement(_footer.default, null));
 };
 
 var _default = App;
@@ -456,12 +455,20 @@ Object.defineProperty(exports, "Signup", {
     return _authForm.Signup;
   }
 });
+Object.defineProperty(exports, "LandingPage", {
+  enumerable: true,
+  get: function get() {
+    return _landingPage.LandingPage;
+  }
+});
 
 var _navbar = _interopRequireDefault(__webpack_require__(/*! ./navbar */ "./client/components/navbar.js"));
 
 var _userHome = _interopRequireDefault(__webpack_require__(/*! ./user-home */ "./client/components/user-home.js"));
 
 var _authForm = __webpack_require__(/*! ./auth-form */ "./client/components/auth-form.js");
+
+var _landingPage = __webpack_require__(/*! ./landing-page/landing-page */ "./client/components/landing-page/landing-page.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -522,7 +529,7 @@ var styles = function styles() {
   };
 };
 
-var bookCard = function bookCard(props) {
+var BookCard = function BookCard(props) {
   var classes = props.classes;
   var book = props.book;
   return _react.default.createElement(_Card.default, {
@@ -546,11 +553,167 @@ var bookCard = function bookCard(props) {
   }, book.price)));
 };
 
-bookCard.propTypes = {
+BookCard.propTypes = {
   classes: _propTypes.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(styles)(bookCard);
+var _default = (0, _styles.withStyles)(styles)(BookCard);
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./client/components/landing-page/book-view.js":
+/*!*****************************************************!*\
+  !*** ./client/components/landing-page/book-view.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _styles = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/styles/index.js");
+
+var _classnames2 = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+
+var _bookCard = _interopRequireDefault(__webpack_require__(/*! ./book-card */ "./client/components/landing-page/book-card.js"));
+
+var _Grid = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/Grid/index.js"));
+
+var _Typography = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/Typography/index.js"));
+
+var _IconButton = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/IconButton */ "./node_modules/@material-ui/core/IconButton/index.js"));
+
+var _ExpandMore = _interopRequireDefault(__webpack_require__(/*! @material-ui/icons/ExpandMore */ "./node_modules/@material-ui/icons/ExpandMore.js"));
+
+var _Collapse = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Collapse */ "./node_modules/@material-ui/core/Collapse/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var styles = function styles(theme) {
+  return {
+    expand: {
+      transform: 'rotate(0deg)',
+      marginLeft: 'auto',
+      transition: theme.transitions.create('transform', {
+        duration: theme.transitions.duration.shortest
+      })
+    },
+    expandOpen: {
+      transform: 'rotate(180deg)'
+    }
+  };
+};
+
+var BookView =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(BookView, _Component);
+
+  function BookView() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, BookView);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(BookView)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
+      expanded: false
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleExpandClick", function () {
+      _this.setState(function (state) {
+        return {
+          expanded: !state.expanded
+        };
+      });
+    });
+
+    return _this;
+  }
+
+  _createClass(BookView, [{
+    key: "render",
+    value: function render() {
+      var classes = this.props.classes;
+      return _react.default.createElement("div", {
+        align: "center"
+      }, _react.default.createElement("div", null, _react.default.createElement(_Typography.default, {
+        variant: "h6",
+        align: "center",
+        color: "textSecondary",
+        gutterBottom: true
+      }, "Browse Our Selection"), _react.default.createElement(_IconButton.default, {
+        className: (0, _classnames2.default)(classes.expand, _defineProperty({}, classes.expandOpen, this.state.expanded)),
+        align: "center",
+        onClick: this.handleExpandClick,
+        "aria-expanded": this.state.expanded,
+        "aria-label": "Show more"
+      }, _react.default.createElement(_ExpandMore.default, {
+        fontSize: "large"
+      }))), _react.default.createElement(_Collapse.default, {
+        in: this.state.expanded,
+        timeout: "auto",
+        unmountOnExit: true
+      }, _react.default.createElement(_Grid.default, {
+        container: true,
+        justify: "center",
+        alignItems: "center"
+      }, this.props.books.map(function (book) {
+        return _react.default.createElement(_bookCard.default, {
+          key: book.id,
+          book: book
+        });
+      }))));
+    }
+  }]);
+
+  return BookView;
+}(_react.Component);
+
+BookView.propTypes = {
+  classes: _propTypes.default.object.isRequired
+};
+
+var _default = (0, _styles.withStyles)(styles)(BookView);
 
 exports.default = _default;
 
@@ -649,7 +812,6 @@ var _newArrivals = _interopRequireDefault(__webpack_require__(/*! ./new-arrivals
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import Routes from '/client/routes'
 var LandingPage = function LandingPage() {
   return _react.default.createElement("div", null, _react.default.createElement(_heroComponent.default, null), _react.default.createElement(_newArrivals.default, null), _react.default.createElement(_staffPicks.default, null));
 };
@@ -676,27 +838,11 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
-var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
-
-var _styles = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/styles/index.js");
-
-var _classnames2 = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
-
-var _bookCard = _interopRequireDefault(__webpack_require__(/*! ./book-card */ "./client/components/landing-page/book-card.js"));
-
-var _Grid = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/Grid/index.js"));
-
-var _Typography = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/Typography/index.js"));
-
-var _IconButton = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/IconButton */ "./node_modules/@material-ui/core/IconButton/index.js"));
-
-var _ExpandMore = _interopRequireDefault(__webpack_require__(/*! @material-ui/icons/ExpandMore */ "./node_modules/@material-ui/icons/ExpandMore.js"));
-
-var _Collapse = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Collapse */ "./node_modules/@material-ui/core/Collapse/index.js"));
-
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
 var _store = __webpack_require__(/*! ./client/store */ "./client/store/index.js");
+
+var _bookView = _interopRequireDefault(__webpack_require__(/*! ./book-view */ "./client/components/landing-page/book-view.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -716,30 +862,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-var styles = function styles(theme) {
-  return {
-    expand: {
-      transform: 'rotate(0deg)',
-      marginLeft: 'auto',
-      transition: theme.transitions.create('transform', {
-        duration: theme.transitions.duration.shortest
-      })
-    },
-    expandOpen: {
-      transform: 'rotate(180deg)'
-    }
-  };
-};
 
 var NewArrivals =
 /*#__PURE__*/
@@ -747,31 +876,9 @@ function (_Component) {
   _inherits(NewArrivals, _Component);
 
   function NewArrivals() {
-    var _getPrototypeOf2;
-
-    var _this;
-
     _classCallCheck(this, NewArrivals);
 
-    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
-      args[_key] = arguments[_key];
-    }
-
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(NewArrivals)).call.apply(_getPrototypeOf2, [this].concat(args)));
-
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
-      expanded: false
-    });
-
-    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleExpandClick", function () {
-      _this.setState(function (state) {
-        return {
-          expanded: !state.expanded
-        };
-      });
-    });
-
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(NewArrivals).apply(this, arguments));
   }
 
   _createClass(NewArrivals, [{
@@ -812,49 +919,18 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      var classes = this.props.classes;
-      return _react.default.createElement("div", {
-        align: "center"
-      }, _react.default.createElement("div", null, _react.default.createElement(_Typography.default, {
-        variant: "h6",
-        align: "center",
-        color: "textSecondary",
-        gutterBottom: true
-      }, "Browse Our Selection"), _react.default.createElement(_IconButton.default, {
-        className: (0, _classnames2.default)(classes.expand, _defineProperty({}, classes.expandOpen, this.state.expanded)),
-        align: "center",
-        onClick: this.handleExpandClick,
-        "aria-expanded": this.state.expanded,
-        "aria-label": "Show more"
-      }, _react.default.createElement(_ExpandMore.default, {
-        fontSize: "large"
-      }))), _react.default.createElement(_Collapse.default, {
-        in: this.state.expanded,
-        timeout: "auto",
-        unmountOnExit: true
-      }, _react.default.createElement(_Grid.default, {
-        container: true,
-        justify: "center",
-        alignItems: "center"
-      }, this.props.books.map(function (book) {
-        return _react.default.createElement(_bookCard.default, {
-          key: book.id,
-          book: book
-        });
-      }))));
+      return _react.default.createElement(_bookView.default, {
+        books: this.props.books
+      });
     }
   }]);
 
   return NewArrivals;
 }(_react.Component);
+/**
+ * CONTAINER
+ */
 
-NewArrivals.propTypes = {
-  classes: _propTypes.default.object.isRequired
-  /**
-   * CONTAINER
-   */
-
-};
 
 var mapState = function mapState(state) {
   return {
@@ -870,7 +946,7 @@ var mapDispatch = function mapDispatch(dispatch) {
   };
 };
 
-var _default = (0, _reactRedux.connect)(mapState, mapDispatch)((0, _styles.withStyles)(styles)(NewArrivals));
+var _default = (0, _reactRedux.connect)(mapState, mapDispatch)(NewArrivals);
 
 exports.default = _default;
 
@@ -1022,10 +1098,16 @@ var Navbar = function Navbar(props) {
     variant: "h6",
     color: "inherit",
     className: classes.grow
-  }, "BookStack"), isLoggedIn ? _react.default.createElement("div", null, _react.default.createElement(_Button.default, {
+  }, _react.default.createElement(_reactRouterDom.Link, {
+    to: "/",
+    style: {
+      textDecoration: 'none',
+      color: '#FFF'
+    }
+  }, "BookStack")), isLoggedIn ? _react.default.createElement("div", null, _react.default.createElement(_Button.default, {
     color: "inherit"
   }, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/home",
+    to: "/",
     style: {
       textDecoration: 'none',
       color: '#FFF'
@@ -1042,16 +1124,12 @@ var Navbar = function Navbar(props) {
     color: "inherit"
   }, _react.default.createElement("a", {
     href: "#",
-    onClick: handleClick
-  }, "Logout"))) : _react.default.createElement("div", null, _react.default.createElement(_Button.default, {
-    color: "inherit"
-  }, _react.default.createElement(_reactRouterDom.Link, {
-    to: "/home",
+    onClick: handleClick,
     style: {
       textDecoration: 'none',
       color: '#FFF'
     }
-  }, "Home")), _react.default.createElement(_Button.default, {
+  }, "Logout"))) : _react.default.createElement("div", null, _react.default.createElement(_Button.default, {
     color: "inherit"
   }, _react.default.createElement(_reactRouterDom.Link, {
     to: "/signup",
@@ -1060,6 +1138,14 @@ var Navbar = function Navbar(props) {
       color: '#FFF'
     }
   }, "Sign Up")), _react.default.createElement(_Button.default, {
+    color: "inherit"
+  }, _react.default.createElement(_reactRouterDom.Link, {
+    to: "/login",
+    style: {
+      textDecoration: 'none',
+      color: '#FFF'
+    }
+  }, "Login")), _react.default.createElement(_Button.default, {
     color: "inherit"
   }, _react.default.createElement(_reactRouterDom.Link, {
     to: "/cart",
@@ -1250,6 +1336,8 @@ var _components = __webpack_require__(/*! ./components */ "./client/components/i
 
 var _store = __webpack_require__(/*! ./store */ "./client/store/index.js");
 
+var _landingPage = _interopRequireDefault(__webpack_require__(/*! ./client/components/landing-page/landing-page.js */ "./client/components/landing-page/landing-page.js"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
@@ -1296,6 +1384,14 @@ function (_Component) {
     value: function render() {
       var isLoggedIn = this.props.isLoggedIn;
       return _react.default.createElement(_reactRouterDom.Switch, null, _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/",
+        component: _landingPage.default
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/home",
+        component: _components.UserHome
+      }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/login",
         component: _components.Login

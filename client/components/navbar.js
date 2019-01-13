@@ -27,16 +27,15 @@ const Navbar = props => {
         <Toolbar>
           <SimpleMenu />
           <Typography variant="h6" color="inherit" className={classes.grow}>
-            BookStack
+            <Link to="/" style={{textDecoration: 'none', color: '#FFF'}}>
+              BookStack
+            </Link>
           </Typography>
           {isLoggedIn ? (
             <div>
               {/* The navbar will show these links after you log in */}
               <Button color="inherit">
-                <Link
-                  to="/home"
-                  style={{textDecoration: 'none', color: '#FFF'}}
-                >
+                <Link to="/" style={{textDecoration: 'none', color: '#FFF'}}>
                   Home
                 </Link>
               </Button>
@@ -48,8 +47,13 @@ const Navbar = props => {
                   Cart
                 </Link>
               </Button>
+
               <Button color="inherit">
-                <a href="#" onClick={handleClick}>
+                <a
+                  href="#"
+                  onClick={handleClick}
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
                   Logout
                 </a>
               </Button>
@@ -57,20 +61,21 @@ const Navbar = props => {
           ) : (
             <div>
               {/* The navbar will show these links before you log in */}
-              <Button color="inherit">
-                <Link
-                  to="/home"
-                  style={{textDecoration: 'none', color: '#FFF'}}
-                >
-                  Home
-                </Link>
-              </Button>
+
               <Button color="inherit">
                 <Link
                   to="/signup"
                   style={{textDecoration: 'none', color: '#FFF'}}
                 >
                   Sign Up
+                </Link>
+              </Button>
+              <Button color="inherit">
+                <Link
+                  to="/login"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  Login
                 </Link>
               </Button>
               <Button color="inherit">

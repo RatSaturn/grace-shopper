@@ -26,7 +26,7 @@ const styles = () => ({
   }
 })
 
-const bookCard = props => {
+const BookCard = props => {
   const {classes} = props
   const {book} = props
   return (
@@ -50,8 +50,8 @@ const bookCard = props => {
   )
 }
 
-bookCard.propTypes = {
+BookCard.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-export default withStyles(styles)(bookCard)
+export default withStyles(styles)(BookCard)
