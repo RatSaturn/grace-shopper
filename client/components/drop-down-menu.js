@@ -4,11 +4,14 @@ import Menu from '@material-ui/core/Menu'
 import IconButton from '@material-ui/core/IconButton'
 import MenuItem from '@material-ui/core/MenuItem'
 import MenuIcon from '@material-ui/icons/Menu'
+import Axios from 'axios'
 
 class SimpleMenu extends React.Component {
   state = {
     anchorEl: null
   }
+
+  //axios request for genres
 
   handleClick = event => {
     this.setState({anchorEl: event.currentTarget})
