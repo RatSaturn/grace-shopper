@@ -6,7 +6,8 @@ const {
   Book,
   Genre,
   Order,
-  BooksForOrders
+  BooksForOrders,
+  Staff
 } = require('../server/db/models')
 const jsonFiles = [
   require('../script/booksFromGoogle/business.json'),
@@ -169,6 +170,44 @@ async function seed() {
 
   console.log('seeded 3 pending orders')
 
+  const allStaffs = [
+    {
+      name: 'Michelle Urena',
+      imageUrl:
+        'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwondrouspics.com%2Fwp-content%2Fuploads%2F2011%2F12%2FCute_kitten.jpg&f=1',
+      contactUrl: 'https://www.linkedin.com/in/michelle-urena'
+    },
+    {
+      name: 'Jing Lu',
+      imageUrl:
+        'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-W-Q7_l1OoxY%2FUWAJSrtvn_I%2FAAAAAAAASVM%2FeMqye-hpAu4%2Fs1600%2Fworld-s-cutest-kitten.jpg&f=1',
+      contactUrl: 'https://www.linkedin.com/in/jing-lu-b8b6106b/'
+    },
+    {
+      name: 'Tatiana Scott',
+      imageUrl:
+        'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.agoramedia.com%2FEHBlogImages%2Fethan-zohn-the-zohn-zone%2F2014%2F03%2FLucy.jpg&f=1',
+      contactUrl: 'https://www.linkedin.com/in/tatianascott/'
+    },
+    {
+      name: 'Sher-Min Yang',
+      imageUrl:
+        'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2Fb4%2F6b%2F07%2Fb46b079df6f47c093f7c123e70776892--fluffy-kittens-cute-kitten-fluffy.jpg&f=1',
+      contactUrl: 'https://www.linkedin.com/in/sher-min-yang-7653a78b/'
+    }
+  ]
+
+  const [michelle, jing, tatiana, sherMin] = await Promise.all(
+    allStaffs.map(staff => Staff.create(staff))
+  )
+  await Promise.all([
+    michelle.addBooks([book1, book2]),
+    jing.addBooks([book2, book3]),
+    tatiana.addBooks([book1, book3]),
+    sherMin.addBooks([book1, book2, book3])
+  ])
+
+  console.log('seeded 4 staffs and their book picks')
   console.log(`seeded successfully`)
 }
 

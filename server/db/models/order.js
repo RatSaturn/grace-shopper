@@ -4,8 +4,10 @@ const BooksForOrders = require('./booksForOrders')
 const Book = require('./book')
 
 const Order = db.define('order', {
-  pending: Sequelize.BOOLEAN,
-  defaultValue: true,
+  pending: {
+    type: Sequelize.BOOLEAN,
+    defaultValue: true
+  },
   numberOfItems: Sequelize.INTEGER
 })
 
