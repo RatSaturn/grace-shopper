@@ -850,7 +850,7 @@
       },
       "saleInfo": {
         "listPrice": {
-          "amount": 1390,
+          "amount": 13.9,
           "currencyCode": "USD"
         }
       }
@@ -874,7 +874,7 @@
       },
       "saleInfo": {
         "listPrice": {
-          "amount": 1995,
+          "amount": 19.95,
           "currencyCode": "USD"
         }
       }
@@ -897,7 +897,7 @@
       },
       "saleInfo": {
         "listPrice": {
-          "amount": 1195,
+          "amount": 11.95,
           "currencyCode": "USD"
         }
       }
@@ -921,7 +921,7 @@
       },
       "saleInfo": {
         "listPrice": {
-          "amount": 2695,
+          "amount": 26.95,
           "currencyCode": "USD"
         }
       }

@@ -764,7 +764,7 @@
       },
       "saleInfo": {
         "listPrice": {
-          "amount": 5299,
+          "amount": 52.99,
           "currencyCode": "USD"
         }
       }
@@ -810,7 +810,7 @@
       },
       "saleInfo": {
         "listPrice": {
-          "amount": 1195,
+          "amount": 11.95,
           "currencyCode": "USD"
         }
       }
