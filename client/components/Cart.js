@@ -2,11 +2,14 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {getCartFromServer} from '../store'
 import CartItem from './CartItem'
+import history from '../history'
 
 export class Cart extends Component {
   async componentDidMount() {
     try {
-      await this.props.getCartFromServer()
+      if (!this.props.cart.length) {
+        await this.props.getCartFromServer()
+      }
     } catch (err) {
       console.error(err)
     }
@@ -43,7 +46,10 @@ export class Cart extends Component {
             </div>
             <div className="cart-total">
               <div>
-                <h4>Total: ${displayTotal}</h4>
+                <h4>Total: ${displayTotal}</h4>{' '}
+                <button type="button" onClick={() => history.push('/checkout')}>
+                  Checkout
+                </button>
               </div>
             </div>
           </div>
