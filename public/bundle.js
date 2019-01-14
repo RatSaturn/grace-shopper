@@ -1241,6 +1241,46 @@ function (_Component) {
       };
     }()
   }, {
+    key: "componentDidUpdate",
+    value: function () {
+      var _componentDidUpdate = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee2(prevProps) {
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                if (!(this.props.match.params.genre !== prevProps.match.params.genre)) {
+                  _context2.next = 9;
+                  break;
+                }
+
+                _context2.prev = 1;
+                _context2.next = 4;
+                return this.props.getBooksByGenreFromApi(this.props.match.params.genre);
+
+              case 4:
+                _context2.next = 9;
+                break;
+
+              case 6:
+                _context2.prev = 6;
+                _context2.t0 = _context2["catch"](1);
+                console.error(_context2.t0);
+
+              case 9:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this, [[1, 6]]);
+      }));
+
+      return function componentDidUpdate(_x) {
+        return _componentDidUpdate.apply(this, arguments);
+      };
+    }()
+  }, {
     key: "render",
     value: function render() {
       return _react.default.createElement("div", null, _react.default.createElement(_heroComponent.default, null), _react.default.createElement(_bookView.default, {
@@ -2824,22 +2864,21 @@ var getBooksByGenreFromApi = function getBooksByGenreFromApi(genre) {
 
               case 3:
                 res = _context.sent;
-                console.log(res);
                 dispatch(getBooksByGenre(res.data || booksByGenre));
-                _context.next = 11;
+                _context.next = 10;
                 break;
 
-              case 8:
-                _context.prev = 8;
+              case 7:
+                _context.prev = 7;
                 _context.t0 = _context["catch"](0);
                 console.error(_context.t0);
 
-              case 11:
+              case 10:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, this, [[0, 8]]);
+        }, _callee, this, [[0, 7]]);
       }));
 
       return function (_x) {

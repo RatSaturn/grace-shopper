@@ -12,6 +12,17 @@ class BooksByGenre extends Component {
       console.error(err)
     }
   }
+
+  async componentDidUpdate(prevProps) {
+    if (this.props.match.params.genre !== prevProps.match.params.genre) {
+      try {
+        await this.props.getBooksByGenreFromApi(this.props.match.params.genre)
+      } catch (err) {
+        console.error(err)
+      }
+    }
+  }
+
   render() {
     return (
       <div>
