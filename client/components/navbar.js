@@ -17,9 +17,9 @@ const styles = {
     flexGrow: 1
   }
 }
-
 class Navbar extends Component {
   async componentDidMount() {
+    console.log('component did mount navbar')
     await this.props.getCartFromServer()
     await this.props.getBooksFromApi()
   }
@@ -38,20 +38,19 @@ class Navbar extends Component {
             {isLoggedIn ? (
               <div>
                 {/* The navbar will show these links after you log in */}
-                <Button color="inherit">
-                  <Link to="/" style={{textDecoration: 'none', color: '#FFF'}}>
-                    Home
-                  </Link>
-                </Button>
-                <Button color="inherit">
-                  <Link
-                    to="/cart"
-                    style={{textDecoration: 'none', color: '#FFF'}}
-                  >
-                    Cart
-                  </Link>
-                </Button>
-
+                <Link to="/" style={{textDecoration: 'none', color: '#FFF'}}>
+                  <Button color="inherit"> Home </Button>
+                </Link>
+                <Link
+                  to="/cart"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  <Button color="inherit">
+                    <img src="/cart-image.png" />
+                    {'  '}
+                    {this.state.items}
+                  </Button>
+                </Link>
                 <Button color="inherit">
                   <a
                     href="#"
@@ -65,31 +64,30 @@ class Navbar extends Component {
             ) : (
               <div>
                 {/* The navbar will show these links before you log in */}
-
-                <Button color="inherit">
-                  <Link
-                    to="/signup"
-                    style={{textDecoration: 'none', color: '#FFF'}}
-                  >
-                    Sign Up
-                  </Link>
-                </Button>
-                <Button color="inherit">
-                  <Link
-                    to="/login"
-                    style={{textDecoration: 'none', color: '#FFF'}}
-                  >
-                    Login
-                  </Link>
-                </Button>
-                <Button color="inherit">
-                  <Link
-                    to="/cart"
-                    style={{textDecoration: 'none', color: '#FFF'}}
-                  >
-                    Cart
-                  </Link>
-                </Button>
+                <Link
+                  to="/signup"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  <Button color="inherit">Sign Up</Button>
+                </Link>
+                <Link
+                  to="/login"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  <Button color="inherit">Login</Button>
+                </Link>
+                <Link
+                  to="/cart"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  <Button color="inherit">
+                    <img src="/cart-image.png" />
+                    {'     '}
+                    {this.props.cart.reduce((accum, book) => {
+                      return accum + Number(book.booksForOrder.quantity)
+                    }, 0)}
+                  </Button>
+                </Link>
               </div>
             )}
           </Toolbar>
@@ -98,16 +96,15 @@ class Navbar extends Component {
     )
   }
 }
-
 /**
  * CONTAINER
  */
 const mapState = state => {
   return {
-    isLoggedIn: !!state.user.id
+    isLoggedIn: !!state.user.id,
+    cart: state.cart
   }
 }
-
 const mapDispatch = dispatch => {
   return {
     handleClick() {
@@ -121,9 +118,6 @@ const mapDispatch = dispatch => {
     }
   }
 }
-
-export default connect(mapState, mapDispatch)(withStyles(styles)(Navbar))
-
 /**
  * PROP TYPES
  */
@@ -132,3 +126,4 @@ Navbar.propTypes = {
   isLoggedIn: PropTypes.bool.isRequired,
   classes: PropTypes.object.isRequired
 }
+export default connect(mapState, mapDispatch)(withStyles(styles)(Navbar))
