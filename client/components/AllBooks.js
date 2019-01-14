@@ -37,7 +37,8 @@ export class AllBooks extends Component {
  */
 const mapState = state => {
   return {
-    books: state.books
+    books: state.books,
+    cart: state.cart
   }
 }
 
