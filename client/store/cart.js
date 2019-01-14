@@ -48,21 +48,25 @@ export const getCartFromServer = () => async dispatch => {
 export const updateCartOnServer = bookInfo => async dispatch => {
   try {
     const {bookId, quantity} = bookInfo
-    const {data} = await axios.post('/api/orders/cart/update', {
-      bookId,
-      quantity
-    })
-    if (bookInfo.book) {
-      if (bookInfo.alreadyThere) {
-        dispatch(addToCart(bookInfo))
-      } else {
+    if (bookInfo.alreadyThere) {
+      await axios.post('/api/orders/cart/update', {
+        bookId,
+        quantity: quantity + bookInfo.alreadyThere.booksForOrder.quantity
+      })
+      dispatch(addToCart(bookInfo))
+    } else {
+      const {data} = await axios.post('/api/orders/cart/update', {
+        bookId,
+        quantity
+      })
+      if (bookInfo.book) {
         const bookToSend = data.find(book => book.id === bookId)
         dispatch(addToCart({bookId, quantity, bookToSend}))
+      } else if (!quantity) {
+        dispatch(removeFromCart(bookInfo))
+      } else {
+        dispatch(updateCart(bookInfo))
       }
-    } else if (!bookInfo.quantity) {
-      dispatch(removeFromCart(bookInfo))
-    } else {
-      dispatch(updateCart(bookInfo))
     }
 
     return 'done'
@@ -90,7 +94,7 @@ export default function(state = defaultCart, action) {
       newState.push(copyOfBook)
       return newState
     case ADD_TO_CART:
-      if (copyOfBook.id) {
+      if (copyOfBook && copyOfBook.id) {
         copyOfBook.booksForOrder.quantity += 1
         newState.push(copyOfBook)
       } else {
