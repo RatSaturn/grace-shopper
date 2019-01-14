@@ -895,6 +895,141 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ "./client/components/all-books-view.js":
+/*!*********************************************!*\
+  !*** ./client/components/all-books-view.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _store = __webpack_require__(/*! ./client/store */ "./client/store/index.js");
+
+var _bookView = _interopRequireDefault(__webpack_require__(/*! ./landing-page/book-view */ "./client/components/landing-page/book-view.js"));
+
+var _heroComponent = _interopRequireDefault(__webpack_require__(/*! ./landing-page/hero-component */ "./client/components/landing-page/hero-component.js"));
+
+var _staffPicks = _interopRequireDefault(__webpack_require__(/*! ./landing-page/staff-picks */ "./client/components/landing-page/staff-picks.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var AllBooks =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(AllBooks, _Component);
+
+  function AllBooks() {
+    _classCallCheck(this, AllBooks);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(AllBooks).apply(this, arguments));
+  }
+
+  _createClass(AllBooks, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee() {
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return this.props.getBooksFromApi();
+
+              case 3:
+                _context.next = 8;
+                break;
+
+              case 5:
+                _context.prev = 5;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 5]]);
+      }));
+
+      return function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      };
+    }()
+  }, {
+    key: "render",
+    value: function render() {
+      return _react.default.createElement("div", null, _react.default.createElement(_heroComponent.default, null), _react.default.createElement(_bookView.default, {
+        books: this.props.books
+      }));
+    }
+  }]);
+
+  return AllBooks;
+}(_react.Component);
+/**
+ * CONTAINER
+ */
+
+
+var mapState = function mapState(state) {
+  return {
+    books: state.books
+  };
+};
+
+var mapDispatch = function mapDispatch(dispatch) {
+  return {
+    getBooksFromApi: function getBooksFromApi() {
+      dispatch((0, _store.getBooksFromApi)());
+    }
+  };
+};
+
+var _default = (0, _reactRedux.connect)(mapState, mapDispatch)(AllBooks);
+
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./client/components/auth-form.js":
 /*!****************************************!*\
   !*** ./client/components/auth-form.js ***!
@@ -998,6 +1133,139 @@ AuthForm.propTypes = {
   handleSubmit: _propTypes.default.func.isRequired,
   error: _propTypes.default.object
 };
+
+/***/ }),
+
+/***/ "./client/components/books-by-genre-view.js":
+/*!**************************************************!*\
+  !*** ./client/components/books-by-genre-view.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _store = __webpack_require__(/*! ./client/store */ "./client/store/index.js");
+
+var _bookView = _interopRequireDefault(__webpack_require__(/*! ./landing-page/book-view */ "./client/components/landing-page/book-view.js"));
+
+var _heroComponent = _interopRequireDefault(__webpack_require__(/*! ./landing-page/hero-component */ "./client/components/landing-page/hero-component.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var BooksByGenre =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(BooksByGenre, _Component);
+
+  function BooksByGenre() {
+    _classCallCheck(this, BooksByGenre);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(BooksByGenre).apply(this, arguments));
+  }
+
+  _createClass(BooksByGenre, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee() {
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return this.props.getBooksByGenreFromApi(this.props.match.params.genre);
+
+              case 3:
+                _context.next = 8;
+                break;
+
+              case 5:
+                _context.prev = 5;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 5]]);
+      }));
+
+      return function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      };
+    }()
+  }, {
+    key: "render",
+    value: function render() {
+      return _react.default.createElement("div", null, _react.default.createElement(_heroComponent.default, null), _react.default.createElement(_bookView.default, {
+        books: this.props.books
+      }));
+    }
+  }]);
+
+  return BooksByGenre;
+}(_react.Component);
+/**
+ * CONTAINER
+ */
+
+
+var mapState = function mapState(state) {
+  return {
+    books: state.booksByGenre
+  };
+};
+
+var mapDispatch = function mapDispatch(dispatch) {
+  return {
+    getBooksByGenreFromApi: function getBooksByGenreFromApi(genre) {
+      dispatch((0, _store.getBooksByGenreFromApi)(genre));
+    }
+  };
+};
+
+var _default = (0, _reactRedux.connect)(mapState, mapDispatch)(BooksByGenre);
+
+exports.default = _default;
 
 /***/ }),
 
@@ -1159,7 +1427,7 @@ function (_React$Component) {
       }, _react.default.createElement(_MenuItem.default, {
         onClick: this.handleClose
       }, _react.default.createElement(_reactRouterDom.Link, {
-        to: "/",
+        to: "/allBooks",
         style: {
           textDecoration: 'none',
           color: 'black'
@@ -1168,7 +1436,14 @@ function (_React$Component) {
         return _react.default.createElement(_MenuItem.default, {
           key: genre.id,
           onClick: _this2.handleClose
-        }, genre.type);
+        }, _react.default.createElement(_reactRouterDom.Link, {
+          exact: true,
+          to: "/allbooks/genre/".concat(genre.type),
+          style: {
+            textDecoration: 'none',
+            color: 'black'
+          }
+        }, genre.type));
       })));
     }
   }]);
@@ -1279,6 +1554,18 @@ Object.defineProperty(exports, "SingleBook", {
     return _SingleBook.default;
   }
 });
+Object.defineProperty(exports, "AllBooks", {
+  enumerable: true,
+  get: function get() {
+    return _allBooksView.default;
+  }
+});
+Object.defineProperty(exports, "BooksByGenre", {
+  enumerable: true,
+  get: function get() {
+    return _booksByGenreView.default;
+  }
+});
 Object.defineProperty(exports, "Login", {
   enumerable: true,
   get: function get() {
@@ -1315,6 +1602,10 @@ var _navbar = _interopRequireDefault(__webpack_require__(/*! ./navbar */ "./clie
 var _userHome = _interopRequireDefault(__webpack_require__(/*! ./user-home */ "./client/components/user-home.js"));
 
 var _SingleBook = _interopRequireDefault(__webpack_require__(/*! ./SingleBook */ "./client/components/SingleBook.js"));
+
+var _allBooksView = _interopRequireDefault(__webpack_require__(/*! ./all-books-view */ "./client/components/all-books-view.js"));
+
+var _booksByGenreView = _interopRequireDefault(__webpack_require__(/*! ./books-by-genre-view */ "./client/components/books-by-genre-view.js"));
 
 var _authForm = __webpack_require__(/*! ./auth-form */ "./client/components/auth-form.js");
 
@@ -2245,6 +2536,18 @@ function (_Component) {
         component: _landingPage.default
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
+        path: "/allBooks",
+        component: _components.AllBooks
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/allBooks/genre/:genre",
+        component: _components.BooksByGenre
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/allbooks/:bookId",
+        component: _components.SingleBook
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
         path: "/home",
         component: _components.UserHome
       }), _react.default.createElement(_reactRouterDom.Route, {
@@ -2257,16 +2560,8 @@ function (_Component) {
         component: _components.Signup
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
-        path: "/allbooks",
-        component: _components.AllBooks
-      }), _react.default.createElement(_reactRouterDom.Route, {
-        exact: true,
         path: "/cart",
         component: _Cart.default
-      }), _react.default.createElement(_reactRouterDom.Route, {
-        exact: true,
-        path: "/allbooks/:bookId",
-        component: _components.SingleBook
       }));
     }
   }]);
@@ -2440,6 +2735,120 @@ function _default() {
 
   switch (action.type) {
     case GET_BOOKS:
+      return action.books;
+
+    default:
+      return state;
+  }
+}
+
+/***/ }),
+
+/***/ "./client/store/booksByGenre.js":
+/*!**************************************!*\
+  !*** ./client/store/booksByGenre.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = _default;
+exports.getBooksByGenreFromApi = void 0;
+
+var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+/**
+ * ACTION TYPES
+ */
+var GET_BOOKS_BY_GENRE = 'GET_BOOKS_BY_GENRE';
+/**
+ * INITIAL STATE
+ */
+
+var booksByGenre = [];
+/**
+ * ACTION CREATORS
+ */
+
+var getBooksByGenre = function getBooksByGenre(books) {
+  return {
+    type: GET_BOOKS_BY_GENRE,
+    books: books
+  };
+};
+/**
+ * THUNK CREATORS
+ */
+
+
+var getBooksByGenreFromApi = function getBooksByGenreFromApi(genre) {
+  return (
+    /*#__PURE__*/
+    function () {
+      var _ref = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee(dispatch) {
+        var res;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                console.log('dispatching getBooksByGenre');
+                console.log(genre);
+                _context.prev = 2;
+                _context.next = 5;
+                return _axios.default.get("/api/books/".concat(genre));
+
+              case 5:
+                res = _context.sent;
+                console.log(res);
+                dispatch(getBooksByGenre(res.data || booksByGenre));
+                _context.next = 13;
+                break;
+
+              case 10:
+                _context.prev = 10;
+                _context.t0 = _context["catch"](2);
+                console.error(_context.t0);
+
+              case 13:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[2, 10]]);
+      }));
+
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }()
+  );
+};
+/**
+ * REDUCER
+ */
+
+
+exports.getBooksByGenreFromApi = getBooksByGenreFromApi;
+
+function _default() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : booksByGenre;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case GET_BOOKS_BY_GENRE:
       return action.books;
 
     default:
@@ -2690,6 +3099,19 @@ Object.keys(_cart).forEach(function (key) {
   });
 });
 
+var _booksByGenre = _interopRequireWildcard(__webpack_require__(/*! ./booksByGenre */ "./client/store/booksByGenre.js"));
+
+Object.keys(_booksByGenre).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _booksByGenre[key];
+    }
+  });
+});
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -2698,7 +3120,8 @@ var reducer = (0, _redux.combineReducers)({
   user: _user.default,
   books: _books.default,
   singleBook: _singleBook.default,
-  cart: _cart.default
+  cart: _cart.default,
+  booksByGenre: _booksByGenre.default
 });
 var middleware = (0, _reduxDevtoolsExtension.composeWithDevTools)((0, _redux.applyMiddleware)(_reduxThunk.default, (0, _reduxLogger.default)({
   collapsed: true

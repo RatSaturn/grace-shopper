@@ -50,14 +50,23 @@ class SimpleMenu extends React.Component {
           onClose={this.handleClose}
         >
           <MenuItem onClick={this.handleClose}>
-            <Link to="/" style={{textDecoration: 'none', color: 'black'}}>
+            <Link
+              to="/allBooks"
+              style={{textDecoration: 'none', color: 'black'}}
+            >
               Browse All Books
             </Link>
           </MenuItem>
 
           {this.state.genres.map(genre => (
             <MenuItem key={genre.id} onClick={this.handleClose}>
-              {genre.type}
+              <Link
+                exact
+                to={`/allbooks/genre/${genre.type}`}
+                style={{textDecoration: 'none', color: 'black'}}
+              >
+                {genre.type}
+              </Link>
             </MenuItem>
           ))}
         </Menu>

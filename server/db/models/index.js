@@ -2,27 +2,20 @@ const User = require('./user')
 const Book = require('./book')
 const Order = require('./order')
 const BooksForOrders = require('./booksForOrders')
+const Staff = require('./staff')
+const Author = require('./author')
+const Genre = require('./genre')
 
 User.hasMany(Order)
 Order.belongsTo(User)
 Order.belongsToMany(Book, {through: BooksForOrders})
 Book.belongsToMany(Order, {through: BooksForOrders})
 
-const Staff = require('./staff')
-const Author = require('./author')
-const Genre = require('./genre')
-
 Staff.belongsToMany(Book, {through: 'StaffBooks'})
 Book.belongsToMany(Staff, {through: 'StaffBooks'})
 
-//Genre.hasMany(Book)
-//Book.belongsTo(Genre)
-/**
- * If we had any associations to make, this would be a great place to put them!
- * ex. if we had another model called BlogPost, we might say:
- *
- *    BlogPost.belongsTo(User)
- */
+// Genre.hasMany(Book)
+// Book.belongsTo(Genre)
 
 /**
  * We'll export all of our models here, so that any time a module needs a model,

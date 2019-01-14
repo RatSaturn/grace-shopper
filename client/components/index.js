@@ -6,6 +6,8 @@
 export {default as Navbar} from './navbar'
 export {default as UserHome} from './user-home'
 export {default as SingleBook} from './SingleBook'
+export {default as AllBooks} from './all-books-view'
+export {default as BooksByGenre} from './books-by-genre-view'
 export {Login, Signup} from './auth-form'
 export {LandingPage} from './landing-page/landing-page'
 export {default as Checkout} from './Checkout'

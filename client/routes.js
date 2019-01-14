@@ -8,6 +8,7 @@ import {
   UserHome,
   AllBooks,
   SingleBook,
+  BooksByGenre,
   Checkout,
   StripeCheckout
 } from './components'
@@ -29,12 +30,13 @@ class Routes extends Component {
       <Switch>
         {/* Routes placed here are available to all visitors */}
         <Route exact path="/" component={LandingPage} />
+        <Route exact path="/allBooks" component={AllBooks} />
+        <Route exact path="/allBooks/genre/:genre" component={BooksByGenre} />
+        <Route exact path="/allbooks/:bookId" component={SingleBook} />
         <Route exact path="/home" component={UserHome} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/signup" component={Signup} />
-        <Route exact path="/allbooks" component={AllBooks} />
         <Route exact path="/cart" component={Cart} />
-        <Route exact path="/allbooks/:bookId" component={SingleBook} />
       </Switch>
     )
   }
