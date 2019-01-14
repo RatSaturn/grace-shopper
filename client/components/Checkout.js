@@ -1,12 +1,71 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
+import {Redirect} from 'react-router-dom'
+
+const states = [
+  'AK',
+  'AL',
+  'AR',
+  'AZ',
+  'CA',
+  'CO',
+  'CT',
+  'DC',
+  'DE',
+  'FL',
+  'GA',
+  'HI',
+  'IA',
+  'ID',
+  'IL',
+  'IN',
+  'KS',
+  'KY',
+  'LA',
+  'MA',
+  'MD',
+  'ME',
+  'MI',
+  'MN',
+  'MO',
+  'MS',
+  'MT',
+  'NC',
+  'ND',
+  'NE',
+  'NH',
+  'NJ',
+  'NM',
+  'NV',
+  'NY',
+  'OH',
+  'OK',
+  'OR',
+  'PA',
+  'RI',
+  'SC',
+  'SD',
+  'TN',
+  'TX',
+  'UT',
+  'VA',
+  'VT',
+  'WA',
+  'WI',
+  'WV',
+  'WY'
+]
 
 export class Checkout extends Component {
   constructor(props) {
     super(props)
-    this.displayPrice = this.displayPrice.bind()
-    this.calculateTotal = this.calculateTotal.bind()
-    this.handleSubmit = this.handleSubmit.bind()
+    this.state = {
+      redirect: false
+    }
+    this.displayPrice = this.displayPrice.bind(this)
+    this.calculateTotal = this.calculateTotal.bind(this)
+    this.handleSubmit = this.handleSubmit.bind(this)
+    this.renderRedirect = this.renderRedirect.bind(this)
   }
 
   displayPrice(price) {
@@ -35,64 +94,19 @@ export class Checkout extends Component {
       zipcode: event.target.zipcode.value
     }
     console.log(shippingData)
+    this.setState({redirect: 'true'})
+  }
+
+  renderRedirect = () => {
+    if (this.state.redirect) {
+      return <Redirect to="./stripe-checkout" />
+    }
   }
 
   render() {
-    const states = [
-      'AK',
-      'AL',
-      'AR',
-      'AZ',
-      'CA',
-      'CO',
-      'CT',
-      'DC',
-      'DE',
-      'FL',
-      'GA',
-      'HI',
-      'IA',
-      'ID',
-      'IL',
-      'IN',
-      'KS',
-      'KY',
-      'LA',
-      'MA',
-      'MD',
-      'ME',
-      'MI',
-      'MN',
-      'MO',
-      'MS',
-      'MT',
-      'NC',
-      'ND',
-      'NE',
-      'NH',
-      'NJ',
-      'NM',
-      'NV',
-      'NY',
-      'OH',
-      'OK',
-      'OR',
-      'PA',
-      'RI',
-      'SC',
-      'SD',
-      'TN',
-      'TX',
-      'UT',
-      'VA',
-      'VT',
-      'WA',
-      'WI',
-      'WV',
-      'WY'
-    ]
     return (
       <div id="checkout-page">
+        {this.renderRedirect()}
         <div id="order-review">
           <h3>Review Your Order</h3>
           <div id="order-review-list">
@@ -118,6 +132,7 @@ export class Checkout extends Component {
         </div>
         <div id="shipping-form">
           <h3>Shipping Information</h3>
+
           <form onSubmit={this.handleSubmit}>
             <div>
               <label htmlFor="street">
@@ -149,6 +164,7 @@ export class Checkout extends Component {
                 <input name="zipcode" type="text" />
               </div>
             </div>
+
             <button type="submit">Submit</button>
           </form>
         </div>
