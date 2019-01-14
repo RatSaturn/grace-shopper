@@ -3,16 +3,18 @@ const Book = require('./book')
 const Order = require('./order')
 const BooksForOrders = require('./booksForOrders')
 const Staff = require('./staff')
-const Author = require('./author')
-const Genre = require('./genre')
 
 User.hasMany(Order)
 Order.belongsTo(User)
 Order.belongsToMany(Book, {through: BooksForOrders})
 Book.belongsToMany(Order, {through: BooksForOrders})
 
-Staff.belongsToMany(Book, {through: 'StaffBooks'})
-Book.belongsToMany(Staff, {through: 'StaffBooks'})
+const Author = require('./author')
+const Genre = require('./genre')
+const StaffBooks = require('./staffBooks')
+
+Staff.belongsToMany(Book, {through: StaffBooks})
+Book.belongsToMany(Staff, {through: StaffBooks})
 
 // Genre.hasMany(Book)
 // Book.belongsTo(Genre)
@@ -30,5 +32,6 @@ module.exports = {
   Staff,
   Genre,
   Author,
-  BooksForOrders
+  BooksForOrders,
+  StaffBooks
 }

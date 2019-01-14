@@ -251,6 +251,183 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ "./client/components/AllStaffs.js":
+/*!****************************************!*\
+  !*** ./client/components/AllStaffs.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.AllStaffs = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _StaffComponent = _interopRequireDefault(__webpack_require__(/*! ./StaffComponent */ "./client/components/StaffComponent.js"));
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _store = __webpack_require__(/*! ../store */ "./client/store/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var AllStaffs =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(AllStaffs, _Component);
+
+  function AllStaffs() {
+    _classCallCheck(this, AllStaffs);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(AllStaffs).apply(this, arguments));
+  }
+
+  _createClass(AllStaffs, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee() {
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return this.props.getStaffsFromApi();
+
+              case 3:
+                _context.next = 8;
+                break;
+
+              case 5:
+                _context.prev = 5;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 5]]);
+      }));
+
+      return function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      };
+    }()
+  }, {
+    key: "render",
+    value: function render() {
+      return _react.default.createElement("div", null, _react.default.createElement("center", null, _react.default.createElement("h1", null, " Staff Picks")), _react.default.createElement("div", {
+        className: "allbookscontainer"
+      }, this.props.staffs.map(function (staff) {
+        return _react.default.createElement(_StaffComponent.default, {
+          className: "singleBookContainer",
+          key: staff.id,
+          staff: staff
+        });
+      })));
+    }
+  }]);
+
+  return AllStaffs;
+}(_react.Component);
+
+exports.AllStaffs = AllStaffs;
+
+var mapState = function mapState(state) {
+  return {
+    staffs: state.staffs
+  };
+};
+
+var mapDispatch = {
+  getStaffsFromApi: _store.getStaffsFromApi
+};
+
+var _default = (0, _reactRedux.connect)(mapState, mapDispatch)(AllStaffs);
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./client/components/BookComponent.js":
+/*!********************************************!*\
+  !*** ./client/components/BookComponent.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var BookComponent = function BookComponent(props) {
+  var _props$book = props.book,
+      id = _props$book.id,
+      imageUrl = _props$book.imageUrl,
+      title = _props$book.title,
+      authors = _props$book.authors,
+      price = _props$book.price;
+  var displayPrice = price.toString().split('');
+  displayPrice.splice(displayPrice.length - 2, 0, '.');
+  return _react.default.createElement("div", null, _react.default.createElement("img", {
+    src: imageUrl
+  }), _react.default.createElement("p", null, _react.default.createElement(_reactRouterDom.Link, {
+    to: "/allbooks/".concat(id)
+  }, title)), authors.map(function (author) {
+    return _react.default.createElement("p", {
+      key: author
+    }, author);
+  }), _react.default.createElement("p", null, "$", displayPrice));
+};
+
+var _default = BookComponent;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./client/components/Cart.js":
 /*!***********************************!*\
   !*** ./client/components/Cart.js ***!
@@ -853,6 +1030,190 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ "./client/components/SingleStaff.js":
+/*!******************************************!*\
+  !*** ./client/components/SingleStaff.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.SingleStaff = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+
+var _store = __webpack_require__(/*! ../store */ "./client/store/index.js");
+
+var _BookComponent = _interopRequireDefault(__webpack_require__(/*! ./BookComponent */ "./client/components/BookComponent.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var SingleStaff =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(SingleStaff, _Component);
+
+  function SingleStaff() {
+    _classCallCheck(this, SingleStaff);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(SingleStaff).apply(this, arguments));
+  }
+
+  _createClass(SingleStaff, [{
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee() {
+        var staffId;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                staffId = this.props.match.params.staffId;
+                _context.prev = 1;
+                console.log('SingleStaff did mount');
+                console.log('staffId: ', staffId);
+                _context.next = 6;
+                return this.props.getSingleStaffFromApi(staffId);
+
+              case 6:
+                _context.next = 11;
+                break;
+
+              case 8:
+                _context.prev = 8;
+                _context.t0 = _context["catch"](1);
+                console.error(_context.t0);
+
+              case 11:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[1, 8]]);
+      }));
+
+      return function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      };
+    }()
+  }, {
+    key: "render",
+    value: function render() {
+      var singleStaff = this.props.singleStaff;
+      console.log('singleStaff: ', singleStaff);
+      return !singleStaff.name ? null : _react.default.createElement("div", null, _react.default.createElement("center", null, _react.default.createElement("img", {
+        src: singleStaff.imageUrl,
+        height: "200",
+        width: "200"
+      }), _react.default.createElement("h2", null, " ", singleStaff.name), _react.default.createElement("a", {
+        href: singleStaff.contactUrl
+      }, singleStaff.contactUrl)), _react.default.createElement("div", {
+        className: "allbookscontainer"
+      }, singleStaff.books.map(function (book) {
+        return _react.default.createElement(_BookComponent.default, {
+          className: "singleBookContainer",
+          key: book.id,
+          book: book
+        });
+      })));
+    }
+  }]);
+
+  return SingleStaff;
+}(_react.Component);
+
+exports.SingleStaff = SingleStaff;
+
+var mapState = function mapState(state) {
+  return {
+    singleStaff: state.singleStaff
+  };
+};
+
+var mapDispatch = {
+  getSingleStaffFromApi: _store.getSingleStaffFromApi
+};
+
+var _default = (0, _reactRedux.connect)(mapState, mapDispatch)(SingleStaff);
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./client/components/StaffComponent.js":
+/*!*********************************************!*\
+  !*** ./client/components/StaffComponent.js ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var StaffComponent = function StaffComponent(props) {
+  var _props$staff = props.staff,
+      id = _props$staff.id,
+      name = _props$staff.name,
+      imageUrl = _props$staff.imageUrl,
+      contactUrl = _props$staff.contactUrl;
+  return _react.default.createElement("div", null, _react.default.createElement("img", {
+    src: imageUrl,
+    height: "150",
+    width: "150"
+  }), _react.default.createElement("p", null, _react.default.createElement(_reactRouterDom.Link, {
+    to: "/allStaffs/".concat(id)
+  }, name)));
+};
+
+var _default = StaffComponent;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./client/components/StripeCheckout.js":
 /*!*********************************************!*\
   !*** ./client/components/StripeCheckout.js ***!
@@ -1042,8 +1403,7 @@ function (_Component) {
 
 var mapState = function mapState(state) {
   return {
-    books: state.books,
-    cart: state.cart
+    books: state.books
   };
 };
 
@@ -1674,6 +2034,18 @@ Object.defineProperty(exports, "StripeCheckout", {
     return _StripeCheckout.default;
   }
 });
+Object.defineProperty(exports, "AllStaffs", {
+  enumerable: true,
+  get: function get() {
+    return _AllStaffs.default;
+  }
+});
+Object.defineProperty(exports, "SingleStaff", {
+  enumerable: true,
+  get: function get() {
+    return _SingleStaff.default;
+  }
+});
 
 var _navbar = _interopRequireDefault(__webpack_require__(/*! ./navbar */ "./client/components/navbar.js"));
 
@@ -1694,6 +2066,10 @@ var _Cart = _interopRequireDefault(__webpack_require__(/*! ./Cart */ "./client/c
 var _Checkout = _interopRequireDefault(__webpack_require__(/*! ./Checkout */ "./client/components/Checkout.js"));
 
 var _StripeCheckout = _interopRequireDefault(__webpack_require__(/*! ./StripeCheckout */ "./client/components/StripeCheckout.js"));
+
+var _AllStaffs = _interopRequireDefault(__webpack_require__(/*! ./AllStaffs */ "./client/components/AllStaffs.js"));
+
+var _SingleStaff = _interopRequireDefault(__webpack_require__(/*! ./SingleStaff */ "./client/components/SingleStaff.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2642,6 +3018,27 @@ function (_Component) {
         exact: true,
         path: "/cart",
         component: _components.Cart
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/checkout",
+        component: _components.Checkout
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/stripe-checkout",
+        component: _components.StripeCheckout
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/allStaffs",
+        component: _components.AllStaffs
+      }), _react.default.createElement(_reactRouterDom.Route, {
+        exact: true,
+        path: "/allStaffs/:staffId",
+        component: _components.SingleStaff
+      }), isLoggedIn && _react.default.createElement(_reactRouterDom.Switch, null, _react.default.createElement(_reactRouterDom.Route, {
+        path: "/home",
+        component: _components.UserHome
+      })), _react.default.createElement(_reactRouterDom.Route, {
+        component: _components.Login
       }));
     }
   }]);
@@ -3083,48 +3480,63 @@ var updateCartOnServer = function updateCartOnServer(bookInfo) {
               case 0:
                 _context2.prev = 0;
                 bookId = bookInfo.bookId, quantity = bookInfo.quantity;
-                _context2.next = 4;
+
+                if (!bookInfo.alreadyThere) {
+                  _context2.next = 8;
+                  break;
+                }
+
+                _context2.next = 5;
+                return _axios.default.post('/api/orders/cart/update', {
+                  bookId: bookId,
+                  quantity: quantity + bookInfo.alreadyThere.booksForOrder.quantity
+                });
+
+              case 5:
+                dispatch(addToCart(bookInfo));
+                _context2.next = 13;
+                break;
+
+              case 8:
+                _context2.next = 10;
                 return _axios.default.post('/api/orders/cart/update', {
                   bookId: bookId,
                   quantity: quantity
                 });
 
-              case 4:
+              case 10:
                 _ref6 = _context2.sent;
                 data = _ref6.data;
 
                 if (bookInfo.book) {
-                  if (bookInfo.alreadyThere) {
-                    dispatch(addToCart(bookInfo));
-                  } else {
-                    bookToSend = data.find(function (book) {
-                      return book.id === bookId;
-                    });
-                    dispatch(addToCart({
-                      bookId: bookId,
-                      quantity: quantity,
-                      bookToSend: bookToSend
-                    }));
-                  }
-                } else if (!bookInfo.quantity) {
+                  bookToSend = data.find(function (book) {
+                    return book.id === bookId;
+                  });
+                  dispatch(addToCart({
+                    bookId: bookId,
+                    quantity: quantity,
+                    bookToSend: bookToSend
+                  }));
+                } else if (!quantity) {
                   dispatch(removeFromCart(bookInfo));
                 } else {
                   dispatch(updateCart(bookInfo));
                 }
 
+              case 13:
                 return _context2.abrupt("return", 'done');
 
-              case 10:
-                _context2.prev = 10;
+              case 16:
+                _context2.prev = 16;
                 _context2.t0 = _context2["catch"](0);
                 console.error(_context2.t0);
 
-              case 13:
+              case 19:
               case "end":
                 return _context2.stop();
             }
           }
-        }, _callee2, this, [[0, 10]]);
+        }, _callee2, this, [[0, 16]]);
       }));
 
       return function (_x2) {
@@ -3167,7 +3579,7 @@ function _default() {
       return newState;
 
     case ADD_TO_CART:
-      if (copyOfBook.id) {
+      if (copyOfBook && copyOfBook.id) {
         copyOfBook.booksForOrder.quantity += 1;
         newState.push(copyOfBook);
       } else {
@@ -3275,6 +3687,32 @@ Object.keys(_booksByGenre).forEach(function (key) {
   });
 });
 
+var _staffs = _interopRequireWildcard(__webpack_require__(/*! ./staffs */ "./client/store/staffs.js"));
+
+Object.keys(_staffs).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _staffs[key];
+    }
+  });
+});
+
+var _singleStaff = _interopRequireWildcard(__webpack_require__(/*! ./singleStaff */ "./client/store/singleStaff.js"));
+
+Object.keys(_singleStaff).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _singleStaff[key];
+    }
+  });
+});
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -3284,6 +3722,8 @@ var reducer = (0, _redux.combineReducers)({
   books: _books.default,
   singleBook: _singleBook.default,
   cart: _cart.default,
+  staffs: _staffs.default,
+  singleStaff: _singleStaff.default,
   booksByGenre: _booksByGenre.default
 });
 var middleware = (0, _reduxDevtoolsExtension.composeWithDevTools)((0, _redux.applyMiddleware)(_reduxThunk.default, (0, _reduxLogger.default)({
@@ -3401,6 +3841,205 @@ function _default() {
   switch (action.type) {
     case GET_SINGLE_BOOK:
       return action.singleBook;
+
+    default:
+      return state;
+  }
+}
+
+/***/ }),
+
+/***/ "./client/store/singleStaff.js":
+/*!*************************************!*\
+  !*** ./client/store/singleStaff.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = _default;
+exports.getSingleStaffFromApi = void 0;
+
+var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+// ACTION TYPES
+var GET_SINGLE_STAFF = 'GET_SINGLE_STAFF'; // INITIAL STATE
+
+var singleStaff = {}; // ACTION CREATORS
+
+var getSingleStaff = function getSingleStaff(staff) {
+  return {
+    type: GET_SINGLE_STAFF,
+    staff: staff
+  };
+}; // THUNK CREATORS
+
+
+var getSingleStaffFromApi = function getSingleStaffFromApi(id) {
+  return (
+    /*#__PURE__*/
+    function () {
+      var _ref = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee(dispatch) {
+        var _ref2, data;
+
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                console.log(id);
+                _context.next = 4;
+                return _axios.default.get("/api/staffs/".concat(id));
+
+              case 4:
+                _ref2 = _context.sent;
+                data = _ref2.data;
+                dispatch(getSingleStaff(data || singleStaff));
+                _context.next = 12;
+                break;
+
+              case 9:
+                _context.prev = 9;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 12:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 9]]);
+      }));
+
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }()
+  );
+}; // REDUCER
+
+
+exports.getSingleStaffFromApi = getSingleStaffFromApi;
+
+function _default() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : singleStaff;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case GET_SINGLE_STAFF:
+      return action.staff;
+
+    default:
+      return state;
+  }
+}
+
+/***/ }),
+
+/***/ "./client/store/staffs.js":
+/*!********************************!*\
+  !*** ./client/store/staffs.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = _default;
+exports.getStaffsFromApi = void 0;
+
+var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+//ACTION TYPES
+var GET_STAFFS = 'GET_STAFFS'; //INITIAL STATE
+
+var allStaffs = []; //ACTION CREATORS
+
+var getStaffs = function getStaffs(staffs) {
+  return {
+    type: GET_STAFFS,
+    staffs: staffs
+  };
+}; //THUNK CREATORS
+
+
+var getStaffsFromApi = function getStaffsFromApi() {
+  return (
+    /*#__PURE__*/
+    function () {
+      var _ref = _asyncToGenerator(
+      /*#__PURE__*/
+      regeneratorRuntime.mark(function _callee(dispatch) {
+        var _ref2, data;
+
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.prev = 0;
+                _context.next = 3;
+                return _axios.default.get('/api/staffs');
+
+              case 3:
+                _ref2 = _context.sent;
+                data = _ref2.data;
+                dispatch(getStaffs(data || allStaffs));
+                _context.next = 11;
+                break;
+
+              case 8:
+                _context.prev = 8;
+                _context.t0 = _context["catch"](0);
+                console.error(_context.t0);
+
+              case 11:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this, [[0, 8]]);
+      }));
+
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }()
+  );
+}; //REDUCER
+
+
+exports.getStaffsFromApi = getStaffsFromApi;
+
+function _default() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : allStaffs;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case GET_STAFFS:
+      return action.staffs;
 
     default:
       return state;

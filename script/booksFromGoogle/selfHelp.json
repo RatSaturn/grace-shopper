@@ -831,6 +831,100 @@
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       }
+    },
+    {
+      "volumeInfo": {
+        "title": "A Simple Act of Gratitude",
+        "subtitle": "How Learning to Say Thank You Changed My Life",
+        "authors": ["John Kralik"],
+        "publishedDate": "2011-12-27",
+        "publisher": "Hyperion",
+        "language": "en",
+        "description":
+          "A Simple Act of Gratitude is a rare memoir: its touching, immediately accessible message--and benefits--come to readers from the plainspoken storytelling of an ordinary man. Kralik sets a believable, doable example of how to live a miraculously good life. To read A Simple Act of Gratitude is to be changed.",
+        "pageCount": 240,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/51SV7RHgcYL._SX350_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 13.9,
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "The Road Less Traveled",
+        "subtitle":
+          "A New Psychology of Love, Traditional Values and Spiritual Growth",
+        "authors": ["M. Scott Peck"],
+        "publishedDate": "2003-02-04",
+        "publisher": "Touchstone",
+        "language": "en",
+        "description":
+          "Written in a voice that is timeless in its message of understanding, The Road Less Traveled continues to help us explore the very nature of loving relationships and leads us toward a new serenity and fullness of life. It helps us learn how to distinguish dependency from love; how to become a more sensitive parent; and ultimately how to become one’s own true self. Recognizing that, as in the famous opening line of his book, “Life is difficult” and that the journey to spiritual growth is a long one, Dr. Peck never bullies his readers, but rather guides them gently through the hard and often painful process of change toward a higher level of self-understanding.",
+        "pageCount": 315,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/51OjuAdzMKL._SX324_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 19.95,
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "The 7 Habits of Highly Effective People",
+        "subtitle": "Powerful Lessons in Personal Change",
+        "authors": ["Stephen R. Covey"],
+        "publishedDate": "1989-09-01",
+        "publisher": "Simon & Schuster",
+        "language": "en",
+        "description":
+          "One of the most inspiring and impactful books ever written, The 7 Habits of Highly Effective People has captivated readers for 25 years. It has transformed the lives of Presidents and CEOs, educators and parents— in short, millions of people of all ages and occupations.",
+        "pageCount": 432,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/51%2BMNH9ThxL._SX328_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 11.95,
+          "currencyCode": "USD"
+        }
+      }
+    },
+    {
+      "volumeInfo": {
+        "title": "Quiet",
+        "subtitle":
+          "The Power of Introverts in a World That Can't Stop Talking",
+        "authors": ["Susan Cain"],
+        "publishedDate": "2013-01-29",
+        "publisher": "Broadway Books",
+        "language": "en",
+        "description":
+          "At least one-third of the people we know are introverts. They are the ones who prefer listening to speaking; who innovate and create but dislike self-promotion; who favor working on their own over working in teams. It is to introverts—Rosa Parks, Chopin, Dr. Seuss, Steve Wozniak—that we owe many of the great contributions to society. In Quiet, Susan Cain argues that we dramatically undervalue introverts and shows how much we lose in doing so. She charts the rise of the Extrovert Ideal throughout the twentieth century and explores how deeply it has come to permeate our culture. She also introduces us to successful introverts—from a witty, high-octane public speaker who recharges in solitude after his talks, to a record-breaking salesman who quietly taps into the power of questions. Passionately argued, superbly researched, and filled with indelible stories of real people, Quiet has the power to permanently change how we see introverts and, equally important, how they see themselves.",
+        "pageCount": 368,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/51fJjkSEyiL._SX322_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 26.95,
+          "currencyCode": "USD"
+        }
+      }
     }
   ]
 }

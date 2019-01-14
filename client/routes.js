@@ -12,7 +12,9 @@ import {
   Checkout,
   StripeCheckout,
   LandingPage,
-  Cart
+  Cart,
+  AllStaffs,
+  SingleStaff
 } from './components'
 import {me} from './store'
 // import LandingPage from '/Users/sy/Documents/grace-shopper/client/components/landing-page/landing-page.js'
@@ -39,6 +41,18 @@ class Routes extends Component {
         <Route exact path="/login" component={Login} />
         <Route exact path="/signup" component={Signup} />
         <Route exact path="/cart" component={Cart} />
+        <Route exact path="/checkout" component={Checkout} />
+        <Route exact path="/stripe-checkout" component={StripeCheckout} />
+        <Route exact path="/allStaffs" component={AllStaffs} />
+        <Route exact path="/allStaffs/:staffId" component={SingleStaff} />
+        {isLoggedIn && (
+          <Switch>
+            {/* Routes placed here are only available after logging in */}
+            <Route path="/home" component={UserHome} />
+          </Switch>
+        )}
+        {/* Displays our Login component as a fallback */}
+        <Route component={Login} />
       </Switch>
     )
   }
