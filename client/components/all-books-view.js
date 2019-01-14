@@ -1,9 +1,8 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getBooksFromApi} from '/Users/sy/Documents/grace-shopper/client/store'
+import {getBooksFromApi} from '../store'
 import BookView from './landing-page/book-view'
 import HeroComponent from './landing-page/hero-component'
-import StaffPicks from './landing-page/staff-picks'
 
 class AllBooks extends Component {
   async componentDidMount() {

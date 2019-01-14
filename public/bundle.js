@@ -945,13 +945,11 @@ var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_mo
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
-var _store = __webpack_require__(/*! ./client/store */ "./client/store/index.js");
+var _store = __webpack_require__(/*! ../store */ "./client/store/index.js");
 
 var _bookView = _interopRequireDefault(__webpack_require__(/*! ./landing-page/book-view */ "./client/components/landing-page/book-view.js"));
 
 var _heroComponent = _interopRequireDefault(__webpack_require__(/*! ./landing-page/hero-component */ "./client/components/landing-page/hero-component.js"));
-
-var _staffPicks = _interopRequireDefault(__webpack_require__(/*! ./landing-page/staff-picks */ "./client/components/landing-page/staff-picks.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
