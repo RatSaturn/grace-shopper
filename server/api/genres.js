@@ -14,11 +14,6 @@ router.get('/', async (req, res, next) => {
 })
 
 router.get('/:genre', async (req, res, next) => {
-  req.params.genre = req.params.genre
-    .split('-')
-    .join(' ')
-    .toUpperCase()
-  console.log(req.params.genre)
   try {
     const booksByGenre = await Book.findAll({
       where: {genre: req.params.genre}

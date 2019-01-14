@@ -1438,7 +1438,7 @@ function (_React$Component) {
           onClick: _this2.handleClose
         }, _react.default.createElement(_reactRouterDom.Link, {
           exact: true,
-          to: "/allbooks/genre/".concat(genre.type),
+          to: "/genres/".concat(genre.type),
           style: {
             textDecoration: 'none',
             color: 'black'
@@ -2540,7 +2540,7 @@ function (_Component) {
         component: _components.AllBooks
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
-        path: "/allBooks/genre/:genre",
+        path: "/genres/:genre",
         component: _components.BooksByGenre
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
@@ -2804,30 +2804,28 @@ var getBooksByGenreFromApi = function getBooksByGenreFromApi(genre) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                console.log('dispatching getBooksByGenre');
-                console.log(genre);
-                _context.prev = 2;
-                _context.next = 5;
-                return _axios.default.get("/api/books/".concat(genre));
+                _context.prev = 0;
+                _context.next = 3;
+                return _axios.default.get("/api/genres/".concat(genre));
 
-              case 5:
+              case 3:
                 res = _context.sent;
                 console.log(res);
                 dispatch(getBooksByGenre(res.data || booksByGenre));
-                _context.next = 13;
+                _context.next = 11;
                 break;
 
-              case 10:
-                _context.prev = 10;
-                _context.t0 = _context["catch"](2);
+              case 8:
+                _context.prev = 8;
+                _context.t0 = _context["catch"](0);
                 console.error(_context.t0);
 
-              case 13:
+              case 11:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, this, [[2, 10]]);
+        }, _callee, this, [[0, 8]]);
       }));
 
       return function (_x) {

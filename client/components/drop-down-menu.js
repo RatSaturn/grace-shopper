@@ -62,7 +62,7 @@ class SimpleMenu extends React.Component {
             <MenuItem key={genre.id} onClick={this.handleClose}>
               <Link
                 exact
-                to={`/allbooks/genre/${genre.type}`}
+                to={`/genres/${genre.type}`}
                 style={{textDecoration: 'none', color: 'black'}}
               >
                 {genre.type}

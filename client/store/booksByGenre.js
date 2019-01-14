@@ -21,10 +21,8 @@ const getBooksByGenre = books => ({type: GET_BOOKS_BY_GENRE, books})
  */
 
 export const getBooksByGenreFromApi = genre => async dispatch => {
-  console.log('dispatching getBooksByGenre')
-  console.log(genre)
   try {
-    const res = await axios.get(`/api/books/${genre}`)
+    const res = await axios.get(`/api/genres/${genre}`)
     console.log(res)
     dispatch(getBooksByGenre(res.data || booksByGenre))
   } catch (err) {
