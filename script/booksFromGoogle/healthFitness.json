@@ -859,6 +859,29 @@
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       }
+    },
+    {
+      "volumeInfo": {
+        "title": "Earth Mother Astrology",
+        "subtitle": "Ancient Healing Wisdom",
+        "authors": ["Marcia Starck"],
+        "publishedDate": "1989",
+        "publisher": "Llewellyn Publications",
+        "language": "en",
+        "description":
+          "Marcia Starck is the creator of Women's Medicine Ways, a foundation merging ancient rituals with modern spiritual elements to aid women in tapping their higher selves. About 'Earth Mother Astrology', Steven McFadden wrote, 'What a wonderful book. It brings earth and the sky together in a deeply healing way that is accessible to all. A gift that unites food, flowers, gems and ceremony with the celestial guideposts: the planets and stars. This is, of course, the key to spiritual and physical health.'",
+        "pageCount": 264,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/51%2B48zt7HRL._SX325_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 4.95,
+          "currencyCode": "USD"
+        }
+      }
     }
   ]
 }

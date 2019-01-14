@@ -5,7 +5,7 @@ module.exports = router
 
 router.get('/', async (req, res, next) => {
   try {
-    const staff = await Staff.findAll()
+    const staff = await Staff.findAll({include: [Book]})
     res.json(staff)
   } catch (err) {
     next(err)
@@ -14,9 +14,8 @@ router.get('/', async (req, res, next) => {
 
 router.get('/:id', async (req, res, next) => {
   try {
-    const staff = await Staff.findById(req.params.id, {include: [Book]})
-    //const staffPicks = await staff.getBooks()
-    res.json(staff)
+    const singleStaff = await Staff.findById(req.params.id, {include: [Book]})
+    res.json(singleStaff)
   } catch (err) {
     next(err)
   }

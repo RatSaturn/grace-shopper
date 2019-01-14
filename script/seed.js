@@ -7,7 +7,8 @@ const {
   Genre,
   Order,
   BooksForOrders,
-  Staff
+  Staff,
+  StaffBooks
 } = require('../server/db/models')
 const jsonFiles = [
   require('../script/booksFromGoogle/business.json'),
@@ -75,6 +76,29 @@ const allBooks = jsonFiles
 
 console.log(allBooks.length)
 
+const staffMembers = [
+  {
+    name: 'Michelle Ureña',
+    imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDNRVP8F3-97e2dc5ec3e2-512',
+    contactUrl: 'https://www.linkedin.com/in/michelle-urena'
+  },
+  {
+    name: 'Jing Lu',
+    imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDQ5FHHBJ-0a445d2f78c4-512',
+    contactUrl: 'https://www.linkedin.com'
+  },
+  {
+    name: 'Tatiana Scott',
+    imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDPBG8UM9-c9111106f20c-512',
+    contactUrl: 'https://www.linkedin.com/in/tatianascott/'
+  },
+  {
+    name: 'Sher-Min Yang',
+    imageUrl: 'https://ca.slack-edge.com/T024FPYBQ-UDQR9CRPU-37c4b1ab83a4-512',
+    contactUrl: 'https://www.linkedin.com/'
+  }
+]
+
 async function seed() {
   await db.sync({force: true})
   console.log('db synced!')
@@ -95,6 +119,132 @@ async function seed() {
   )
 
   console.log(`seeded ${genres.length} genres`)
+
+  const staff = await Promise.all(
+    staffMembers.map(member => Staff.create(member))
+  )
+
+  console.log(`seeded ${staff.length} staff members`)
+
+  const [
+    michelle,
+    mBook1,
+    mBook2,
+    mBook3,
+    mBook4,
+    mBook5,
+    mBook6
+  ] = await Promise.all([
+    Staff.findById(1),
+    Book.findOne({
+      where: {
+        title: 'American Like Me'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'The Brief Wondrous Life of Oscar Wao'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Harry Potter Series Box Set (Books 1-7)'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Speak'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Born A Crime'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: "A People's History of the United States"
+      }
+    })
+  ])
+
+  const [jing, jBook1, jBook2, jBook3, jBook4, jBook5] = await Promise.all([
+    Staff.findById(2),
+    Book.findOne({
+      where: {
+        title: 'The 7 Habits of Highly Effective People'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'The Road Less Traveled'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'A Simple Act of Gratitude'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Gifted Hands'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'The Last Lecture'
+      }
+    })
+  ])
+
+  const [
+    tatiana,
+    tBook1,
+    tBook2,
+    tBook3,
+    tBook4,
+    tBook5,
+    tBook6
+  ] = await Promise.all([
+    Staff.findById(3),
+    Book.findOne({
+      where: {
+        title: "Lilith's Brood"
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Quiet'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Of Water and the Spirit'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Kindred'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Fledgling'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Earth Mother Astrology'
+      }
+    })
+  ])
+
+  await Promise.all([
+    michelle.addBooks([mBook1, mBook2, mBook3, mBook4, mBook5, mBook6]),
+    jing.addBooks([jBook1, jBook2, jBook3, jBook4, jBook5, mBook3]),
+    tatiana.addBooks([tBook1, tBook2, tBook3, tBook4, tBook5, tBook6])
+  ])
+  console.log(`seeded staff's picks`)
 
   let [order, book1, book2, book3] = await Promise.all([
     Order.create({pending: true}),
@@ -170,44 +320,9 @@ async function seed() {
 
   console.log('seeded 3 pending orders')
 
-  const allStaffs = [
-    {
-      name: 'Michelle Urena',
-      imageUrl:
-        'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwondrouspics.com%2Fwp-content%2Fuploads%2F2011%2F12%2FCute_kitten.jpg&f=1',
-      contactUrl: 'https://www.linkedin.com/in/michelle-urena'
-    },
-    {
-      name: 'Jing Lu',
-      imageUrl:
-        'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-W-Q7_l1OoxY%2FUWAJSrtvn_I%2FAAAAAAAASVM%2FeMqye-hpAu4%2Fs1600%2Fworld-s-cutest-kitten.jpg&f=1',
-      contactUrl: 'https://www.linkedin.com/in/jing-lu-b8b6106b/'
-    },
-    {
-      name: 'Tatiana Scott',
-      imageUrl:
-        'https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.agoramedia.com%2FEHBlogImages%2Fethan-zohn-the-zohn-zone%2F2014%2F03%2FLucy.jpg&f=1',
-      contactUrl: 'https://www.linkedin.com/in/tatianascott/'
-    },
-    {
-      name: 'Sher-Min Yang',
-      imageUrl:
-        'https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2Fb4%2F6b%2F07%2Fb46b079df6f47c093f7c123e70776892--fluffy-kittens-cute-kitten-fluffy.jpg&f=1',
-      contactUrl: 'https://www.linkedin.com/in/sher-min-yang-7653a78b/'
-    }
-  ]
+  const sherMin = await Staff.findById(4)
+  await sherMin.addBooks([book1, book2, book3])
 
-  const [michelle, jing, tatiana, sherMin] = await Promise.all(
-    allStaffs.map(staff => Staff.create(staff))
-  )
-  await Promise.all([
-    michelle.addBooks([book1, book2]),
-    jing.addBooks([book2, book3]),
-    tatiana.addBooks([book1, book3]),
-    sherMin.addBooks([book1, book2, book3])
-  ])
-
-  console.log('seeded 4 staffs and their book picks')
   console.log(`seeded successfully`)
 }
 

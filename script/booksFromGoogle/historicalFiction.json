@@ -755,6 +755,29 @@
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       }
+    },
+    {
+      "volumeInfo": {
+        "title": "Kindred",
+        "subtitle": "",
+        "authors": ["Octavia E. Butler"],
+        "publishedDate": "2004-02-04",
+        "publisher": "Beacon Press",
+        "language": "en",
+        "description":
+          "Dana, a modern black woman, is celebrating her twenty-sixth birthday with her new husband when she is snatched abruptly from her home in California and transported to the antebellum South. Rufus, the white son of a plantation owner, is drowning, and Dana has been summoned to save him. Dana is drawn back repeatedly through time to the slave quarters, and each time the stay grows longer, more arduous, and more dangerous until it is uncertain whether or not Dana's life will end, long before it has a chance to begin.",
+        "pageCount": 264,
+        "imageLinks": {
+          "thumbnail":
+            "https://images-na.ssl-images-amazon.com/images/I/51E-UIeSb2L._SX335_BO1,204,203,200_.jpg"
+        }
+      },
+      "saleInfo": {
+        "listPrice": {
+          "amount": 26.95,
+          "currencyCode": "USD"
+        }
+      }
     }
   ]
 }
