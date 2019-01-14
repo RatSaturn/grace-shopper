@@ -43,14 +43,20 @@ export class SingleBook extends Component {
         <li>
           <button
             type="button"
-            onClick={() =>
+            onClick={() => {
+              let alreadyThere
+              if (this.props.cart.length) {
+                alreadyThere = this.props.cart.find(
+                  book => book.id === singleBook.id
+                )
+              }
               this.props.updateCartOnServer({
                 bookId: this.props.singleBook.id,
                 quantity: 1,
                 book: singleBook,
-                alreadyThere: this.props.cart.length
+                alreadyThere
               })
-            }
+            }}
           >
             Add To Cart
           </button>
