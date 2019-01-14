@@ -34,7 +34,7 @@ const genresList = [
   `Children's Fiction`,
   'Classic Literary Fiction',
   'Fantasy Fiction',
-  'Health/Fitness',
+  'Health Fitness',
   'Historical Fiction',
   'History',
   'Humor',

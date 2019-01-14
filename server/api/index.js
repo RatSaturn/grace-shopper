@@ -6,7 +6,6 @@ router.use('/books', require('./books'))
 router.use('/authors', require('./authors'))
 router.use('/genres', require('./genres'))
 router.use('/staffs', require('./staffs'))
-
 router.use('/orders', require('./orders'))
 router.use('/charge', require('./charge'))
 
