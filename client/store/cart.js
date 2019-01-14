@@ -21,10 +21,10 @@ const updateCart = ({bookId, quantity}) => ({
   bookId,
   quantity
 })
-const addToCart = ({bookId, quantity, data}) => ({
+const addToCart = ({bookId, quantity, bookToSend}) => ({
   type: ADD_TO_CART,
   bookId,
-  book: data,
+  book: bookToSend,
   quantity
 })
 const removeFromCart = ({bookId, quantity, book}) => ({
@@ -56,7 +56,8 @@ export const updateCartOnServer = bookInfo => async dispatch => {
       if (bookInfo.alreadyThere) {
         dispatch(addToCart(bookInfo))
       } else {
-        dispatch(addToCart({bookId, quantity, data}))
+        const bookToSend = data.find(book => book.id === bookId)
+        dispatch(addToCart({bookId, quantity, bookToSend}))
       }
     } else if (!bookInfo.quantity) {
       dispatch(removeFromCart(bookInfo))
@@ -74,8 +75,12 @@ export const updateCartOnServer = bookInfo => async dispatch => {
  * REDUCER
  */
 export default function(state = defaultCart, action) {
-  const bookInCart = state.find(book => book.id === action.bookId)
-  const copyOfBook = {...bookInCart}
+  let bookInCart
+  let copyOfBook
+  if (state.length) {
+    bookInCart = state.find(book => book.id === action.bookId)
+    copyOfBook = {...bookInCart}
+  }
   const newState = state.filter(book => book.id !== action.bookId)
   switch (action.type) {
     case GET_CART:
