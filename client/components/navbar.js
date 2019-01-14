@@ -121,9 +121,6 @@ const mapDispatch = dispatch => {
     }
   }
 }
-
-export default connect(mapState, mapDispatch)(withStyles(styles)(Navbar))
-
 /**
  * PROP TYPES
  */
@@ -132,3 +129,5 @@ Navbar.propTypes = {
   isLoggedIn: PropTypes.bool.isRequired,
   classes: PropTypes.object.isRequired
 }
+
+export default connect(mapState, mapDispatch)(withStyles(styles)(Navbar))
