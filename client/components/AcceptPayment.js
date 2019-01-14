@@ -25,8 +25,8 @@ class AcceptPayment extends React.Component {
     return (
       <div className="checkout">
         <p>
-          To Complete Your Purchase in the amount of $25.00, please enter your
-          payment information below:
+          To Complete Your Purchase, please enter your payment information
+          below:
         </p>
         <CardElement />
 
