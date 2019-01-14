@@ -1,9 +1,10 @@
 import React, {Component} from 'react'
-import BookComponent from './BookComponent'
 import {connect} from 'react-redux'
 import {getBooksFromApi} from '../store'
+import BookView from './landing-page/book-view'
+import HeroComponent from './landing-page/hero-component'
 
-export class AllBooks extends Component {
+class AllBooks extends Component {
   async componentDidMount() {
     try {
       await this.props.getBooksFromApi()
@@ -11,22 +12,11 @@ export class AllBooks extends Component {
       console.error(err)
     }
   }
-
   render() {
     return (
       <div>
-        <center>
-          <h1>All Books</h1>
-        </center>
-        <div className="allbookscontainer">
-          {this.props.books.map(book => (
-            <BookComponent
-              className="singleBookContainer"
-              key={book.id}
-              book={book}
-            />
-          ))}
-        </div>
+        <HeroComponent />
+        <BookView books={this.props.books} expanded="true" />
       </div>
     )
   }
