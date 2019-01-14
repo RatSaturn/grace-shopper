@@ -14,7 +14,7 @@ router.get('/', async (req, res, next) => {
 
 router.get('/:id', async (req, res, next) => {
   try {
-    const singleStaff = await Staff.findById(req.params.id)
+    const singleStaff = await Staff.findById(req.params.id, {include: [Book]})
     res.json(singleStaff)
   } catch (err) {
     next(err)
