@@ -50,7 +50,10 @@ Order.updateOrderQuantity = async function(id, object) {
     const book = await Book.findById(object.bookId)
     await orderInstance.removeBook(book)
   } else {
-    const book = await BooksForOrders.findOne({where: {bookId: object.bookId}})
+    console.log('update book quantity to', object.quantity)
+    const book = await BooksForOrders.findOne({
+      where: {orderId: id, bookId: object.bookId}
+    })
     await book.update({quantity: object.quantity})
   }
   orderInstance.updateNumberOfItems()

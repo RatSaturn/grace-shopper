@@ -14,6 +14,7 @@ router.get('/', async (req, res, next) => {
 router.get('/cart', async (req, res, next) => {
   //testing only
   //req.session.cartId = 2
+  console.log('get cart')
   try {
     if (!req.session.cartId) {
       console.log('no cart on session')
@@ -38,12 +39,28 @@ router.get('/cart', async (req, res, next) => {
         }
       } else {
         // no cart && user is not logged in
+        console.log('user is not logged in')
         const cart = await Order.create() // create a new cart
+        console.log('cart id ', cart.id, 'added to session')
         req.session.cartId = cart.id // add cart.id to session
         res.status(200).json([])
       }
     } else {
       // this is a cart on session
+      console.log('a cart is on session:', req.session.cartId)
+      if (req.user) {
+        // user is logged in
+        const pendingCart = await Order.findOne({where: {userId: req.user.id}})
+        if (pendingCart && pendingCart.id !== req.session.cartId) {
+          //remove the cart with req.session.cartId
+          await Order.destroy({where: {id: req.session.cartId}})
+        } else
+          await Order.update(
+            {userId: req.user.id},
+            {where: {id: req.session.cartId}}
+          )
+      }
+
       const cart = await Order.findSingleOrder(req.session.cartId)
       res.status(200).json(cart)
     }
