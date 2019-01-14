@@ -9,9 +9,7 @@ const BookComponent = props => {
     <div>
       <img src={imageUrl} />
       <p>
-        <Link exact to={`/allbooks/${id}`}>
-          {title}
-        </Link>
+        <Link to={`/allbooks/${id}`}>{title}</Link>
       </p>
 
       {authors.map(author => <p key={author}>{author}</p>)}
