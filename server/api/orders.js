@@ -53,9 +53,12 @@ router.get('/cart', async (req, res, next) => {
 })
 
 router.post('/cart/update', async (req, res, next) => {
+  console.log('update order')
+  console.log(req.body)
   try {
     if (!req.session.cartId) {
       //no cart on session
+      console.log('no cart on session')
       if (req.user) {
         // user is logged in
         const pendingCart = await Order.findOne({where: {userId: req.user.id}})
@@ -73,12 +76,13 @@ router.post('/cart/update', async (req, res, next) => {
       } else {
         // no cart && user is not logged in
         const cart = await Order.create() // create a new cart
+        console.log(cart)
         req.session.cartId = cart.id // add cart.id to session
       }
-      console.log(req.session.cartId, req.body)
-      const cart = await Order.updateOrderQuantity(req.session.cartId, req.body)
-      res.status(200).json(cart)
     }
+    console.log(req.session.cartId, req.body)
+    const cart = await Order.updateOrderQuantity(req.session.cartId, req.body)
+    res.status(200).json(cart)
   } catch (err) {
     next(err)
   }
