@@ -10,11 +10,13 @@ import {
   SingleBook,
   BooksByGenre,
   Checkout,
-  StripeCheckout
+  StripeCheckout,
+  LandingPage,
+  Cart
 } from './components'
 import {me} from './store'
-import LandingPage from '/Users/sy/Documents/grace-shopper/client/components/landing-page/landing-page.js'
-import Cart from '/Users/sy/Documents/grace-shopper/client/components/Cart.js'
+// import LandingPage from '/Users/sy/Documents/grace-shopper/client/components/landing-page/landing-page.js'
+// import Cart from '/Users/sy/Documents/grace-shopper/client/components/Cart.js'
 /**
  * COMPONENT
  */

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getBooksByGenreFromApi} from '/Users/sy/Documents/grace-shopper/client/store'
+import {getBooksByGenreFromApi} from '../store'
 import BookView from './landing-page/book-view'
 import HeroComponent from './landing-page/hero-component'
 

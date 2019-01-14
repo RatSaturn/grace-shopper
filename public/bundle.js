@@ -324,24 +324,30 @@ function (_Component) {
             switch (_context.prev = _context.next) {
               case 0:
                 _context.prev = 0;
-                _context.next = 3;
+
+                if (this.props.cart.length) {
+                  _context.next = 4;
+                  break;
+                }
+
+                _context.next = 4;
                 return this.props.getCartFromServer();
 
-              case 3:
-                _context.next = 8;
+              case 4:
+                _context.next = 9;
                 break;
 
-              case 5:
-                _context.prev = 5;
+              case 6:
+                _context.prev = 6;
                 _context.t0 = _context["catch"](0);
                 console.error(_context.t0);
 
-              case 8:
+              case 9:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, this, [[0, 5]]);
+        }, _callee, this, [[0, 6]]);
       }));
 
       return function componentDidMount() {
@@ -783,7 +789,8 @@ function (_Component) {
         onClick: function onClick() {
           return _this.props.updateCartOnServer({
             bookId: _this.props.singleBook.id,
-            quantity: 1
+            quantity: 1,
+            book: singleBook
           });
         }
       }, "Add To Cart")));
@@ -1155,7 +1162,7 @@ var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_mo
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
-var _store = __webpack_require__(/*! ./client/store */ "./client/store/index.js");
+var _store = __webpack_require__(/*! ../store */ "./client/store/index.js");
 
 var _bookView = _interopRequireDefault(__webpack_require__(/*! ./landing-page/book-view */ "./client/components/landing-page/book-view.js"));
 
@@ -1581,7 +1588,13 @@ Object.defineProperty(exports, "Signup", {
 Object.defineProperty(exports, "LandingPage", {
   enumerable: true,
   get: function get() {
-    return _landingPage.LandingPage;
+    return _landingPage.default;
+  }
+});
+Object.defineProperty(exports, "Cart", {
+  enumerable: true,
+  get: function get() {
+    return _Cart.default;
   }
 });
 Object.defineProperty(exports, "Checkout", {
@@ -1609,7 +1622,9 @@ var _booksByGenreView = _interopRequireDefault(__webpack_require__(/*! ./books-b
 
 var _authForm = __webpack_require__(/*! ./auth-form */ "./client/components/auth-form.js");
 
-var _landingPage = __webpack_require__(/*! ./landing-page/landing-page */ "./client/components/landing-page/landing-page.js");
+var _landingPage = _interopRequireDefault(__webpack_require__(/*! ./landing-page/landing-page */ "./client/components/landing-page/landing-page.js"));
+
+var _Cart = _interopRequireDefault(__webpack_require__(/*! ./Cart */ "./client/components/Cart.js"));
 
 var _Checkout = _interopRequireDefault(__webpack_require__(/*! ./Checkout */ "./client/components/Checkout.js"));
 
@@ -2481,10 +2496,6 @@ var _components = __webpack_require__(/*! ./components */ "./client/components/i
 
 var _store = __webpack_require__(/*! ./store */ "./client/store/index.js");
 
-var _landingPage = _interopRequireDefault(__webpack_require__(/*! ./client/components/landing-page/landing-page.js */ "./client/components/landing-page/landing-page.js"));
-
-var _Cart = _interopRequireDefault(__webpack_require__(/*! ./client/components/Cart.js */ "./client/components/Cart.js"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
@@ -2506,6 +2517,9 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+// import LandingPage from '/Users/sy/Documents/grace-shopper/client/components/landing-page/landing-page.js'
+// import Cart from '/Users/sy/Documents/grace-shopper/client/components/Cart.js'
 
 /**
  * COMPONENT
@@ -2533,7 +2547,7 @@ function (_Component) {
       return _react.default.createElement(_reactRouterDom.Switch, null, _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/",
-        component: _landingPage.default
+        component: _components.LandingPage
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/allBooks",
@@ -2561,7 +2575,7 @@ function (_Component) {
       }), _react.default.createElement(_reactRouterDom.Route, {
         exact: true,
         path: "/cart",
-        component: _Cart.default
+        component: _components.Cart
       }));
     }
   }]);
@@ -2874,6 +2888,8 @@ exports.updateCartOnServer = exports.getCartFromServer = void 0;
 
 var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
 
+var _index = _interopRequireDefault(__webpack_require__(/*! ./index */ "./client/store/index.js"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -2885,6 +2901,8 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
  */
 var GET_CART = 'GET_CART';
 var UPDATE_CART = 'UPDATE_CART';
+var ADD_TO_CART = 'ADD_TO_CART';
+var REMOVE_FROM_CART = 'REMOVE_FROM_CART';
 /**
  * INITIAL STATE
  */
@@ -2901,10 +2919,37 @@ var getCart = function getCart(cart) {
   };
 };
 
-var updateCart = function updateCart(cart) {
+var updateCart = function updateCart(_ref) {
+  var bookId = _ref.bookId,
+      quantity = _ref.quantity;
   return {
     type: UPDATE_CART,
-    cart: cart
+    bookId: bookId,
+    quantity: quantity
+  };
+};
+
+var addToCart = function addToCart(_ref2) {
+  var bookId = _ref2.bookId,
+      quantity = _ref2.quantity,
+      book = _ref2.book;
+  return {
+    type: ADD_TO_CART,
+    bookId: bookId,
+    book: book,
+    quantity: quantity
+  };
+};
+
+var removeFromCart = function removeFromCart(_ref3) {
+  var bookId = _ref3.bookId,
+      quantity = _ref3.quantity,
+      book = _ref3.book;
+  return {
+    type: REMOVE_FROM_CART,
+    bookId: bookId,
+    book: book,
+    quantity: quantity
   };
 };
 /**
@@ -2916,7 +2961,7 @@ var getCartFromServer = function getCartFromServer() {
   return (
     /*#__PURE__*/
     function () {
-      var _ref = _asyncToGenerator(
+      var _ref4 = _asyncToGenerator(
       /*#__PURE__*/
       regeneratorRuntime.mark(function _callee(dispatch) {
         var res;
@@ -2948,7 +2993,7 @@ var getCartFromServer = function getCartFromServer() {
       }));
 
       return function (_x) {
-        return _ref.apply(this, arguments);
+        return _ref4.apply(this, arguments);
       };
     }()
   );
@@ -2956,25 +3001,36 @@ var getCartFromServer = function getCartFromServer() {
 
 exports.getCartFromServer = getCartFromServer;
 
-var updateCartOnServer = function updateCartOnServer(bookUpdate) {
+var updateCartOnServer = function updateCartOnServer(bookInfo) {
   return (
     /*#__PURE__*/
     function () {
-      var _ref2 = _asyncToGenerator(
+      var _ref5 = _asyncToGenerator(
       /*#__PURE__*/
       regeneratorRuntime.mark(function _callee2(dispatch) {
-        var res;
+        var bookId, quantity;
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 _context2.prev = 0;
-                _context2.next = 3;
-                return _axios.default.post('/api/orders/cart/update', bookUpdate);
+                bookId = bookInfo.bookId, quantity = bookInfo.quantity;
 
-              case 3:
-                res = _context2.sent;
-                dispatch(updateCart(res.data));
+                if (bookInfo.book) {
+                  dispatch(addToCart(bookInfo));
+                } else if (!bookInfo.quantity) {
+                  dispatch(removeFromCart(bookInfo));
+                } else {
+                  dispatch(updateCart(bookInfo));
+                }
+
+                _context2.next = 5;
+                return _axios.default.post('/api/orders/cart/update', {
+                  bookId: bookId,
+                  quantity: quantity
+                });
+
+              case 5:
                 return _context2.abrupt("return", 'done');
 
               case 8:
@@ -2991,7 +3047,7 @@ var updateCartOnServer = function updateCartOnServer(bookUpdate) {
       }));
 
       return function (_x2) {
-        return _ref2.apply(this, arguments);
+        return _ref5.apply(this, arguments);
       };
     }()
   );
@@ -3006,13 +3062,34 @@ exports.updateCartOnServer = updateCartOnServer;
 function _default() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : defaultCart;
   var action = arguments.length > 1 ? arguments[1] : undefined;
+  var bookInCart = state.find(function (book) {
+    return book.id === action.bookId;
+  });
+  var newState = state.filter(function (book) {
+    return book.id !== action.bookId;
+  });
 
   switch (action.type) {
     case GET_CART:
       return action.cart;
 
     case UPDATE_CART:
-      return action.cart;
+      bookInCart.booksForOrder.quantity = action.quantity;
+      newState.push(bookInCart);
+      return newState;
+
+    case ADD_TO_CART:
+      if (bookInCart) {
+        bookInCart.booksForOrder.quantity += 1;
+        newState.push(bookInCart);
+      } else {
+        newState.push(action.book);
+      }
+
+      return newState;
+
+    case REMOVE_FROM_CART:
+      return newState;
 
     default:
       return state;
