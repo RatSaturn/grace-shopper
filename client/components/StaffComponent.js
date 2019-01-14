@@ -6,7 +6,7 @@ const StaffComponent = props => {
 
   return (
     <div>
-      <img src={imageUrl} />
+      <img src={imageUrl} height="150" width="150" />
       <p>
         <Link to={`/allStaffs/${id}`}>{name}</Link>
       </p>
