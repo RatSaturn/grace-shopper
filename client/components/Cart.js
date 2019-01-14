@@ -7,7 +7,9 @@ import history from '../history'
 export class Cart extends Component {
   async componentDidMount() {
     try {
-      await this.props.getCartFromServer()
+      if (!this.props.cart.length) {
+        await this.props.getCartFromServer()
+      }
     } catch (err) {
       console.error(err)
     }
