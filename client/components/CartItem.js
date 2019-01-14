@@ -5,11 +5,12 @@
 import React from 'react'
 import {updateCartOnServer} from '../store'
 import {connect} from 'react-redux'
+import {Link} from 'react-router-dom'
 
 const CartItem = props => {
-  const {imageUrl, title, author, price, id} = props.book
+  const {imageUrl, title, author, price, id, booksForOrder} = props.book
 
-  const loop = [1, 2, 3, 4, 5, 6]
+  const loop = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   const displayPrice = price.toString().split('')
   displayPrice.splice(displayPrice.length - 2, 0, '.')
 
@@ -20,7 +21,9 @@ const CartItem = props => {
       </td>
       <td>
         <div className="title-author-cart-item">
-          {title}
+          <Link exact to={`/allbooks/${id}`}>
+            {title}
+          </Link>
           {author}
         </div>
       </td>
@@ -30,6 +33,7 @@ const CartItem = props => {
           <label htmlFor="quantity-limit">Quantity:</label>
           <select
             id="quantity-dropdown"
+            value={booksForOrder.quantity}
             onChange={event =>
               props.updateCartOnServer({
                 bookId: id,

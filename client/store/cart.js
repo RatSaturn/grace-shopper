@@ -1,5 +1,4 @@
 import axios from 'axios'
-import store from './index'
 
 /**
  * ACTION TYPES
@@ -22,10 +21,10 @@ const updateCart = ({bookId, quantity}) => ({
   bookId,
   quantity
 })
-const addToCart = ({bookId, quantity, book}) => ({
+const addToCart = ({bookId, quantity, data}) => ({
   type: ADD_TO_CART,
   bookId,
-  book,
+  book: data,
   quantity
 })
 const removeFromCart = ({bookId, quantity, book}) => ({
@@ -49,15 +48,22 @@ export const getCartFromServer = () => async dispatch => {
 export const updateCartOnServer = bookInfo => async dispatch => {
   try {
     const {bookId, quantity} = bookInfo
-
+    const {data} = await axios.post('/api/orders/cart/update', {
+      bookId,
+      quantity
+    })
     if (bookInfo.book) {
-      dispatch(addToCart(bookInfo))
+      if (bookInfo.alreadyThere) {
+        dispatch(addToCart(bookInfo))
+      } else {
+        dispatch(addToCart({bookId, quantity, data}))
+      }
     } else if (!bookInfo.quantity) {
       dispatch(removeFromCart(bookInfo))
     } else {
       dispatch(updateCart(bookInfo))
     }
-    await axios.post('/api/orders/cart/update', {bookId, quantity})
+
     return 'done'
   } catch (err) {
     console.error(err)
@@ -69,18 +75,19 @@ export const updateCartOnServer = bookInfo => async dispatch => {
  */
 export default function(state = defaultCart, action) {
   const bookInCart = state.find(book => book.id === action.bookId)
+  const copyOfBook = {...bookInCart}
   const newState = state.filter(book => book.id !== action.bookId)
   switch (action.type) {
     case GET_CART:
       return action.cart
     case UPDATE_CART:
-      bookInCart.booksForOrder.quantity = action.quantity
-      newState.push(bookInCart)
+      copyOfBook.booksForOrder.quantity = action.quantity
+      newState.push(copyOfBook)
       return newState
     case ADD_TO_CART:
-      if (bookInCart) {
-        bookInCart.booksForOrder.quantity += 1
-        newState.push(bookInCart)
+      if (copyOfBook.id) {
+        copyOfBook.booksForOrder.quantity += 1
+        newState.push(copyOfBook)
       } else {
         newState.push(action.book)
       }
