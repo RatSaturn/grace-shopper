@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getBooksFromApi} from '/Users/sy/Documents/grace-shopper/client/store'
+import {getBooksFromApi} from '../../store'
 import BookView from './book-view'
 
 class NewArrivals extends Component {
