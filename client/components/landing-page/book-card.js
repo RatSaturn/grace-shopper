@@ -27,8 +27,10 @@ const styles = () => ({
 })
 
 const BookCard = props => {
-  const {classes} = props
-  const {book} = props
+  const {classes, book} = props
+  const displayPrice = book.price.toString().split('')
+  displayPrice.splice(displayPrice.length - 2, 0, '.')
+
   return (
     <Card className={classes.card}>
       <CardMedia className={classes.media} image={book.imageUrl} title="book" />
@@ -44,7 +46,7 @@ const BookCard = props => {
             {author}
           </Typography>
         ))}
-        <Typography component="p">{book.price}</Typography>
+        <Typography component="p">${displayPrice}</Typography>
       </CardContent>
     </Card>
   )
