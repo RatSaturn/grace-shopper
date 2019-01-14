@@ -52,8 +52,6 @@ const StaffPicks = props => {
           className={classes.bigAvatar}
         />
       </Grid>
-      <br />
-      <br />
     </div>
   )
 }

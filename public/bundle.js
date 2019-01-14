@@ -107,13 +107,10 @@ var _components = __webpack_require__(/*! ./components */ "./client/components/i
 
 var _routes = _interopRequireDefault(__webpack_require__(/*! ./routes */ "./client/routes.js"));
 
-var _footer = _interopRequireDefault(__webpack_require__(/*! ./components/footer */ "./client/components/footer.js"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import LandingPage from './components/landing-page/landing-page'
 var App = function App() {
-  return _react.default.createElement("div", null, _react.default.createElement(_components.Navbar, null), _react.default.createElement(_routes.default, null), _react.default.createElement(_footer.default, null));
+  return _react.default.createElement("div", null, _react.default.createElement(_components.Navbar, null), _react.default.createElement(_routes.default, null), _react.default.createElement(_components.Footer, null));
 };
 
 var _default = App;
@@ -1312,6 +1309,8 @@ var _bookView = _interopRequireDefault(__webpack_require__(/*! ./landing-page/bo
 
 var _heroComponent = _interopRequireDefault(__webpack_require__(/*! ./landing-page/hero-component */ "./client/components/landing-page/hero-component.js"));
 
+var _staffPicks = _interopRequireDefault(__webpack_require__(/*! ./landing-page/staff-picks */ "./client/components/landing-page/staff-picks.js"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
@@ -1390,7 +1389,7 @@ function (_Component) {
       return _react.default.createElement("div", null, _react.default.createElement(_heroComponent.default, null), _react.default.createElement(_bookView.default, {
         books: this.props.books,
         expanded: "true"
-      }));
+      }), _react.default.createElement(_staffPicks.default, null));
     }
   }]);
 
@@ -1909,47 +1908,71 @@ var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ ".
 
 var _styles = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/styles/index.js");
 
-var _AppBar = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/AppBar */ "./node_modules/@material-ui/core/AppBar/index.js"));
+var _classnames = _interopRequireDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
 
-var _Toolbar = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Toolbar */ "./node_modules/@material-ui/core/Toolbar/index.js"));
+var _Grid = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Grid */ "./node_modules/@material-ui/core/Grid/index.js"));
 
 var _Typography = _interopRequireDefault(__webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/Typography/index.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var styles = function styles() {
+var styles = function styles(theme) {
   return {
-    appBar: {
-      top: 'auto',
-      bottom: 0
-    },
-    toolbar: {
-      alignItems: 'center',
-      justifyContent: 'space-around'
+    footer: {
+      marginTop: theme.spacing.unit * 8,
+      borderTop: "1px solid ".concat(theme.palette.divider),
+      padding: "".concat(theme.spacing.unit * 6, "px 0")
     }
   };
 };
 
-function BottomAppBar(props) {
+var footers = [{
+  title: 'Company',
+  description: ['Team', 'History', 'Contact us', 'Locations']
+}, {
+  title: 'Features',
+  description: ['Cool stuff', 'Random feature', 'Team feature', 'Developer stuff', 'Another one']
+}, {
+  title: 'Resources',
+  description: ['Resource', 'Resource name', 'Another resource', 'Final resource']
+}, {
+  title: 'Legal',
+  description: ['Privacy policy', 'Terms of use']
+}];
+
+function Footer(props) {
   var classes = props.classes;
-  return _react.default.createElement(_AppBar.default, {
-    position: "fixed",
-    color: "primary",
-    className: classes.appBar
-  }, _react.default.createElement(_Toolbar.default, {
-    className: classes.toolbar
-  }, ' ', _react.default.createElement(_Typography.default, {
-    variant: "subtitle2",
-    color: "inherit",
-    className: classes.grow
-  }, "Contact Us")), ' ');
+  return _react.default.createElement("footer", {
+    className: (0, _classnames.default)(classes.footer, classes.layout),
+    align: "center"
+  }, _react.default.createElement(_Grid.default, {
+    container: true,
+    spacing: 32,
+    justify: "space-evenly"
+  }, footers.map(function (footer) {
+    return _react.default.createElement(_Grid.default, {
+      item: true,
+      xs: true,
+      key: footer.title
+    }, _react.default.createElement(_Typography.default, {
+      variant: "h6",
+      color: "textPrimary",
+      gutterBottom: true
+    }, footer.title), footer.description.map(function (item) {
+      return _react.default.createElement(_Typography.default, {
+        key: item,
+        variant: "subtitle1",
+        color: "textSecondary"
+      }, item);
+    }));
+  })));
 }
 
-BottomAppBar.propTypes = {
+Footer.propTypes = {
   classes: _propTypes.default.object.isRequired
 };
 
-var _default = (0, _styles.withStyles)(styles)(BottomAppBar);
+var _default = (0, _styles.withStyles)(styles)(Footer);
 
 exports.default = _default;
 
@@ -2046,6 +2069,12 @@ Object.defineProperty(exports, "SingleStaff", {
     return _SingleStaff.default;
   }
 });
+Object.defineProperty(exports, "Footer", {
+  enumerable: true,
+  get: function get() {
+    return _footer.default;
+  }
+});
 
 var _navbar = _interopRequireDefault(__webpack_require__(/*! ./navbar */ "./client/components/navbar.js"));
 
@@ -2070,6 +2099,8 @@ var _StripeCheckout = _interopRequireDefault(__webpack_require__(/*! ./StripeChe
 var _AllStaffs = _interopRequireDefault(__webpack_require__(/*! ./AllStaffs */ "./client/components/AllStaffs.js"));
 
 var _SingleStaff = _interopRequireDefault(__webpack_require__(/*! ./SingleStaff */ "./client/components/SingleStaff.js"));
+
+var _footer = _interopRequireDefault(__webpack_require__(/*! ./footer */ "./client/components/footer.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2627,7 +2658,7 @@ var StaffPicks = function StaffPicks(props) {
     alt: "Pending",
     src: "data:image/png;base64,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",
     className: classes.bigAvatar
-  })), _react.default.createElement("br", null), _react.default.createElement("br", null));
+  })));
 };
 
 StaffPicks.propTypes = {
@@ -2775,19 +2806,20 @@ var mapDispatch = function mapDispatch(dispatch) {
     }
   };
 };
-
-var _default = (0, _reactRedux.connect)(mapState, mapDispatch)((0, _styles.withStyles)(styles)(Navbar));
 /**
  * PROP TYPES
  */
 
 
-exports.default = _default;
 Navbar.propTypes = {
   handleClick: _propTypes.default.func.isRequired,
   isLoggedIn: _propTypes.default.bool.isRequired,
   classes: _propTypes.default.object.isRequired
 };
+
+var _default = (0, _reactRedux.connect)(mapState, mapDispatch)((0, _styles.withStyles)(styles)(Navbar));
+
+exports.default = _default;
 
 /***/ }),
 
