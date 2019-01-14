@@ -22,8 +22,9 @@ router.get('/cart', async (req, res, next) => {
     if (!req.session.cartId) {
       const cart = await Order.create()
       req.session.cartId = cart.id
+      console.log(req.user)
       if (req.user) {
-        const user = await User.findById(req.user)
+        const user = await User.findById(req.user.id)
         await cart.setUser(user)
       }
       res.status(200).json([])
@@ -46,7 +47,7 @@ router.post('/cart/update', async (req, res, next) => {
       const cart = await Order.create()
       req.session.cartId = cart.id
       if (req.user) {
-        const user = await User.findById(req.user)
+        const user = await User.findById(req.user.id)
         await cart.setUser(user)
       }
     }
