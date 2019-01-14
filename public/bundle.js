@@ -435,6 +435,8 @@ var _store = __webpack_require__(/*! ../store */ "./client/store/index.js");
 
 var _reactRedux = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 
+var _reactRouterDom = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /*thumbnail       title             price           quantity
@@ -446,8 +448,9 @@ var CartItem = function CartItem(props) {
       title = _props$book.title,
       author = _props$book.author,
       price = _props$book.price,
-      id = _props$book.id;
-  var loop = [1, 2, 3, 4, 5, 6];
+      id = _props$book.id,
+      booksForOrder = _props$book.booksForOrder;
+  var loop = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   var displayPrice = price.toString().split('');
   displayPrice.splice(displayPrice.length - 2, 0, '.');
   return _react.default.createElement("tr", null, _react.default.createElement("td", null, _react.default.createElement("img", {
@@ -456,12 +459,16 @@ var CartItem = function CartItem(props) {
     className: "thumbnail"
   })), _react.default.createElement("td", null, _react.default.createElement("div", {
     className: "title-author-cart-item"
-  }, title, author)), _react.default.createElement("td", null, "$", displayPrice), _react.default.createElement("td", null, _react.default.createElement("div", {
+  }, _react.default.createElement(_reactRouterDom.Link, {
+    exact: true,
+    to: "/allbooks/".concat(id)
+  }, title), author)), _react.default.createElement("td", null, "$", displayPrice), _react.default.createElement("td", null, _react.default.createElement("div", {
     className: "quantity-and-remove"
   }, _react.default.createElement("label", {
     htmlFor: "quantity-limit"
   }, "Quantity:"), _react.default.createElement("select", {
     id: "quantity-dropdown",
+    value: booksForOrder.quantity,
     onChange: function onChange(event) {
       return props.updateCartOnServer({
         bookId: id,
@@ -746,20 +753,24 @@ function (_Component) {
                 return this.props.getSingleBookFromApi(id);
 
               case 4:
-                _context.next = 9;
-                break;
+                _context.next = 6;
+                return this.props.getCartFromServer();
 
               case 6:
-                _context.prev = 6;
+                _context.next = 11;
+                break;
+
+              case 8:
+                _context.prev = 8;
                 _context.t0 = _context["catch"](1);
                 console.error(_context.t0);
 
-              case 9:
+              case 11:
               case "end":
                 return _context.stop();
             }
           }
-        }, _callee, this, [[1, 6]]);
+        }, _callee, this, [[1, 8]]);
       }));
 
       return function componentDidMount() {
@@ -787,10 +798,19 @@ function (_Component) {
       }) : undefined)), _react.default.createElement("li", null, singleBook.genre ? singleBook.genre : 'No genre'), _react.default.createElement("li", null, singleBook.description ? singleBook.description : 'No description'), _react.default.createElement("li", null, _react.default.createElement("button", {
         type: "button",
         onClick: function onClick() {
-          return _this.props.updateCartOnServer({
+          var alreadyThere;
+
+          if (_this.props.cart.length) {
+            alreadyThere = _this.props.cart.find(function (book) {
+              return book.id === singleBook.id;
+            });
+          }
+
+          _this.props.updateCartOnServer({
             bookId: _this.props.singleBook.id,
             quantity: 1,
-            book: singleBook
+            book: singleBook,
+            alreadyThere: alreadyThere
           });
         }
       }, "Add To Cart")));
@@ -808,7 +828,8 @@ exports.SingleBook = SingleBook;
 
 var mapState = function mapState(state) {
   return {
-    singleBook: state.singleBook
+    singleBook: state.singleBook,
+    cart: state.cart
   };
 };
 
@@ -819,6 +840,9 @@ var mapDispatch = function mapDispatch(dispatch) {
     },
     updateCartOnServer: function updateCartOnServer(bookInfo) {
       return dispatch((0, _store.updateCartOnServer)(bookInfo));
+    },
+    getCartFromServer: function getCartFromServer() {
+      return dispatch((0, _store.getCartFromServer)());
     }
   };
 };
@@ -1005,7 +1029,8 @@ function (_Component) {
     key: "render",
     value: function render() {
       return _react.default.createElement("div", null, _react.default.createElement(_heroComponent.default, null), _react.default.createElement(_bookView.default, {
-        books: this.props.books
+        books: this.props.books,
+        expanded: "true"
       }));
     }
   }]);
@@ -1019,7 +1044,8 @@ function (_Component) {
 
 var mapState = function mapState(state) {
   return {
-    books: state.books
+    books: state.books,
+    cart: state.cart
   };
 };
 
@@ -1284,7 +1310,8 @@ function (_Component) {
     key: "render",
     value: function render() {
       return _react.default.createElement("div", null, _react.default.createElement(_heroComponent.default, null), _react.default.createElement(_bookView.default, {
-        books: this.props.books
+        books: this.props.books,
+        expanded: "true"
       }));
     }
   }]);
@@ -1856,7 +1883,7 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(BookView)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "state", {
-      expanded: false
+      expanded: _this.props.expanded
     });
 
     _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "handleExpandClick", function () {
@@ -1873,6 +1900,7 @@ function (_Component) {
   _createClass(BookView, [{
     key: "render",
     value: function render() {
+      console.log(this.props);
       var classes = this.props.classes;
       return _react.default.createElement("div", {
         align: "center"
@@ -2927,9 +2955,11 @@ exports.updateCartOnServer = exports.getCartFromServer = void 0;
 
 var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_modules/axios/index.js"));
 
-var _index = _interopRequireDefault(__webpack_require__(/*! ./index */ "./client/store/index.js"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
@@ -2971,11 +3001,11 @@ var updateCart = function updateCart(_ref) {
 var addToCart = function addToCart(_ref2) {
   var bookId = _ref2.bookId,
       quantity = _ref2.quantity,
-      book = _ref2.book;
+      bookToSend = _ref2.bookToSend;
   return {
     type: ADD_TO_CART,
     bookId: bookId,
-    book: book,
+    book: bookToSend,
     quantity: quantity
   };
 };
@@ -3047,42 +3077,56 @@ var updateCartOnServer = function updateCartOnServer(bookInfo) {
       var _ref5 = _asyncToGenerator(
       /*#__PURE__*/
       regeneratorRuntime.mark(function _callee2(dispatch) {
-        var bookId, quantity;
+        var bookId, quantity, _ref6, data, bookToSend;
+
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
               case 0:
                 _context2.prev = 0;
                 bookId = bookInfo.bookId, quantity = bookInfo.quantity;
+                _context2.next = 4;
+                return _axios.default.post('/api/orders/cart/update', {
+                  bookId: bookId,
+                  quantity: quantity
+                });
+
+              case 4:
+                _ref6 = _context2.sent;
+                data = _ref6.data;
 
                 if (bookInfo.book) {
-                  dispatch(addToCart(bookInfo));
+                  if (bookInfo.alreadyThere) {
+                    dispatch(addToCart(bookInfo));
+                  } else {
+                    bookToSend = data.find(function (book) {
+                      return book.id === bookId;
+                    });
+                    dispatch(addToCart({
+                      bookId: bookId,
+                      quantity: quantity,
+                      bookToSend: bookToSend
+                    }));
+                  }
                 } else if (!bookInfo.quantity) {
                   dispatch(removeFromCart(bookInfo));
                 } else {
                   dispatch(updateCart(bookInfo));
                 }
 
-                _context2.next = 5;
-                return _axios.default.post('/api/orders/cart/update', {
-                  bookId: bookId,
-                  quantity: quantity
-                });
-
-              case 5:
                 return _context2.abrupt("return", 'done');
 
-              case 8:
-                _context2.prev = 8;
+              case 10:
+                _context2.prev = 10;
                 _context2.t0 = _context2["catch"](0);
                 console.error(_context2.t0);
 
-              case 11:
+              case 13:
               case "end":
                 return _context2.stop();
             }
           }
-        }, _callee2, this, [[0, 8]]);
+        }, _callee2, this, [[0, 10]]);
       }));
 
       return function (_x2) {
@@ -3101,9 +3145,16 @@ exports.updateCartOnServer = updateCartOnServer;
 function _default() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : defaultCart;
   var action = arguments.length > 1 ? arguments[1] : undefined;
-  var bookInCart = state.find(function (book) {
-    return book.id === action.bookId;
-  });
+  var bookInCart;
+  var copyOfBook;
+
+  if (state.length) {
+    bookInCart = state.find(function (book) {
+      return book.id === action.bookId;
+    });
+    copyOfBook = _objectSpread({}, bookInCart);
+  }
+
   var newState = state.filter(function (book) {
     return book.id !== action.bookId;
   });
@@ -3113,14 +3164,14 @@ function _default() {
       return action.cart;
 
     case UPDATE_CART:
-      bookInCart.booksForOrder.quantity = action.quantity;
-      newState.push(bookInCart);
+      copyOfBook.booksForOrder.quantity = action.quantity;
+      newState.push(copyOfBook);
       return newState;
 
     case ADD_TO_CART:
-      if (bookInCart) {
-        bookInCart.booksForOrder.quantity += 1;
-        newState.push(bookInCart);
+      if (copyOfBook.id) {
+        copyOfBook.booksForOrder.quantity += 1;
+        newState.push(copyOfBook);
       } else {
         newState.push(action.book);
       }

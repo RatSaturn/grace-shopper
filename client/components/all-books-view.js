@@ -17,7 +17,7 @@ class AllBooks extends Component {
     return (
       <div>
         <HeroComponent />
-        <BookView books={this.props.books} />
+        <BookView books={this.props.books} expanded="true" />
       </div>
     )
   }

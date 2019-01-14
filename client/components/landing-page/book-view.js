@@ -23,13 +23,14 @@ const styles = theme => ({
 })
 
 class BookView extends Component {
-  state = {expanded: false}
+  state = {expanded: this.props.expanded}
 
   handleExpandClick = () => {
     this.setState(state => ({expanded: !state.expanded}))
   }
 
   render() {
+    console.log(this.props)
     const {classes} = this.props
 
     return (
