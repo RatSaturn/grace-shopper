@@ -15,20 +15,35 @@ router.get('/cart', async (req, res, next) => {
   //testing only
   //req.session.cartId = 2
   try {
-    // if cart doesn't exist, create one
-    // if user is logged in, add userId to order
-    // Todo: when user first logged in:
-    // add pending orderId (created from previous login) to session assuming no cart is created yet
     if (!req.session.cartId) {
-      const cart = await Order.create()
-      req.session.cartId = cart.id
-      console.log(req.user)
+      console.log('no cart on session')
+      //no cart on session
       if (req.user) {
-        const user = await User.findById(req.user.id)
-        await cart.setUser(user)
+        console.log('user is logged in')
+        // user is logged in
+        const pendingCart = await Order.findOne({where: {userId: req.user.id}})
+        console.log('Pending Cart: ', pendingCart)
+        if (!pendingCart) {
+          // no pending cart
+          const cart = await Order.create() // create a new cart
+          req.session.cartId = cart.id // add cart.id to session
+          const user = await User.findById(req.user.id) // find user
+          await cart.setUser(user) //add userId to order
+          res.status(200).json([])
+        } else {
+          // has a pending cart
+          req.session.cartId = pendingCart.id // add pendingCart.id to session
+          const cart = await Order.findSingleOrder(pendingCart.id) //load the cart info
+          res.status(200).json(cart)
+        }
+      } else {
+        // no cart && user is not logged in
+        const cart = await Order.create() // create a new cart
+        req.session.cartId = cart.id // add cart.id to session
+        res.status(200).json([])
       }
-      res.status(200).json([])
     } else {
+      // this is a cart on session
       const cart = await Order.findSingleOrder(req.session.cartId)
       res.status(200).json(cart)
     }
@@ -38,23 +53,53 @@ router.get('/cart', async (req, res, next) => {
 })
 
 router.post('/cart/update', async (req, res, next) => {
-  //testing only
-  //req.session.cartId = 2
   try {
-    // if cart doesn't exist, create one
-    // if user is logged in, add userId to order
     if (!req.session.cartId) {
-      const cart = await Order.create()
-      req.session.cartId = cart.id
+      //no cart on session
       if (req.user) {
-        const user = await User.findById(req.user.id)
-        await cart.setUser(user)
+        // user is logged in
+        const pendingCart = await Order.findOne({where: {userId: req.user.id}})
+        console.log('Pending Cart: ', pendingCart)
+        if (!pendingCart) {
+          // no pending cart
+          const cart = await Order.create() // create a new cart
+          req.session.cartId = cart.id // add cart.id to session
+          const user = await User.findById(req.user.id) // find user
+          await cart.setUser(user) //add userId to order
+        } else {
+          // has a pending cart
+          req.session.cartId = pendingCart.id // add pendingCart.id to session
+        }
+      } else {
+        // no cart && user is not logged in
+        const cart = await Order.create() // create a new cart
+        req.session.cartId = cart.id // add cart.id to session
       }
+      console.log(req.session.cartId, req.body)
+      const cart = await Order.updateOrderQuantity(req.session.cartId, req.body)
+      res.status(200).json(cart)
     }
-    console.log(req.session.cartId, req.body)
-    const cart = await Order.updateOrderQuantity(req.session.cartId, req.body)
-    res.status(200).json(cart)
   } catch (err) {
     next(err)
   }
+
+  //testing only
+  //req.session.cartId = 2
+  // try {
+  //   // if cart doesn't exist, create one
+  //   // if user is logged in, add userId to order
+  //   if (!req.session.cartId) {
+  //     const cart = await Order.create()
+  //     req.session.cartId = cart.id
+  //     if (req.user) {
+  //       const user = await User.findById(req.user.id)
+  //       await cart.setUser(user)
+  //     }
+  //   }
+  //   console.log(req.session.cartId, req.body)
+  //   const cart = await Order.updateOrderQuantity(req.session.cartId, req.body)
+  //   res.status(200).json(cart)
+  // } catch (err) {
+  //   next(err)
+  // }
 })
