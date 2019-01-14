@@ -41,7 +41,8 @@ export class SingleBook extends Component {
             onClick={() =>
               this.props.updateCartOnServer({
                 bookId: this.props.singleBook.id,
-                quantity: 1
+                quantity: 1,
+                book: singleBook
               })
             }
           >
