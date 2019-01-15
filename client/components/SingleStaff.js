@@ -1,7 +1,9 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {getSingleStaffFromApi} from '../store'
-import BookComponent from './BookComponent'
+import BookCard from './landing-page/book-card'
+import Grid from '@material-ui/core/Grid'
+import Divider from '@material-ui/core/Divider'
 
 export class SingleStaff extends Component {
   async componentDidMount() {
@@ -21,18 +23,17 @@ export class SingleStaff extends Component {
     return !singleStaff.name ? null : (
       <div>
         <center>
-          <img src={singleStaff.imageUrl} height="200" width="200" />
+          <img src={singleStaff.imageUrl} height="250" width="250" />
           <h2> {singleStaff.name}</h2>
           <a href={singleStaff.contactUrl}>{singleStaff.contactUrl}</a>
         </center>
+        <Divider />
         <div className="allbookscontainer">
-          {singleStaff.books.map(book => (
-            <BookComponent
-              className="singleBookContainer"
-              key={book.id}
-              book={book}
-            />
-          ))}
+          <Grid container justify="center" alignItems="center">
+            {singleStaff.books.map(book => (
+              <BookCard key={book.id} book={book} />
+            ))}
+          </Grid>
         </div>
       </div>
     )

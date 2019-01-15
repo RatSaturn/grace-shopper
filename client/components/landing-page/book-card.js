@@ -12,13 +12,13 @@ import Typography from '@material-ui/core/Typography'
 
 const styles = () => ({
   card: {
-    width: 200,
+    width: 150,
     height: 300,
-    margin: 40
+    margin: 30
   },
 
   media: {
-    height: 200,
+    height: 180,
     paddingTop: '56.25%' // 16:9
   },
   actions: {
@@ -30,6 +30,8 @@ const BookCard = props => {
   const {classes, book} = props
   const displayPrice = book.price.toString().split('')
   displayPrice.splice(displayPrice.length - 2, 0, '.')
+
+  //testing resizing book card
 
   return (
     <Card className={classes.card}>
