@@ -52,6 +52,8 @@ export class Checkout extends Component {
       redirect: false,
       shippingInformation: {}
     }
+    this.handleSubmit = this.handleSubmit.bind(this)
+    this.renderRedirect = this.renderRedirect.bind(this)
   }
 
   handleSubmit(event) {
@@ -62,9 +64,9 @@ export class Checkout extends Component {
       addressLineOne: event.target.addressLineOne.value,
       addressLineTwo: event.target.addressLineTwo.value,
       city: event.target.city.value,
-      state: event.target.country.value,
+      state: event.target.state.value,
       zipcode: event.target.zipcode.value,
-      country: event.target.zipcode.value
+      country: event.target.country.value
     }
     this.setState({shippingInformation})
     this.setState({redirect: true})
@@ -72,6 +74,7 @@ export class Checkout extends Component {
 
   renderRedirect = () => {
     if (this.state.redirect) {
+      console.log(this.state.shippingInformation)
       return <Redirect to="./order-review" />
     }
   }
