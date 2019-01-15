@@ -21,17 +21,18 @@ const styles = () => ({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justify: 'space-around',
+    justify: 'center',
     wrap: 'wrap'
-  },
-  content: {
-    flex: '1 0 auto'
   },
   cover: {
     width: 151
   },
   controls: {
-    justify: 'flex-end'
+    display: 'inline',
+    width: '100%',
+    justify: 'center',
+    alignContent: 'center',
+    alignItems: 'center'
   }
 })
 
@@ -73,25 +74,61 @@ export class SingleBook extends Component {
                 container
                 className={classes.card}
                 spacing={8}
-                direction="column"
                 alignItems="stretch"
                 justify="space-between"
                 alignContent="stretch"
               >
                 <Grid item xs={4} sm={4} lg={4} xl={4}>
-                  <center>
-                    <img
-                      src={singleBook.imageUrl}
-                      alt={singleBook.title}
-                      className="single-book-image"
-                    />
-                  </center>
+                  <Grid
+                    container
+                    className={classes.details}
+                    spacing={8}
+                    direction="column"
+                    alignItems="center"
+                    justify="center"
+                    alignContent="center"
+                  >
+                    <Grid item>
+                      <center>
+                        <img
+                          src={singleBook.imageUrl}
+                          alt={singleBook.title}
+                          className="single-book-image"
+                        />
+                      </center>
+                    </Grid>
+                  </Grid>
+
+                  <Grid item>
+                    <CardActions className={classes.controls}>
+                      <Typography component="h5">
+                        <center>
+                          <button
+                            type="button"
+                            onClick={() => {
+                              let alreadyThere = this.props.cart.find(
+                                book => book.id === singleBook.id
+                              )
+                              this.props.updateCartOnServer({
+                                bookId: singleBook.id,
+                                book: singleBook,
+                                quantity: 1,
+                                alreadyThere
+                              })
+                            }}
+                          >
+                            Add to Cart
+                          </button>
+                        </center>
+                      </Typography>
+                    </CardActions>
+                  </Grid>
                 </Grid>
                 <Grid item xs={7} sm={7} lg={7} xl={7}>
                   <Grid
                     container
                     className={classes.details}
-                    spacing={8}
+                    spacing={0}
                     direction="column"
                     alignItems="center"
                     justify="space-evenly"
@@ -127,24 +164,6 @@ export class SingleBook extends Component {
                           {singleBook.description}
                         </Typography>
                       </CardContent>
-                    </Grid>
-                    <Grid item xs={12} sm={12} lg={12} xl={12}>
-                      <CardActions className={classes.controls}>
-                        <Typography component="h5">
-                          <button
-                            type="button"
-                            onClick={() =>
-                              this.props.updateCartOnServer({
-                                bookId: singleBook.id,
-                                book: singleBook,
-                                quantity: 1
-                              })
-                            }
-                          >
-                            Add to Cart
-                          </button>
-                        </Typography>
-                      </CardActions>
                     </Grid>
                   </Grid>
                 </Grid>
