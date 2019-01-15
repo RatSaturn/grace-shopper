@@ -52,7 +52,6 @@ const styles = theme => ({
 })
 
 const AuthForm = props => {
-  console.log(props)
   const {name, displayName, handleSubmit, error, classes} = props
 
   return (
