@@ -10,6 +10,9 @@ import Grid from '@material-ui/core/Grid'
 import Input from '@material-ui/core/Input'
 import InputLabel from '@material-ui/core/InputLabel'
 import FormControl from '@material-ui/core/FormControl'
+import Stepper from '@material-ui/core/Stepper'
+import StepLabel from '@material-ui/core/StepLabel'
+import Step from '@material-ui/core/Step'
 
 const styles = theme => ({
   layout: {
@@ -44,6 +47,8 @@ const styles = theme => ({
     marginLeft: theme.spacing.unit
   }
 })
+
+const steps = ['Shipping address', 'Order summary', 'Checkout']
 
 export class Checkout extends Component {
   constructor(props) {
@@ -81,6 +86,7 @@ export class Checkout extends Component {
 
   render() {
     const {classes} = this.props
+    console.log(this.state.shippingInformation)
     return (
       <div className={classes.layout}>
         {this.renderRedirect()}
@@ -88,7 +94,13 @@ export class Checkout extends Component {
           <Typography component="h1" variant="h4" align="center">
             Checkout
           </Typography>
-
+          <Stepper activeStep={steps[0]} className={classes.stepper}>
+            {steps.map(label => (
+              <Step key={label}>
+                <StepLabel>{label}</StepLabel>
+              </Step>
+            ))}
+          </Stepper>
           <Typography variant="h6" gutterBottom>
             Shipping address
           </Typography>
