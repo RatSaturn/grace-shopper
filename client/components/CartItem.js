@@ -19,7 +19,7 @@ const styles = () => ({
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    justify: 'space-between',
+    justify: 'space-around',
     wrap: 'wrap'
   },
   content: {
@@ -48,7 +48,7 @@ const CartItem = props => {
   displayPrice.splice(displayPrice.length - 2, 0, '.')
 
   return (
-    <Card className={classes.card} style={{width: '70vw'}}>
+    <Card className={classes.card} style={{width: '70vw', height: '150px'}}>
       <div className={classes.details}>
         <CardMedia
           className={classes.cover}
