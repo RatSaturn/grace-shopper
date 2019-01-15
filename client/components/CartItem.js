@@ -76,8 +76,7 @@ const CartItem = props => {
             onChange={event =>
               props.updateCartOnServer({
                 bookId: id,
-                quantity: event.target.value,
-                currentBook: props.book
+                quantity: event.target.value
               })
             }
           >
