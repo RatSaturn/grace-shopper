@@ -13,12 +13,12 @@ import Typography from '@material-ui/core/Typography'
 const styles = () => ({
   card: {
     width: 150,
-    height: 300,
+    height: 200,
     margin: 30
   },
 
   media: {
-    height: 180,
+    height: 150,
     paddingTop: '56.25%' // 16:9
   },
   actions: {
@@ -26,36 +26,26 @@ const styles = () => ({
   }
 })
 
-const BookCard = props => {
-  const {classes, book} = props
-  const displayPrice = book.price.toString().split('')
-  displayPrice.splice(displayPrice.length - 2, 0, '.')
-
-  //testing resizing book card
+const StaffCard = props => {
+  const {classes, staff} = props
+  const {id, name, imageUrl} = staff
 
   return (
     <Card className={classes.card}>
-      <CardMedia className={classes.media} image={book.imageUrl} title="book" />
+      <CardMedia className={classes.media} image={imageUrl} title={name} />
       <CardContent>
         <Typography component="p">
-          <Link exact to={`/allbooks/${book.id}`}>
-            <b>{book.title}</b>
+          <Link exact to={`/allStaffs/${id}`}>
+            <b>{name}</b>
           </Link>
         </Typography>
-
-        {book.authors.map(author => (
-          <Typography component="p" key={author}>
-            {author}
-          </Typography>
-        ))}
-        <Typography component="p">${displayPrice}</Typography>
       </CardContent>
     </Card>
   )
 }
 
-BookCard.propTypes = {
+StaffCard.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-export default withStyles(styles)(BookCard)
+export default withStyles(styles)(StaffCard)
