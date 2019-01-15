@@ -13,28 +13,29 @@ const REMOVE_FROM_CART = 'REMOVE_FROM_CART'
  */
 const defaultCart = []
 /**
- * ACTION CREATORS
+ * ACTION CREATORS	 * ACTION CREATORS
  */
-export const getCart = cart => ({type: GET_CART, cart})
-
-const updateCart = ({quantity, currentBook, bookId}) => ({
+const getCart = cart => ({type: GET_CART, cart})
+const updateCart = ({bookId, quantity}) => ({
   type: UPDATE_CART,
-  quantity,
-  book: currentBook,
-  bookId
+  bookId,
+  quantity
 })
-const addToCart = ({quantity, bookToSend, bookId}) => ({
+
+const addToCart = ({bookId, quantity, bookToSend}) => ({
   type: ADD_TO_CART,
+  bookId,
   book: bookToSend,
-  quantity,
-  bookId
+  quantity
 })
-const removeFromCart = ({quantity, book, bookId}) => ({
+
+const removeFromCart = ({bookId, quantity, book}) => ({
   type: REMOVE_FROM_CART,
+  bookId,
   book,
-  quantity,
-  bookId
+  quantity
 })
+/**
 /**
  * THUNK CREATORS
  */
@@ -67,8 +68,7 @@ export const updateCartOnServer = bookInfo => async dispatch => {
       } else if (!quantity) {
         dispatch(removeFromCart(bookInfo))
       } else {
-        const {currentBook} = bookInfo
-        dispatch(updateCart({bookId, quantity, currentBook}))
+        dispatch(updateCart(bookInfo))
       }
     }
 
@@ -82,7 +82,7 @@ export const updateCartOnServer = bookInfo => async dispatch => {
  */
 export default function(state = defaultCart, action) {
   let copyOfBook
-  let bookIndex
+  let bookIndex = -1
   if (state.length) {
     bookIndex = state.findIndex(book => {
       return book.id === action.bookId
