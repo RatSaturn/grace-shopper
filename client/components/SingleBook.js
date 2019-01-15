@@ -29,6 +29,9 @@ const styles = () => ({
   },
   cover: {
     width: 151
+  },
+  controls: {
+    justify: 'flex-end'
   }
 })
 
@@ -54,7 +57,7 @@ export class SingleBook extends Component {
       <div>
         <Grid
           container
-          spacing={8}
+          spacing={4}
           style={{paddingLeft: '15%', marginTop: '2%'}}
           direction="column"
           alignItems="stretch"
@@ -88,7 +91,7 @@ export class SingleBook extends Component {
                   <Grid
                     container
                     className={classes.details}
-                    spacing={16}
+                    spacing={8}
                     direction="column"
                     alignItems="center"
                     justify="space-evenly"
