@@ -356,17 +356,17 @@
         "publishedDate": "2008-09-02",
         "description":
           "Oscar is a sweet but disastrously overweight ghetto nerd who—from the New Jersey home he shares with his old world mother and rebellious sister—dreams of becoming the Dominican J.R.R. Tolkien and, most of all, finding love. But Oscar may never get what he wants. Blame the fukú—a curse that has haunted Oscar’s family for generations, following them on their epic journey from Santo Domingo to the USA. Encapsulating Dominican-American history, The Brief Wondrous Life of Oscar Wao opens our eyes to an astonishing vision of the contemporary American experience and explores the endless human capacity to persevere—and risk it all—in the name of love.",
-        "pageCount": "339"
+        "pageCount": "339",
+        "imageLinks": {
+          "thumbnail":
+            "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Junot_wao_cover.jpg/220px-Junot_wao_cover.jpg"
+        }
       },
       "saleInfo": {
         "listPrice": {
           "amount": 16.95,
           "currencyCode": "USD"
         }
-      },
-      "imageLinks": {
-        "thumbnail":
-          "https://images-na.ssl-images-amazon.com/images/I/51lPJDcI5UL._SX318_BO1,204,203,200_.jpg"
       }
     }
   ]

@@ -57,27 +57,6 @@ export class Checkout extends Component {
       redirect: false,
       shippingInformation: {}
     }
-    this.displayPrice = this.displayPrice.bind(this)
-    this.calculateTotal = this.calculateTotal.bind(this)
-    this.handleSubmit = this.handleSubmit.bind(this)
-    this.renderRedirect = this.renderRedirect.bind(this)
-  }
-
-  displayPrice(price) {
-    let result = price.toString().split('')
-    result.splice(result.length - 2, 0, '.')
-    return result
-  }
-
-  calculateTotal(cart) {
-    const displayTotal = cart
-      .reduce((accum, book) => {
-        return accum + book.price * book.booksForOrder.quantity
-      }, 0)
-      .toString()
-      .split('')
-    displayTotal.splice(displayTotal.length - 2, 0, '.')
-    return displayTotal
   }
 
   handleSubmit(event) {
@@ -93,12 +72,12 @@ export class Checkout extends Component {
       country: event.target.zipcode.value
     }
     this.setState({shippingInformation})
-    this.setState({redirect: 'true'})
+    this.setState({redirect: true})
   }
 
   renderRedirect = () => {
     if (this.state.redirect) {
-      return <Redirect to="./stripe-checkout" />
+      return <Redirect to="./order-review" />
     }
   }
 
