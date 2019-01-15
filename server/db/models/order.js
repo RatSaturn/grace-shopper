@@ -16,7 +16,7 @@ module.exports = Order
 Order.prototype.updateNumberOfItems = async function() {
   const booksOnOrder = await this.getBooks()
   await this.update({numberOfItems: booksOnOrder.length})
-  console.log(this)
+  //console.log(this)
 }
 
 Order.findSingleOrder = async function(id) {
