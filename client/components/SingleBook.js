@@ -50,6 +50,7 @@ export class SingleBook extends Component {
                   book => book.id === singleBook.id
                 )
               }
+              console.log('already there:', alreadyThere)
               this.props.updateCartOnServer({
                 bookId: this.props.singleBook.id,
                 quantity: 1,

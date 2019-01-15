@@ -29,3 +29,7 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+
+.items-in-cart {
+  align-self: center;
+}
