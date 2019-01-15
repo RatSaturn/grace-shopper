@@ -29,23 +29,14 @@ export class Cart extends Component {
                 spacing={16}
                 style={{paddingLeft: '15%'}}
                 direction="column"
-                alignItems="space-around"
+                alignItems="stretch"
                 justify="space-between"
-                alignContent="space-around"
+                alignContent="stretch"
               >
                 {this.props.cart.map(book => {
                   if (book.booksForOrder.quantity) {
                     return (
-                      <Grid
-                        item
-                        xs={12}
-                        sm={6}
-                        lg={4}
-                        xl={12}
-                        alignContent="center"
-                        alignItems="center"
-                        justify="center"
-                      >
+                      <Grid item xs={12} sm={6} lg={4} xl={12}>
                         <CartItem book={book} key={book.title} />
                       </Grid>
                     )

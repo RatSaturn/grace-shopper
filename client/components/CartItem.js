@@ -19,7 +19,8 @@ const styles = () => ({
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    justify: 'space-between'
+    justify: 'space-between',
+    wrap: 'wrap'
   },
   content: {
     flex: '1 0 auto'
