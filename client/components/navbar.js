@@ -17,9 +17,9 @@ const styles = {
     flexGrow: 1
   }
 }
-
 class Navbar extends Component {
   async componentDidMount() {
+    console.log('component did mount navbar')
     await this.props.getCartFromServer()
     await this.props.getBooksFromApi()
   }
@@ -38,16 +38,20 @@ class Navbar extends Component {
             {isLoggedIn ? (
               <div>
                 {/* The navbar will show these links after you log in */}
-
                 <Link to="/" style={{textDecoration: 'none', color: '#FFF'}}>
                   <Button color="inherit"> Home </Button>
                 </Link>
-
                 <Link
                   to="/cart"
                   style={{textDecoration: 'none', color: '#FFF'}}
                 >
-                  <Button color="inherit">Cart</Button>
+                  <Button color="inherit">
+                    <img src="/cart-image.png" />
+                    {'  '}
+                    {this.props.cart.reduce((accum, book) => {
+                      return accum + Number(book.booksForOrder.quantity)
+                    }, 0)}
+                  </Button>
                 </Link>
 
                 <Link
@@ -73,12 +77,17 @@ class Navbar extends Component {
                 >
                   <Button color="inherit">Login</Button>
                 </Link>
-
                 <Link
                   to="/cart"
                   style={{textDecoration: 'none', color: '#FFF'}}
                 >
-                  <Button color="inherit">Cart</Button>
+                  <Button color="inherit">
+                    <img src="/cart-image.png" />
+                    {'     '}
+                    {this.props.cart.reduce((accum, book) => {
+                      return accum + Number(book.booksForOrder.quantity)
+                    }, 0)}
+                  </Button>
                 </Link>
               </div>
             )}
@@ -88,16 +97,15 @@ class Navbar extends Component {
     )
   }
 }
-
 /**
  * CONTAINER
  */
 const mapState = state => {
   return {
-    isLoggedIn: !!state.user.id
+    isLoggedIn: !!state.user.id,
+    cart: state.cart
   }
 }
-
 const mapDispatch = dispatch => {
   return {
     handleClick() {
@@ -119,5 +127,4 @@ Navbar.propTypes = {
   isLoggedIn: PropTypes.bool.isRequired,
   classes: PropTypes.object.isRequired
 }
-
 export default connect(mapState, mapDispatch)(withStyles(styles)(Navbar))

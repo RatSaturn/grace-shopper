@@ -73,9 +73,9 @@ router.post('/cart/update', async (req, res, next) => {
   console.log('update order')
   console.log(req.body)
   try {
-    if (!req.session.cartId) {
-      //no cart on session
-      console.log('no cart on session')
+    if (req.session.cartId) {
+      //a cart on session
+      console.log('a cart on session')
       if (req.user) {
         // user is logged in
         const pendingCart = await Order.findOne({where: {userId: req.user.id}})
