@@ -57,6 +57,14 @@ class BookView extends Component {
         </div>
 
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
+          <Typography
+            variant="h6"
+            align="center"
+            color="textSecondary"
+            gutterBottom
+          >
+            {this.props.title}
+          </Typography>
           <Grid container justify="center" alignItems="center">
             {this.props.books.map(book => (
               <BookCard key={book.id} book={book} />
