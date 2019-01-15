@@ -1,13 +1,56 @@
 import React, {Component} from 'react'
+import withStyles from '@material-ui/core/styles/withStyles'
+import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import {Redirect} from 'react-router-dom'
-import states from './statesArray'
+import Button from '@material-ui/core/Button'
+import Paper from '@material-ui/core/Paper'
+import Typography from '@material-ui/core/Typography'
+import Grid from '@material-ui/core/Grid'
+import Input from '@material-ui/core/Input'
+import InputLabel from '@material-ui/core/InputLabel'
+import FormControl from '@material-ui/core/FormControl'
+
+const styles = theme => ({
+  layout: {
+    width: 'auto',
+    marginLeft: theme.spacing.unit * 2,
+    marginRight: theme.spacing.unit * 2,
+    [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
+      width: 600,
+      marginLeft: 'auto',
+      marginRight: 'auto'
+    }
+  },
+  paper: {
+    marginTop: theme.spacing.unit * 3,
+    marginBottom: theme.spacing.unit * 3,
+    padding: theme.spacing.unit * 2,
+    [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
+      marginTop: theme.spacing.unit * 6,
+      marginBottom: theme.spacing.unit * 6,
+      padding: theme.spacing.unit * 3
+    }
+  },
+  stepper: {
+    padding: `${theme.spacing.unit * 3}px 0 ${theme.spacing.unit * 5}px`
+  },
+  buttons: {
+    display: 'flex',
+    justifyContent: 'flex-end'
+  },
+  button: {
+    marginTop: theme.spacing.unit * 3,
+    marginLeft: theme.spacing.unit
+  }
+})
 
 export class Checkout extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      redirect: false
+      redirect: false,
+      shippingInformation: {}
     }
     this.displayPrice = this.displayPrice.bind(this)
     this.calculateTotal = this.calculateTotal.bind(this)
@@ -34,13 +77,17 @@ export class Checkout extends Component {
 
   handleSubmit(event) {
     event.preventDefault()
-    const shippingData = {
-      street: event.target.street.value,
+    const shippingInformation = {
+      firstName: event.target.firstName.value,
+      lastName: event.target.lastName.value,
+      addressLineOne: event.target.addressLineOne.value,
+      addressLineTwo: event.target.addressLineTwo.value,
       city: event.target.city.value,
-      state: event.target.state.value,
-      zipcode: event.target.zipcode.value
+      state: event.target.country.value,
+      zipcode: event.target.zipcode.value,
+      country: event.target.zipcode.value
     }
-    console.log(shippingData)
+    this.setState({shippingInformation})
     this.setState({redirect: 'true'})
   }
 
@@ -51,70 +98,103 @@ export class Checkout extends Component {
   }
 
   render() {
+    const {classes} = this.props
     return (
-      <div id="checkout-page">
+      <div className={classes.layout}>
         {this.renderRedirect()}
-        <div id="order-review">
-          <h3>Review Your Order</h3>
-          <div id="order-review-list">
-            {this.props.cart.map(book => {
-              return (
-                <div className="order-review-item" key={book.id}>
-                  <div className="order-review-item-img">
-                    <img src={book.imageUrl} />
-                  </div>
-                  <div className="order-review-item-info">
-                    <p>{book.title}</p>
-                    <p>{book.authors[0]}</p>
-                  </div>
-                  <div className="order-review-item-price">
-                    <p>{book.booksForOrder.quantity}</p>
-                    <p>{this.displayPrice(book.price)}</p>
-                  </div>
-                </div>
-              )
-            })}
-            <h4>Total: {this.calculateTotal(this.props.cart)}</h4>
-          </div>
-        </div>
-        <div id="shipping-form">
-          <h3>Shipping Information</h3>
+        <Paper className={classes.paper}>
+          <Typography component="h1" variant="h4" align="center">
+            Checkout
+          </Typography>
 
-          <form onSubmit={this.handleSubmit}>
-            <div>
-              <label htmlFor="street">
-                <small>Street: </small>
-              </label>
-              <input name="street" type="text" />
-            </div>
-            <div>
-              <div>
-                <label htmlFor="city">
-                  <small>City: </small>
-                </label>
-                <input name="city" type="text" />
-              </div>
-              <div>
-                <label htmlFor="state">State:</label>{' '}
-                <select id="state-dropdown" name="state">
-                  {states.map(state => (
-                    <option key={state} value={state}>
-                      {state}
-                    </option>
-                  ))}
-                </select>
-              </div>
-              <div>
-                <label htmlFor="zipcode">
-                  <small>Zipcode: </small>
-                </label>
-                <input name="zipcode" type="text" />
-              </div>
-            </div>
+          <Typography variant="h6" gutterBottom>
+            Shipping address
+          </Typography>
 
-            <button type="submit">Submit</button>
+          <form onSubmit={this.handleSubmit} name="checkout">
+            <Grid container spacing={24}>
+              <Grid item xs={12} sm={6}>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="firstName">First Name</InputLabel>
+                  <Input id="firstName" name="firstName" autoFocus />
+                </FormControl>
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="lastName">Last Name</InputLabel>
+                  <Input name="lastName" type="lastName" id="lastName" />
+                </FormControl>
+              </Grid>
+            </Grid>
+
+            <Grid item xs={12}>
+              <FormControl margin="normal" required fullWidth>
+                <InputLabel htmlFor="addressLineOne">Address line 1</InputLabel>
+                <Input
+                  name="addressLineOne"
+                  type="addressLineOne"
+                  id="addressLineOne"
+                />
+              </FormControl>
+            </Grid>
+
+            <Grid item xs={12}>
+              <FormControl margin="normal" required fullWidth>
+                <InputLabel htmlFor="addressLineTwo">Address line 2</InputLabel>
+                <Input
+                  name="addressLineTwo"
+                  type="addressLineTwo"
+                  id="addressLineTwo"
+                />
+              </FormControl>
+            </Grid>
+
+            <Grid container spacing={24}>
+              <Grid item xs={12} sm={6}>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="city">City</InputLabel>
+                  <Input id="city" name="city" autoFocus />
+                </FormControl>
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="state">State/Province/Region</InputLabel>
+                  <Input name="state" type="state" id="state" />
+                </FormControl>
+              </Grid>
+            </Grid>
+
+            <Grid container spacing={24}>
+              <Grid item xs={12} sm={6}>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="zipcode">Zip / Postal code</InputLabel>
+                  <Input
+                    id="zipcode"
+                    name="zipcode"
+                    autoComplete="zipcode"
+                    autoFocus
+                  />
+                </FormControl>
+              </Grid>
+              <Grid item xs={12} sm={6}>
+                <FormControl margin="normal" required fullWidth>
+                  <InputLabel htmlFor="country">Country</InputLabel>
+                  <Input name="country" type="country" id="country" />
+                </FormControl>
+              </Grid>
+            </Grid>
+            <div className={classes.buttons}>
+              <Button
+                type="submit"
+                variant="contained"
+                color="primary"
+                className={classes.button}
+              >
+                Next
+              </Button>
+            </div>
           </form>
-        </div>
+        </Paper>
       </div>
     )
   }
@@ -125,4 +205,8 @@ const mapState = state => ({
   user: state.user
 })
 
-export default connect(mapState)(Checkout)
+Checkout.propTypes = {
+  classes: PropTypes.object.isRequired
+}
+
+export default connect(mapState)(withStyles(styles)(Checkout))
