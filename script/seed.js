@@ -7,8 +7,7 @@ const {
   Genre,
   Order,
   BooksForOrders,
-  Staff,
-  StaffBooks
+  Staff
 } = require('../server/db/models')
 const jsonFiles = [
   require('../script/booksFromGoogle/business.json'),
@@ -239,10 +238,40 @@ async function seed() {
     })
   ])
 
+  const [shermin, sBook1, sBook2, sBook3, sBook4, sBook5] = await Promise.all([
+    Staff.findById(4),
+    Book.findOne({
+      where: {
+        title: "Claudine's House"
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'White Fang'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Witchlight'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Glass Town'
+      }
+    }),
+    Book.findOne({
+      where: {
+        title: 'Styx & Stone'
+      }
+    })
+  ])
+
   await Promise.all([
     michelle.addBooks([mBook1, mBook2, mBook3, mBook4, mBook5, mBook6]),
     jing.addBooks([jBook1, jBook2, jBook3, jBook4, jBook5, mBook3]),
-    tatiana.addBooks([tBook1, tBook2, tBook3, tBook4, tBook5, tBook6])
+    tatiana.addBooks([tBook1, tBook2, tBook3, tBook4, tBook5, tBook6]),
+    shermin.addBooks([sBook1, sBook2, sBook3, sBook4, sBook5, mBook3])
   ])
   console.log(`seeded staff's picks`)
 

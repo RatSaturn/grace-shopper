@@ -19,7 +19,6 @@ const styles = {
 }
 class Navbar extends Component {
   async componentDidMount() {
-    console.log('component did mount navbar')
     await this.props.getCartFromServer()
     await this.props.getBooksFromApi()
   }
