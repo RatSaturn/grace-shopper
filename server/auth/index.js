@@ -21,8 +21,13 @@ router.post('/login', async (req, res, next) => {
       if (pendingOrder && pendingOrder.id != req.session.cartId) {
         await Order.destroy({where: {id: req.session.cartId}})
         req.session.cartId = pendingOrder.id
-      } else if (req.session.cartId) {
-        // this should always be true when no pendingOrder
+      } else {
+        if (!req.session.cartId) {
+          // no cart on session
+          const cart = await Order.create()
+          req.session.cartId = cart.id
+        }
+
         const cart = await Order.findById(req.session.cartId)
         await cart.setUser(user)
       }
@@ -38,11 +43,13 @@ router.post('/signup', async (req, res, next) => {
   try {
     const user = await User.create(req.body)
 
-    if (req.session.cartId) {
-      // this should always be true at signup
-      const cart = await Order.findById(req.session.cartId)
-      await cart.setUser(user)
+    if (!req.session.cartId) {
+      // no cart on session
+      const cart = await Order.create()
+      req.session.cartId = cart.id
     }
+    const cart = await Order.findById(req.session.cartId)
+    await cart.setUser(user)
 
     req.login(user, err => (err ? next(err) : res.json(user)))
   } catch (err) {
