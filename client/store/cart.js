@@ -15,7 +15,7 @@ const defaultCart = []
 /**
  * ACTION CREATORS
  */
-const getCart = cart => ({type: GET_CART, cart})
+export const getCart = cart => ({type: GET_CART, cart})
 const updateCart = ({bookId, quantity}) => ({
   type: UPDATE_CART,
   bookId,
