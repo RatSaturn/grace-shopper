@@ -1,5 +1,6 @@
 import axios from 'axios'
 import history from '../history'
+import {getCart} from '../store/cart'
 
 /**
  * ACTION TYPES
@@ -25,6 +26,9 @@ export const me = () => async dispatch => {
   try {
     const res = await axios.get('/auth/me')
     dispatch(getUser(res.data || defaultUser))
+    // fetch pending order from server
+    const {data} = await axios.get('/api/orders/cart')
+    dispatch(getCart(data))
   } catch (err) {
     console.error(err)
   }
@@ -36,6 +40,16 @@ export const auth = (email, password, method) => async dispatch => {
     res = await axios.post(`/auth/${method}`, {email, password})
   } catch (authError) {
     return dispatch(getUser({error: authError}))
+  }
+
+  try {
+    // fetch pending order from server if method === 'login'
+    if (method === 'login') {
+      const {data} = await axios.get('/api/orders/cart')
+      dispatch(getCart(data))
+    }
+  } catch (err) {
+    console.log(err)
   }
 
   try {
@@ -51,6 +65,7 @@ export const logout = () => async dispatch => {
     await axios.post('/auth/logout')
     dispatch(removeUser())
     history.push('/login')
+    dispatch(getCart([]))
   } catch (err) {
     console.error(err)
   }

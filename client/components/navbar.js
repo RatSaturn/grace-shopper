@@ -52,15 +52,14 @@ class Navbar extends Component {
                     }, 0)}
                   </Button>
                 </Link>
-                <Button color="inherit">
-                  <a
-                    href="#"
-                    onClick={handleClick}
-                    style={{textDecoration: 'none', color: '#FFF'}}
-                  >
-                    Logout
-                  </a>
-                </Button>
+
+                <Link
+                  to="/"
+                  onClick={handleClick}
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
+                  <Button color="inherit">Logout</Button>
+                </Link>
               </div>
             ) : (
               <div>
