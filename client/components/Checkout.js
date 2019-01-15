@@ -104,6 +104,7 @@ export class Checkout extends Component {
 
   render() {
     const {classes} = this.props
+    console.log(this.state.shippingInformation)
     return (
       <div className={classes.layout}>
         {this.renderRedirect()}
