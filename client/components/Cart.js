@@ -3,18 +3,10 @@ import {connect} from 'react-redux'
 import {getCartFromServer} from '../store'
 import CartItem from './CartItem'
 import history from '../history'
+import Grid from '@material-ui/core/Grid'
+import Paper from '@material-ui/core/Paper'
 
 export class Cart extends Component {
-  async componentDidMount() {
-    try {
-      if (!this.props.cart.length) {
-        await this.props.getCartFromServer()
-      }
-    } catch (err) {
-      console.error(err)
-    }
-  }
-
   render() {
     const displayTotal = this.props.cart
       .reduce((accum, book) => {
@@ -32,24 +24,46 @@ export class Cart extends Component {
         {this.props.cart.length ? (
           <div id="cart-not-empty">
             <div className="items-in-cart">
-              <table>
-                <th>{}</th>
-                <th>{}</th>
-                <th>Price</th>
-                <th>Quantity</th>
+              <Grid
+                container
+                spacing={16}
+                style={{paddingLeft: '15%'}}
+                direction="column"
+                alignItems="space-around"
+                justify="space-between"
+                alignContent="space-around"
+              >
                 {this.props.cart.map(book => {
                   if (book.booksForOrder.quantity) {
-                    return <CartItem book={book} key={book.title} />
+                    return (
+                      <Grid
+                        item
+                        xs={12}
+                        sm={6}
+                        lg={4}
+                        xl={12}
+                        alignContent="center"
+                        alignItems="center"
+                        justify="center"
+                      >
+                        <CartItem book={book} key={book.title} />
+                      </Grid>
+                    )
                   }
-                })}
-              </table>
+                })}{' '}
+              </Grid>
             </div>
             <div className="cart-total">
               <div>
-                <h4>Total: ${displayTotal}</h4>{' '}
-                <button type="button" onClick={() => history.push('/checkout')}>
-                  Checkout
-                </button>
+                <center>
+                  <h3>Total: ${displayTotal}</h3>{' '}
+                  <button
+                    type="button"
+                    onClick={() => history.push('/checkout')}
+                  >
+                    Checkout
+                  </button>
+                </center>
               </div>
             </div>
           </div>

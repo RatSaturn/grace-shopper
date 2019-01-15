@@ -16,22 +16,24 @@ const defaultCart = []
  * ACTION CREATORS
  */
 const getCart = cart => ({type: GET_CART, cart})
-const updateCart = ({bookId, quantity}) => ({
+
+const updateCart = ({quantity, currentBook, bookId}) => ({
   type: UPDATE_CART,
-  bookId,
-  quantity
+  quantity,
+  book: currentBook,
+  bookId
 })
-const addToCart = ({bookId, quantity, bookToSend}) => ({
+const addToCart = ({quantity, bookToSend, bookId}) => ({
   type: ADD_TO_CART,
-  bookId,
   book: bookToSend,
-  quantity
+  quantity,
+  bookId
 })
-const removeFromCart = ({bookId, quantity, book}) => ({
+const removeFromCart = ({quantity, book, bookId}) => ({
   type: REMOVE_FROM_CART,
-  bookId,
   book,
-  quantity
+  quantity,
+  bookId
 })
 /**
  * THUNK CREATORS
@@ -65,7 +67,8 @@ export const updateCartOnServer = bookInfo => async dispatch => {
       } else if (!quantity) {
         dispatch(removeFromCart(bookInfo))
       } else {
-        dispatch(updateCart(bookInfo))
+        const {currentBook} = bookInfo
+        dispatch(updateCart({bookId, quantity, currentBook}))
       }
     }
 
@@ -78,11 +81,14 @@ export const updateCartOnServer = bookInfo => async dispatch => {
  * REDUCER
  */
 export default function(state = defaultCart, action) {
-  let bookInCart
   let copyOfBook
+  let bookIndex
   if (state.length) {
-    bookInCart = state.find(book => book.id === action.bookId)
-    copyOfBook = {...bookInCart}
+    bookIndex = state.findIndex(book => {
+      return book.id === action.bookId
+    })
+
+    copyOfBook = {...state[bookIndex]}
   }
   const newState = state.filter(book => book.id !== action.bookId)
   switch (action.type) {
@@ -90,12 +96,12 @@ export default function(state = defaultCart, action) {
       return action.cart
     case UPDATE_CART:
       copyOfBook.booksForOrder.quantity = action.quantity
-      newState.push(copyOfBook)
+      newState.splice(bookIndex, 0, copyOfBook)
       return newState
     case ADD_TO_CART:
-      if (copyOfBook && copyOfBook.id) {
+      if (bookIndex !== -1) {
         copyOfBook.booksForOrder.quantity += 1
-        newState.push(copyOfBook)
+        newState.splice(bookIndex, 0, copyOfBook)
       } else {
         newState.push(action.book)
       }
