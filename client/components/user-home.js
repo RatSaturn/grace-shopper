@@ -9,8 +9,7 @@ class UserHome extends Component {
   async componentDidMount() {
     try {
       console.log('UserHome did mount')
-      console.log('staffId: ', staffId)
-      await this.props.getSingleStaffFromApi(staffId)
+      await this.props.getOrdersFromApi()
     } catch (err) {
       console.error(err)
     }
@@ -22,6 +21,7 @@ class UserHome extends Component {
     return (
       <div>
         <h3>Welcome, {email}</h3>
+        <ul>{orders.map(order => <li>Order Date: {order.updateAt}</li>)}</ul>
       </div>
     )
   }
@@ -32,7 +32,7 @@ class UserHome extends Component {
  */
 const mapState = state => {
   return {
-    email: state.user.email
+    orders: state.allOrders
   }
 }
 
