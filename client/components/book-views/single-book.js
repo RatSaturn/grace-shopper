@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getSingleBookFromApi, updateCartOnServer} from '../store'
+import {getSingleBookFromApi, updateCartOnServer} from '../../store'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'

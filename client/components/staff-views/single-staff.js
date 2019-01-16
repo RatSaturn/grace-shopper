@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getSingleStaffFromApi} from '../store'
-import BookCard from './landing-page/book-card'
+import {getSingleStaffFromApi} from '../../store'
+import BookCard from '../landing-page/book-card'
 import Grid from '@material-ui/core/Grid'
 import Divider from '@material-ui/core/Divider'
 

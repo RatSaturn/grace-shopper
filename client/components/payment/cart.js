@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getCartFromServer} from '../store'
+import {getCartFromServer} from '../../store'
 import CartItem from './cart-item'
-import history from '../history'
+import history from '../../history'
 import Grid from '@material-ui/core/Grid'
 import Paper from '@material-ui/core/Paper'
 

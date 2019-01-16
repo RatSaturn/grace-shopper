@@ -1,6 +1,6 @@
 const db = require('./db')
 
 // register models
-require('./models/Index')
+require('./models')
 
 module.exports = db

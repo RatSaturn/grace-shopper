@@ -1,6 +1,6 @@
 const router = require('express').Router()
-const {Genre} = require('../db/models/Index')
-const {Book} = require('../db/models/Index')
+const {Genre} = require('../db/models')
+const {Book} = require('../db/models')
 
 module.exports = router
 
