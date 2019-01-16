@@ -41,3 +41,7 @@ main {
   float: center;
   clear: both;
 }
+
+.ad-image {
+  width: 400px;
+}

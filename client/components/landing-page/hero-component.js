@@ -2,6 +2,7 @@ import React from 'react'
 import Typography from '@material-ui/core/Typography'
 import PropTypes from 'prop-types'
 import {withStyles} from '@material-ui/core/styles'
+import {Link} from 'react-router-dom'
 
 const styles = theme => ({
   heroContent: {
@@ -36,6 +37,12 @@ const HeroComponent = props => {
         bookworms that are passionate about making sure that we offer the best
         and most unique collection of books.
       </Typography>
+      <br />
+      <center>
+        <Link to="/allbooks/41">
+          <img src="/harryPotter.png" className="ad-image" />
+        </Link>
+      </center>
     </div>
   )
 }
