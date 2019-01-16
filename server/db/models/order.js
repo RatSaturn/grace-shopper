@@ -19,6 +19,10 @@ Order.prototype.updateNumberOfItems = async function() {
   //console.log(this)
 }
 
+Order.prototype.markCompleted = async function() {
+  await this.update({pending: false})
+}
+
 Order.findSingleOrder = async function(id) {
   const orderInstance = await Order.findById(id)
   const bookInformation = await orderInstance.getBooks()

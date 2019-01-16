@@ -1,5 +1,7 @@
 import React from 'react'
 import {CardElement, injectStripe} from 'react-stripe-elements'
+import {completeOrderOnServer} from '../store'
+import {connect} from 'react-router-dom'
 
 class AcceptPayment extends React.Component {
   constructor(props) {
@@ -16,6 +18,7 @@ class AcceptPayment extends React.Component {
       headers: {'Content-Type': 'text/plain'},
       body: token.id
     })
+    // await this.props.completeOrderOnServer()
 
     if (response.ok) this.setState({complete: true})
   }
@@ -37,5 +40,9 @@ class AcceptPayment extends React.Component {
     )
   }
 }
+
+// const mapDispatch = dispatch => ({
+//   completeOrderOnServer: () => dispatch(completeOrderOnServer())
+// })
 
 export default injectStripe(AcceptPayment)
