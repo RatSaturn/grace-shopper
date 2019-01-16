@@ -1,18 +1,30 @@
-import React from 'react'
+import React, {Component} from 'react'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 
 /**
  * COMPONENT
  */
-export const UserHome = props => {
-  const {email} = props
+class UserHome extends Component {
+  async componentDidMount() {
+    try {
+      console.log('UserHome did mount')
+      console.log('staffId: ', staffId)
+      await this.props.getSingleStaffFromApi(staffId)
+    } catch (err) {
+      console.error(err)
+    }
+  }
 
-  return (
-    <div>
-      <h3>Welcome, {email}</h3>
-    </div>
-  )
+  render() {
+    const {email} = this.props
+
+    return (
+      <div>
+        <h3>Welcome, {email}</h3>
+      </div>
+    )
+  }
 }
 
 /**
