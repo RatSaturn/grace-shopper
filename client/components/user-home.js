@@ -26,31 +26,35 @@ class UserHome extends Component {
           <div>
             <h4>Order history:</h4>
             <ul>
-              {orders.map(order => (
-                <li key={order[0].id}>
-                  Order Date: {String(order[0].updatedAt).slice(0, 10)}
-                  <ul>
-                    <li>
-                      Number of books:
-                      {order[1].reduce(
-                        (quantity, book) =>
-                          quantity + book.booksForOrder.quantity,
-                        0
-                      )}
+              {orders.map(order => {
+                if (!order.pending) {
+                  return (
+                    <li key={order[0].id}>
+                      Order Date: {String(order[0].updatedAt).slice(0, 10)}
+                      <ul>
+                        <li>
+                          Number of books:
+                          {order[1].reduce(
+                            (quantity, book) =>
+                              quantity + book.booksForOrder.quantity,
+                            0
+                          )}
+                        </li>
+                        <li>
+                          Total cost: {`$`}
+                          {order[1].reduce(
+                            (total, book) =>
+                              total +
+                              book.booksForOrder.quantity *
+                                book.booksForOrder.price,
+                            0
+                          ) / 100}
+                        </li>
+                      </ul>
                     </li>
-                    <li>
-                      Total cost: {`$`}
-                      {order[1].reduce(
-                        (total, book) =>
-                          total +
-                          book.booksForOrder.quantity *
-                            book.booksForOrder.price,
-                        0
-                      ) / 100}
-                    </li>
-                  </ul>
-                </li>
-              ))}
+                  )
+                }
+              })}
             </ul>
           </div>
         )}

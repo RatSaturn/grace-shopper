@@ -36,7 +36,10 @@ class Navbar extends Component {
             {isLoggedIn ? (
               <div>
                 {/* The navbar will show these links after you log in */}
-                <Link to="/" style={{textDecoration: 'none', color: '#FFF'}}>
+                <Link
+                  to="/home"
+                  style={{textDecoration: 'none', color: '#FFF'}}
+                >
                   <Button color="inherit"> Home </Button>
                 </Link>
                 <Link
