@@ -47,9 +47,11 @@ class Navbar extends Component {
                   <Button color="inherit">
                     <img src="/cart-image.png" />
                     {'  '}
-                    {this.props.cart.reduce((accum, book) => {
-                      return accum + Number(book.booksForOrder.quantity)
-                    }, 0)}
+                    {this.props.cart &&
+                      this.props.cart.length &&
+                      this.props.cart.reduce((accum, book) => {
+                        return accum + Number(book.booksForOrder.quantity)
+                      }, 0)}
                   </Button>
                 </Link>
 
