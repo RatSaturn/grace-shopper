@@ -7,9 +7,9 @@ import books from './books'
 import singleBook from './single-book'
 import cart from './cart'
 import booksByGenre from './books-by-genre'
-
 import staffs from './staffs'
 import singleStaff from './single-staff'
+import orders from './orders'
 
 const reducer = combineReducers({
   user,
@@ -18,7 +18,8 @@ const reducer = combineReducers({
   cart,
   staffs,
   singleStaff,
-  booksByGenre
+  booksByGenre,
+  orders
 })
 const middleware = composeWithDevTools(
   applyMiddleware(thunkMiddleware, createLogger({collapsed: true}))
@@ -33,3 +34,4 @@ export * from './cart'
 export * from './books-by-genre'
 export * from './staffs'
 export * from './single-staff'
+export * from './orders'

@@ -16,6 +16,7 @@ const defaultCart = []
  * ACTION CREATORS	 * ACTION CREATORS
  */
 const getCart = cart => ({type: GET_CART, cart})
+
 const updateCart = ({bookId, quantity}) => ({
   type: UPDATE_CART,
   bookId,
@@ -73,6 +74,15 @@ export const updateCartOnServer = bookInfo => async dispatch => {
     }
 
     return 'done'
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+export const completeOrderOnServer = () => async dispatch => {
+  try {
+    const {data} = await axios.post('/api/orders/cart/complete')
+    dispatch(getCart(data))
   } catch (err) {
     console.error(err)
   }

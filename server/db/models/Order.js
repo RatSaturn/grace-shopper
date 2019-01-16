@@ -19,19 +19,27 @@ Order.prototype.updateNumberOfItems = async function() {
   //console.log(this)
 }
 
+Order.prototype.markCompleted = async function() {
+  await this.update({pending: false})
+}
+
 Order.findSingleOrder = async function(id) {
   const orderInstance = await Order.findById(id)
   const bookInformation = await orderInstance.getBooks()
   return bookInformation
 }
 
-Order.findAllOrders = async function() {
-  const orderIds = await Order.findAll({attributes: ['id']})
+Order.findAllOrders = async function(userId) {
+  const orders = await Order.findAll({
+    //where: {userId, pending: false},
+    where: {userId},
+    attributes: ['id', 'updatedAt']
+  })
 
   const allOrders = await Promise.all(
-    orderIds.map(orderId => Order.findSingleOrder(orderId.id))
+    orders.map(order => Order.findSingleOrder(order.id))
   )
-  return allOrders
+  return allOrders.map((order, index) => [orders[index], order])
 }
 
 Order.updateOrderQuantity = async function(id, object) {

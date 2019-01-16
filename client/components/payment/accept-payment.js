@@ -8,7 +8,6 @@ import StepLabel from '@material-ui/core/StepLabel'
 import Step from '@material-ui/core/Step'
 import Paper from '@material-ui/core/Paper'
 import Grid from '@material-ui/core/Grid'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Button from '@material-ui/core/Button'
 
 const styles = theme => ({
@@ -140,17 +139,3 @@ AcceptPayment.propTypes = {
 }
 
 export default injectStripe(withStyles(styles)(AcceptPayment))
-
-// if (this.state.complete) return <h1>Your Purchase is Complete!</h1>
-// return (
-//   <div className="checkout">
-//     <p>
-//       To Complete Your Purchase, please enter your payment information
-//       below:
-//     </p>
-//     <CardElement />
-
-//     <button onClick={this.submit} type="button">
-//       Submit
-//     </button>
-//   </div>

@@ -5,7 +5,7 @@ import BookCard from '../landing-page/book-card'
 import Grid from '@material-ui/core/Grid'
 import Divider from '@material-ui/core/Divider'
 
-export class SingleStaff extends Component {
+class SingleStaff extends Component {
   async componentDidMount() {
     const staffId = this.props.match.params.staffId
     try {
