@@ -1,5 +1,5 @@
 import React from 'react'
-import {updateCartOnServer} from '../store'
+import {updateCartOnServer} from '../../store'
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import Card from '@material-ui/core/Card'

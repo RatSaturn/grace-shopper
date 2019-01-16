@@ -1,14 +1,7 @@
 'use strict'
 
 const db = require('../server/db')
-const {
-  User,
-  Book,
-  Genre,
-  Order,
-  BooksForOrders,
-  Staff
-} = require('../server/db/models')
+const {User, Book, Genre, Staff} = require('../server/db/models')
 const jsonFiles = [
   require('../script/booksFromGoogle/business.json'),
   require('../script/booksFromGoogle/childrenFiction.json'),
