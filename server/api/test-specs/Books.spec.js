@@ -1,7 +1,7 @@
 const {expect} = require('chai')
 const request = require('supertest')
-const db = require('../db')
-const app = require('../index')
+const db = require('../../db')
+const app = require('../../index')
 const Book = db.model('book')
 
 describe('Book routes', () => {

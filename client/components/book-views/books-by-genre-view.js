@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {getBooksByGenreFromApi} from '../store'
-import BookView from './landing-page/book-view'
-import HeroComponent from './landing-page/hero-component'
+import {getBooksByGenreFromApi} from '../../store'
+import BookView from '../landing-page/book-view'
+import HeroComponent from '../landing-page/hero-component'
 
 class BooksByGenre extends Component {
   async componentDidMount() {

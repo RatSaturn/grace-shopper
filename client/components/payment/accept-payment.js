@@ -9,8 +9,6 @@ import Step from '@material-ui/core/Step'
 import Paper from '@material-ui/core/Paper'
 import Grid from '@material-ui/core/Grid'
 import Button from '@material-ui/core/Button'
-import {connect} from 'react-redux'
-import {completeOrderOnServer} from '../store'
 
 const styles = theme => ({
   layout: {
@@ -66,12 +64,8 @@ class AcceptPayment extends React.Component {
         headers: {'Content-Type': 'text/plain'},
         body: token.id
       })
-      if (response.ok) {
-        await this.props.completeOrderOnServer()
-        this.setState({complete: true})
-      }
+      if (response.ok) this.setState({complete: true})
     }
-
     this.setState({error: 'Please enter a valid card number.'})
   }
 
@@ -84,7 +78,7 @@ class AcceptPayment extends React.Component {
             <Typography component="h1" variant="h4" align="center">
               Checkout
             </Typography>
-            <Stepper activeStep={Number(steps[0])} className={classes.stepper}>
+            <Stepper activeStep={steps[0]} className={classes.stepper}>
               {steps.map(label => (
                 <Step key={label}>
                   <StepLabel>{label}</StepLabel>
@@ -144,9 +138,4 @@ AcceptPayment.propTypes = {
   classes: PropTypes.object.isRequired
 }
 
-const mapDispatch = dispatch => ({
-  completeOrderOnServer: () => dispatch(completeOrderOnServer())
-})
-export default injectStripe(
-  connect(null, mapDispatch)(withStyles(styles)(AcceptPayment))
-)
+export default injectStripe(withStyles(styles)(AcceptPayment))

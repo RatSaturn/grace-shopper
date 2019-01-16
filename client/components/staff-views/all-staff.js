@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
-import StaffComponent from './StaffComponent'
+import StaffComponent from './staff-component'
 import {connect} from 'react-redux'
-import {getStaffsFromApi} from '../store'
+import {getStaffsFromApi} from '../../store'
 
 export class AllStaffs extends Component {
   async componentDidMount() {
