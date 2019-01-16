@@ -12,7 +12,6 @@ const getSingleStaff = staff => ({type: GET_SINGLE_STAFF, staff})
 // THUNK CREATORS
 export const getSingleStaffFromApi = id => async dispatch => {
   try {
-    console.log(id)
     const {data} = await axios.get(`/api/staffs/${id}`)
     dispatch(getSingleStaff(data || singleStaff))
   } catch (err) {

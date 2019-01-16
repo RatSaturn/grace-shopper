@@ -4,7 +4,6 @@ import {getCartFromServer} from '../store'
 import CartItem from './CartItem'
 import history from '../history'
 import Grid from '@material-ui/core/Grid'
-import Paper from '@material-ui/core/Paper'
 
 export class Cart extends Component {
   render() {

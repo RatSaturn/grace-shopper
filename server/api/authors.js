@@ -15,7 +15,6 @@ router.get('/', async (req, res, next) => {
 router.get('/:author', async (req, res, next) => {
   try {
     const author = req.params.author.split('-').join(' ')
-    console.log(author)
     const singleBookByAuthor = await Book.findAll({
       where: {authors: {$contains: [author]}}
     })

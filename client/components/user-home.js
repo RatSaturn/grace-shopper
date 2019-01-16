@@ -8,7 +8,6 @@ import {getOrdersFromApi} from '../store'
 class UserHome extends Component {
   async componentDidMount() {
     try {
-      console.log('UserHome did mount')
       await this.props.getOrdersFromApi()
     } catch (err) {
       console.error(err)
@@ -17,7 +16,6 @@ class UserHome extends Component {
 
   render() {
     const {email, orders} = this.props
-    console.log(orders)
 
     return (
       <div>
