@@ -20,6 +20,7 @@ const styles = {
 class Navbar extends Component {
   async componentDidMount() {
     await this.props.getBooksFromApi()
+    await this.props.getCartFromServer()
   }
   render() {
     const {handleClick, isLoggedIn, classes} = this.props
