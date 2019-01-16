@@ -4,12 +4,12 @@ import thunkMiddleware from 'redux-thunk'
 import {composeWithDevTools} from 'redux-devtools-extension'
 import user from './user'
 import books from './books'
-import singleBook from './singleBook'
+import singleBook from './single-book'
 import cart from './cart'
-import booksByGenre from './booksByGenre'
+import booksByGenre from './books-by-genre'
 
 import staffs from './staffs'
-import singleStaff from './singleStaff'
+import singleStaff from './single-staff'
 
 const reducer = combineReducers({
   user,
@@ -28,8 +28,8 @@ const store = createStore(reducer, middleware)
 export default store
 export * from './user'
 export * from './books'
-export * from './singleBook'
+export * from './single-book'
 export * from './cart'
-export * from './booksByGenre'
+export * from './books-by-genre'
 export * from './staffs'
-export * from './singleStaff'
+export * from './single-staff'

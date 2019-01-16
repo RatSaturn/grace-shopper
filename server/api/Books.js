@@ -1,7 +1,7 @@
 const router = require('express').Router()
-const {Book} = require('../db/models')
+const {Book} = require('../db/models/Index')
 //remove when done!!!
-const {Order} = require('../db/models')
+const {Order} = require('../db/models/Index')
 module.exports = router
 
 router.get('/', async (req, res, next) => {

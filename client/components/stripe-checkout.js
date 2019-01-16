@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import AcceptPayment from './AcceptPayment'
+import AcceptPayment from './accept-payment'
 import {Elements, StripeProvider} from 'react-stripe-elements'
 
 class StripeCheckout extends Component {

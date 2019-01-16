@@ -1,6 +1,6 @@
 const chai = require('chai')
 const expect = chai.expect
-const db = require('../index')
+const db = require('../Index')
 
 // Models
 const Staff = db.model('staff')

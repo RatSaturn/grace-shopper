@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize')
 const db = require('../db')
-const BooksForOrders = require('./booksForOrders')
-const Book = require('./book')
+const BooksForOrders = require('./BooksForOrders')
+const Book = require('./Book')
 
 const Order = db.define('order', {
   pending: {

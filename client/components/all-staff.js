@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import StaffComponent from './StaffComponent'
+import StaffComponent from './staff-component'
 import {connect} from 'react-redux'
 import {getStaffsFromApi} from '../store'
 

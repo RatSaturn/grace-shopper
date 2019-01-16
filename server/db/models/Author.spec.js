@@ -1,5 +1,5 @@
 const {expect} = require('chai')
-const db = require('../index')
+const db = require('../Index')
 
 const Author = db.model('author')
 
