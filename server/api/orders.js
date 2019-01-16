@@ -1,11 +1,14 @@
 const router = require('express').Router()
-const {Order, User} = require('../db/models')
+const {Order, Book, User} = require('../db/models')
 module.exports = router
 
 router.get('/', async (req, res, next) => {
   try {
-    const orders = await Order.findAllOrders()
-    res.json(orders)
+    if (req.user) {
+      const orders = await Order.findAllOrders(req.user.id)
+      console.log('orders:', orders)
+      res.json(orders)
+    } else res.json([])
   } catch (err) {
     next(err)
   }
