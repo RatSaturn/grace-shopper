@@ -133,7 +133,7 @@ export class Checkout extends Component {
             </Grid>
 
             <Grid item xs={12}>
-              <FormControl margin="normal" required fullWidth>
+              <FormControl margin="normal" fullWidth>
                 <InputLabel htmlFor="addressLineTwo">Address line 2</InputLabel>
                 <Input
                   name="addressLineTwo"

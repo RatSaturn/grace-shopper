@@ -45,11 +45,12 @@ class Routes extends Component {
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/order-review" component={ReviewOrder} />
+        <Route exact path="/allStaffs" component={AllStaffs} />
+        <Route exact path="/allStaffs/:staffId" component={SingleStaff} />
         <Elements>
           <Route exact path="/stripe-checkout" component={StripeCheckout} />
         </Elements>
-        <Route exact path="/allStaffs" component={AllStaffs} />
-        <Route exact path="/allStaffs/:staffId" component={SingleStaff} />
+
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}

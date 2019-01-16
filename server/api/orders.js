@@ -57,7 +57,7 @@ router.post('/cart/complete', async (req, res, next) => {
     }
     console.log('newCart', newCart)
     req.session.cartId = newCart.id
-    res.status(200).json(newCart)
+    res.status(200).json([])
   } catch (err) {
     next(err)
   }
