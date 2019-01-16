@@ -145,6 +145,7 @@ export class ReviewOrder extends Component {
                 className={classes.button}
                 type="submit"
                 variant="contained"
+                color="primary"
                 onClick={this.handleSubmit}
               >
                 Proceed
