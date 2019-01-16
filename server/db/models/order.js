@@ -31,8 +31,7 @@ Order.findSingleOrder = async function(id) {
 
 Order.findAllOrders = async function(userId) {
   const orders = await Order.findAll({
-    //where: {userId, pending: false},
-    where: {userId},
+    where: {userId, pending: false},
     attributes: ['id', 'updatedAt']
   })
 
