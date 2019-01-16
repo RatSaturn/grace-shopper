@@ -9,8 +9,6 @@ class SingleStaff extends Component {
   async componentDidMount() {
     const staffId = this.props.match.params.staffId
     try {
-      console.log('SingleStaff did mount')
-      console.log('staffId: ', staffId)
       await this.props.getSingleStaffFromApi(staffId)
     } catch (err) {
       console.error(err)
@@ -19,7 +17,6 @@ class SingleStaff extends Component {
 
   render() {
     const singleStaff = this.props.singleStaff
-    console.log('singleStaff: ', singleStaff)
     return !singleStaff.name ? null : (
       <div>
         <center>

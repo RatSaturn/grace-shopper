@@ -1,12 +1,11 @@
 const router = require('express').Router()
-const {Order, Book, User} = require('../db/models')
+const {Order, User} = require('../db/models')
 module.exports = router
 
 router.get('/', async (req, res, next) => {
   try {
     if (req.user) {
       const orders = await Order.findAllOrders(req.user.id)
-      console.log('orders:', orders)
       res.json(orders)
     } else res.json([])
   } catch (err) {
@@ -15,18 +14,14 @@ router.get('/', async (req, res, next) => {
 })
 
 router.get('/cart', async (req, res, next) => {
-  console.log('get cart')
   try {
     if (!req.session.cartId) {
       // no cart on session
-      console.log('no cart on session')
       const cart = await Order.create() // create a new cart
-      console.log('cart id ', cart.id, 'added to session')
       req.session.cartId = cart.id // add cart.id to session
       res.status(200).json([])
     } else {
       // a cart is on session
-      console.log('a cart is on session:', req.session.cartId)
       const cart = await Order.findSingleOrder(req.session.cartId)
       res.status(200).json(cart)
     }
@@ -36,8 +31,6 @@ router.get('/cart', async (req, res, next) => {
 })
 
 router.post('/cart/update', async (req, res, next) => {
-  console.log('update order')
-  console.log(req.session.cartId, req.body)
   try {
     const cart = await Order.updateOrderQuantity(req.session.cartId, req.body)
     res.status(200).json(cart)
@@ -55,7 +48,6 @@ router.post('/cart/complete', async (req, res, next) => {
       const user = await User.findById(req.user.id)
       await newCart.setUser(user)
     }
-    console.log('newCart', newCart)
     req.session.cartId = newCart.id
     res.status(200).json([])
   } catch (err) {
