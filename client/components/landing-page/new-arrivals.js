@@ -12,7 +12,9 @@ class NewArrivals extends Component {
     }
   }
   render() {
-    return <BookView books={this.props.books} />
+    return (
+      <BookView title="New Arrivals" books={this.props.books.slice(0, 5)} />
+    )
   }
 }
 
