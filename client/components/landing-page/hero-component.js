@@ -30,9 +30,11 @@ const HeroComponent = props => {
         color="textSecondary"
         component="p"
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam,
-        eligendi, in quo sunt possimus non incidunt odit vero aliquid similique
-        quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.
+        This is the place where one book leads to a entire fullstack. From Magic
+        Realism to Mystery Fiction, the literary journey and possibilities are
+        astoundingly endless. The staff is composed of a group of dedicated
+        bookworms that are passionate about making sure that we offer the best
+        and most unique collection of books.
       </Typography>
     </div>
   )

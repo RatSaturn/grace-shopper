@@ -10,6 +10,9 @@ import Grid from '@material-ui/core/Grid'
 import Input from '@material-ui/core/Input'
 import InputLabel from '@material-ui/core/InputLabel'
 import FormControl from '@material-ui/core/FormControl'
+import Stepper from '@material-ui/core/Stepper'
+import StepLabel from '@material-ui/core/StepLabel'
+import Step from '@material-ui/core/Step'
 
 const styles = theme => ({
   layout: {
@@ -45,6 +48,8 @@ const styles = theme => ({
   }
 })
 
+const steps = ['Shipping address', 'Order summary', 'Checkout']
+
 export class Checkout extends Component {
   constructor(props) {
     super(props)
@@ -52,6 +57,8 @@ export class Checkout extends Component {
       redirect: false,
       shippingInformation: {}
     }
+    this.handleSubmit = this.handleSubmit.bind(this)
+    this.renderRedirect = this.renderRedirect.bind(this)
   }
 
   handleSubmit(event) {
@@ -62,9 +69,9 @@ export class Checkout extends Component {
       addressLineOne: event.target.addressLineOne.value,
       addressLineTwo: event.target.addressLineTwo.value,
       city: event.target.city.value,
-      state: event.target.country.value,
+      state: event.target.state.value,
       zipcode: event.target.zipcode.value,
-      country: event.target.zipcode.value
+      country: event.target.country.value
     }
     this.setState({shippingInformation})
     this.setState({redirect: true})
@@ -72,12 +79,14 @@ export class Checkout extends Component {
 
   renderRedirect = () => {
     if (this.state.redirect) {
+      console.log(this.state.shippingInformation)
       return <Redirect to="./order-review" />
     }
   }
 
   render() {
     const {classes} = this.props
+    console.log(this.state.shippingInformation)
     return (
       <div className={classes.layout}>
         {this.renderRedirect()}
@@ -85,7 +94,13 @@ export class Checkout extends Component {
           <Typography component="h1" variant="h4" align="center">
             Checkout
           </Typography>
-
+          <Stepper activeStep={steps[0]} className={classes.stepper}>
+            {steps.map(label => (
+              <Step key={label}>
+                <StepLabel>{label}</StepLabel>
+              </Step>
+            ))}
+          </Stepper>
           <Typography variant="h6" gutterBottom>
             Shipping address
           </Typography>
