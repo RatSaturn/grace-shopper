@@ -53,6 +53,10 @@ export class SingleBook extends Component {
       displayPrice = singleBook.price.toString().split('')
       displayPrice.splice(displayPrice.length - 2, 0, '.')
     }
+    let describe
+    if (singleBook && singleBook.description) {
+      describe = singleBook.description.slice(0, 200) + '...'
+    }
 
     return (
       <div>
@@ -133,6 +137,7 @@ export class SingleBook extends Component {
                     alignItems="center"
                     justify="space-evenly"
                     alignContent="stretch"
+                    style={{'max-height': '40vw'}}
                   >
                     <Grid item xs={12} sm={12} lg={12} xl={12}>
                       <CardContent className={classes.content}>
@@ -160,9 +165,7 @@ export class SingleBook extends Component {
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12} xl={12}>
                       <CardContent className={classes.content}>
-                        <Typography component="p">
-                          {singleBook.description}
-                        </Typography>
+                        <Typography component="p">{describe}</Typography>
                       </CardContent>
                     </Grid>
                   </Grid>
